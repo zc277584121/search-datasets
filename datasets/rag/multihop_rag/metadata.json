@@ -1,0 +1,27 @@
+{
+  "name": "MultiHop-RAG",
+  "splits": {
+    "queries_train": {
+      "num_rows": 2556
+    },
+    "corpus_train": {
+      "num_rows": 609
+    }
+  },
+  "status": "success",
+  "query_features": {
+    "evidence_list": "List({'author': Value('string'), 'category': Value('string'), 'fact': Value('string'), 'published_at': Value('string'), 'source': Value('string'), 'title': Value('string'), 'url': Value('string')})",
+    "answer": "Value('string')",
+    "query": "Value('string')",
+    "question_type": "Value('string')"
+  },
+  "corpus_features": {
+    "category": "Value('string')",
+    "author": "Value('string')",
+    "published_at": "Value('string')",
+    "body": "Value('string')",
+    "title": "Value('string')",
+    "url": "Value('string')",
+    "source": "Value('string')"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SQuAD 2.0",
+  "hf_path": "rajpurkar/squad_v2",
+  "splits": {
+    "train": {
+      "num_rows": 130319,
+      "file": "train.parquet"
+    },
+    "validation": {
+      "num_rows": 11873,
+      "file": "validation.parquet"
+    }
+  },
+  "features": {
+    "id": "Value('string')",
+    "title": "Value('string')",
+    "context": "Value('string')",
+    "question": "Value('string')",
+    "answers": "{'text': List(Value('string')), 'answer_start': List(Value('int32'))}"
+  },
+  "status": "success"
+}

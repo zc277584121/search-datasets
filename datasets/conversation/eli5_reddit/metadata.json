@@ -1,0 +1,28 @@
+{
+  "name": "ELI5 Reddit",
+  "hf_path": "Pavithree/eli5",
+  "splits": {
+    "train": {
+      "num_rows": 216147
+    },
+    "validation": {
+      "num_rows": 3020
+    },
+    "test": {
+      "num_rows": 10000
+    }
+  },
+  "status": "success",
+  "features": {
+    "q_id": "Value('string')",
+    "title": "Value('string')",
+    "selftext": "Value('string')",
+    "document": "Value('string')",
+    "subreddit": "Value('string')",
+    "url": "Value('string')",
+    "answers": "{'a_id': List(Value('string')), 'score': List(Value('int64')), 'text': List(Value('string'))}",
+    "title_urls": "List(Value('string'))",
+    "selftext_urls": "List(Value('string'))",
+    "answers_urls": "List(List(Value('string')))"
+  }
+}

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files (keep structure, ignore large files)
+*.parquet
+*.arrow
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.bin
+*.pt
+*.onnx
+*.safetensors
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Milvus Lite databases
+*.db

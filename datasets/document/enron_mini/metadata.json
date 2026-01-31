@@ -1,0 +1,22 @@
+{
+  "name": "Enron Spam Email",
+  "hf_path": "SetFit/enron_spam",
+  "splits": {
+    "train": {
+      "num_rows": 31716
+    },
+    "test": {
+      "num_rows": 2000
+    }
+  },
+  "status": "success",
+  "features": {
+    "message_id": "Value('int64')",
+    "text": "Value('string')",
+    "label": "Value('int64')",
+    "label_text": "Value('string')",
+    "subject": "Value('string')",
+    "message": "Value('string')",
+    "date": "Value('timestamp[s]')"
+  }
+}

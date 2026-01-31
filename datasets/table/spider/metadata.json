@@ -1,0 +1,23 @@
+{
+  "name": "Spider",
+  "hf_path": "xlangai/spider",
+  "splits": {
+    "train": {
+      "num_rows": 7000,
+      "file": "train.parquet"
+    },
+    "validation": {
+      "num_rows": 1034,
+      "file": "validation.parquet"
+    }
+  },
+  "features": {
+    "db_id": "Value('string')",
+    "query": "Value('string')",
+    "question": "Value('string')",
+    "query_toks": "List(Value('string'))",
+    "query_toks_no_value": "List(Value('string'))",
+    "question_toks": "List(Value('string'))"
+  },
+  "status": "success"
+}

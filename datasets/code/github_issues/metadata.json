@@ -1,0 +1,40 @@
+{
+  "name": "GitHub Issues",
+  "hf_path": "lewtun/github-issues",
+  "splits": {
+    "train": {
+      "num_rows": 3019
+    }
+  },
+  "status": "success",
+  "features": {
+    "url": "Value('string')",
+    "repository_url": "Value('string')",
+    "labels_url": "Value('string')",
+    "comments_url": "Value('string')",
+    "events_url": "Value('string')",
+    "html_url": "Value('string')",
+    "id": "Value('int64')",
+    "node_id": "Value('string')",
+    "number": "Value('int64')",
+    "title": "Value('string')",
+    "user": "{'login': Value('string'), 'id': Value('int64'), 'node_id': Value('string'), 'avatar_url': Value('string'), 'gravatar_id': Value('string'), 'url': Value('string'), 'html_url': Value('string'), 'followers_url': Value('string'), 'following_url': Value('string'), 'gists_url': Value('string'), 'starred_url': Value('string'), 'subscriptions_url': Value('string'), 'organizations_url': Value('string'), 'repos_url': Value('string'), 'events_url': Value('string'), 'received_events_url': Value('string'), 'type': Value('string'), 'site_admin': Value('bool')}",
+    "labels": "List({'id': Value('int64'), 'node_id': Value('string'), 'url': Value('string'), 'name': Value('string'), 'color': Value('string'), 'default': Value('bool'), 'description': Value('string')})",
+    "state": "Value('string')",
+    "locked": "Value('bool')",
+    "assignee": "{'login': Value('string'), 'id': Value('int64'), 'node_id': Value('string'), 'avatar_url': Value('string'), 'gravatar_id': Value('string'), 'url': Value('string'), 'html_url': Value('string'), 'followers_url': Value('string'), 'following_url': Value('string'), 'gists_url': Value('string'), 'starred_url': Value('string'), 'subscriptions_url': Value('string'), 'organizations_url': Value('string'), 'repos_url': Value('string'), 'events_url': Value('string'), 'received_events_url': Value('string'), 'type': Value('string'), 'site_admin': Value('bool')}",
+    "assignees": "List({'login': Value('string'), 'id': Value('int64'), 'node_id': Value('string'), 'avatar_url': Value('string'), 'gravatar_id': Value('string'), 'url': Value('string'), 'html_url': Value('string'), 'followers_url': Value('string'), 'following_url': Value('string'), 'gists_url': Value('string'), 'starred_url': Value('string'), 'subscriptions_url': Value('string'), 'organizations_url': Value('string'), 'repos_url': Value('string'), 'events_url': Value('string'), 'received_events_url': Value('string'), 'type': Value('string'), 'site_admin': Value('bool')})",
+    "milestone": "{'url': Value('string'), 'html_url': Value('string'), 'labels_url': Value('string'), 'id': Value('int64'), 'node_id': Value('string'), 'number': Value('int64'), 'title': Value('string'), 'description': Value('string'), 'creator': {'login': Value('string'), 'id': Value('int64'), 'node_id': Value('string'), 'avatar_url': Value('string'), 'gravatar_id': Value('string'), 'url': Value('string'), 'html_url': Value('string'), 'followers_url': Value('string'), 'following_url': Value('string'), 'gists_url': Value('string'), 'starred_url': Value('string'), 'subscriptions_url': Value('string'), 'organizations_url': Value('string'), 'repos_url': Value('string'), 'events_url': Value('string'), 'received_events_url': Value('string'), 'type': Value('string'), 'site_admin': Value('bool')}, 'open_issues': Value('int64'), 'closed_issues': Value('int64'), 'state': Value('string'), 'created_at': Value('int64'), 'updated_at': Value('int64'), 'due_on': Value('int64'), 'closed_at': Value('int64')}",
+    "comments": "List(Value('string'))",
+    "created_at": "Value('int64')",
+    "updated_at": "Value('int64')",
+    "closed_at": "Value('int64')",
+    "author_association": "Value('string')",
+    "active_lock_reason": "Value('null')",
+    "pull_request": "{'url': Value('string'), 'html_url': Value('string'), 'diff_url': Value('string'), 'patch_url': Value('string')}",
+    "body": "Value('string')",
+    "timeline_url": "Value('string')",
+    "performed_via_github_app": "Value('null')",
+    "is_pull_request": "Value('bool')"
+  }
+}
