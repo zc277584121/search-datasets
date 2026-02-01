@@ -1,0 +1,29 @@
+{
+  "samples": [
+    {
+      "id": "30kwoj",
+      "question": "What were different decades in the 1800s like?",
+      "selftext": "Every decade of the 20th century can be loosely quantified in a general theme (the roaring 20s, the flower power 60s, the weird clothing styles/music of the 80s) and each one is so different from the last. What kinds of themes were common between decades in the 19th century, and were they as distinc"
+    },
+    {
+      "id": "1k6qam",
+      "question": "What is the theory behind using twisted pair wiring in cables?",
+      "selftext": "I've tried looking it up but it's slightly too complicated. I've done some E & M, but the simpler the answer, the better. Also, I've been dealing with some twisted pair cables this summer doing some IT work. Why are there only 4 pairs of twisted wires (orange, blue, brown, green)? Wouldn't more = be"
+    },
+    {
+      "id": "cgu8jx",
+      "question": "why are animal sounds different in different languages? how did their spellings originate?",
+      "selftext": ""
+    },
+    {
+      "id": "9013gn",
+      "question": "why do animals seem to be able to shrug off bad injuries much better than us humans?",
+      "selftext": ""
+    },
+    {
+      "id": "6mudna",
+      "question": "so a cpu is just a bunch of switches, either being \"on\" = 1, or \"off\" = 0. but \"who\" or what decides when a switch should be \"0\" or \"1\", in order to make a useful computation?",
+      "selftext": "The more switches (or rather transistors) a CPU has, the faster it will be. \n\nThe clock speed (i.e. 3 GHz) determines how many times per second all those transistors will make a computation. \n\nBut what system controls all those billions of switches each cycle, so that the CPU outputs the right strin"
+    }
+  ]
+}

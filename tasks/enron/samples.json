@@ -1,0 +1,29 @@
+{
+  "samples": [
+    {
+      "id": "0",
+      "text": "expande tu imagen ! ! ! ! ! ! ! ! ! si no puede ver este mail , entre a : http : / / www . supermedios . com / admin / mailing / proyecto . php ? id = 160\neste mensaje se enva bajo los artculos 2 y 4 de la ley\n19 . 628 y 28 b de la ley 19 . 955 de la constitucin de la repblica\nde chile actualizada el 14 de julio 2004 . su direccin ha sido extrada\nmanualmente por personal de nuestra compaa desde su sitio\nweb en internet , o ha sido introducida por usted al aceptar el envo\nde mensajes publicitario...",
+      "label": "spam"
+    },
+    {
+      "id": "1",
+      "text": "paliourg learning for life enlarge your member\nzenextend enlargement pills\nwe offer the\nbest\nmale augmentation\non\nthe\nweb\nsuccess\nis\nguaranteed\nor\nreceive\na\nfull refund\ncheck us out\nand improve\nyour quality\nof\nlife\nclick here for more info\nno ineesed ?\nclick hee",
+      "label": "spam"
+    },
+    {
+      "id": "2",
+      "text": "re : noms / actual flow for 3 / 19 / 01 we agree\n\" eileen ponton \" on 03 / 20 / 2001 10 : 05 : 59 am\nto : david avila / lsp / enserch / us @ tu , charlie stone / texas utilities @ tu , melissa\njones / texas utilities @ tu , hpl . scheduling @ enron . com ,\nliz . bellamy @ enron . com\ncc :\nsubject : noms / actual flow for 3 / 19 / 01\ndate nom mcf mmbtu\n3 / 19 / 01 60 , 000 59 , 944 61 , 562\nbtu = 1 . 027",
+      "label": "ham"
+    },
+    {
+      "id": "3",
+      "text": "ehronline web address change this message is intended for ehronline users only .\ndue to a recent change to ehronline , the url ( aka \" web address \" ) for accessing ehronline needs to be changed on your computer . the change involves adding the letter \" s \" to the \" http \" reference in the url . the url for accessing ehronline should be : https : / / ehronline . enron . com .\nthis change should be made by those who have added the url as a favorite on the browser .",
+      "label": "ham"
+    },
+    {
+      "id": "4",
+      "text": "re : cusip vince , i am waiting to hear back from our compliance department on this . i\nwill get you the info as soon as i rec . it . i mailed the receipt for the\ndeposit today .\ndavid c . walkup\nsr . financial consultant\n713 - 658 - 1685\n800 - 456 - 9712\n> - - - - - - - - - -\n> from : vince . j . kaminski @ enron . com [ smtp : vince . j . kaminski @ enron . com ]\n> sent : tuesday , december 19 , 2000 11 : 09 am\n> to : david _ walkup @ ml . com\n> cc : vince . j . kaminski @ enron . com\n> subjec...",
+      "label": "ham"
+    }
+  ]
+}

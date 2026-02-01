@@ -1,0 +1,40 @@
+{
+  "samples": [
+    {
+      "id": "0",
+      "audiocap_id": "Y7fmOlUlwoNg",
+      "caption": "A train horn blows as a train passes by",
+      "youtube_id": "7fmOlUlwoNg",
+      "start_time": 30
+    },
+    {
+      "id": "1",
+      "audiocap_id": "Y---1_cCGK4",
+      "caption": "A woman speaks followed by a loud explosion",
+      "youtube_id": "---1_cCGK4",
+      "start_time": 0
+    },
+    {
+      "id": "2",
+      "audiocap_id": "Y--BLvZLpGE",
+      "caption": "Multiple birds are chirping and singing",
+      "youtube_id": "--BLvZLpGE",
+      "start_time": 0
+    },
+    {
+      "id": "3",
+      "audiocap_id": "Y-0RWZT-miQ",
+      "caption": "Rain falling heavily while thunder rumbles in the distance",
+      "youtube_id": "-0RWZT-miQ",
+      "start_time": 10
+    },
+    {
+      "id": "4",
+      "audiocap_id": "Y-2BIVmvCbA",
+      "caption": "A dog barking repeatedly with people talking in the background",
+      "youtube_id": "-2BIVmvCbA",
+      "start_time": 5
+    }
+  ],
+  "note": "AudioCaps audio-text retrieval: match audio clips with text descriptions. Audio files can be downloaded from YouTube using the provided IDs."
+}

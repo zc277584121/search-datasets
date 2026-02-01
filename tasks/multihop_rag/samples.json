@@ -1,0 +1,134 @@
+{
+  "samples": [
+    {
+      "id": "0",
+      "question": "Who is the individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges, as reported by both The Verge and TechCrunch, and is accused by prosecutors of committing fraud for personal gain?",
+      "answer": "Sam Bankman-Fried",
+      "question_type": "inference_query",
+      "evidence_list": [
+        {
+          "author": "Elizabeth Lopatto",
+          "category": "technology",
+          "fact": "Before his fall, Bankman-Fried made himself out to be the Good Boy of crypto — the trustworthy face of a sometimes-shady industry.",
+          "published_at": "2023-09-28T12:00:00+00:00",
+          "source": "The Verge",
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "url": "https://www.theverge.com/2023/9/28/23893269/ftx-sam-bankman-fried-trial-evidence-crypto"
+        },
+        {
+          "author": "Jacquelyn Melinek",
+          "category": "technology",
+          "fact": "The highly anticipated criminal trial for Sam Bankman-Fried, former CEO of bankrupt crypto exchange FTX, started Tuesday to determine whether he’s guilty of seven counts of fraud and conspiracy.",
+          "published_at": "2023-10-01T14:00:29+00:00",
+          "source": "TechCrunch",
+          "title": "SBF’s trial starts soon, but how did he — and FTX — get here?",
+          "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "question": "Which individual is implicated in both inflating the value of a Manhattan apartment to a figure not yet achieved in New York City's real estate history, according to 'Fortune', and is also accused of adjusting this apartment's valuation to compensate for a loss in another asset's worth, as reported by 'The Age'?",
+      "answer": "Donald Trump",
+      "question_type": "inference_query",
+      "evidence_list": [
+        {
+          "author": "Michael R. Sisak, The Associated Press",
+          "category": "business",
+          "fact": "No apartment in New York City has ever sold for close to that amount, James said.",
+          "published_at": "2023-09-26T21:11:15+00:00",
+          "source": "Fortune",
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "url": "https://fortune.com/2023/09/26/donald-trump-fraud-banks-insurers-real-estate-judge-new-york/"
+        },
+        {
+          "author": "Tom Maloney",
+          "category": "business",
+          "fact": "The prosecution argues that was to mask a drop in the value of one of his other properties.",
+          "published_at": "2023-11-07T22:22:05+00:00",
+          "source": "The Age",
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "url": "https://www.theage.com.au/business/companies/the-777-million-surprise-donald-trump-is-getting-richer-20231108-p5eicf.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Who is the figure associated with generative AI technology whose departure from OpenAI was considered shocking according to Fortune, and is also the subject of a prevailing theory suggesting a lack of full truthfulness with the board as reported by TechCrunch?",
+      "answer": "Sam Altman",
+      "question_type": "inference_query",
+      "evidence_list": [
+        {
+          "author": "Matt O'Brien, The Associated Press",
+          "category": "business",
+          "fact": "Altman’s exit “is indeed shocking as he has been the face of” generative AI technology, said Gartner analyst Arun Chandrasekaran.",
+          "published_at": "2023-11-18T15:33:09+00:00",
+          "source": "Fortune",
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "url": "https://fortune.com/2023/11/18/how-did-openai-fire-sam-altman-greg-brockman-rogue-board/"
+        },
+        {
+          "author": "Devin Coldewey",
+          "category": "technology",
+          "fact": "Based on the board’s language and the way these giant tech companies work, this is the prevailing theory floating around right now.",
+          "published_at": "2023-11-18T00:09:53+00:00",
+          "source": "TechCrunch",
+          "title": "WTF is going on at OpenAI? We have theories",
+          "url": "https://techcrunch.com/2023/11/17/wtf-is-going-on-at-openai-sam-altman-fired/"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Do the TechCrunch article on software companies and the Hacker News article on The Epoch Times both report an increase in revenue related to payment and subscription models, respectively?",
+      "answer": "Yes",
+      "question_type": "comparison_query",
+      "evidence_list": [
+        {
+          "author": "Christine Hall",
+          "category": "technology",
+          "fact": "They really just want to be able to accept payments and generate more revenue from being able to do so.",
+          "published_at": "2023-10-08T14:16:01+00:00",
+          "source": "TechCrunch",
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "url": "https://techcrunch.com/2023/10/08/heres-how-rainforest-an-atlanta-fintech-startup-and-stripe-rival-aims-to-win-over-software-companies/"
+        },
+        {
+          "author": null,
+          "category": "technology",
+          "fact": "The group reported $76 million in subscription revenue in 2021, compared to nearly $7 million in 2019.",
+          "published_at": "2023-10-16T03:41:24+00:00",
+          "source": "Hacker News",
+          "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+          "url": "https://www.nbcnews.com/news/us-news/epoch-times-falun-gong-growth-rcna111373"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Which online betting platform provides a welcome bonus of up to $1000 in bonus bets for new customers' first losses, runs NBA betting promotions, and is anticipated to extend the same sign-up offer to new users in Vermont, as reported by both CBSSports.com and Sporting News?",
+      "answer": "Caesars Sportsbook",
+      "question_type": "inference_query",
+      "evidence_list": [
+        {
+          "author": "CBS Sports Staff",
+          "category": "sports",
+          "fact": "New customers can get up to $1000 in bonus bets if they lose their first bet.",
+          "published_at": "2023-10-13T21:17:17+00:00",
+          "source": "CBSSports.com",
+          "title": "2023 Kentucky online sports betting sites: Best legal sportsbooks, promos, bonuses, mobile apps, how to bet",
+          "url": "https://www.cbssports.com/general/news/2023-kentucky-online-sports-betting-sites-best-legal-sportsbooks-promos-bonuses-mobile-apps-how-to-bet/"
+        },
+        {
+          "author": "Sam Eggleston",
+          "category": "sports",
+          "fact": "Additionally, Caesars has a competitive welcome bonus for new players and runs NBA betting promos for existing players.",
+          "published_at": "2023-10-04T22:54:23+00:00",
+          "source": "Sporting News",
+          "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+          "url": "https://www.sportingnews.com/us/betting/news/nba-roty-odds/7af3a635d324b28ff4c554fd"
+        }
+      ]
+    }
+  ]
+}
