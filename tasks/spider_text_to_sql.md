@@ -161,6 +161,50 @@ def evaluate(predictions, dataset, db_dir):
 }
 ```
 
+## 提交格式
+
+### 输入文件
+
+- 数据集位于 `datasets/table/spider/`
+- 数据库文件位于 `datasets/table/spider/database/{db_id}/{db_id}.sqlite`
+
+### 输出文件
+
+在 `submissions/spider/predictions.json` 中填写预测结果：
+
+```json
+{
+  "model_name": "你的模型名称",
+  "predictions": [
+    {
+      "db_id": "concert_singer",
+      "question": "How many singers do we have?",
+      "predicted_sql": "SELECT count(*) FROM singer"
+    }
+  ]
+}
+```
+
+- 保持与验证集相同的顺序
+- SQL 语句需可执行（不含末尾分号）
+
+### 运行评估
+
+```bash
+python eval/run_eval.py --task spider --submission submissions/spider/predictions.json
+```
+
+### 输出示例
+
+```json
+{
+  "task": "spider",
+  "execution_accuracy": 72.3,
+  "exact_match": 65.1,
+  "num_samples": 1034
+}
+```
+
 ## 参考资料
 
 - 排行榜: https://yale-lily.github.io/spider

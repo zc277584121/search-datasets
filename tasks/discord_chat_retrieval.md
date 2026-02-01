@@ -175,6 +175,56 @@ def evaluate_diversity(retrieved_messages):
 - "who's playing tonight"
 ```
 
+## 提交格式
+
+### 输入文件
+
+数据集位于 `datasets/conversation/discord_chat/`
+
+### 输出文件
+
+在 `submissions/discord/predictions.json` 中填写预测结果：
+
+```json
+{
+  "model_name": "你的模型名称",
+  "queries": ["有人一起打游戏吗", "今天服务器怎么了"],
+  "predictions": [
+    {
+      "query": "有人一起打游戏吗",
+      "retrieved": [
+        "anyone down for some ranked?",
+        "looking for teammates",
+        "who's playing tonight"
+      ]
+    }
+  ]
+}
+```
+
+- `queries`: 自定义的测试查询列表
+- `predictions[].retrieved`: 每个查询检索到的消息列表（5-10条，按相关性排序）
+
+### 运行评估
+
+```bash
+# 需要设置 OPENAI_API_KEY 环境变量
+export OPENAI_API_KEY="your-api-key"
+python eval/run_eval.py --task discord --submission submissions/discord/predictions.json
+```
+
+### 输出示例
+
+```json
+{
+  "task": "discord",
+  "mean_relevance": 3.8,
+  "num_evaluated": 50
+}
+```
+
+评分标准（1-5分）：1=完全不相关，5=高度相关
+
 ## 参考资料
 
 - HuggingFace: https://huggingface.co/datasets/breadlicker45/discord-chat

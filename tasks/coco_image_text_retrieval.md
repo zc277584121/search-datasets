@@ -141,6 +141,50 @@ def evaluate_retrieval(image_embeddings, text_embeddings, image_ids, caption_ima
 | BLIP | 82.4 | 65.1 |
 | BLIP-2 | 85.8 | 67.5 |
 
+## 提交格式
+
+### 输入文件
+
+数据集位于 `datasets/multimodal/coco_karpathy/`
+
+### 输出文件
+
+在 `submissions/coco/predictions.json` 中填写预测结果：
+
+```json
+{
+  "model_name": "你的模型名称",
+  "image_to_text": {
+    "391895": ["caption_id_1", "caption_id_2", ...],
+    ...
+  },
+  "text_to_image": {
+    "caption_id_1": ["image_id_1", "image_id_2", ...],
+    ...
+  }
+}
+```
+
+- `image_to_text`: 图片ID → 检索到的描述ID列表（按相关性排序）
+- `text_to_image`: 描述ID → 检索到的图片ID列表（按相关性排序）
+- 每个列表至少返回 10 个结果
+
+### 运行评估
+
+```bash
+python eval/run_eval.py --task coco --submission submissions/coco/predictions.json
+```
+
+### 输出示例
+
+```json
+{
+  "task": "coco",
+  "image_to_text": {"recall@1": 58.4, "recall@5": 82.1, "recall@10": 89.3},
+  "text_to_image": {"recall@1": 37.8, "recall@5": 65.2, "recall@10": 76.1}
+}
+```
+
 ## 参考资料
 
 - 原始数据集: https://cocodataset.org/

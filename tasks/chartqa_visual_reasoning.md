@@ -103,6 +103,48 @@ def evaluate(predictions, dataset):
 - 执行多步计算
 - 处理各种图表样式和质量
 
+## 提交格式
+
+### 输入文件
+
+数据集位于 `datasets/multimodal/chartqa/test.parquet`
+
+### 输出文件
+
+在 `submissions/chartqa/predictions.json` 中填写预测结果：
+
+```json
+{
+  "model_name": "你的模型名称",
+  "predictions": {
+    "0": "45.2",
+    "1": "increasing",
+    "2": "2020"
+  }
+}
+```
+
+- 键为样本索引（从 0 开始）
+- 值为预测的答案
+
+### 运行评估
+
+```bash
+python eval/run_eval.py --task chartqa --submission submissions/chartqa/predictions.json
+```
+
+### 输出示例
+
+```json
+{
+  "task": "chartqa",
+  "accuracy": 65.2,
+  "human_accuracy": 42.1,
+  "augmented_accuracy": 88.3,
+  "num_samples": 2500
+}
+```
+
 ## 参考资料
 
 - 论文: [ChartQA: A Benchmark for Question Answering about Charts](https://aclanthology.org/2022.findings-acl.177/)

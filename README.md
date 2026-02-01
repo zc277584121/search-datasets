@@ -1,6 +1,6 @@
 # 搜索与检索任务数据集
 
-本仓库包含用于评估搜索和检索系统的数据集及任务定义。每个任务都有明确的目标和评估方法，可用于测试和改进 AI 系统的搜索、检索和理解能力。
+本仓库包含用于评估搜索和检索系统的数据集及任务定义。每个任务都有明确的目标、标准化的评估脚本和提交格式。
 
 ## 任务总览
 
@@ -28,65 +28,63 @@
 search-datasets/
 ├── README.md                 # 本文件
 ├── tasks/                    # 任务定义
-│   ├── README.md            # 任务总览
-│   ├── squad2_reading_comprehension.md
-│   ├── chartqa_visual_reasoning.md
-│   └── ...
+│   ├── README.md
+│   └── *.md                 # 各任务详细说明
 ├── datasets/                 # 数据集存储
-│   ├── text/                # 文本数据集
-│   ├── multimodal/          # 多模态数据集
-│   ├── audio/               # 音频数据集
-│   ├── video/               # 视频数据集
-│   └── ...
-├── scripts/                  # 数据下载脚本
-│   └── download_datasets.py
-├── pyproject.toml           # 项目配置
-└── uv.lock                  # 依赖锁定
+│   └── */                   # 各类数据集
+├── eval/                     # 评估脚本
+│   ├── run_eval.py          # 统一评估入口
+│   ├── metrics.py           # 评估指标
+│   └── llm_judge.py         # LLM 评估
+├── submissions/              # 提交目录
+│   └── <task>/              # 各任务提交模板
+│       ├── README.md        # 提交格式说明
+│       ├── example.json     # 示例
+│       └── predictions.json # 待填写的预测文件
+├── scripts/                  # 工具脚本
+└── pyproject.toml
 ```
 
 ## 快速开始
 
-### 安装依赖
+### 1. 安装依赖
 
 ```bash
-# 使用 uv 管理项目
 uv sync
-
-# 或使用 pip
+# 或
 pip install -e .
 ```
 
-### 下载数据集
+### 2. 下载数据集
 
 ```bash
-# 下载所有数据集
 python scripts/download_datasets.py
-
-# 数据集会自动保存到 datasets/ 目录
 ```
 
-### 选择任务
+### 3. 选择任务并实现
 
-1. 浏览 `tasks/` 目录，选择感兴趣的任务
-2. 阅读任务描述，了解目标和评估方法
-3. 加载对应的数据集
-4. 实现你的解决方案
-5. 使用提供的评估脚本测试性能
+1. 阅读 `tasks/<任务名>.md` 了解任务要求
+2. 加载 `datasets/` 中的数据
+3. 实现你的模型/方法
+4. 生成预测结果
 
-## 任务格式
+### 4. 填写提交文件
 
-每个任务文件包含：
+按照 `submissions/<任务名>/README.md` 的格式填写 `predictions.json`
 
-- **任务描述**：需要完成的目标
-- **数据集信息**：数据来源、规模、字段说明
-- **评估目标**：具体的性能指标要求
-- **评估方法**：包含可运行的评估代码
-- **建议方案**：推荐的解决思路
-- **核心挑战**：主要难点说明
+### 5. 运行评估
+
+```bash
+# 评估单个任务
+python eval/run_eval.py --task squad2 --submission submissions/squad2/predictions.json
+
+# 保存评估结果
+python eval/run_eval.py --task squad2 --submission submissions/squad2/predictions.json --output results/squad2.json
+```
 
 ## 评估类型
 
-| 评估方式 | 说明 | 适用场景 |
+| 评估方式 | 说明 | 适用任务 |
 |----------|------|----------|
 | **精确匹配 (EM)** | 预测与标准答案完全一致 | 问答任务 |
 | **F1 分数** | 词/字符级别的重叠程度 | 问答、抽取任务 |
@@ -94,14 +92,59 @@ python scripts/download_datasets.py
 | **执行准确率** | 生成的代码执行结果正确 | SQL、程序生成 |
 | **LLM-as-Judge** | 使用大模型评估质量 | 无标准答案的场景 |
 
-## 贡献指南
+## 提交格式示例
 
-欢迎贡献新的任务定义或改进现有任务：
+### 问答任务（如 SQuAD）
 
-1. Fork 本仓库
-2. 创建新任务文件 `tasks/your_task.md`
-3. 遵循现有任务的格式
-4. 提交 Pull Request
+```json
+{
+  "model_name": "my-model",
+  "predictions": {
+    "question_id_1": "答案文本",
+    "question_id_2": ""
+  }
+}
+```
+
+### 检索任务（如 COCO）
+
+```json
+{
+  "model_name": "my-model",
+  "image_to_text": {
+    "image_id": ["text_id_1", "text_id_2", ...]
+  },
+  "text_to_image": {
+    "text_id": ["image_id_1", "image_id_2", ...]
+  }
+}
+```
+
+### LLM-as-Judge 任务（如 Discord）
+
+```json
+{
+  "model_name": "my-model",
+  "queries": ["查询1", "查询2"],
+  "predictions": [
+    {"query": "查询1", "retrieved": ["结果1", "结果2"]}
+  ]
+}
+```
+
+## 评估输出
+
+所有评估结果以 JSON 格式输出：
+
+```json
+{
+  "task": "squad2",
+  "exact_match": 72.5,
+  "f1": 81.3,
+  "num_samples": 11873,
+  "timestamp": "2024-01-30T12:00:00"
+}
+```
 
 ## 许可证
 

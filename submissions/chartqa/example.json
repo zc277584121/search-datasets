@@ -1,0 +1,10 @@
+{
+  "model_name": "example-vlm",
+  "model_description": "Vision-Language Model for chart understanding",
+  "predictions": {
+    "0": "45",
+    "1": "increasing trend",
+    "2": "2020",
+    "3": "15.5%"
+  }
+}

@@ -114,6 +114,47 @@ def evaluate(predictions, dataset):
 
 3. **基于 RAG**：使用检索增强生成配合大语言模型
 
+## 提交格式
+
+### 输入文件
+
+数据集位于 `datasets/text/squad2/validation.parquet`
+
+### 输出文件
+
+在 `submissions/squad2/predictions.json` 中填写预测结果：
+
+```json
+{
+  "model_name": "你的模型名称",
+  "predictions": {
+    "问题ID": "预测的答案",
+    "56be85543aeaaa14008c9063": "in the late 1990s",
+    "5a8d7b4c5542994a62a8d7b4": ""
+  }
+}
+```
+
+- 可回答问题：返回从 context 中抽取的答案文本
+- 不可回答问题：返回空字符串 `""`
+
+### 运行评估
+
+```bash
+python eval/run_eval.py --task squad2 --submission submissions/squad2/predictions.json
+```
+
+### 输出示例
+
+```json
+{
+  "task": "squad2",
+  "exact_match": 72.5,
+  "f1": 81.3,
+  "num_samples": 11873
+}
+```
+
 ## 参考资料
 
 - 论文: [Know What You Don't Know: Unanswerable Questions for SQuAD](https://arxiv.org/abs/1806.03822)
