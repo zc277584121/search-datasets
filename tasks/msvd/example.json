@@ -1,0 +1,12 @@
+{
+  "model_name": "example-model",
+  "video_to_text": {
+    "vid1": ["vid1_0", "vid1_2", "vid1_1", "vid2_0", "vid3_1"],
+    "vid2": ["vid2_1", "vid2_0", "vid1_0", "vid3_2", "vid3_0"]
+  },
+  "text_to_video": {
+    "vid1_0": ["vid1", "vid2", "vid3"],
+    "vid1_1": ["vid1", "vid3", "vid2"],
+    "vid2_0": ["vid2", "vid1", "vid3"]
+  }
+}

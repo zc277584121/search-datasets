@@ -1,0 +1,10 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "0": "42.5",
+    "1": "Revenue",
+    "2": "2019",
+    "3": "15%",
+    "4": "Asia"
+  }
+}

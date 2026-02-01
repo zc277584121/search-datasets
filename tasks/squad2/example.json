@@ -1,0 +1,10 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "56be85543aeaaa14008c9063": "Denver Broncos",
+    "56be85543aeaaa14008c9065": "Carolina Panthers",
+    "56be85543aeaaa14008c9066": "Levi's Stadium",
+    "56bea9923aeaaa14008c91b9": "",
+    "56bea9923aeaaa14008c91ba": ""
+  }
+}

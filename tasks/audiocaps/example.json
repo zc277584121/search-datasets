@@ -1,0 +1,11 @@
+{
+  "model_name": "example-model",
+  "audio_to_text": {
+    "Y7fmOlUlwoNg": ["Y7fmOlUlwoNg_caption", "Y---1_cCGK4_caption", "Y--BLvZLpGE_caption"],
+    "Y---1_cCGK4": ["Y---1_cCGK4_caption", "Y7fmOlUlwoNg_caption", "Y--BLvZLpGE_caption"]
+  },
+  "text_to_audio": {
+    "Y7fmOlUlwoNg_caption": ["Y7fmOlUlwoNg", "Y---1_cCGK4", "Y--BLvZLpGE"],
+    "Y---1_cCGK4_caption": ["Y---1_cCGK4", "Y7fmOlUlwoNg", "Y--BLvZLpGE"]
+  }
+}

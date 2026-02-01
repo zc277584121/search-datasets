@@ -1,0 +1,27 @@
+{
+  "model_name": "example-model",
+  "predictions": [
+    {
+      "query": "How to implement binary search in Python?",
+      "retrieved": [
+        {
+          "conversation_id": "conv_123",
+          "text": "User: How do I write a binary search function?\nAssistant: Here's a simple binary search implementation in Python:\n\ndef binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1"
+        },
+        {
+          "conversation_id": "conv_456",
+          "text": "User: What's the time complexity of binary search?\nAssistant: Binary search has O(log n) time complexity..."
+        }
+      ]
+    },
+    {
+      "query": "Explain machine learning basics",
+      "retrieved": [
+        {
+          "conversation_id": "conv_789",
+          "text": "User: Can you explain what machine learning is?\nAssistant: Machine learning is a subset of AI that enables computers to learn from data..."
+        }
+      ]
+    }
+  ]
+}

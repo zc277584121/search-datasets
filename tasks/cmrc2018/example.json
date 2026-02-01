@@ -1,0 +1,8 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "DEV_0_QUERY_0": "澳大利亚",
+    "DEV_0_QUERY_1": "堪培拉",
+    "DEV_0_QUERY_2": "英联邦成员国"
+  }
+}

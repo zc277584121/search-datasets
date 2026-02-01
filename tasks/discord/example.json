@@ -1,0 +1,31 @@
+{
+  "model_name": "example-model",
+  "predictions": [
+    {
+      "query": "anyone know a good Python tutorial?",
+      "retrieved": [
+        {
+          "message_id": "msg_123",
+          "text": "yeah check out Corey Schafer on youtube, his python tutorials are goated 🔥"
+        },
+        {
+          "message_id": "msg_124",
+          "text": "automate the boring stuff is free online rn, super good for beginners"
+        }
+      ]
+    },
+    {
+      "query": "what game is everyone playing",
+      "retrieved": [
+        {
+          "message_id": "msg_456",
+          "text": "been grinding valorant all week lol"
+        },
+        {
+          "message_id": "msg_457",
+          "text": "same, rank reset got me stressed tho 😭"
+        }
+      ]
+    }
+  ]
+}

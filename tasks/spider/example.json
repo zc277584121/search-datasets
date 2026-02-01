@@ -1,0 +1,8 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "0": "SELECT name FROM students WHERE age > 20",
+    "1": "SELECT COUNT(*) FROM orders WHERE status = 'completed'",
+    "2": "SELECT T1.name, T2.course_name FROM students AS T1 JOIN enrollments AS T2 ON T1.id = T2.student_id"
+  }
+}

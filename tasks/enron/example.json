@@ -1,0 +1,31 @@
+{
+  "model_name": "example-model",
+  "task_type": "retrieval",
+  "predictions": [
+    {
+      "query": "meeting schedule next week",
+      "retrieved": [
+        {
+          "email_id": "email_123",
+          "subject": "RE: Team Meeting - Next Week",
+          "body": "Hi all, Just a reminder that we have our team meeting scheduled for next Tuesday at 2pm in the main conference room. Please review the agenda I sent earlier..."
+        },
+        {
+          "email_id": "email_456",
+          "subject": "Weekly Schedule Update",
+          "body": "Please note the following schedule changes for next week: Monday - Q3 Review, Wednesday - Client presentation..."
+        }
+      ]
+    },
+    {
+      "query": "contract renewal deadline",
+      "retrieved": [
+        {
+          "email_id": "email_789",
+          "subject": "FW: Contract Renewal Notice",
+          "body": "Please be advised that the contract renewal deadline is approaching. We need to submit the signed documents by the 15th..."
+        }
+      ]
+    }
+  ]
+}

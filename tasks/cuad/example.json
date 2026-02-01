@@ -1,0 +1,17 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "question_0": {
+      "answer": "The agreement shall terminate on December 31, 2025.",
+      "confidence": 0.95
+    },
+    "question_1": {
+      "answer": "",
+      "confidence": 0.1
+    },
+    "question_2": {
+      "answer": "Neither party shall compete with the other for a period of two years.",
+      "confidence": 0.85
+    }
+  }
+}

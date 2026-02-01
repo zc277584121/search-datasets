@@ -1,9 +1,0 @@
-{
-  "model_name": "example-model",
-  "model_description": "This is an example submission format",
-  "predictions": {
-    "56be85543aeaaa14008c9063": "in the late 1990s",
-    "56be85543aeaaa14008c9065": "Destiny's Child",
-    "5a8d7b4c5542994a62a8d7b4": ""
-  }
-}

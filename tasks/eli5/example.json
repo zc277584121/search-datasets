@@ -1,0 +1,8 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "q_0": ["doc_physics_1", "doc_science_3", "doc_eli5_7", "doc_wiki_2"],
+    "q_1": ["doc_biology_5", "doc_eli5_1", "doc_science_8", "doc_wiki_3"],
+    "q_2": ["doc_tech_2", "doc_eli5_5", "doc_wiki_1", "doc_science_4"]
+  }
+}

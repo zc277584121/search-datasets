@@ -1,0 +1,17 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "question_0": {
+      "answer": "Daniel Kwan and Daniel Scheinert",
+      "retrieved_docs": ["doc_oscar_2023", "doc_eeaao_directors"]
+    },
+    "question_1": {
+      "answer": "Paris",
+      "retrieved_docs": ["doc_france", "doc_capital_cities"]
+    },
+    "question_2": {
+      "answer": "1969",
+      "retrieved_docs": ["doc_apollo_11", "doc_moon_landing", "doc_nasa_history"]
+    }
+  }
+}

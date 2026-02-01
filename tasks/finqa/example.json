@@ -1,0 +1,17 @@
+{
+  "model_name": "example-model",
+  "predictions": {
+    "question_0": {
+      "answer": "42.5",
+      "program": "divide(85, 2)"
+    },
+    "question_1": {
+      "answer": "15.3%",
+      "program": "subtract(25.8, 10.5), divide(#0, 100)"
+    },
+    "question_2": {
+      "answer": "1250000",
+      "program": "multiply(2500, 500)"
+    }
+  }
+}
