@@ -2,84 +2,113 @@
 
 ## 任务描述
 
-FinQA 是一个金融数值推理数据集，要求模型理解金融文档（包含表格和文本），并通过多步推理回答数值计算问题。
+FinQA 是一个金融数值推理数据集，要求模型理解金融表格和文本，并通过多步推理回答数值计算问题。
 
-## 数据集
+## 数据集信息
 
 - **来源**: `dreamerdeo/finqa`
-- **规模**: ~8,000 问答对
+- **评测集**: 500 条
 - **语言**: 英语
 - **领域**: 金融报表分析
 
-## 任务目标
+## 数据格式
 
-给定金融文档（表格 + 文本）和问题：
-1. 理解表格和文本中的数值信息
-2. 识别所需的计算操作
-3. 生成计算程序并执行
-4. 返回最终数值答案
+### queries.json 字段说明
 
-## 评估指标
+```json
+{
+  "task": "finqa",
+  "total": 500,
+  "queries": [
+    {
+      "id": "finqa_0",
+      "question": "What is the percentage change from 2018 to 2019?",
+      "table": [
+        ["Year", "Revenue ($M)"],
+        ["2017", "5420"],
+        ["2018", "4850"],
+        ["2019", "6210"]
+      ],
+      "pre_text": ["The following table shows financial data:"],
+      "post_text": ["Please calculate based on the data provided."]
+    }
+  ]
+}
+```
 
-| 指标 | 说明 |
-|------|------|
-| **执行准确率** | 执行结果与标准答案匹配的比例 |
-| **程序准确率** | 生成程序与标准程序等价的比例 |
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | 问题唯一标识符 |
+| `question` | string | 金融问题 |
+| `table` | list[list] | 二维表格数据，第一行为表头 |
+| `pre_text` | list[string] | 表格前的文本描述 |
+| `post_text` | list[string] | 表格后的文本描述 |
 
-数值比较时允许小数点后两位的舍入误差。
+## 使用流程
 
-## 提交格式
+### 1. 加载评测数据
+
+```python
+import json
+
+with open("queries.json", "r") as f:
+    data = json.load(f)
+
+predictions = {}
+for query in data["queries"]:
+    qid = query["id"]
+    question = query["question"]
+    table = query["table"]
+    context = query["pre_text"] + query["post_text"]
+
+    # 用你的模型进行数值推理
+    answer = your_model.financial_reasoning(question, table, context)
+    predictions[qid] = {"answer": str(answer)}
+```
+
+### 2. 生成预测结果
 
 ```json
 {
   "model_name": "your-model-name",
   "predictions": {
-    "question_id_1": {
-      "answer": "42.5",
-      "program": "divide(100, 2), add(#0, -7.5)"
+    "finqa_0": {
+      "answer": "28.04",
+      "program": "subtract(6210, 4850), divide(#0, 4850), multiply(#1, 100)"
     },
-    "question_id_2": {
-      "answer": "15.3%",
-      "program": "subtract(25.8, 10.5), divide(#0, 100)"
+    "finqa_1": {
+      "answer": "16480"
     }
   }
 }
 ```
 
 **说明**:
-- `answer`: 最终数值答案
-- `program`: 可选，生成的计算程序
+- `answer`: 必填，最终数值答案
+- `program`: 可选，计算过程（用于程序准确率评估）
 
-## 运行评估
+### 3. 运行评估
 
 ```bash
 python eval.py --submission predictions.json
 ```
+
+## 评估指标
+
+| 指标 | 说明 |
+|------|------|
+| **执行准确率** | 数值答案与标准答案匹配（允许小数点后两位误差） |
+| **程序准确率** | 生成程序与标准程序等价（可选） |
 
 ## 输出示例
 
 ```json
 {
   "task": "finqa",
+  "model_name": "your-model",
   "execution_accuracy": 58.3,
-  "program_accuracy": 52.1,
-  "num_samples": 1147,
-  "timestamp": "2024-01-30T12:00:00"
+  "num_samples": 500
 }
-```
-
-## 程序格式
-
-FinQA 使用领域特定语言 (DSL) 表示计算:
-- `add(a, b)`: 加法
-- `subtract(a, b)`: 减法
-- `multiply(a, b)`: 乘法
-- `divide(a, b)`: 除法
-- `#N`: 引用第 N 步的结果
-
-示例：计算 (100 / 2) + 10
-```
-divide(100, 2), add(#0, 10)
 ```
 
 ## 参考资料

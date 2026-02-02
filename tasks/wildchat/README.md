@@ -4,83 +4,112 @@
 
 WildChat 是一个真实的人机对话数据集，收集自 ChatGPT 的实际使用记录。任务要求根据用户查询检索最相关的对话片段。
 
-## 数据集
+## 数据集信息
 
-- **来源**: `sam-paech/wildchat_*`
-- **规模**: ~1,000,000 对话
+- **来源**: `allenai/WildChat`
+- **评测集**: 500 条
 - **语言**: 多语言（以英语为主）
-- **特点**: 真实用户对话，涵盖多种主题
 
-## 任务目标
+## 数据格式
 
-给定用户查询，从对话库中检索最相关的对话。查询可能涉及：
-1. 特定话题的讨论
-2. 特定类型的问答
-3. 特定技能的展示（如编程、写作等）
+### queries.json 字段说明
 
-## 评估指标
+```json
+{
+  "task": "wildchat",
+  "total": 500,
+  "queries": [
+    {
+      "id": "0",
+      "conversation_id": "conv_abc123",
+      "first_user_message": "How do I implement binary search in Python?",
+      "language": "en"
+    }
+  ]
+}
+```
 
-| 指标 | 说明 |
-|------|------|
-| **LLM-as-Judge** | 使用大语言模型评估检索结果的相关性 |
-| **Relevance Score** | 相关性评分 (1-5) |
-| **Coverage Score** | 查询意图覆盖度 (1-5) |
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | 查询唯一标识符 |
+| `conversation_id` | string | 原始对话 ID |
+| `first_user_message` | string | 用户的第一条消息 |
+| `language` | string | 对话语言 |
 
-由于没有标准答案，使用 LLM 评估检索质量。
+## 使用流程
 
-## 提交格式
+### 1. 加载评测数据
+
+```python
+import json
+
+with open("queries.json", "r") as f:
+    data = json.load(f)
+
+predictions = []
+for query in data["queries"]:
+    qid = query["id"]
+    user_message = query["first_user_message"]
+
+    # 检索相关对话
+    retrieved = your_retriever.search(user_message)
+
+    predictions.append({
+        "query": user_message,
+        "retrieved": [
+            {"conversation_id": r.conv_id, "text": r.text}
+            for r in retrieved
+        ]
+    })
+```
+
+### 2. 生成预测结果
 
 ```json
 {
   "model_name": "your-model-name",
   "predictions": [
     {
-      "query": "How to implement binary search in Python?",
+      "query": "How do I implement binary search?",
       "retrieved": [
-        {"conversation_id": "conv_123", "text": "..."},
-        {"conversation_id": "conv_456", "text": "..."}
+        {
+          "conversation_id": "conv_123",
+          "text": "User: How to write binary search?\nAssistant: Here's a simple implementation..."
+        }
       ]
     }
   ]
 }
 ```
 
-## 运行评估
+### 3. 运行评估
 
 ```bash
-python eval.py --submission predictions.json --api-key YOUR_API_KEY
+python eval.py --submission predictions.json --api-key YOUR_OPENAI_KEY
 ```
+
+## 评估指标
+
+使用 LLM-as-Judge 评估：
+
+| 指标 | 说明 |
+|------|------|
+| **Relevance** | 相关性评分 (1-5) |
+| **Coverage** | 查询意图覆盖度 (1-5) |
 
 ## 输出示例
 
 ```json
 {
   "task": "wildchat",
+  "model_name": "your-model",
   "avg_relevance": 3.8,
   "avg_coverage": 3.5,
   "high_relevance_ratio": 0.65,
-  "num_queries": 100,
-  "timestamp": "2024-01-30T12:00:00"
+  "num_queries": 500
 }
 ```
-
-## LLM 评估标准
-
-### 相关性评分 (1-5)
-- 5: 完全相关，直接回答查询
-- 4: 高度相关，主题一致
-- 3: 部分相关，有一些相关信息
-- 2: 边缘相关，只有少量相关内容
-- 1: 不相关
-
-### 覆盖度评分 (1-5)
-- 5: 完全覆盖查询意图
-- 4: 大部分覆盖
-- 3: 一半覆盖
-- 2: 少量覆盖
-- 1: 未覆盖
 
 ## 参考资料
 
 - [WildChat 论文](https://arxiv.org/abs/2405.01470)
-- [数据集页面](https://huggingface.co/datasets/allenai/WildChat)

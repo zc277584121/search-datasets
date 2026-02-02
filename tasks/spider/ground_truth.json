@@ -1,0 +1,4138 @@
+{
+  "0": {
+    "query": "SELECT count(*) FROM singer",
+    "db_id": "concert_singer"
+  },
+  "1": {
+    "query": "SELECT count(*) FROM singer",
+    "db_id": "concert_singer"
+  },
+  "2": {
+    "query": "SELECT name ,  country ,  age FROM singer ORDER BY age DESC",
+    "db_id": "concert_singer"
+  },
+  "3": {
+    "query": "SELECT name ,  country ,  age FROM singer ORDER BY age DESC",
+    "db_id": "concert_singer"
+  },
+  "4": {
+    "query": "SELECT avg(age) ,  min(age) ,  max(age) FROM singer WHERE country  =  'France'",
+    "db_id": "concert_singer"
+  },
+  "5": {
+    "query": "SELECT avg(age) ,  min(age) ,  max(age) FROM singer WHERE country  =  'France'",
+    "db_id": "concert_singer"
+  },
+  "6": {
+    "query": "SELECT song_name ,  song_release_year FROM singer ORDER BY age LIMIT 1",
+    "db_id": "concert_singer"
+  },
+  "7": {
+    "query": "SELECT song_name ,  song_release_year FROM singer ORDER BY age LIMIT 1",
+    "db_id": "concert_singer"
+  },
+  "8": {
+    "query": "SELECT DISTINCT country FROM singer WHERE age  >  20",
+    "db_id": "concert_singer"
+  },
+  "9": {
+    "query": "SELECT DISTINCT country FROM singer WHERE age  >  20",
+    "db_id": "concert_singer"
+  },
+  "10": {
+    "query": "SELECT country ,  count(*) FROM singer GROUP BY country",
+    "db_id": "concert_singer"
+  },
+  "11": {
+    "query": "SELECT country ,  count(*) FROM singer GROUP BY country",
+    "db_id": "concert_singer"
+  },
+  "12": {
+    "query": "SELECT song_name FROM singer WHERE age  >  (SELECT avg(age) FROM singer)",
+    "db_id": "concert_singer"
+  },
+  "13": {
+    "query": "SELECT song_name FROM singer WHERE age  >  (SELECT avg(age) FROM singer)",
+    "db_id": "concert_singer"
+  },
+  "14": {
+    "query": "SELECT LOCATION ,  name FROM stadium WHERE capacity BETWEEN 5000 AND 10000",
+    "db_id": "concert_singer"
+  },
+  "15": {
+    "query": "SELECT LOCATION ,  name FROM stadium WHERE capacity BETWEEN 5000 AND 10000",
+    "db_id": "concert_singer"
+  },
+  "16": {
+    "query": "select max(capacity), average from stadium",
+    "db_id": "concert_singer"
+  },
+  "17": {
+    "query": "select avg(capacity) ,  max(capacity) from stadium",
+    "db_id": "concert_singer"
+  },
+  "18": {
+    "query": "SELECT name ,  capacity FROM stadium ORDER BY average DESC LIMIT 1",
+    "db_id": "concert_singer"
+  },
+  "19": {
+    "query": "SELECT name ,  capacity FROM stadium ORDER BY average DESC LIMIT 1",
+    "db_id": "concert_singer"
+  },
+  "20": {
+    "query": "SELECT count(*) FROM concert WHERE YEAR  =  2014 OR YEAR  =  2015",
+    "db_id": "concert_singer"
+  },
+  "21": {
+    "query": "SELECT count(*) FROM concert WHERE YEAR  =  2014 OR YEAR  =  2015",
+    "db_id": "concert_singer"
+  },
+  "22": {
+    "query": "SELECT T2.name ,  count(*) FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id GROUP BY T1.stadium_id",
+    "db_id": "concert_singer"
+  },
+  "23": {
+    "query": "SELECT T2.name ,  count(*) FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id GROUP BY T1.stadium_id",
+    "db_id": "concert_singer"
+  },
+  "24": {
+    "query": "SELECT T2.name ,  T2.capacity FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id WHERE T1.year  >=  2014 GROUP BY T2.stadium_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "concert_singer"
+  },
+  "25": {
+    "query": "select t2.name ,  t2.capacity from concert as t1 join stadium as t2 on t1.stadium_id  =  t2.stadium_id where t1.year  >  2013 group by t2.stadium_id order by count(*) desc limit 1",
+    "db_id": "concert_singer"
+  },
+  "26": {
+    "query": "SELECT YEAR FROM concert GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "concert_singer"
+  },
+  "27": {
+    "query": "SELECT YEAR FROM concert GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "concert_singer"
+  },
+  "28": {
+    "query": "SELECT name FROM stadium WHERE stadium_id NOT IN (SELECT stadium_id FROM concert)",
+    "db_id": "concert_singer"
+  },
+  "29": {
+    "query": "SELECT name FROM stadium WHERE stadium_id NOT IN (SELECT stadium_id FROM concert)",
+    "db_id": "concert_singer"
+  },
+  "30": {
+    "query": "SELECT country FROM singer WHERE age  >  40 INTERSECT SELECT country FROM singer WHERE age  <  30",
+    "db_id": "concert_singer"
+  },
+  "31": {
+    "query": "SELECT name FROM stadium EXCEPT SELECT T2.name FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id WHERE T1.year  =  2014",
+    "db_id": "concert_singer"
+  },
+  "32": {
+    "query": "SELECT name FROM stadium EXCEPT SELECT T2.name FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id WHERE T1.year  =  2014",
+    "db_id": "concert_singer"
+  },
+  "33": {
+    "query": "SELECT T2.concert_name ,  T2.theme ,  count(*) FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_id  =  T2.concert_id GROUP BY T2.concert_id",
+    "db_id": "concert_singer"
+  },
+  "34": {
+    "query": "select t2.concert_name ,  t2.theme ,  count(*) from singer_in_concert as t1 join concert as t2 on t1.concert_id  =  t2.concert_id group by t2.concert_id",
+    "db_id": "concert_singer"
+  },
+  "35": {
+    "query": "SELECT T2.name ,  count(*) FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.singer_id  =  T2.singer_id GROUP BY T2.singer_id",
+    "db_id": "concert_singer"
+  },
+  "36": {
+    "query": "SELECT T2.name ,  count(*) FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.singer_id  =  T2.singer_id GROUP BY T2.singer_id",
+    "db_id": "concert_singer"
+  },
+  "37": {
+    "query": "SELECT T2.name FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.singer_id  =  T2.singer_id JOIN concert AS T3 ON T1.concert_id  =  T3.concert_id WHERE T3.year  =  2014",
+    "db_id": "concert_singer"
+  },
+  "38": {
+    "query": "SELECT T2.name FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.singer_id  =  T2.singer_id JOIN concert AS T3 ON T1.concert_id  =  T3.concert_id WHERE T3.year  =  2014",
+    "db_id": "concert_singer"
+  },
+  "39": {
+    "query": "SELECT name ,  country FROM singer WHERE song_name LIKE '%Hey%'",
+    "db_id": "concert_singer"
+  },
+  "40": {
+    "query": "SELECT name ,  country FROM singer WHERE song_name LIKE '%Hey%'",
+    "db_id": "concert_singer"
+  },
+  "41": {
+    "query": "SELECT T2.name ,  T2.location FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id WHERE T1.Year  =  2014 INTERSECT SELECT T2.name ,  T2.location FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id WHERE T1.Year  =  2015",
+    "db_id": "concert_singer"
+  },
+  "42": {
+    "query": "SELECT T2.name ,  T2.location FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id WHERE T1.Year  =  2014 INTERSECT SELECT T2.name ,  T2.location FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id  =  T2.stadium_id WHERE T1.Year  =  2015",
+    "db_id": "concert_singer"
+  },
+  "43": {
+    "query": "select count(*) from concert where stadium_id = (select stadium_id from stadium order by capacity desc limit 1)",
+    "db_id": "concert_singer"
+  },
+  "44": {
+    "query": "select count(*) from concert where stadium_id = (select stadium_id from stadium order by capacity desc limit 1)",
+    "db_id": "concert_singer"
+  },
+  "45": {
+    "query": "SELECT count(*) FROM pets WHERE weight  >  10",
+    "db_id": "pets_1"
+  },
+  "46": {
+    "query": "SELECT count(*) FROM pets WHERE weight  >  10",
+    "db_id": "pets_1"
+  },
+  "47": {
+    "query": "SELECT weight FROM pets ORDER BY pet_age LIMIT 1",
+    "db_id": "pets_1"
+  },
+  "48": {
+    "query": "SELECT weight FROM pets ORDER BY pet_age LIMIT 1",
+    "db_id": "pets_1"
+  },
+  "49": {
+    "query": "SELECT max(weight) ,  petType FROM pets GROUP BY petType",
+    "db_id": "pets_1"
+  },
+  "50": {
+    "query": "SELECT max(weight) ,  petType FROM pets GROUP BY petType",
+    "db_id": "pets_1"
+  },
+  "51": {
+    "query": "SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.age  >  20",
+    "db_id": "pets_1"
+  },
+  "52": {
+    "query": "SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.age  >  20",
+    "db_id": "pets_1"
+  },
+  "53": {
+    "query": "SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T2.petid  =  T3.petid WHERE T1.sex  =  'F' AND T3.pettype  =  'dog'",
+    "db_id": "pets_1"
+  },
+  "54": {
+    "query": "SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T2.petid  =  T3.petid WHERE T1.sex  =  'F' AND T3.pettype  =  'dog'",
+    "db_id": "pets_1"
+  },
+  "55": {
+    "query": "SELECT count(DISTINCT pettype) FROM pets",
+    "db_id": "pets_1"
+  },
+  "56": {
+    "query": "SELECT count(DISTINCT pettype) FROM pets",
+    "db_id": "pets_1"
+  },
+  "57": {
+    "query": "SELECT DISTINCT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' OR T3.pettype  =  'dog'",
+    "db_id": "pets_1"
+  },
+  "58": {
+    "query": "SELECT DISTINCT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' OR T3.pettype  =  'dog'",
+    "db_id": "pets_1"
+  },
+  "59": {
+    "query": "select t1.fname from student as t1 join has_pet as t2 on t1.stuid  =  t2.stuid join pets as t3 on t3.petid  =  t2.petid where t3.pettype  =  'cat' intersect select t1.fname from student as t1 join has_pet as t2 on t1.stuid  =  t2.stuid join pets as t3 on t3.petid  =  t2.petid where t3.pettype  =  'dog'",
+    "db_id": "pets_1"
+  },
+  "60": {
+    "query": "SELECT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' INTERSECT SELECT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'",
+    "db_id": "pets_1"
+  },
+  "61": {
+    "query": "SELECT major ,  age FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')",
+    "db_id": "pets_1"
+  },
+  "62": {
+    "query": "SELECT major ,  age FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')",
+    "db_id": "pets_1"
+  },
+  "63": {
+    "query": "SELECT stuid FROM student EXCEPT SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'",
+    "db_id": "pets_1"
+  },
+  "64": {
+    "query": "SELECT stuid FROM student EXCEPT SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'",
+    "db_id": "pets_1"
+  },
+  "65": {
+    "query": "SELECT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog' AND T1.stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')",
+    "db_id": "pets_1"
+  },
+  "66": {
+    "query": "SELECT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog' AND T1.stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')",
+    "db_id": "pets_1"
+  },
+  "67": {
+    "query": "SELECT pettype ,  weight FROM pets ORDER BY pet_age LIMIT 1",
+    "db_id": "pets_1"
+  },
+  "68": {
+    "query": "SELECT pettype ,  weight FROM pets ORDER BY pet_age LIMIT 1",
+    "db_id": "pets_1"
+  },
+  "69": {
+    "query": "SELECT petid ,  weight FROM pets WHERE pet_age  >  1",
+    "db_id": "pets_1"
+  },
+  "70": {
+    "query": "SELECT petid ,  weight FROM pets WHERE pet_age  >  1",
+    "db_id": "pets_1"
+  },
+  "71": {
+    "query": "SELECT avg(pet_age) ,  max(pet_age) ,  pettype FROM pets GROUP BY pettype",
+    "db_id": "pets_1"
+  },
+  "72": {
+    "query": "SELECT avg(pet_age) ,  max(pet_age) ,  pettype FROM pets GROUP BY pettype",
+    "db_id": "pets_1"
+  },
+  "73": {
+    "query": "SELECT avg(weight) ,  pettype FROM pets GROUP BY pettype",
+    "db_id": "pets_1"
+  },
+  "74": {
+    "query": "SELECT avg(weight) ,  pettype FROM pets GROUP BY pettype",
+    "db_id": "pets_1"
+  },
+  "75": {
+    "query": "SELECT DISTINCT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid",
+    "db_id": "pets_1"
+  },
+  "76": {
+    "query": "SELECT DISTINCT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid",
+    "db_id": "pets_1"
+  },
+  "77": {
+    "query": "SELECT T2.petid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.Lname  =  'Smith'",
+    "db_id": "pets_1"
+  },
+  "78": {
+    "query": "SELECT T2.petid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.Lname  =  'Smith'",
+    "db_id": "pets_1"
+  },
+  "79": {
+    "query": "SELECT count(*) ,  T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid GROUP BY T1.stuid",
+    "db_id": "pets_1"
+  },
+  "80": {
+    "query": "select count(*) ,  t1.stuid from student as t1 join has_pet as t2 on t1.stuid  =  t2.stuid group by t1.stuid",
+    "db_id": "pets_1"
+  },
+  "81": {
+    "query": "SELECT T1.fname ,  T1.sex FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid GROUP BY T1.stuid HAVING count(*)  >  1",
+    "db_id": "pets_1"
+  },
+  "82": {
+    "query": "SELECT T1.fname ,  T1.sex FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid GROUP BY T1.stuid HAVING count(*)  >  1",
+    "db_id": "pets_1"
+  },
+  "83": {
+    "query": "SELECT T1.lname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pet_age  =  3 AND T3.pettype  =  'cat'",
+    "db_id": "pets_1"
+  },
+  "84": {
+    "query": "SELECT T1.lname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pet_age  =  3 AND T3.pettype  =  'cat'",
+    "db_id": "pets_1"
+  },
+  "85": {
+    "query": "select avg(age) from student where stuid not in (select stuid from has_pet)",
+    "db_id": "pets_1"
+  },
+  "86": {
+    "query": "select avg(age) from student where stuid not in (select stuid from has_pet)",
+    "db_id": "pets_1"
+  },
+  "87": {
+    "query": "SELECT count(*) FROM CONTINENTS;",
+    "db_id": "car_1"
+  },
+  "88": {
+    "query": "SELECT count(*) FROM CONTINENTS;",
+    "db_id": "car_1"
+  },
+  "89": {
+    "query": "SELECT T1.ContId ,  T1.Continent ,  count(*) FROM CONTINENTS AS T1 JOIN COUNTRIES AS T2 ON T1.ContId  =  T2.Continent GROUP BY T1.ContId;",
+    "db_id": "car_1"
+  },
+  "90": {
+    "query": "SELECT T1.ContId ,  T1.Continent ,  count(*) FROM CONTINENTS AS T1 JOIN COUNTRIES AS T2 ON T1.ContId  =  T2.Continent GROUP BY T1.ContId;",
+    "db_id": "car_1"
+  },
+  "91": {
+    "query": "SELECT count(*) FROM COUNTRIES;",
+    "db_id": "car_1"
+  },
+  "92": {
+    "query": "SELECT count(*) FROM COUNTRIES;",
+    "db_id": "car_1"
+  },
+  "93": {
+    "query": "SELECT T1.FullName ,  T1.Id ,  count(*) FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker GROUP BY T1.Id;",
+    "db_id": "car_1"
+  },
+  "94": {
+    "query": "SELECT T1.FullName ,  T1.Id ,  count(*) FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker GROUP BY T1.Id;",
+    "db_id": "car_1"
+  },
+  "95": {
+    "query": "SELECT T1.Model FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id ORDER BY T2.horsepower ASC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "96": {
+    "query": "SELECT T1.Model FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id ORDER BY T2.horsepower ASC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "97": {
+    "query": "SELECT T1.model FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T2.Weight  <  (SELECT avg(Weight) FROM CARS_DATA)",
+    "db_id": "car_1"
+  },
+  "98": {
+    "query": "SELECT T1.model FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T2.Weight  <  (SELECT avg(Weight) FROM CARS_DATA)",
+    "db_id": "car_1"
+  },
+  "99": {
+    "query": "SELECT DISTINCT T1.Maker FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker JOIN CAR_NAMES AS T3 ON T2.model  =  T3.model JOIN CARS_DATA AS T4 ON T3.MakeId  =  T4.id WHERE T4.year  =  '1970';",
+    "db_id": "car_1"
+  },
+  "100": {
+    "query": "SELECT DISTINCT T1.Maker FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker JOIN CAR_NAMES AS T3 ON T2.model  =  T3.model JOIN CARS_DATA AS T4 ON T3.MakeId  =  T4.id WHERE T4.year  =  '1970';",
+    "db_id": "car_1"
+  },
+  "101": {
+    "query": "SELECT T2.Make ,  T1.Year FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id  =  T2.MakeId WHERE T1.Year  =  (SELECT min(YEAR) FROM CARS_DATA);",
+    "db_id": "car_1"
+  },
+  "102": {
+    "query": "SELECT T2.Make ,  T1.Year FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id  =  T2.MakeId WHERE T1.Year  =  (SELECT min(YEAR) FROM CARS_DATA);",
+    "db_id": "car_1"
+  },
+  "103": {
+    "query": "SELECT DISTINCT T1.model FROM MODEL_LIST AS T1 JOIN CAR_NAMES AS T2 ON T1.model  =  T2.model JOIN CARS_DATA AS T3 ON T2.MakeId  =  T3.id WHERE T3.year  >  1980;",
+    "db_id": "car_1"
+  },
+  "104": {
+    "query": "SELECT DISTINCT T1.model FROM MODEL_LIST AS T1 JOIN CAR_NAMES AS T2 ON T1.model  =  T2.model JOIN CARS_DATA AS T3 ON T2.MakeId  =  T3.id WHERE T3.year  >  1980;",
+    "db_id": "car_1"
+  },
+  "105": {
+    "query": "SELECT T1.Continent ,  count(*) FROM CONTINENTS AS T1 JOIN COUNTRIES AS T2 ON T1.ContId  =  T2.continent JOIN car_makers AS T3 ON T2.CountryId  =  T3.Country GROUP BY T1.Continent;",
+    "db_id": "car_1"
+  },
+  "106": {
+    "query": "SELECT T1.Continent ,  count(*) FROM CONTINENTS AS T1 JOIN COUNTRIES AS T2 ON T1.ContId  =  T2.continent JOIN car_makers AS T3 ON T2.CountryId  =  T3.Country GROUP BY T1.Continent;",
+    "db_id": "car_1"
+  },
+  "107": {
+    "query": "SELECT T2.CountryName FROM CAR_MAKERS AS T1 JOIN COUNTRIES AS T2 ON T1.Country  =  T2.CountryId GROUP BY T1.Country ORDER BY Count(*) DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "108": {
+    "query": "SELECT T2.CountryName FROM CAR_MAKERS AS T1 JOIN COUNTRIES AS T2 ON T1.Country  =  T2.CountryId GROUP BY T1.Country ORDER BY Count(*) DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "109": {
+    "query": "select count(*) ,  t2.fullname from model_list as t1 join car_makers as t2 on t1.maker  =  t2.id group by t2.id;",
+    "db_id": "car_1"
+  },
+  "110": {
+    "query": "SELECT Count(*) ,  T2.FullName ,  T2.id FROM MODEL_LIST AS T1 JOIN CAR_MAKERS AS T2 ON T1.Maker  =  T2.Id GROUP BY T2.id;",
+    "db_id": "car_1"
+  },
+  "111": {
+    "query": "SELECT T1.Accelerate FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id  =  T2.MakeId WHERE T2.Make  =  'amc hornet sportabout (sw)';",
+    "db_id": "car_1"
+  },
+  "112": {
+    "query": "SELECT T1.Accelerate FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id  =  T2.MakeId WHERE T2.Make  =  'amc hornet sportabout (sw)';",
+    "db_id": "car_1"
+  },
+  "113": {
+    "query": "SELECT count(*) FROM CAR_MAKERS AS T1 JOIN COUNTRIES AS T2 ON T1.Country  =  T2.CountryId WHERE T2.CountryName  =  'france';",
+    "db_id": "car_1"
+  },
+  "114": {
+    "query": "SELECT count(*) FROM CAR_MAKERS AS T1 JOIN COUNTRIES AS T2 ON T1.Country  =  T2.CountryId WHERE T2.CountryName  =  'france';",
+    "db_id": "car_1"
+  },
+  "115": {
+    "query": "SELECT count(*) FROM MODEL_LIST AS T1 JOIN CAR_MAKERS AS T2 ON T1.Maker  =  T2.Id JOIN COUNTRIES AS T3 ON T2.Country  =  T3.CountryId WHERE T3.CountryName  =  'usa';",
+    "db_id": "car_1"
+  },
+  "116": {
+    "query": "SELECT count(*) FROM MODEL_LIST AS T1 JOIN CAR_MAKERS AS T2 ON T1.Maker  =  T2.Id JOIN COUNTRIES AS T3 ON T2.Country  =  T3.CountryId WHERE T3.CountryName  =  'usa';",
+    "db_id": "car_1"
+  },
+  "117": {
+    "query": "SELECT avg(mpg) FROM CARS_DATA WHERE Cylinders  =  4;",
+    "db_id": "car_1"
+  },
+  "118": {
+    "query": "SELECT avg(mpg) FROM CARS_DATA WHERE Cylinders  =  4;",
+    "db_id": "car_1"
+  },
+  "119": {
+    "query": "select min(weight) from cars_data where cylinders  =  8 and year  =  1974",
+    "db_id": "car_1"
+  },
+  "120": {
+    "query": "select min(weight) from cars_data where cylinders  =  8 and year  =  1974",
+    "db_id": "car_1"
+  },
+  "121": {
+    "query": "SELECT Maker ,  Model FROM MODEL_LIST;",
+    "db_id": "car_1"
+  },
+  "122": {
+    "query": "SELECT Maker ,  Model FROM MODEL_LIST;",
+    "db_id": "car_1"
+  },
+  "123": {
+    "query": "SELECT T1.CountryName ,  T1.CountryId FROM COUNTRIES AS T1 JOIN CAR_MAKERS AS T2 ON T1.CountryId  =  T2.Country GROUP BY T1.CountryId HAVING count(*)  >=  1;",
+    "db_id": "car_1"
+  },
+  "124": {
+    "query": "SELECT T1.CountryName ,  T1.CountryId FROM COUNTRIES AS T1 JOIN CAR_MAKERS AS T2 ON T1.CountryId  =  T2.Country GROUP BY T1.CountryId HAVING count(*)  >=  1;",
+    "db_id": "car_1"
+  },
+  "125": {
+    "query": "SELECT count(*) FROM CARS_DATA WHERE horsepower  >  150;",
+    "db_id": "car_1"
+  },
+  "126": {
+    "query": "SELECT count(*) FROM CARS_DATA WHERE horsepower  >  150;",
+    "db_id": "car_1"
+  },
+  "127": {
+    "query": "SELECT avg(Weight) ,  YEAR FROM CARS_DATA GROUP BY YEAR;",
+    "db_id": "car_1"
+  },
+  "128": {
+    "query": "SELECT avg(Weight) ,  YEAR FROM CARS_DATA GROUP BY YEAR;",
+    "db_id": "car_1"
+  },
+  "129": {
+    "query": "SELECT T1.CountryName FROM COUNTRIES AS T1 JOIN CONTINENTS AS T2 ON T1.Continent  =  T2.ContId JOIN CAR_MAKERS AS T3 ON T1.CountryId  =  T3.Country WHERE T2.Continent  =  'europe' GROUP BY T1.CountryName HAVING count(*)  >=  3;",
+    "db_id": "car_1"
+  },
+  "130": {
+    "query": "SELECT T1.CountryName FROM COUNTRIES AS T1 JOIN CONTINENTS AS T2 ON T1.Continent  =  T2.ContId JOIN CAR_MAKERS AS T3 ON T1.CountryId  =  T3.Country WHERE T2.Continent  =  'europe' GROUP BY T1.CountryName HAVING count(*)  >=  3;",
+    "db_id": "car_1"
+  },
+  "131": {
+    "query": "SELECT T2.horsepower ,  T1.Make FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T2.cylinders  =  3 ORDER BY T2.horsepower DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "132": {
+    "query": "SELECT T2.horsepower ,  T1.Make FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T2.cylinders  =  3 ORDER BY T2.horsepower DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "133": {
+    "query": "SELECT T1.Model FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id ORDER BY T2.mpg DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "134": {
+    "query": "select t1.model from car_names as t1 join cars_data as t2 on t1.makeid  =  t2.id order by t2.mpg desc limit 1;",
+    "db_id": "car_1"
+  },
+  "135": {
+    "query": "SELECT avg(horsepower) FROM CARS_DATA WHERE YEAR  <  1980;",
+    "db_id": "car_1"
+  },
+  "136": {
+    "query": "select avg(horsepower) from cars_data where year  <  1980;",
+    "db_id": "car_1"
+  },
+  "137": {
+    "query": "SELECT avg(T2.edispl) FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T1.Model  =  'volvo';",
+    "db_id": "car_1"
+  },
+  "138": {
+    "query": "SELECT avg(T2.edispl) FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T1.Model  =  'volvo';",
+    "db_id": "car_1"
+  },
+  "139": {
+    "query": "SELECT max(Accelerate) ,  Cylinders FROM CARS_DATA GROUP BY Cylinders;",
+    "db_id": "car_1"
+  },
+  "140": {
+    "query": "SELECT max(Accelerate) ,  Cylinders FROM CARS_DATA GROUP BY Cylinders;",
+    "db_id": "car_1"
+  },
+  "141": {
+    "query": "SELECT Model FROM CAR_NAMES GROUP BY Model ORDER BY count(*) DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "142": {
+    "query": "SELECT Model FROM CAR_NAMES GROUP BY Model ORDER BY count(*) DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "143": {
+    "query": "SELECT count(*) FROM CARS_DATA WHERE Cylinders  >  4;",
+    "db_id": "car_1"
+  },
+  "144": {
+    "query": "SELECT count(*) FROM CARS_DATA WHERE Cylinders  >  4;",
+    "db_id": "car_1"
+  },
+  "145": {
+    "query": "SELECT count(*) FROM CARS_DATA WHERE YEAR  =  1980;",
+    "db_id": "car_1"
+  },
+  "146": {
+    "query": "SELECT count(*) FROM CARS_DATA WHERE YEAR  =  1980;",
+    "db_id": "car_1"
+  },
+  "147": {
+    "query": "SELECT count(*) FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker WHERE T1.FullName  =  'American Motor Company';",
+    "db_id": "car_1"
+  },
+  "148": {
+    "query": "SELECT count(*) FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker WHERE T1.FullName  =  'American Motor Company';",
+    "db_id": "car_1"
+  },
+  "149": {
+    "query": "SELECT T1.FullName ,  T1.Id FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker GROUP BY T1.Id HAVING count(*)  >  3;",
+    "db_id": "car_1"
+  },
+  "150": {
+    "query": "SELECT T1.FullName ,  T1.Id FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker GROUP BY T1.Id HAVING count(*)  >  3;",
+    "db_id": "car_1"
+  },
+  "151": {
+    "query": "SELECT DISTINCT T2.Model FROM CAR_NAMES AS T1 JOIN MODEL_LIST AS T2 ON T1.Model  =  T2.Model JOIN CAR_MAKERS AS T3 ON T2.Maker  =  T3.Id JOIN CARS_DATA AS T4 ON T1.MakeId  =  T4.Id WHERE T3.FullName  =  'General Motors' OR T4.weight  >  3500;",
+    "db_id": "car_1"
+  },
+  "152": {
+    "query": "SELECT DISTINCT T2.Model FROM CAR_NAMES AS T1 JOIN MODEL_LIST AS T2 ON T1.Model  =  T2.Model JOIN CAR_MAKERS AS T3 ON T2.Maker  =  T3.Id JOIN CARS_DATA AS T4 ON T1.MakeId  =  T4.Id WHERE T3.FullName  =  'General Motors' OR T4.weight  >  3500;",
+    "db_id": "car_1"
+  },
+  "153": {
+    "query": "select distinct year from cars_data where weight between 3000 and 4000;",
+    "db_id": "car_1"
+  },
+  "154": {
+    "query": "select distinct year from cars_data where weight between 3000 and 4000;",
+    "db_id": "car_1"
+  },
+  "155": {
+    "query": "SELECT T1.horsepower FROM CARS_DATA AS T1 ORDER BY T1.accelerate DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "156": {
+    "query": "SELECT T1.horsepower FROM CARS_DATA AS T1 ORDER BY T1.accelerate DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "157": {
+    "query": "SELECT T1.cylinders FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id  =  T2.MakeId WHERE T2.Model  =  'volvo' ORDER BY T1.accelerate ASC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "158": {
+    "query": "SELECT T1.cylinders FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id  =  T2.MakeId WHERE T2.Model  =  'volvo' ORDER BY T1.accelerate ASC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "159": {
+    "query": "SELECT COUNT(*) FROM CARS_DATA WHERE Accelerate  >  ( SELECT Accelerate FROM CARS_DATA ORDER BY Horsepower DESC LIMIT 1 );",
+    "db_id": "car_1"
+  },
+  "160": {
+    "query": "SELECT COUNT(*) FROM CARS_DATA WHERE Accelerate  >  ( SELECT Accelerate FROM CARS_DATA ORDER BY Horsepower DESC LIMIT 1 );",
+    "db_id": "car_1"
+  },
+  "161": {
+    "query": "select count(*) from countries as t1 join car_makers as t2 on t1.countryid  =  t2.country group by t1.countryid having count(*)  >  2",
+    "db_id": "car_1"
+  },
+  "162": {
+    "query": "select count(*) from countries as t1 join car_makers as t2 on t1.countryid  =  t2.country group by t1.countryid having count(*)  >  2",
+    "db_id": "car_1"
+  },
+  "163": {
+    "query": "SELECT COUNT(*) FROM CARS_DATA WHERE Cylinders  >  6;",
+    "db_id": "car_1"
+  },
+  "164": {
+    "query": "SELECT COUNT(*) FROM CARS_DATA WHERE Cylinders  >  6;",
+    "db_id": "car_1"
+  },
+  "165": {
+    "query": "SELECT T1.Model FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T2.Cylinders  =  4 ORDER BY T2.horsepower DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "166": {
+    "query": "SELECT T1.Model FROM CAR_NAMES AS T1 JOIN CARS_DATA AS T2 ON T1.MakeId  =  T2.Id WHERE T2.Cylinders  =  4 ORDER BY T2.horsepower DESC LIMIT 1;",
+    "db_id": "car_1"
+  },
+  "167": {
+    "query": "SELECT T2.MakeId ,  T2.Make FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id  =  T2.MakeId WHERE T1.Horsepower  >  (SELECT min(Horsepower) FROM CARS_DATA) AND T1.Cylinders  <=  3;",
+    "db_id": "car_1"
+  },
+  "168": {
+    "query": "select t2.makeid ,  t2.make from cars_data as t1 join car_names as t2 on t1.id  =  t2.makeid where t1.horsepower  >  (select min(horsepower) from cars_data) and t1.cylinders  <  4;",
+    "db_id": "car_1"
+  },
+  "169": {
+    "query": "select max(mpg) from cars_data where cylinders  =  8 or year  <  1980",
+    "db_id": "car_1"
+  },
+  "170": {
+    "query": "select max(mpg) from cars_data where cylinders  =  8 or year  <  1980",
+    "db_id": "car_1"
+  },
+  "171": {
+    "query": "SELECT DISTINCT T1.model FROM MODEL_LIST AS T1 JOIN CAR_NAMES AS T2 ON T1.Model  =  T2.Model JOIN CARS_DATA AS T3 ON T2.MakeId  =  T3.Id JOIN CAR_MAKERS AS T4 ON T1.Maker  =  T4.Id WHERE T3.weight  <  3500 AND T4.FullName != 'Ford Motor Company';",
+    "db_id": "car_1"
+  },
+  "172": {
+    "query": "SELECT DISTINCT T1.model FROM MODEL_LIST AS T1 JOIN CAR_NAMES AS T2 ON T1.Model  =  T2.Model JOIN CARS_DATA AS T3 ON T2.MakeId  =  T3.Id JOIN CAR_MAKERS AS T4 ON T1.Maker  =  T4.Id WHERE T3.weight  <  3500 AND T4.FullName != 'Ford Motor Company';",
+    "db_id": "car_1"
+  },
+  "173": {
+    "query": "SELECT CountryName FROM countries EXCEPT SELECT T1.CountryName FROM countries AS T1 JOIN CAR_MAKERS AS T2 ON T1.countryId  =  T2.Country;",
+    "db_id": "car_1"
+  },
+  "174": {
+    "query": "SELECT CountryName FROM countries EXCEPT SELECT T1.CountryName FROM countries AS T1 JOIN CAR_MAKERS AS T2 ON T1.countryId  =  T2.Country;",
+    "db_id": "car_1"
+  },
+  "175": {
+    "query": "select t1.id ,  t1.maker from car_makers as t1 join model_list as t2 on t1.id  =  t2.maker group by t1.id having count(*)  >=  2 intersect select t1.id ,  t1.maker from car_makers as t1 join model_list as t2 on t1.id  =  t2.maker join car_names as t3 on t2.model  =  t3.model group by t1.id having count(*)  >  3;",
+    "db_id": "car_1"
+  },
+  "176": {
+    "query": "SELECT T1.Id ,  T1.Maker FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker GROUP BY T1.Id HAVING count(*)  >=  2 INTERSECT SELECT T1.Id ,  T1.Maker FROM CAR_MAKERS AS T1 JOIN MODEL_LIST AS T2 ON T1.Id  =  T2.Maker JOIN CAR_NAMES AS T3 ON T2.model  =  T3.model GROUP BY T1.Id HAVING count(*)  >  3;",
+    "db_id": "car_1"
+  },
+  "177": {
+    "query": "SELECT T1.countryId ,  T1.CountryName FROM Countries AS T1 JOIN CAR_MAKERS AS T2 ON T1.CountryId  =  T2.Country GROUP BY T1.countryId HAVING count(*)  >  3 UNION SELECT T1.countryId ,  T1.CountryName FROM Countries AS T1 JOIN CAR_MAKERS AS T2 ON T1.CountryId  =  T2.Country JOIN MODEL_LIST AS T3 ON T2.Id  =  T3.Maker WHERE T3.Model  =  'fiat';",
+    "db_id": "car_1"
+  },
+  "178": {
+    "query": "select t1.countryid ,  t1.countryname from countries as t1 join car_makers as t2 on t1.countryid  =  t2.country group by t1.countryid having count(*)  >  3 union select t1.countryid ,  t1.countryname from countries as t1 join car_makers as t2 on t1.countryid  =  t2.country join model_list as t3 on t2.id  =  t3.maker where t3.model  =  'fiat';",
+    "db_id": "car_1"
+  },
+  "179": {
+    "query": "SELECT Country FROM AIRLINES WHERE Airline  =  \"JetBlue Airways\"",
+    "db_id": "flight_2"
+  },
+  "180": {
+    "query": "SELECT Country FROM AIRLINES WHERE Airline  =  \"JetBlue Airways\"",
+    "db_id": "flight_2"
+  },
+  "181": {
+    "query": "SELECT Abbreviation FROM AIRLINES WHERE Airline  =  \"JetBlue Airways\"",
+    "db_id": "flight_2"
+  },
+  "182": {
+    "query": "SELECT Abbreviation FROM AIRLINES WHERE Airline  =  \"JetBlue Airways\"",
+    "db_id": "flight_2"
+  },
+  "183": {
+    "query": "SELECT Airline ,  Abbreviation FROM AIRLINES WHERE Country  =  \"USA\"",
+    "db_id": "flight_2"
+  },
+  "184": {
+    "query": "SELECT Airline ,  Abbreviation FROM AIRLINES WHERE Country  =  \"USA\"",
+    "db_id": "flight_2"
+  },
+  "185": {
+    "query": "SELECT AirportCode ,  AirportName FROM AIRPORTS WHERE city  =  \"Anthony\"",
+    "db_id": "flight_2"
+  },
+  "186": {
+    "query": "SELECT AirportCode ,  AirportName FROM AIRPORTS WHERE city  =  \"Anthony\"",
+    "db_id": "flight_2"
+  },
+  "187": {
+    "query": "SELECT count(*) FROM AIRLINES",
+    "db_id": "flight_2"
+  },
+  "188": {
+    "query": "SELECT count(*) FROM AIRLINES",
+    "db_id": "flight_2"
+  },
+  "189": {
+    "query": "SELECT count(*) FROM AIRPORTS",
+    "db_id": "flight_2"
+  },
+  "190": {
+    "query": "SELECT count(*) FROM AIRPORTS",
+    "db_id": "flight_2"
+  },
+  "191": {
+    "query": "SELECT count(*) FROM FLIGHTS",
+    "db_id": "flight_2"
+  },
+  "192": {
+    "query": "SELECT count(*) FROM FLIGHTS",
+    "db_id": "flight_2"
+  },
+  "193": {
+    "query": "SELECT Airline FROM AIRLINES WHERE Abbreviation  =  \"UAL\"",
+    "db_id": "flight_2"
+  },
+  "194": {
+    "query": "SELECT Airline FROM AIRLINES WHERE Abbreviation  =  \"UAL\"",
+    "db_id": "flight_2"
+  },
+  "195": {
+    "query": "SELECT count(*) FROM AIRLINES WHERE Country  =  \"USA\"",
+    "db_id": "flight_2"
+  },
+  "196": {
+    "query": "SELECT count(*) FROM AIRLINES WHERE Country  =  \"USA\"",
+    "db_id": "flight_2"
+  },
+  "197": {
+    "query": "SELECT City ,  Country FROM AIRPORTS WHERE AirportName  =  \"Alton\"",
+    "db_id": "flight_2"
+  },
+  "198": {
+    "query": "SELECT City ,  Country FROM AIRPORTS WHERE AirportName  =  \"Alton\"",
+    "db_id": "flight_2"
+  },
+  "199": {
+    "query": "SELECT AirportName FROM AIRPORTS WHERE AirportCode  =  \"AKO\"",
+    "db_id": "flight_2"
+  },
+  "200": {
+    "query": "SELECT AirportName FROM AIRPORTS WHERE AirportCode  =  \"AKO\"",
+    "db_id": "flight_2"
+  },
+  "201": {
+    "query": "SELECT AirportName FROM AIRPORTS WHERE City = \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "202": {
+    "query": "SELECT AirportName FROM AIRPORTS WHERE City = \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "203": {
+    "query": "SELECT count(*) FROM FLIGHTS WHERE SourceAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "204": {
+    "query": "SELECT count(*) FROM FLIGHTS WHERE SourceAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "205": {
+    "query": "SELECT count(*) FROM FLIGHTS WHERE DestAirport  =  \"ATO\"",
+    "db_id": "flight_2"
+  },
+  "206": {
+    "query": "SELECT count(*) FROM FLIGHTS WHERE DestAirport  =  \"ATO\"",
+    "db_id": "flight_2"
+  },
+  "207": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "208": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "209": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "210": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "211": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRPORTS AS T3 ON T1.SourceAirport  =  T3.AirportCode WHERE T2.City  =  \"Ashley\" AND T3.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "212": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRPORTS AS T3 ON T1.SourceAirport  =  T3.AirportCode WHERE T2.City  =  \"Ashley\" AND T3.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "213": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T1.Airline  =  T2.uid WHERE T2.Airline = \"JetBlue Airways\"",
+    "db_id": "flight_2"
+  },
+  "214": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T1.Airline  =  T2.uid WHERE T2.Airline = \"JetBlue Airways\"",
+    "db_id": "flight_2"
+  },
+  "215": {
+    "query": "SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  \"United Airlines\" AND T2.DestAirport  =  \"ASY\"",
+    "db_id": "flight_2"
+  },
+  "216": {
+    "query": "SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  \"United Airlines\" AND T2.DestAirport  =  \"ASY\"",
+    "db_id": "flight_2"
+  },
+  "217": {
+    "query": "SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  \"United Airlines\" AND T2.SourceAirport  =  \"AHD\"",
+    "db_id": "flight_2"
+  },
+  "218": {
+    "query": "SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  \"United Airlines\" AND T2.SourceAirport  =  \"AHD\"",
+    "db_id": "flight_2"
+  },
+  "219": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRLINES AS T3 ON T3.uid  =  T1.Airline WHERE T2.City  =  \"Aberdeen\" AND T3.Airline  =  \"United Airlines\"",
+    "db_id": "flight_2"
+  },
+  "220": {
+    "query": "SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRLINES AS T3 ON T3.uid  =  T1.Airline WHERE T2.City  =  \"Aberdeen\" AND T3.Airline  =  \"United Airlines\"",
+    "db_id": "flight_2"
+  },
+  "221": {
+    "query": "SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "222": {
+    "query": "SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "223": {
+    "query": "SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "224": {
+    "query": "SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "225": {
+    "query": "SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "226": {
+    "query": "SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "227": {
+    "query": "SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "228": {
+    "query": "SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "229": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "230": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "231": {
+    "query": "SELECT T1.Abbreviation ,  T1.Country FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "232": {
+    "query": "SELECT T1.Abbreviation ,  T1.Country FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) LIMIT 1",
+    "db_id": "flight_2"
+  },
+  "233": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"AHD\"",
+    "db_id": "flight_2"
+  },
+  "234": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"AHD\"",
+    "db_id": "flight_2"
+  },
+  "235": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.DestAirport  =  \"AHD\"",
+    "db_id": "flight_2"
+  },
+  "236": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.DestAirport  =  \"AHD\"",
+    "db_id": "flight_2"
+  },
+  "237": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"APG\" INTERSECT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"CVO\"",
+    "db_id": "flight_2"
+  },
+  "238": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"APG\" INTERSECT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"CVO\"",
+    "db_id": "flight_2"
+  },
+  "239": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"CVO\" EXCEPT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "240": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"CVO\" EXCEPT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "241": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  >  10",
+    "db_id": "flight_2"
+  },
+  "242": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  >  10",
+    "db_id": "flight_2"
+  },
+  "243": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  <  200",
+    "db_id": "flight_2"
+  },
+  "244": {
+    "query": "SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  <  200",
+    "db_id": "flight_2"
+  },
+  "245": {
+    "query": "SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T2.uid  =  T1.Airline WHERE T2.Airline  =  \"United Airlines\"",
+    "db_id": "flight_2"
+  },
+  "246": {
+    "query": "SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T2.uid  =  T1.Airline WHERE T2.Airline  =  \"United Airlines\"",
+    "db_id": "flight_2"
+  },
+  "247": {
+    "query": "SELECT FlightNo FROM FLIGHTS WHERE SourceAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "248": {
+    "query": "SELECT FlightNo FROM FLIGHTS WHERE SourceAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "249": {
+    "query": "SELECT FlightNo FROM FLIGHTS WHERE DestAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "250": {
+    "query": "SELECT FlightNo FROM FLIGHTS WHERE DestAirport  =  \"APG\"",
+    "db_id": "flight_2"
+  },
+  "251": {
+    "query": "SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport   =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "252": {
+    "query": "SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport   =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "253": {
+    "query": "SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport   =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "254": {
+    "query": "SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport   =  T2.AirportCode WHERE T2.City  =  \"Aberdeen\"",
+    "db_id": "flight_2"
+  },
+  "255": {
+    "query": "SELECT count(*) FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  \"Aberdeen\" OR T2.city  =  \"Abilene\"",
+    "db_id": "flight_2"
+  },
+  "256": {
+    "query": "SELECT count(*) FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  \"Aberdeen\" OR T2.city  =  \"Abilene\"",
+    "db_id": "flight_2"
+  },
+  "257": {
+    "query": "SELECT AirportName FROM Airports WHERE AirportCode NOT IN (SELECT SourceAirport FROM Flights UNION SELECT DestAirport FROM Flights)",
+    "db_id": "flight_2"
+  },
+  "258": {
+    "query": "SELECT AirportName FROM Airports WHERE AirportCode NOT IN (SELECT SourceAirport FROM Flights UNION SELECT DestAirport FROM Flights)",
+    "db_id": "flight_2"
+  },
+  "259": {
+    "query": "SELECT count(*) FROM employee",
+    "db_id": "employee_hire_evaluation"
+  },
+  "260": {
+    "query": "SELECT count(*) FROM employee",
+    "db_id": "employee_hire_evaluation"
+  },
+  "261": {
+    "query": "SELECT name FROM employee ORDER BY age",
+    "db_id": "employee_hire_evaluation"
+  },
+  "262": {
+    "query": "SELECT name FROM employee ORDER BY age",
+    "db_id": "employee_hire_evaluation"
+  },
+  "263": {
+    "query": "SELECT count(*) ,  city FROM employee GROUP BY city",
+    "db_id": "employee_hire_evaluation"
+  },
+  "264": {
+    "query": "SELECT count(*) ,  city FROM employee GROUP BY city",
+    "db_id": "employee_hire_evaluation"
+  },
+  "265": {
+    "query": "SELECT city FROM employee WHERE age  <  30 GROUP BY city HAVING count(*)  >  1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "266": {
+    "query": "SELECT city FROM employee WHERE age  <  30 GROUP BY city HAVING count(*)  >  1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "267": {
+    "query": "SELECT count(*) ,  LOCATION FROM shop GROUP BY LOCATION",
+    "db_id": "employee_hire_evaluation"
+  },
+  "268": {
+    "query": "SELECT count(*) ,  LOCATION FROM shop GROUP BY LOCATION",
+    "db_id": "employee_hire_evaluation"
+  },
+  "269": {
+    "query": "SELECT manager_name ,  district FROM shop ORDER BY number_products DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "270": {
+    "query": "SELECT manager_name ,  district FROM shop ORDER BY number_products DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "271": {
+    "query": "SELECT min(Number_products) ,  max(Number_products) FROM shop",
+    "db_id": "employee_hire_evaluation"
+  },
+  "272": {
+    "query": "SELECT min(Number_products) ,  max(Number_products) FROM shop",
+    "db_id": "employee_hire_evaluation"
+  },
+  "273": {
+    "query": "SELECT name ,  LOCATION ,  district FROM shop ORDER BY number_products DESC",
+    "db_id": "employee_hire_evaluation"
+  },
+  "274": {
+    "query": "SELECT name ,  LOCATION ,  district FROM shop ORDER BY number_products DESC",
+    "db_id": "employee_hire_evaluation"
+  },
+  "275": {
+    "query": "SELECT name FROM shop WHERE number_products  >  (SELECT avg(number_products) FROM shop)",
+    "db_id": "employee_hire_evaluation"
+  },
+  "276": {
+    "query": "SELECT name FROM shop WHERE number_products  >  (SELECT avg(number_products) FROM shop)",
+    "db_id": "employee_hire_evaluation"
+  },
+  "277": {
+    "query": "SELECT t1.name FROM employee AS t1 JOIN evaluation AS t2 ON t1.Employee_ID  =  t2.Employee_ID GROUP BY t2.Employee_ID ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "278": {
+    "query": "SELECT t1.name FROM employee AS t1 JOIN evaluation AS t2 ON t1.Employee_ID  =  t2.Employee_ID GROUP BY t2.Employee_ID ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "279": {
+    "query": "SELECT t1.name FROM employee AS t1 JOIN evaluation AS t2 ON t1.Employee_ID  =  t2.Employee_ID ORDER BY t2.bonus DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "280": {
+    "query": "SELECT t1.name FROM employee AS t1 JOIN evaluation AS t2 ON t1.Employee_ID  =  t2.Employee_ID ORDER BY t2.bonus DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "281": {
+    "query": "SELECT name FROM employee WHERE Employee_ID NOT IN (SELECT Employee_ID FROM evaluation)",
+    "db_id": "employee_hire_evaluation"
+  },
+  "282": {
+    "query": "SELECT name FROM employee WHERE Employee_ID NOT IN (SELECT Employee_ID FROM evaluation)",
+    "db_id": "employee_hire_evaluation"
+  },
+  "283": {
+    "query": "SELECT t2.name FROM hiring AS t1 JOIN shop AS t2 ON t1.shop_id  =  t2.shop_id GROUP BY t1.shop_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "284": {
+    "query": "SELECT t2.name FROM hiring AS t1 JOIN shop AS t2 ON t1.shop_id  =  t2.shop_id GROUP BY t1.shop_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "employee_hire_evaluation"
+  },
+  "285": {
+    "query": "SELECT name FROM shop WHERE shop_id NOT IN (SELECT shop_id FROM hiring)",
+    "db_id": "employee_hire_evaluation"
+  },
+  "286": {
+    "query": "SELECT name FROM shop WHERE shop_id NOT IN (SELECT shop_id FROM hiring)",
+    "db_id": "employee_hire_evaluation"
+  },
+  "287": {
+    "query": "SELECT count(*) ,  t2.name FROM hiring AS t1 JOIN shop AS t2 ON t1.shop_id  =  t2.shop_id GROUP BY t2.name",
+    "db_id": "employee_hire_evaluation"
+  },
+  "288": {
+    "query": "SELECT count(*) ,  t2.name FROM hiring AS t1 JOIN shop AS t2 ON t1.shop_id  =  t2.shop_id GROUP BY t2.name",
+    "db_id": "employee_hire_evaluation"
+  },
+  "289": {
+    "query": "SELECT sum(bonus) FROM evaluation",
+    "db_id": "employee_hire_evaluation"
+  },
+  "290": {
+    "query": "SELECT sum(bonus) FROM evaluation",
+    "db_id": "employee_hire_evaluation"
+  },
+  "291": {
+    "query": "SELECT * FROM hiring",
+    "db_id": "employee_hire_evaluation"
+  },
+  "292": {
+    "query": "SELECT * FROM hiring",
+    "db_id": "employee_hire_evaluation"
+  },
+  "293": {
+    "query": "SELECT district FROM shop WHERE Number_products  <  3000 INTERSECT SELECT district FROM shop WHERE Number_products  >  10000",
+    "db_id": "employee_hire_evaluation"
+  },
+  "294": {
+    "query": "SELECT district FROM shop WHERE Number_products  <  3000 INTERSECT SELECT district FROM shop WHERE Number_products  >  10000",
+    "db_id": "employee_hire_evaluation"
+  },
+  "295": {
+    "query": "SELECT count(DISTINCT LOCATION) FROM shop",
+    "db_id": "employee_hire_evaluation"
+  },
+  "296": {
+    "query": "SELECT count(DISTINCT LOCATION) FROM shop",
+    "db_id": "employee_hire_evaluation"
+  },
+  "297": {
+    "query": "SELECT count(*) FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "298": {
+    "query": "SELECT count(*) FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "299": {
+    "query": "SELECT document_id ,  document_name ,  document_description FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "300": {
+    "query": "SELECT document_id ,  document_name ,  document_description FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "301": {
+    "query": "SELECT document_name ,  template_id FROM Documents WHERE Document_Description LIKE \"%w%\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "302": {
+    "query": "SELECT document_name ,  template_id FROM Documents WHERE Document_Description LIKE \"%w%\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "303": {
+    "query": "SELECT document_id ,  template_id ,  Document_Description FROM Documents WHERE document_name  =  \"Robbin CV\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "304": {
+    "query": "SELECT document_id ,  template_id ,  Document_Description FROM Documents WHERE document_name  =  \"Robbin CV\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "305": {
+    "query": "SELECT count(DISTINCT template_id) FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "306": {
+    "query": "SELECT count(DISTINCT template_id) FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "307": {
+    "query": "SELECT count(*) FROM Documents AS T1 JOIN Templates AS T2 ON T1.Template_ID  =  T2.Template_ID WHERE T2.Template_Type_Code  =  'PPT'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "308": {
+    "query": "SELECT count(*) FROM Documents AS T1 JOIN Templates AS T2 ON T1.Template_ID  =  T2.Template_ID WHERE T2.Template_Type_Code  =  'PPT'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "309": {
+    "query": "SELECT template_id ,  count(*) FROM Documents GROUP BY template_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "310": {
+    "query": "SELECT template_id ,  count(*) FROM Documents GROUP BY template_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "311": {
+    "query": "SELECT T1.template_id ,  T2.Template_Type_Code FROM Documents AS T1 JOIN Templates AS T2 ON T1.template_id  =  T2.template_id GROUP BY T1.template_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "312": {
+    "query": "SELECT T1.template_id ,  T2.Template_Type_Code FROM Documents AS T1 JOIN Templates AS T2 ON T1.template_id  =  T2.template_id GROUP BY T1.template_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "313": {
+    "query": "SELECT template_id FROM Documents GROUP BY template_id HAVING count(*)  >  1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "314": {
+    "query": "SELECT template_id FROM Documents GROUP BY template_id HAVING count(*)  >  1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "315": {
+    "query": "SELECT template_id FROM Templates EXCEPT SELECT template_id FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "316": {
+    "query": "SELECT template_id FROM Templates EXCEPT SELECT template_id FROM Documents",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "317": {
+    "query": "SELECT count(*) FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "318": {
+    "query": "SELECT count(*) FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "319": {
+    "query": "SELECT template_id ,  version_number ,  template_type_code FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "320": {
+    "query": "SELECT template_id ,  version_number ,  template_type_code FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "321": {
+    "query": "SELECT DISTINCT template_type_code FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "322": {
+    "query": "SELECT DISTINCT template_type_code FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "323": {
+    "query": "SELECT template_id FROM Templates WHERE template_type_code  =  \"PP\" OR template_type_code  =  \"PPT\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "324": {
+    "query": "SELECT template_id FROM Templates WHERE template_type_code  =  \"PP\" OR template_type_code  =  \"PPT\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "325": {
+    "query": "SELECT count(*) FROM Templates WHERE template_type_code  =  \"CV\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "326": {
+    "query": "SELECT count(*) FROM Templates WHERE template_type_code  =  \"CV\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "327": {
+    "query": "SELECT version_number ,  template_type_code FROM Templates WHERE version_number  >  5",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "328": {
+    "query": "SELECT version_number ,  template_type_code FROM Templates WHERE version_number  >  5",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "329": {
+    "query": "SELECT template_type_code ,  count(*) FROM Templates GROUP BY template_type_code",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "330": {
+    "query": "SELECT template_type_code ,  count(*) FROM Templates GROUP BY template_type_code",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "331": {
+    "query": "SELECT template_type_code FROM Templates GROUP BY template_type_code ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "332": {
+    "query": "SELECT template_type_code FROM Templates GROUP BY template_type_code ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "333": {
+    "query": "SELECT template_type_code FROM Templates GROUP BY template_type_code HAVING count(*)  <  3",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "334": {
+    "query": "SELECT template_type_code FROM Templates GROUP BY template_type_code HAVING count(*)  <  3",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "335": {
+    "query": "SELECT min(Version_Number) ,  template_type_code FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "336": {
+    "query": "SELECT min(Version_Number) ,  template_type_code FROM Templates",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "337": {
+    "query": "SELECT T1.template_type_code FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id WHERE T2.document_name  =  \"Data base\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "338": {
+    "query": "SELECT T1.template_type_code FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id WHERE T2.document_name  =  \"Data base\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "339": {
+    "query": "SELECT T2.document_name FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id WHERE T1.template_type_code  =  \"BK\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "340": {
+    "query": "SELECT T2.document_name FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id WHERE T1.template_type_code  =  \"BK\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "341": {
+    "query": "SELECT T1.template_type_code ,  count(*) FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id GROUP BY T1.template_type_code",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "342": {
+    "query": "SELECT T1.template_type_code ,  count(*) FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id GROUP BY T1.template_type_code",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "343": {
+    "query": "SELECT T1.template_type_code FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id GROUP BY T1.template_type_code ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "344": {
+    "query": "SELECT T1.template_type_code FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id GROUP BY T1.template_type_code ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "345": {
+    "query": "SELECT template_type_code FROM Templates EXCEPT SELECT template_type_code FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "346": {
+    "query": "SELECT template_type_code FROM Templates EXCEPT SELECT template_type_code FROM Templates AS T1 JOIN Documents AS T2 ON T1.template_id  =  T2.template_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "347": {
+    "query": "SELECT template_type_code ,  template_type_description FROM Ref_template_types",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "348": {
+    "query": "SELECT template_type_code ,  template_type_description FROM Ref_template_types",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "349": {
+    "query": "SELECT template_type_description FROM Ref_template_types WHERE template_type_code  =  \"AD\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "350": {
+    "query": "SELECT template_type_description FROM Ref_template_types WHERE template_type_code  =  \"AD\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "351": {
+    "query": "SELECT template_type_code FROM Ref_template_types WHERE template_type_description  =  \"Book\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "352": {
+    "query": "SELECT template_type_code FROM Ref_template_types WHERE template_type_description  =  \"Book\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "353": {
+    "query": "SELECT DISTINCT T1.template_type_description FROM Ref_template_types AS T1 JOIN Templates AS T2 ON T1.template_type_code  = T2.template_type_code JOIN Documents AS T3 ON T2.Template_ID  =  T3.template_ID",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "354": {
+    "query": "SELECT DISTINCT T1.template_type_description FROM Ref_template_types AS T1 JOIN Templates AS T2 ON T1.template_type_code  = T2.template_type_code JOIN Documents AS T3 ON T2.Template_ID  =  T3.template_ID",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "355": {
+    "query": "SELECT T2.template_id FROM Ref_template_types AS T1 JOIN Templates AS T2 ON T1.template_type_code  = T2.template_type_code WHERE T1.template_type_description  =  \"Presentation\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "356": {
+    "query": "SELECT T2.template_id FROM Ref_template_types AS T1 JOIN Templates AS T2 ON T1.template_type_code  = T2.template_type_code WHERE T1.template_type_description  =  \"Presentation\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "357": {
+    "query": "SELECT count(*) FROM Paragraphs",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "358": {
+    "query": "SELECT count(*) FROM Paragraphs",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "359": {
+    "query": "SELECT count(*) FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_ID  =  T2.document_ID WHERE T2.document_name  =  'Summer Show'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "360": {
+    "query": "SELECT count(*) FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_ID  =  T2.document_ID WHERE T2.document_name  =  'Summer Show'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "361": {
+    "query": "select other_details from paragraphs where paragraph_text like 'korea'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "362": {
+    "query": "select other_details from paragraphs where paragraph_text like 'korea'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "363": {
+    "query": "SELECT T1.paragraph_id ,   T1.paragraph_text FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id WHERE T2.Document_Name  =  'Welcome to NY'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "364": {
+    "query": "SELECT T1.paragraph_id ,   T1.paragraph_text FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id WHERE T2.Document_Name  =  'Welcome to NY'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "365": {
+    "query": "SELECT T1.paragraph_text FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id WHERE T2.document_name  =  \"Customer reviews\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "366": {
+    "query": "SELECT T1.paragraph_text FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id WHERE T2.document_name  =  \"Customer reviews\"",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "367": {
+    "query": "SELECT document_id ,  count(*) FROM Paragraphs GROUP BY document_id ORDER BY document_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "368": {
+    "query": "SELECT document_id ,  count(*) FROM Paragraphs GROUP BY document_id ORDER BY document_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "369": {
+    "query": "SELECT T1.document_id ,  T2.document_name ,  count(*) FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id GROUP BY T1.document_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "370": {
+    "query": "SELECT T1.document_id ,  T2.document_name ,  count(*) FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id GROUP BY T1.document_id",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "371": {
+    "query": "SELECT document_id FROM Paragraphs GROUP BY document_id HAVING count(*)  >=  2",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "372": {
+    "query": "SELECT document_id FROM Paragraphs GROUP BY document_id HAVING count(*)  >=  2",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "373": {
+    "query": "SELECT T1.document_id ,  T2.document_name FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id GROUP BY T1.document_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "374": {
+    "query": "SELECT T1.document_id ,  T2.document_name FROM Paragraphs AS T1 JOIN Documents AS T2 ON T1.document_id  =  T2.document_id GROUP BY T1.document_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "375": {
+    "query": "SELECT document_id FROM Paragraphs GROUP BY document_id ORDER BY count(*) ASC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "376": {
+    "query": "SELECT document_id FROM Paragraphs GROUP BY document_id ORDER BY count(*) ASC LIMIT 1",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "377": {
+    "query": "SELECT document_id FROM Paragraphs GROUP BY document_id HAVING count(*) BETWEEN 1 AND 2",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "378": {
+    "query": "SELECT document_id FROM Paragraphs GROUP BY document_id HAVING count(*) BETWEEN 1 AND 2",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "379": {
+    "query": "SELECT document_id FROM Paragraphs WHERE paragraph_text  =  'Brazil' INTERSECT SELECT document_id FROM Paragraphs WHERE paragraph_text  =  'Ireland'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "380": {
+    "query": "SELECT document_id FROM Paragraphs WHERE paragraph_text  =  'Brazil' INTERSECT SELECT document_id FROM Paragraphs WHERE paragraph_text  =  'Ireland'",
+    "db_id": "cre_Doc_Template_Mgt"
+  },
+  "381": {
+    "query": "SELECT count(*) FROM teacher",
+    "db_id": "course_teach"
+  },
+  "382": {
+    "query": "SELECT count(*) FROM teacher",
+    "db_id": "course_teach"
+  },
+  "383": {
+    "query": "SELECT Name FROM teacher ORDER BY Age ASC",
+    "db_id": "course_teach"
+  },
+  "384": {
+    "query": "SELECT Name FROM teacher ORDER BY Age ASC",
+    "db_id": "course_teach"
+  },
+  "385": {
+    "query": "SELECT Age ,  Hometown FROM teacher",
+    "db_id": "course_teach"
+  },
+  "386": {
+    "query": "SELECT Age ,  Hometown FROM teacher",
+    "db_id": "course_teach"
+  },
+  "387": {
+    "query": "select name from teacher where hometown != \"little lever urban district\"",
+    "db_id": "course_teach"
+  },
+  "388": {
+    "query": "select name from teacher where hometown != \"little lever urban district\"",
+    "db_id": "course_teach"
+  },
+  "389": {
+    "query": "SELECT Name FROM teacher WHERE Age  =  32 OR Age  =  33",
+    "db_id": "course_teach"
+  },
+  "390": {
+    "query": "SELECT Name FROM teacher WHERE Age  =  32 OR Age  =  33",
+    "db_id": "course_teach"
+  },
+  "391": {
+    "query": "SELECT Hometown FROM teacher ORDER BY Age ASC LIMIT 1",
+    "db_id": "course_teach"
+  },
+  "392": {
+    "query": "SELECT Hometown FROM teacher ORDER BY Age ASC LIMIT 1",
+    "db_id": "course_teach"
+  },
+  "393": {
+    "query": "SELECT Hometown ,  COUNT(*) FROM teacher GROUP BY Hometown",
+    "db_id": "course_teach"
+  },
+  "394": {
+    "query": "SELECT Hometown ,  COUNT(*) FROM teacher GROUP BY Hometown",
+    "db_id": "course_teach"
+  },
+  "395": {
+    "query": "SELECT Hometown FROM teacher GROUP BY Hometown ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "course_teach"
+  },
+  "396": {
+    "query": "SELECT Hometown FROM teacher GROUP BY Hometown ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "course_teach"
+  },
+  "397": {
+    "query": "SELECT Hometown FROM teacher GROUP BY Hometown HAVING COUNT(*)  >=  2",
+    "db_id": "course_teach"
+  },
+  "398": {
+    "query": "SELECT Hometown FROM teacher GROUP BY Hometown HAVING COUNT(*)  >=  2",
+    "db_id": "course_teach"
+  },
+  "399": {
+    "query": "SELECT T3.Name ,  T2.Course FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID  =  T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID  =  T3.Teacher_ID",
+    "db_id": "course_teach"
+  },
+  "400": {
+    "query": "SELECT T3.Name ,  T2.Course FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID  =  T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID  =  T3.Teacher_ID",
+    "db_id": "course_teach"
+  },
+  "401": {
+    "query": "SELECT T3.Name ,  T2.Course FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID  =  T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID  =  T3.Teacher_ID ORDER BY T3.Name",
+    "db_id": "course_teach"
+  },
+  "402": {
+    "query": "SELECT T3.Name ,  T2.Course FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID  =  T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID  =  T3.Teacher_ID ORDER BY T3.Name",
+    "db_id": "course_teach"
+  },
+  "403": {
+    "query": "SELECT T3.Name FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID  =  T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID  =  T3.Teacher_ID WHERE T2.Course  =  \"Math\"",
+    "db_id": "course_teach"
+  },
+  "404": {
+    "query": "SELECT T3.Name FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID  =  T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID  =  T3.Teacher_ID WHERE T2.Course  =  \"Math\"",
+    "db_id": "course_teach"
+  },
+  "405": {
+    "query": "SELECT T2.Name ,  COUNT(*) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID  =  T2.Teacher_ID GROUP BY T2.Name",
+    "db_id": "course_teach"
+  },
+  "406": {
+    "query": "SELECT T2.Name ,  COUNT(*) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID  =  T2.Teacher_ID GROUP BY T2.Name",
+    "db_id": "course_teach"
+  },
+  "407": {
+    "query": "SELECT T2.Name FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID  =  T2.Teacher_ID GROUP BY T2.Name HAVING COUNT(*)  >=  2",
+    "db_id": "course_teach"
+  },
+  "408": {
+    "query": "SELECT T2.Name FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID  =  T2.Teacher_ID GROUP BY T2.Name HAVING COUNT(*)  >=  2",
+    "db_id": "course_teach"
+  },
+  "409": {
+    "query": "SELECT Name FROM teacher WHERE Teacher_id NOT IN (SELECT Teacher_id FROM course_arrange)",
+    "db_id": "course_teach"
+  },
+  "410": {
+    "query": "SELECT Name FROM teacher WHERE Teacher_id NOT IN (SELECT Teacher_id FROM course_arrange)",
+    "db_id": "course_teach"
+  },
+  "411": {
+    "query": "SELECT count(*) FROM visitor WHERE age  <  30",
+    "db_id": "museum_visit"
+  },
+  "412": {
+    "query": "SELECT name FROM visitor WHERE Level_of_membership  >  4 ORDER BY Level_of_membership DESC",
+    "db_id": "museum_visit"
+  },
+  "413": {
+    "query": "SELECT avg(age) FROM visitor WHERE Level_of_membership  <=  4",
+    "db_id": "museum_visit"
+  },
+  "414": {
+    "query": "SELECT name ,  Level_of_membership FROM visitor WHERE Level_of_membership  >  4 ORDER BY age DESC",
+    "db_id": "museum_visit"
+  },
+  "415": {
+    "query": "SELECT museum_id ,  name FROM museum ORDER BY num_of_staff DESC LIMIT 1",
+    "db_id": "museum_visit"
+  },
+  "416": {
+    "query": "SELECT avg(num_of_staff) FROM museum WHERE open_year  <  2009",
+    "db_id": "museum_visit"
+  },
+  "417": {
+    "query": "SELECT Num_of_Staff ,  Open_Year FROM museum WHERE name  =  'Plaza Museum'",
+    "db_id": "museum_visit"
+  },
+  "418": {
+    "query": "SELECT name FROM museum WHERE num_of_staff  >  (SELECT min(num_of_staff) FROM museum WHERE open_year  >  2010)",
+    "db_id": "museum_visit"
+  },
+  "419": {
+    "query": "SELECT t1.id ,  t1.name ,  t1.age FROM visitor AS t1 JOIN visit AS t2 ON t1.id  =  t2.visitor_id GROUP BY t1.id HAVING count(*)  >  1",
+    "db_id": "museum_visit"
+  },
+  "420": {
+    "query": "SELECT t2.visitor_id ,  t1.name ,  t1.Level_of_membership FROM visitor AS t1 JOIN visit AS t2 ON t1.id  =  t2.visitor_id GROUP BY t2.visitor_id ORDER BY sum(t2.Total_spent) DESC LIMIT 1",
+    "db_id": "museum_visit"
+  },
+  "421": {
+    "query": "SELECT t2.Museum_ID ,  t1.name FROM museum AS t1 JOIN visit AS t2 ON t1.Museum_ID  =  t2.Museum_ID GROUP BY t2.Museum_ID ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "museum_visit"
+  },
+  "422": {
+    "query": "SELECT name FROM museum WHERE Museum_ID NOT IN (SELECT museum_id FROM visit)",
+    "db_id": "museum_visit"
+  },
+  "423": {
+    "query": "SELECT t1.name ,  t1.age FROM visitor AS t1 JOIN visit AS t2 ON t1.id  =  t2.visitor_id ORDER BY t2.num_of_ticket DESC LIMIT 1",
+    "db_id": "museum_visit"
+  },
+  "424": {
+    "query": "SELECT avg(num_of_ticket) ,  max(num_of_ticket) FROM visit",
+    "db_id": "museum_visit"
+  },
+  "425": {
+    "query": "SELECT sum(t2.Total_spent) FROM visitor AS t1 JOIN visit AS t2 ON t1.id  =  t2.visitor_id WHERE t1.Level_of_membership  =  1",
+    "db_id": "museum_visit"
+  },
+  "426": {
+    "query": "SELECT t1.name FROM visitor AS t1 JOIN visit AS t2 ON t1.id  =  t2.visitor_id JOIN museum AS t3 ON t3.Museum_ID  =  t2.Museum_ID WHERE t3.open_year  <  2009 INTERSECT SELECT t1.name FROM visitor AS t1 JOIN visit AS t2 ON t1.id  =  t2.visitor_id JOIN museum AS t3 ON t3.Museum_ID  =  t2.Museum_ID WHERE t3.open_year  >  2011",
+    "db_id": "museum_visit"
+  },
+  "427": {
+    "query": "SELECT count(*) FROM visitor WHERE id NOT IN (SELECT t2.visitor_id FROM museum AS t1 JOIN visit AS t2 ON t1.Museum_ID  =  t2.Museum_ID WHERE t1.open_year  >  2010)",
+    "db_id": "museum_visit"
+  },
+  "428": {
+    "query": "SELECT count(*) FROM museum WHERE open_year  >  2013 OR open_year  <  2008",
+    "db_id": "museum_visit"
+  },
+  "429": {
+    "query": "SELECT count(*) FROM players",
+    "db_id": "wta_1"
+  },
+  "430": {
+    "query": "SELECT count(*) FROM players",
+    "db_id": "wta_1"
+  },
+  "431": {
+    "query": "SELECT count(*) FROM matches",
+    "db_id": "wta_1"
+  },
+  "432": {
+    "query": "SELECT count(*) FROM matches",
+    "db_id": "wta_1"
+  },
+  "433": {
+    "query": "SELECT first_name ,  birth_date FROM players WHERE country_code  =  'USA'",
+    "db_id": "wta_1"
+  },
+  "434": {
+    "query": "SELECT first_name ,  birth_date FROM players WHERE country_code  =  'USA'",
+    "db_id": "wta_1"
+  },
+  "435": {
+    "query": "SELECT avg(loser_age) ,  avg(winner_age) FROM matches",
+    "db_id": "wta_1"
+  },
+  "436": {
+    "query": "SELECT avg(loser_age) ,  avg(winner_age) FROM matches",
+    "db_id": "wta_1"
+  },
+  "437": {
+    "query": "SELECT avg(winner_rank) FROM matches",
+    "db_id": "wta_1"
+  },
+  "438": {
+    "query": "SELECT avg(winner_rank) FROM matches",
+    "db_id": "wta_1"
+  },
+  "439": {
+    "query": "SELECT min(loser_rank) FROM matches",
+    "db_id": "wta_1"
+  },
+  "440": {
+    "query": "SELECT min(loser_rank) FROM matches",
+    "db_id": "wta_1"
+  },
+  "441": {
+    "query": "SELECT count(DISTINCT country_code) FROM players",
+    "db_id": "wta_1"
+  },
+  "442": {
+    "query": "SELECT count(DISTINCT country_code) FROM players",
+    "db_id": "wta_1"
+  },
+  "443": {
+    "query": "SELECT count(DISTINCT loser_name) FROM matches",
+    "db_id": "wta_1"
+  },
+  "444": {
+    "query": "SELECT count(DISTINCT loser_name) FROM matches",
+    "db_id": "wta_1"
+  },
+  "445": {
+    "query": "SELECT tourney_name FROM matches GROUP BY tourney_name HAVING count(*)  >  10",
+    "db_id": "wta_1"
+  },
+  "446": {
+    "query": "SELECT tourney_name FROM matches GROUP BY tourney_name HAVING count(*)  >  10",
+    "db_id": "wta_1"
+  },
+  "447": {
+    "query": "SELECT winner_name FROM matches WHERE YEAR  =  2013 INTERSECT SELECT winner_name FROM matches WHERE YEAR  =  2016",
+    "db_id": "wta_1"
+  },
+  "448": {
+    "query": "SELECT winner_name FROM matches WHERE YEAR  =  2013 INTERSECT SELECT winner_name FROM matches WHERE YEAR  =  2016",
+    "db_id": "wta_1"
+  },
+  "449": {
+    "query": "SELECT count(*) FROM matches WHERE YEAR  =  2013 OR YEAR  =  2016",
+    "db_id": "wta_1"
+  },
+  "450": {
+    "query": "SELECT count(*) FROM matches WHERE YEAR  =  2013 OR YEAR  =  2016",
+    "db_id": "wta_1"
+  },
+  "451": {
+    "query": "SELECT T1.country_code ,  T1.first_name FROM players AS T1 JOIN matches AS T2 ON T1.player_id  =  T2.winner_id WHERE T2.tourney_name  =  'WTA Championships' INTERSECT SELECT T1.country_code ,  T1.first_name FROM players AS T1 JOIN matches AS T2 ON T1.player_id  =  T2.winner_id WHERE T2.tourney_name  =  'Australian Open'",
+    "db_id": "wta_1"
+  },
+  "452": {
+    "query": "SELECT T1.country_code ,  T1.first_name FROM players AS T1 JOIN matches AS T2 ON T1.player_id  =  T2.winner_id WHERE T2.tourney_name  =  'WTA Championships' INTERSECT SELECT T1.country_code ,  T1.first_name FROM players AS T1 JOIN matches AS T2 ON T1.player_id  =  T2.winner_id WHERE T2.tourney_name  =  'Australian Open'",
+    "db_id": "wta_1"
+  },
+  "453": {
+    "query": "SELECT first_name ,  country_code FROM players ORDER BY birth_date LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "454": {
+    "query": "SELECT first_name ,  country_code FROM players ORDER BY birth_date LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "455": {
+    "query": "SELECT first_name ,  last_name FROM players ORDER BY birth_date",
+    "db_id": "wta_1"
+  },
+  "456": {
+    "query": "SELECT first_name ,  last_name FROM players ORDER BY birth_date",
+    "db_id": "wta_1"
+  },
+  "457": {
+    "query": "SELECT first_name ,  last_name FROM players WHERE hand  =  'L' ORDER BY birth_date",
+    "db_id": "wta_1"
+  },
+  "458": {
+    "query": "SELECT first_name ,  last_name FROM players WHERE hand  =  'L' ORDER BY birth_date",
+    "db_id": "wta_1"
+  },
+  "459": {
+    "query": "SELECT T1.country_code ,  T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id  =  T2.player_id ORDER BY T2.tours DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "460": {
+    "query": "SELECT T1.country_code ,  T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id  =  T2.player_id ORDER BY T2.tours DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "461": {
+    "query": "SELECT YEAR FROM matches GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "462": {
+    "query": "SELECT YEAR FROM matches GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "463": {
+    "query": "SELECT winner_name ,  winner_rank_points FROM matches GROUP BY winner_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "464": {
+    "query": "SELECT winner_name ,  winner_rank_points FROM matches GROUP BY winner_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "465": {
+    "query": "SELECT winner_name FROM matches WHERE tourney_name  =  'Australian Open' ORDER BY winner_rank_points DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "466": {
+    "query": "SELECT winner_name FROM matches WHERE tourney_name  =  'Australian Open' ORDER BY winner_rank_points DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "467": {
+    "query": "SELECT winner_name ,  loser_name FROM matches ORDER BY minutes DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "468": {
+    "query": "SELECT winner_name ,  loser_name FROM matches ORDER BY minutes DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "469": {
+    "query": "SELECT avg(ranking) ,  T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id  =  T2.player_id GROUP BY T1.first_name",
+    "db_id": "wta_1"
+  },
+  "470": {
+    "query": "SELECT avg(ranking) ,  T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id  =  T2.player_id GROUP BY T1.first_name",
+    "db_id": "wta_1"
+  },
+  "471": {
+    "query": "SELECT sum(ranking_points) ,  T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id  =  T2.player_id GROUP BY T1.first_name",
+    "db_id": "wta_1"
+  },
+  "472": {
+    "query": "SELECT sum(ranking_points) ,  T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id  =  T2.player_id GROUP BY T1.first_name",
+    "db_id": "wta_1"
+  },
+  "473": {
+    "query": "SELECT count(*) ,  country_code FROM players GROUP BY country_code",
+    "db_id": "wta_1"
+  },
+  "474": {
+    "query": "SELECT count(*) ,  country_code FROM players GROUP BY country_code",
+    "db_id": "wta_1"
+  },
+  "475": {
+    "query": "SELECT country_code FROM players GROUP BY country_code ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "476": {
+    "query": "SELECT country_code FROM players GROUP BY country_code ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "477": {
+    "query": "SELECT country_code FROM players GROUP BY country_code HAVING count(*)  >  50",
+    "db_id": "wta_1"
+  },
+  "478": {
+    "query": "SELECT country_code FROM players GROUP BY country_code HAVING count(*)  >  50",
+    "db_id": "wta_1"
+  },
+  "479": {
+    "query": "SELECT sum(tours) ,  ranking_date FROM rankings GROUP BY ranking_date",
+    "db_id": "wta_1"
+  },
+  "480": {
+    "query": "SELECT sum(tours) ,  ranking_date FROM rankings GROUP BY ranking_date",
+    "db_id": "wta_1"
+  },
+  "481": {
+    "query": "SELECT count(*) ,  YEAR FROM matches GROUP BY YEAR",
+    "db_id": "wta_1"
+  },
+  "482": {
+    "query": "SELECT count(*) ,  YEAR FROM matches GROUP BY YEAR",
+    "db_id": "wta_1"
+  },
+  "483": {
+    "query": "SELECT DISTINCT winner_name ,  winner_rank FROM matches ORDER BY winner_age LIMIT 3",
+    "db_id": "wta_1"
+  },
+  "484": {
+    "query": "SELECT DISTINCT winner_name ,  winner_rank FROM matches ORDER BY winner_age LIMIT 3",
+    "db_id": "wta_1"
+  },
+  "485": {
+    "query": "SELECT count(DISTINCT winner_name) FROM matches WHERE tourney_name  =  'WTA Championships' AND winner_hand  =  'L'",
+    "db_id": "wta_1"
+  },
+  "486": {
+    "query": "SELECT count(DISTINCT winner_name) FROM matches WHERE tourney_name  =  'WTA Championships' AND winner_hand  =  'L'",
+    "db_id": "wta_1"
+  },
+  "487": {
+    "query": "SELECT T1.first_name ,  T1.country_code ,  T1.birth_date FROM players AS T1 JOIN matches AS T2 ON T1.player_id  =  T2.winner_id ORDER BY T2.winner_rank_points DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "488": {
+    "query": "SELECT T1.first_name ,  T1.country_code ,  T1.birth_date FROM players AS T1 JOIN matches AS T2 ON T1.player_id  =  T2.winner_id ORDER BY T2.winner_rank_points DESC LIMIT 1",
+    "db_id": "wta_1"
+  },
+  "489": {
+    "query": "SELECT count(*) ,  hand FROM players GROUP BY hand",
+    "db_id": "wta_1"
+  },
+  "490": {
+    "query": "SELECT count(*) ,  hand FROM players GROUP BY hand",
+    "db_id": "wta_1"
+  },
+  "491": {
+    "query": "SELECT count(*) FROM ship WHERE disposition_of_ship  =  'Captured'",
+    "db_id": "battle_death"
+  },
+  "492": {
+    "query": "SELECT name ,  tonnage FROM ship ORDER BY name DESC",
+    "db_id": "battle_death"
+  },
+  "493": {
+    "query": "SELECT name ,  date FROM battle",
+    "db_id": "battle_death"
+  },
+  "494": {
+    "query": "SELECT max(killed) ,  min(killed) FROM death",
+    "db_id": "battle_death"
+  },
+  "495": {
+    "query": "SELECT avg(injured) FROM death",
+    "db_id": "battle_death"
+  },
+  "496": {
+    "query": "SELECT T1.killed ,  T1.injured FROM death AS T1 JOIN ship AS t2 ON T1.caused_by_ship_id  =  T2.id WHERE T2.tonnage  =  't'",
+    "db_id": "battle_death"
+  },
+  "497": {
+    "query": "SELECT name ,  RESULT FROM battle WHERE bulgarian_commander != 'Boril'",
+    "db_id": "battle_death"
+  },
+  "498": {
+    "query": "SELECT DISTINCT T1.id ,  T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id  =  T2.lost_in_battle WHERE T2.ship_type  =  'Brig'",
+    "db_id": "battle_death"
+  },
+  "499": {
+    "query": "SELECT T1.id ,  T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id  =  T2.lost_in_battle JOIN death AS T3 ON T2.id  =  T3.caused_by_ship_id GROUP BY T1.id HAVING sum(T3.killed)  >  10",
+    "db_id": "battle_death"
+  },
+  "500": {
+    "query": "SELECT T2.id ,  T2.name FROM death AS T1 JOIN ship AS t2 ON T1.caused_by_ship_id  =  T2.id GROUP BY T2.id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "battle_death"
+  },
+  "501": {
+    "query": "SELECT name FROM battle WHERE bulgarian_commander  =  'Kaloyan' AND latin_commander  =  'Baldwin I'",
+    "db_id": "battle_death"
+  },
+  "502": {
+    "query": "SELECT count(DISTINCT RESULT) FROM battle",
+    "db_id": "battle_death"
+  },
+  "503": {
+    "query": "SELECT count(*) FROM battle WHERE id NOT IN ( SELECT lost_in_battle FROM ship WHERE tonnage  =  '225' );",
+    "db_id": "battle_death"
+  },
+  "504": {
+    "query": "SELECT T1.name ,  T1.date FROM battle AS T1 JOIN ship AS T2 ON T1.id  =  T2.lost_in_battle WHERE T2.name  =  'Lettice' INTERSECT SELECT T1.name ,  T1.date FROM battle AS T1 JOIN ship AS T2 ON T1.id  =  T2.lost_in_battle WHERE T2.name  =  'HMS Atalanta'",
+    "db_id": "battle_death"
+  },
+  "505": {
+    "query": "SELECT name ,  RESULT ,  bulgarian_commander FROM battle EXCEPT SELECT T1.name ,  T1.result ,  T1.bulgarian_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id  =  T2.lost_in_battle WHERE T2.location  =  'English Channel'",
+    "db_id": "battle_death"
+  },
+  "506": {
+    "query": "SELECT note FROM death WHERE note LIKE '%East%'",
+    "db_id": "battle_death"
+  },
+  "507": {
+    "query": "SELECT line_1 ,  line_2 FROM addresses",
+    "db_id": "student_transcripts_tracking"
+  },
+  "508": {
+    "query": "SELECT line_1 ,  line_2 FROM addresses",
+    "db_id": "student_transcripts_tracking"
+  },
+  "509": {
+    "query": "SELECT count(*) FROM Courses",
+    "db_id": "student_transcripts_tracking"
+  },
+  "510": {
+    "query": "SELECT count(*) FROM Courses",
+    "db_id": "student_transcripts_tracking"
+  },
+  "511": {
+    "query": "SELECT course_description FROM Courses WHERE course_name  =  'math'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "512": {
+    "query": "SELECT course_description FROM Courses WHERE course_name  =  'math'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "513": {
+    "query": "SELECT zip_postcode FROM Addresses WHERE city  =  'Port Chelsea'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "514": {
+    "query": "SELECT zip_postcode FROM Addresses WHERE city  =  'Port Chelsea'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "515": {
+    "query": "SELECT T2.department_name ,  T1.department_id FROM Degree_Programs AS T1 JOIN Departments AS T2 ON T1.department_id  =  T2.department_id GROUP BY T1.department_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "516": {
+    "query": "select t2.department_name ,  t1.department_id from degree_programs as t1 join departments as t2 on t1.department_id  =  t2.department_id group by t1.department_id order by count(*) desc limit 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "517": {
+    "query": "SELECT count(DISTINCT department_id) FROM Degree_Programs",
+    "db_id": "student_transcripts_tracking"
+  },
+  "518": {
+    "query": "SELECT count(DISTINCT department_id) FROM Degree_Programs",
+    "db_id": "student_transcripts_tracking"
+  },
+  "519": {
+    "query": "SELECT count(DISTINCT degree_summary_name) FROM Degree_Programs",
+    "db_id": "student_transcripts_tracking"
+  },
+  "520": {
+    "query": "SELECT count(DISTINCT degree_summary_name) FROM Degree_Programs",
+    "db_id": "student_transcripts_tracking"
+  },
+  "521": {
+    "query": "SELECT count(*) FROM Departments AS T1 JOIN Degree_Programs AS T2 ON T1.department_id  =  T2.department_id WHERE T1.department_name  =  'engineer'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "522": {
+    "query": "SELECT count(*) FROM Departments AS T1 JOIN Degree_Programs AS T2 ON T1.department_id  =  T2.department_id WHERE T1.department_name  =  'engineer'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "523": {
+    "query": "SELECT section_name ,  section_description FROM Sections",
+    "db_id": "student_transcripts_tracking"
+  },
+  "524": {
+    "query": "SELECT section_name ,  section_description FROM Sections",
+    "db_id": "student_transcripts_tracking"
+  },
+  "525": {
+    "query": "SELECT T1.course_name ,  T1.course_id FROM Courses AS T1 JOIN Sections AS T2 ON T1.course_id  =  T2.course_id GROUP BY T1.course_id HAVING count(*)  <=  2",
+    "db_id": "student_transcripts_tracking"
+  },
+  "526": {
+    "query": "SELECT T1.course_name ,  T1.course_id FROM Courses AS T1 JOIN Sections AS T2 ON T1.course_id  =  T2.course_id GROUP BY T1.course_id HAVING count(*)  <=  2",
+    "db_id": "student_transcripts_tracking"
+  },
+  "527": {
+    "query": "SELECT section_name FROM Sections ORDER BY section_name DESC",
+    "db_id": "student_transcripts_tracking"
+  },
+  "528": {
+    "query": "SELECT section_name FROM Sections ORDER BY section_name DESC",
+    "db_id": "student_transcripts_tracking"
+  },
+  "529": {
+    "query": "SELECT T1.semester_name ,  T1.semester_id FROM Semesters AS T1 JOIN Student_Enrolment AS T2 ON T1.semester_id  =  T2.semester_id GROUP BY T1.semester_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "530": {
+    "query": "SELECT T1.semester_name ,  T1.semester_id FROM Semesters AS T1 JOIN Student_Enrolment AS T2 ON T1.semester_id  =  T2.semester_id GROUP BY T1.semester_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "531": {
+    "query": "SELECT department_description FROM Departments WHERE department_name LIKE '%computer%'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "532": {
+    "query": "SELECT department_description FROM Departments WHERE department_name LIKE '%computer%'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "533": {
+    "query": "SELECT T1.first_name ,  T1.middle_name ,  T1.last_name ,  T1.student_id FROM Students AS T1 JOIN Student_Enrolment AS T2 ON T1.student_id  =  T2.student_id GROUP BY T1.student_id HAVING count(*)  =  2",
+    "db_id": "student_transcripts_tracking"
+  },
+  "534": {
+    "query": "SELECT T1.first_name ,  T1.middle_name ,  T1.last_name ,  T1.student_id FROM Students AS T1 JOIN Student_Enrolment AS T2 ON T1.student_id  =  T2.student_id GROUP BY T1.student_id HAVING count(*)  =  2",
+    "db_id": "student_transcripts_tracking"
+  },
+  "535": {
+    "query": "SELECT DISTINCT T1.first_name ,  T1.middle_name ,  T1.last_name FROM Students AS T1 JOIN Student_Enrolment AS T2 ON T1.student_id  =  T2.student_id JOIN Degree_Programs AS T3 ON T2.degree_program_id  =  T3.degree_program_id WHERE T3.degree_summary_name  =  'Bachelor'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "536": {
+    "query": "SELECT DISTINCT T1.first_name ,  T1.middle_name ,  T1.last_name FROM Students AS T1 JOIN Student_Enrolment AS T2 ON T1.student_id  =  T2.student_id JOIN Degree_Programs AS T3 ON T2.degree_program_id  =  T3.degree_program_id WHERE T3.degree_summary_name  =  'Bachelor'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "537": {
+    "query": "SELECT T1.degree_summary_name FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id GROUP BY T1.degree_summary_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "538": {
+    "query": "SELECT T1.degree_summary_name FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id GROUP BY T1.degree_summary_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "539": {
+    "query": "SELECT T1.degree_program_id ,  T1.degree_summary_name FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id GROUP BY T1.degree_program_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "540": {
+    "query": "SELECT T1.degree_program_id ,  T1.degree_summary_name FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id GROUP BY T1.degree_program_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "541": {
+    "query": "SELECT T1.student_id ,  T1.first_name ,  T1.middle_name ,  T1.last_name ,  count(*) ,  T1.student_id FROM Students AS T1 JOIN Student_Enrolment AS T2 ON T1.student_id  =  T2.student_id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "542": {
+    "query": "SELECT T1.student_id ,  T1.first_name ,  T1.middle_name ,  T1.last_name ,  count(*) ,  T1.student_id FROM Students AS T1 JOIN Student_Enrolment AS T2 ON T1.student_id  =  T2.student_id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "543": {
+    "query": "SELECT semester_name FROM Semesters WHERE semester_id NOT IN( SELECT semester_id FROM Student_Enrolment )",
+    "db_id": "student_transcripts_tracking"
+  },
+  "544": {
+    "query": "SELECT semester_name FROM Semesters WHERE semester_id NOT IN( SELECT semester_id FROM Student_Enrolment )",
+    "db_id": "student_transcripts_tracking"
+  },
+  "545": {
+    "query": "SELECT DISTINCT T1.course_name FROM Courses AS T1 JOIN Student_Enrolment_Courses AS T2 ON T1.course_id  =  T2.course_id",
+    "db_id": "student_transcripts_tracking"
+  },
+  "546": {
+    "query": "SELECT DISTINCT T1.course_name FROM Courses AS T1 JOIN Student_Enrolment_Courses AS T2 ON T1.course_id  =  T2.course_id",
+    "db_id": "student_transcripts_tracking"
+  },
+  "547": {
+    "query": "SELECT  T1.course_name FROM Courses AS T1 JOIN Student_Enrolment_Courses AS T2 ON T1.course_id  =  T2.course_id GROUP BY T1.course_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "548": {
+    "query": "SELECT  T1.course_name FROM Courses AS T1 JOIN Student_Enrolment_Courses AS T2 ON T1.course_id  =  T2.course_id GROUP BY T1.course_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "549": {
+    "query": "SELECT T1.last_name FROM Students AS T1 JOIN Addresses AS T2 ON T1.current_address_id  =  T2.address_id WHERE T2.state_province_county  =  'NorthCarolina' EXCEPT SELECT DISTINCT T3.last_name FROM Students AS T3 JOIN Student_Enrolment AS T4 ON T3.student_id  =  T4.student_id",
+    "db_id": "student_transcripts_tracking"
+  },
+  "550": {
+    "query": "SELECT T1.last_name FROM Students AS T1 JOIN Addresses AS T2 ON T1.current_address_id  =  T2.address_id WHERE T2.state_province_county  =  'NorthCarolina' EXCEPT SELECT DISTINCT T3.last_name FROM Students AS T3 JOIN Student_Enrolment AS T4 ON T3.student_id  =  T4.student_id",
+    "db_id": "student_transcripts_tracking"
+  },
+  "551": {
+    "query": "SELECT T2.transcript_date ,  T1.transcript_id FROM Transcript_Contents AS T1 JOIN Transcripts AS T2 ON T1.transcript_id  =  T2.transcript_id GROUP BY T1.transcript_id HAVING count(*)  >=  2",
+    "db_id": "student_transcripts_tracking"
+  },
+  "552": {
+    "query": "SELECT T2.transcript_date ,  T1.transcript_id FROM Transcript_Contents AS T1 JOIN Transcripts AS T2 ON T1.transcript_id  =  T2.transcript_id GROUP BY T1.transcript_id HAVING count(*)  >=  2",
+    "db_id": "student_transcripts_tracking"
+  },
+  "553": {
+    "query": "SELECT cell_mobile_number FROM Students WHERE first_name  =  'Timmothy' AND last_name  =  'Ward'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "554": {
+    "query": "select cell_mobile_number from students where first_name  =  'timmothy' and last_name  =  'ward'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "555": {
+    "query": "SELECT first_name ,  middle_name ,  last_name FROM Students ORDER BY date_first_registered ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "556": {
+    "query": "SELECT first_name ,  middle_name ,  last_name FROM Students ORDER BY date_first_registered ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "557": {
+    "query": "SELECT first_name ,  middle_name ,  last_name FROM Students ORDER BY date_left ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "558": {
+    "query": "SELECT first_name ,  middle_name ,  last_name FROM Students ORDER BY date_left ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "559": {
+    "query": "SELECT first_name FROM Students WHERE current_address_id != permanent_address_id",
+    "db_id": "student_transcripts_tracking"
+  },
+  "560": {
+    "query": "SELECT first_name FROM Students WHERE current_address_id != permanent_address_id",
+    "db_id": "student_transcripts_tracking"
+  },
+  "561": {
+    "query": "SELECT T1.address_id ,  T1.line_1 ,  T1.line_2 FROM Addresses AS T1 JOIN Students AS T2 ON T1.address_id  =  T2.current_address_id GROUP BY T1.address_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "562": {
+    "query": "SELECT T1.address_id ,  T1.line_1 ,  T1.line_2 FROM Addresses AS T1 JOIN Students AS T2 ON T1.address_id  =  T2.current_address_id GROUP BY T1.address_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "563": {
+    "query": "SELECT avg(transcript_date) FROM Transcripts",
+    "db_id": "student_transcripts_tracking"
+  },
+  "564": {
+    "query": "SELECT avg(transcript_date) FROM Transcripts",
+    "db_id": "student_transcripts_tracking"
+  },
+  "565": {
+    "query": "SELECT transcript_date ,  other_details FROM Transcripts ORDER BY transcript_date ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "566": {
+    "query": "SELECT transcript_date ,  other_details FROM Transcripts ORDER BY transcript_date ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "567": {
+    "query": "SELECT count(*) FROM Transcripts",
+    "db_id": "student_transcripts_tracking"
+  },
+  "568": {
+    "query": "SELECT count(*) FROM Transcripts",
+    "db_id": "student_transcripts_tracking"
+  },
+  "569": {
+    "query": "SELECT transcript_date FROM Transcripts ORDER BY transcript_date DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "570": {
+    "query": "SELECT transcript_date FROM Transcripts ORDER BY transcript_date DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "571": {
+    "query": "SELECT count(*) ,  student_course_id FROM Transcript_Contents GROUP BY student_course_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "572": {
+    "query": "SELECT count(*) ,  student_course_id FROM Transcript_Contents GROUP BY student_course_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "573": {
+    "query": "SELECT T2.transcript_date ,  T1.transcript_id FROM Transcript_Contents AS T1 JOIN Transcripts AS T2 ON T1.transcript_id  =  T2.transcript_id GROUP BY T1.transcript_id ORDER BY count(*) ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "574": {
+    "query": "SELECT T2.transcript_date ,  T1.transcript_id FROM Transcript_Contents AS T1 JOIN Transcripts AS T2 ON T1.transcript_id  =  T2.transcript_id GROUP BY T1.transcript_id ORDER BY count(*) ASC LIMIT 1",
+    "db_id": "student_transcripts_tracking"
+  },
+  "575": {
+    "query": "SELECT DISTINCT T2.semester_id FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id WHERE degree_summary_name  =  'Master' INTERSECT SELECT DISTINCT T2.semester_id FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id WHERE degree_summary_name  =  'Bachelor'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "576": {
+    "query": "SELECT DISTINCT T2.semester_id FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id WHERE degree_summary_name  =  'Master' INTERSECT SELECT DISTINCT T2.semester_id FROM Degree_Programs AS T1 JOIN Student_Enrolment AS T2 ON T1.degree_program_id  =  T2.degree_program_id WHERE degree_summary_name  =  'Bachelor'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "577": {
+    "query": "SELECT count(DISTINCT current_address_id) FROM Students",
+    "db_id": "student_transcripts_tracking"
+  },
+  "578": {
+    "query": "SELECT count(DISTINCT current_address_id) FROM Students",
+    "db_id": "student_transcripts_tracking"
+  },
+  "579": {
+    "query": "SELECT other_student_details FROM Students ORDER BY other_student_details DESC",
+    "db_id": "student_transcripts_tracking"
+  },
+  "580": {
+    "query": "SELECT other_student_details FROM Students ORDER BY other_student_details DESC",
+    "db_id": "student_transcripts_tracking"
+  },
+  "581": {
+    "query": "SELECT section_description FROM Sections WHERE section_name  =  'h'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "582": {
+    "query": "SELECT section_description FROM Sections WHERE section_name  =  'h'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "583": {
+    "query": "select t1.first_name from students as t1 join addresses as t2 on t1.permanent_address_id  =  t2.address_id where t2.country  =  'haiti' or t1.cell_mobile_number  =  '09700166582'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "584": {
+    "query": "select t1.first_name from students as t1 join addresses as t2 on t1.permanent_address_id  =  t2.address_id where t2.country  =  'haiti' or t1.cell_mobile_number  =  '09700166582'",
+    "db_id": "student_transcripts_tracking"
+  },
+  "585": {
+    "query": "SELECT Title FROM Cartoon ORDER BY title",
+    "db_id": "tvshow"
+  },
+  "586": {
+    "query": "SELECT Title FROM Cartoon ORDER BY title",
+    "db_id": "tvshow"
+  },
+  "587": {
+    "query": "SELECT Title FROM Cartoon WHERE Directed_by = \"Ben Jones\";",
+    "db_id": "tvshow"
+  },
+  "588": {
+    "query": "SELECT Title FROM Cartoon WHERE Directed_by = \"Ben Jones\";",
+    "db_id": "tvshow"
+  },
+  "589": {
+    "query": "SELECT count(*) FROM Cartoon WHERE Written_by = \"Joseph Kuhr\";",
+    "db_id": "tvshow"
+  },
+  "590": {
+    "query": "SELECT count(*) FROM Cartoon WHERE Written_by = \"Joseph Kuhr\";",
+    "db_id": "tvshow"
+  },
+  "591": {
+    "query": "SELECT title ,  Directed_by FROM Cartoon ORDER BY Original_air_date",
+    "db_id": "tvshow"
+  },
+  "592": {
+    "query": "SELECT title ,  Directed_by FROM Cartoon ORDER BY Original_air_date",
+    "db_id": "tvshow"
+  },
+  "593": {
+    "query": "SELECT Title FROM Cartoon WHERE Directed_by = \"Ben Jones\" OR Directed_by = \"Brandon Vietti\";",
+    "db_id": "tvshow"
+  },
+  "594": {
+    "query": "SELECT Title FROM Cartoon WHERE Directed_by = \"Ben Jones\" OR Directed_by = \"Brandon Vietti\";",
+    "db_id": "tvshow"
+  },
+  "595": {
+    "query": "SELECT Country ,  count(*) FROM TV_Channel GROUP BY Country ORDER BY count(*) DESC LIMIT 1;",
+    "db_id": "tvshow"
+  },
+  "596": {
+    "query": "SELECT Country ,  count(*) FROM TV_Channel GROUP BY Country ORDER BY count(*) DESC LIMIT 1;",
+    "db_id": "tvshow"
+  },
+  "597": {
+    "query": "SELECT count(DISTINCT series_name) ,  count(DISTINCT content) FROM TV_Channel;",
+    "db_id": "tvshow"
+  },
+  "598": {
+    "query": "SELECT count(DISTINCT series_name) ,  count(DISTINCT content) FROM TV_Channel;",
+    "db_id": "tvshow"
+  },
+  "599": {
+    "query": "SELECT Content FROM TV_Channel WHERE series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "600": {
+    "query": "SELECT Content FROM TV_Channel WHERE series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "601": {
+    "query": "SELECT Package_Option FROM TV_Channel WHERE series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "602": {
+    "query": "SELECT Package_Option FROM TV_Channel WHERE series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "603": {
+    "query": "SELECT count(*) FROM TV_Channel WHERE LANGUAGE = \"English\";",
+    "db_id": "tvshow"
+  },
+  "604": {
+    "query": "SELECT count(*) FROM TV_Channel WHERE LANGUAGE = \"English\";",
+    "db_id": "tvshow"
+  },
+  "605": {
+    "query": "SELECT LANGUAGE ,  count(*) FROM TV_Channel GROUP BY LANGUAGE ORDER BY count(*) ASC LIMIT 1;",
+    "db_id": "tvshow"
+  },
+  "606": {
+    "query": "SELECT LANGUAGE ,  count(*) FROM TV_Channel GROUP BY LANGUAGE ORDER BY count(*) ASC LIMIT 1;",
+    "db_id": "tvshow"
+  },
+  "607": {
+    "query": "SELECT LANGUAGE ,  count(*) FROM TV_Channel GROUP BY LANGUAGE",
+    "db_id": "tvshow"
+  },
+  "608": {
+    "query": "SELECT LANGUAGE ,  count(*) FROM TV_Channel GROUP BY LANGUAGE",
+    "db_id": "tvshow"
+  },
+  "609": {
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Title = \"The Rise of the Blue Beetle!\";",
+    "db_id": "tvshow"
+  },
+  "610": {
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Title = \"The Rise of the Blue Beetle!\";",
+    "db_id": "tvshow"
+  },
+  "611": {
+    "query": "SELECT T2.Title FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T1.series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "612": {
+    "query": "SELECT T2.Title FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T1.series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "613": {
+    "query": "SELECT Episode FROM TV_series ORDER BY rating",
+    "db_id": "tvshow"
+  },
+  "614": {
+    "query": "SELECT Episode FROM TV_series ORDER BY rating",
+    "db_id": "tvshow"
+  },
+  "615": {
+    "query": "SELECT Episode ,  Rating FROM TV_series ORDER BY Rating DESC LIMIT 3;",
+    "db_id": "tvshow"
+  },
+  "616": {
+    "query": "SELECT Episode ,  Rating FROM TV_series ORDER BY Rating DESC LIMIT 3;",
+    "db_id": "tvshow"
+  },
+  "617": {
+    "query": "SELECT max(SHARE) , min(SHARE) FROM TV_series;",
+    "db_id": "tvshow"
+  },
+  "618": {
+    "query": "SELECT max(SHARE) , min(SHARE) FROM TV_series;",
+    "db_id": "tvshow"
+  },
+  "619": {
+    "query": "SELECT Air_Date FROM TV_series WHERE Episode = \"A Love of a Lifetime\";",
+    "db_id": "tvshow"
+  },
+  "620": {
+    "query": "SELECT Air_Date FROM TV_series WHERE Episode = \"A Love of a Lifetime\";",
+    "db_id": "tvshow"
+  },
+  "621": {
+    "query": "SELECT Weekly_Rank FROM TV_series WHERE Episode = \"A Love of a Lifetime\";",
+    "db_id": "tvshow"
+  },
+  "622": {
+    "query": "SELECT Weekly_Rank FROM TV_series WHERE Episode = \"A Love of a Lifetime\";",
+    "db_id": "tvshow"
+  },
+  "623": {
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Episode = \"A Love of a Lifetime\";",
+    "db_id": "tvshow"
+  },
+  "624": {
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Episode = \"A Love of a Lifetime\";",
+    "db_id": "tvshow"
+  },
+  "625": {
+    "query": "SELECT T2.Episode FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T1.series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "626": {
+    "query": "SELECT T2.Episode FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T1.series_name = \"Sky Radio\";",
+    "db_id": "tvshow"
+  },
+  "627": {
+    "query": "SELECT count(*) ,  Directed_by FROM cartoon GROUP BY Directed_by",
+    "db_id": "tvshow"
+  },
+  "628": {
+    "query": "SELECT count(*) ,  Directed_by FROM cartoon GROUP BY Directed_by",
+    "db_id": "tvshow"
+  },
+  "629": {
+    "query": "select production_code ,  channel from cartoon order by original_air_date desc limit 1",
+    "db_id": "tvshow"
+  },
+  "630": {
+    "query": "select production_code ,  channel from cartoon order by original_air_date desc limit 1",
+    "db_id": "tvshow"
+  },
+  "631": {
+    "query": "SELECT package_option ,  series_name FROM TV_Channel WHERE hight_definition_TV  =  \"yes\"",
+    "db_id": "tvshow"
+  },
+  "632": {
+    "query": "SELECT package_option ,  series_name FROM TV_Channel WHERE hight_definition_TV  =  \"yes\"",
+    "db_id": "tvshow"
+  },
+  "633": {
+    "query": "SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.written_by  =  'Todd Casey'",
+    "db_id": "tvshow"
+  },
+  "634": {
+    "query": "SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.written_by  =  'Todd Casey'",
+    "db_id": "tvshow"
+  },
+  "635": {
+    "query": "SELECT country FROM TV_Channel EXCEPT SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.written_by  =  'Todd Casey'",
+    "db_id": "tvshow"
+  },
+  "636": {
+    "query": "SELECT country FROM TV_Channel EXCEPT SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.written_by  =  'Todd Casey'",
+    "db_id": "tvshow"
+  },
+  "637": {
+    "query": "SELECT T1.series_name ,  T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.directed_by  =  'Michael Chang' INTERSECT SELECT T1.series_name ,  T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.directed_by  =  'Ben Jones'",
+    "db_id": "tvshow"
+  },
+  "638": {
+    "query": "SELECT T1.series_name ,  T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.directed_by  =  'Michael Chang' INTERSECT SELECT T1.series_name ,  T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.directed_by  =  'Ben Jones'",
+    "db_id": "tvshow"
+  },
+  "639": {
+    "query": "SELECT Pixel_aspect_ratio_PAR ,  country FROM tv_channel WHERE LANGUAGE != 'English'",
+    "db_id": "tvshow"
+  },
+  "640": {
+    "query": "SELECT Pixel_aspect_ratio_PAR ,  country FROM tv_channel WHERE LANGUAGE != 'English'",
+    "db_id": "tvshow"
+  },
+  "641": {
+    "query": "SELECT id FROM tv_channel GROUP BY country HAVING count(*)  >  2",
+    "db_id": "tvshow"
+  },
+  "642": {
+    "query": "SELECT id FROM tv_channel GROUP BY country HAVING count(*)  >  2",
+    "db_id": "tvshow"
+  },
+  "643": {
+    "query": "SELECT id FROM TV_Channel EXCEPT SELECT channel FROM cartoon WHERE directed_by  =  'Ben Jones'",
+    "db_id": "tvshow"
+  },
+  "644": {
+    "query": "SELECT id FROM TV_Channel EXCEPT SELECT channel FROM cartoon WHERE directed_by  =  'Ben Jones'",
+    "db_id": "tvshow"
+  },
+  "645": {
+    "query": "SELECT package_option FROM TV_Channel WHERE id NOT IN (SELECT channel FROM cartoon WHERE directed_by  =  'Ben Jones')",
+    "db_id": "tvshow"
+  },
+  "646": {
+    "query": "SELECT package_option FROM TV_Channel WHERE id NOT IN (SELECT channel FROM cartoon WHERE directed_by  =  'Ben Jones')",
+    "db_id": "tvshow"
+  },
+  "647": {
+    "query": "SELECT count(*) FROM poker_player",
+    "db_id": "poker_player"
+  },
+  "648": {
+    "query": "SELECT count(*) FROM poker_player",
+    "db_id": "poker_player"
+  },
+  "649": {
+    "query": "SELECT Earnings FROM poker_player ORDER BY Earnings DESC",
+    "db_id": "poker_player"
+  },
+  "650": {
+    "query": "SELECT Earnings FROM poker_player ORDER BY Earnings DESC",
+    "db_id": "poker_player"
+  },
+  "651": {
+    "query": "SELECT Final_Table_Made ,  Best_Finish FROM poker_player",
+    "db_id": "poker_player"
+  },
+  "652": {
+    "query": "SELECT Final_Table_Made ,  Best_Finish FROM poker_player",
+    "db_id": "poker_player"
+  },
+  "653": {
+    "query": "SELECT avg(Earnings) FROM poker_player",
+    "db_id": "poker_player"
+  },
+  "654": {
+    "query": "SELECT avg(Earnings) FROM poker_player",
+    "db_id": "poker_player"
+  },
+  "655": {
+    "query": "SELECT Money_Rank FROM poker_player ORDER BY Earnings DESC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "656": {
+    "query": "SELECT Money_Rank FROM poker_player ORDER BY Earnings DESC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "657": {
+    "query": "SELECT max(Final_Table_Made) FROM poker_player WHERE Earnings  <  200000",
+    "db_id": "poker_player"
+  },
+  "658": {
+    "query": "SELECT max(Final_Table_Made) FROM poker_player WHERE Earnings  <  200000",
+    "db_id": "poker_player"
+  },
+  "659": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID",
+    "db_id": "poker_player"
+  },
+  "660": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID",
+    "db_id": "poker_player"
+  },
+  "661": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID WHERE T2.Earnings  >  300000",
+    "db_id": "poker_player"
+  },
+  "662": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID WHERE T2.Earnings  >  300000",
+    "db_id": "poker_player"
+  },
+  "663": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T2.Final_Table_Made",
+    "db_id": "poker_player"
+  },
+  "664": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T2.Final_Table_Made",
+    "db_id": "poker_player"
+  },
+  "665": {
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T2.Earnings ASC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "666": {
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T2.Earnings ASC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "667": {
+    "query": "SELECT T2.Money_Rank FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T1.Height DESC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "668": {
+    "query": "SELECT T2.Money_Rank FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T1.Height DESC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "669": {
+    "query": "SELECT avg(T2.Earnings) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID WHERE T1.Height  >  200",
+    "db_id": "poker_player"
+  },
+  "670": {
+    "query": "SELECT avg(T2.Earnings) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID WHERE T1.Height  >  200",
+    "db_id": "poker_player"
+  },
+  "671": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T2.Earnings DESC",
+    "db_id": "poker_player"
+  },
+  "672": {
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID  =  T2.People_ID ORDER BY T2.Earnings DESC",
+    "db_id": "poker_player"
+  },
+  "673": {
+    "query": "SELECT Nationality ,  COUNT(*) FROM people GROUP BY Nationality",
+    "db_id": "poker_player"
+  },
+  "674": {
+    "query": "SELECT Nationality ,  COUNT(*) FROM people GROUP BY Nationality",
+    "db_id": "poker_player"
+  },
+  "675": {
+    "query": "SELECT Nationality FROM people GROUP BY Nationality ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "676": {
+    "query": "SELECT Nationality FROM people GROUP BY Nationality ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "poker_player"
+  },
+  "677": {
+    "query": "SELECT Nationality FROM people GROUP BY Nationality HAVING COUNT(*)  >=  2",
+    "db_id": "poker_player"
+  },
+  "678": {
+    "query": "SELECT Nationality FROM people GROUP BY Nationality HAVING COUNT(*)  >=  2",
+    "db_id": "poker_player"
+  },
+  "679": {
+    "query": "SELECT Name ,  Birth_Date FROM people ORDER BY Name ASC",
+    "db_id": "poker_player"
+  },
+  "680": {
+    "query": "SELECT Name ,  Birth_Date FROM people ORDER BY Name ASC",
+    "db_id": "poker_player"
+  },
+  "681": {
+    "query": "SELECT Name FROM people WHERE Nationality != \"Russia\"",
+    "db_id": "poker_player"
+  },
+  "682": {
+    "query": "SELECT Name FROM people WHERE Nationality != \"Russia\"",
+    "db_id": "poker_player"
+  },
+  "683": {
+    "query": "SELECT Name FROM people WHERE People_ID NOT IN (SELECT People_ID FROM poker_player)",
+    "db_id": "poker_player"
+  },
+  "684": {
+    "query": "SELECT Name FROM people WHERE People_ID NOT IN (SELECT People_ID FROM poker_player)",
+    "db_id": "poker_player"
+  },
+  "685": {
+    "query": "SELECT count(DISTINCT Nationality) FROM people",
+    "db_id": "poker_player"
+  },
+  "686": {
+    "query": "SELECT count(DISTINCT Nationality) FROM people",
+    "db_id": "poker_player"
+  },
+  "687": {
+    "query": "SELECT count(*) FROM area_code_state",
+    "db_id": "voter_1"
+  },
+  "688": {
+    "query": "SELECT contestant_number ,  contestant_name FROM contestants ORDER BY contestant_name DESC",
+    "db_id": "voter_1"
+  },
+  "689": {
+    "query": "SELECT vote_id ,  phone_number ,  state FROM votes",
+    "db_id": "voter_1"
+  },
+  "690": {
+    "query": "SELECT max(area_code) ,  min(area_code) FROM area_code_state",
+    "db_id": "voter_1"
+  },
+  "691": {
+    "query": "SELECT max(created) FROM votes WHERE state  =  'CA'",
+    "db_id": "voter_1"
+  },
+  "692": {
+    "query": "SELECT contestant_name FROM contestants WHERE contestant_name != 'Jessie Alloway'",
+    "db_id": "voter_1"
+  },
+  "693": {
+    "query": "SELECT DISTINCT state ,  created FROM votes",
+    "db_id": "voter_1"
+  },
+  "694": {
+    "query": "SELECT T1.contestant_number , T1.contestant_name FROM contestants AS T1 JOIN votes AS T2 ON T1.contestant_number  =  T2.contestant_number GROUP BY T1.contestant_number HAVING count(*)  >=  2",
+    "db_id": "voter_1"
+  },
+  "695": {
+    "query": "SELECT T1.contestant_number , T1.contestant_name FROM contestants AS T1 JOIN votes AS T2 ON T1.contestant_number  =  T2.contestant_number GROUP BY T1.contestant_number ORDER BY count(*) ASC LIMIT 1",
+    "db_id": "voter_1"
+  },
+  "696": {
+    "query": "SELECT count(*) FROM votes WHERE state  =  'NY' OR state  =  'CA'",
+    "db_id": "voter_1"
+  },
+  "697": {
+    "query": "SELECT count(*) FROM contestants WHERE contestant_number NOT IN ( SELECT contestant_number FROM votes )",
+    "db_id": "voter_1"
+  },
+  "698": {
+    "query": "SELECT T1.area_code FROM area_code_state AS T1 JOIN votes AS T2 ON T1.state  =  T2.state GROUP BY T1.area_code ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "voter_1"
+  },
+  "699": {
+    "query": "SELECT T2.created ,  T2.state ,  T2.phone_number FROM contestants AS T1 JOIN votes AS T2 ON T1.contestant_number  =  T2.contestant_number WHERE T1.contestant_name  =  'Tabatha Gehling'",
+    "db_id": "voter_1"
+  },
+  "700": {
+    "query": "SELECT T3.area_code FROM contestants AS T1 JOIN votes AS T2 ON T1.contestant_number  =  T2.contestant_number JOIN area_code_state AS T3 ON T2.state  =  T3.state WHERE T1.contestant_name  =  'Tabatha Gehling' INTERSECT SELECT T3.area_code FROM contestants AS T1 JOIN votes AS T2 ON T1.contestant_number  =  T2.contestant_number JOIN area_code_state AS T3 ON T2.state  =  T3.state WHERE T1.contestant_name  =  'Kelly Clauss'",
+    "db_id": "voter_1"
+  },
+  "701": {
+    "query": "select contestant_name from contestants where contestant_name like \"%al%\"",
+    "db_id": "voter_1"
+  },
+  "702": {
+    "query": "SELECT Name FROM country WHERE IndepYear  >  1950",
+    "db_id": "world_1"
+  },
+  "703": {
+    "query": "SELECT Name FROM country WHERE IndepYear  >  1950",
+    "db_id": "world_1"
+  },
+  "704": {
+    "query": "SELECT count(*) FROM country WHERE GovernmentForm  =  \"Republic\"",
+    "db_id": "world_1"
+  },
+  "705": {
+    "query": "SELECT count(*) FROM country WHERE GovernmentForm  =  \"Republic\"",
+    "db_id": "world_1"
+  },
+  "706": {
+    "query": "SELECT sum(SurfaceArea) FROM country WHERE Region  =  \"Caribbean\"",
+    "db_id": "world_1"
+  },
+  "707": {
+    "query": "SELECT sum(SurfaceArea) FROM country WHERE Region  =  \"Caribbean\"",
+    "db_id": "world_1"
+  },
+  "708": {
+    "query": "SELECT Continent FROM country WHERE Name  =  \"Anguilla\"",
+    "db_id": "world_1"
+  },
+  "709": {
+    "query": "SELECT Continent FROM country WHERE Name  =  \"Anguilla\"",
+    "db_id": "world_1"
+  },
+  "710": {
+    "query": "SELECT Region FROM country AS T1 JOIN city AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Name  =  \"Kabul\"",
+    "db_id": "world_1"
+  },
+  "711": {
+    "query": "SELECT Region FROM country AS T1 JOIN city AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Name  =  \"Kabul\"",
+    "db_id": "world_1"
+  },
+  "712": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  \"Aruba\" ORDER BY Percentage DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "713": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  \"Aruba\" ORDER BY Percentage DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "714": {
+    "query": "SELECT Population ,  LifeExpectancy FROM country WHERE Name  =  \"Brazil\"",
+    "db_id": "world_1"
+  },
+  "715": {
+    "query": "SELECT Population ,  LifeExpectancy FROM country WHERE Name  =  \"Brazil\"",
+    "db_id": "world_1"
+  },
+  "716": {
+    "query": "SELECT Population ,  Region FROM country WHERE Name  =  \"Angola\"",
+    "db_id": "world_1"
+  },
+  "717": {
+    "query": "SELECT Population ,  Region FROM country WHERE Name  =  \"Angola\"",
+    "db_id": "world_1"
+  },
+  "718": {
+    "query": "SELECT avg(LifeExpectancy) FROM country WHERE Region  =  \"Central Africa\"",
+    "db_id": "world_1"
+  },
+  "719": {
+    "query": "SELECT avg(LifeExpectancy) FROM country WHERE Region  =  \"Central Africa\"",
+    "db_id": "world_1"
+  },
+  "720": {
+    "query": "SELECT Name FROM country WHERE Continent  =  \"Asia\" ORDER BY LifeExpectancy LIMIT 1",
+    "db_id": "world_1"
+  },
+  "721": {
+    "query": "SELECT Name FROM country WHERE Continent  =  \"Asia\" ORDER BY LifeExpectancy LIMIT 1",
+    "db_id": "world_1"
+  },
+  "722": {
+    "query": "SELECT sum(Population) ,  max(GNP) FROM country WHERE Continent  =  \"Asia\"",
+    "db_id": "world_1"
+  },
+  "723": {
+    "query": "SELECT sum(Population) ,  max(GNP) FROM country WHERE Continent  =  \"Asia\"",
+    "db_id": "world_1"
+  },
+  "724": {
+    "query": "SELECT avg(LifeExpectancy) FROM country WHERE Continent  =  \"Africa\" AND GovernmentForm  =  \"Republic\"",
+    "db_id": "world_1"
+  },
+  "725": {
+    "query": "SELECT avg(LifeExpectancy) FROM country WHERE Continent  =  \"Africa\" AND GovernmentForm  =  \"Republic\"",
+    "db_id": "world_1"
+  },
+  "726": {
+    "query": "SELECT sum(SurfaceArea) FROM country WHERE Continent  =  \"Asia\" OR Continent  =  \"Europe\"",
+    "db_id": "world_1"
+  },
+  "727": {
+    "query": "SELECT sum(SurfaceArea) FROM country WHERE Continent  =  \"Asia\" OR Continent  =  \"Europe\"",
+    "db_id": "world_1"
+  },
+  "728": {
+    "query": "SELECT sum(Population) FROM city WHERE District  =  \"Gelderland\"",
+    "db_id": "world_1"
+  },
+  "729": {
+    "query": "SELECT sum(Population) FROM city WHERE District  =  \"Gelderland\"",
+    "db_id": "world_1"
+  },
+  "730": {
+    "query": "SELECT avg(GNP) ,  sum(population) FROM country WHERE GovernmentForm  =  \"US Territory\"",
+    "db_id": "world_1"
+  },
+  "731": {
+    "query": "SELECT avg(GNP) ,  sum(population) FROM country WHERE GovernmentForm  =  \"US Territory\"",
+    "db_id": "world_1"
+  },
+  "732": {
+    "query": "SELECT count(DISTINCT LANGUAGE) FROM countrylanguage",
+    "db_id": "world_1"
+  },
+  "733": {
+    "query": "SELECT count(DISTINCT LANGUAGE) FROM countrylanguage",
+    "db_id": "world_1"
+  },
+  "734": {
+    "query": "SELECT count(DISTINCT GovernmentForm) FROM country WHERE Continent  =  \"Africa\"",
+    "db_id": "world_1"
+  },
+  "735": {
+    "query": "SELECT count(DISTINCT GovernmentForm) FROM country WHERE Continent  =  \"Africa\"",
+    "db_id": "world_1"
+  },
+  "736": {
+    "query": "SELECT COUNT(T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  \"Aruba\"",
+    "db_id": "world_1"
+  },
+  "737": {
+    "query": "SELECT COUNT(T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  \"Aruba\"",
+    "db_id": "world_1"
+  },
+  "738": {
+    "query": "SELECT COUNT(*) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  \"Afghanistan\" AND IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "739": {
+    "query": "SELECT COUNT(*) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  \"Afghanistan\" AND IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "740": {
+    "query": "SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "741": {
+    "query": "SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "742": {
+    "query": "SELECT T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Continent ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "743": {
+    "query": "SELECT T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Continent ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "744": {
+    "query": "SELECT COUNT(*) FROM (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"Dutch\")",
+    "db_id": "world_1"
+  },
+  "745": {
+    "query": "SELECT COUNT(*) FROM (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"Dutch\")",
+    "db_id": "world_1"
+  },
+  "746": {
+    "query": "SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"French\"",
+    "db_id": "world_1"
+  },
+  "747": {
+    "query": "SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"French\"",
+    "db_id": "world_1"
+  },
+  "748": {
+    "query": "SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" AND T2.IsOfficial  =  \"T\" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"French\" AND T2.IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "749": {
+    "query": "SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" AND T2.IsOfficial  =  \"T\" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"French\" AND T2.IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "750": {
+    "query": "SELECT COUNT( DISTINCT Continent) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"Chinese\"",
+    "db_id": "world_1"
+  },
+  "751": {
+    "query": "SELECT COUNT( DISTINCT Continent) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"Chinese\"",
+    "db_id": "world_1"
+  },
+  "752": {
+    "query": "SELECT DISTINCT T1.Region FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" OR T2.Language  =  \"Dutch\"",
+    "db_id": "world_1"
+  },
+  "753": {
+    "query": "SELECT DISTINCT T1.Region FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" OR T2.Language  =  \"Dutch\"",
+    "db_id": "world_1"
+  },
+  "754": {
+    "query": "select t1.name from country as t1 join countrylanguage as t2 on t1.code  =  t2.countrycode where t2.language  =  \"english\" and isofficial  =  \"t\" union select t1.name from country as t1 join countrylanguage as t2 on t1.code  =  t2.countrycode where t2.language  =  \"dutch\" and isofficial  =  \"t\"",
+    "db_id": "world_1"
+  },
+  "755": {
+    "query": "SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" AND IsOfficial  =  \"T\" UNION SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"Dutch\" AND IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "756": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Continent  =  \"Asia\" GROUP BY T2.Language ORDER BY COUNT (*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "757": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Continent  =  \"Asia\" GROUP BY T2.Language ORDER BY COUNT (*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "758": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.GovernmentForm  =  \"Republic\" GROUP BY T2.Language HAVING COUNT(*)  =  1",
+    "db_id": "world_1"
+  },
+  "759": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.GovernmentForm  =  \"Republic\" GROUP BY T2.Language HAVING COUNT(*)  =  1",
+    "db_id": "world_1"
+  },
+  "760": {
+    "query": "SELECT T1.Name ,  T1.Population FROM city AS T1 JOIN countrylanguage AS T2 ON T1.CountryCode  =  T2.CountryCode WHERE T2.Language  =  \"English\" ORDER BY T1.Population DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "761": {
+    "query": "SELECT T1.Name ,  T1.Population FROM city AS T1 JOIN countrylanguage AS T2 ON T1.CountryCode  =  T2.CountryCode WHERE T2.Language  =  \"English\" ORDER BY T1.Population DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "762": {
+    "query": "SELECT Name ,  Population ,  LifeExpectancy FROM country WHERE Continent  =  \"Asia\" ORDER BY SurfaceArea DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "763": {
+    "query": "SELECT Name ,  Population ,  LifeExpectancy FROM country WHERE Continent  =  \"Asia\" ORDER BY SurfaceArea DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "764": {
+    "query": "SELECT avg(LifeExpectancy) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" AND T2.IsOfficial  =  \"T\")",
+    "db_id": "world_1"
+  },
+  "765": {
+    "query": "SELECT avg(LifeExpectancy) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\" AND T2.IsOfficial  =  \"T\")",
+    "db_id": "world_1"
+  },
+  "766": {
+    "query": "SELECT sum(Population) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\")",
+    "db_id": "world_1"
+  },
+  "767": {
+    "query": "SELECT sum(Population) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  \"English\")",
+    "db_id": "world_1"
+  },
+  "768": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  \"Beatrix\" AND T2.IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "769": {
+    "query": "SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  \"Beatrix\" AND T2.IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "770": {
+    "query": "SELECT count(DISTINCT T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE  IndepYear  <  1930 AND T2.IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "771": {
+    "query": "SELECT count(DISTINCT T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE  IndepYear  <  1930 AND T2.IsOfficial  =  \"T\"",
+    "db_id": "world_1"
+  },
+  "772": {
+    "query": "SELECT Name FROM country WHERE SurfaceArea  >  (SELECT min(SurfaceArea) FROM country WHERE Continent  =  \"Europe\")",
+    "db_id": "world_1"
+  },
+  "773": {
+    "query": "SELECT Name FROM country WHERE SurfaceArea  >  (SELECT min(SurfaceArea) FROM country WHERE Continent  =  \"Europe\")",
+    "db_id": "world_1"
+  },
+  "774": {
+    "query": "SELECT Name FROM country WHERE Continent  =  \"Africa\"  AND population  <  (SELECT max(population) FROM country WHERE Continent  =  \"Asia\")",
+    "db_id": "world_1"
+  },
+  "775": {
+    "query": "SELECT Name FROM country WHERE Continent  =  \"Africa\"  AND population  <  (SELECT min(population) FROM country WHERE Continent  =  \"Asia\")",
+    "db_id": "world_1"
+  },
+  "776": {
+    "query": "SELECT Name FROM country WHERE Continent  =  \"Asia\"  AND population  >  (SELECT max(population) FROM country WHERE Continent  =  \"Africa\")",
+    "db_id": "world_1"
+  },
+  "777": {
+    "query": "SELECT Name FROM country WHERE Continent  =  \"Asia\"  AND population  >  (SELECT min(population) FROM country WHERE Continent  =  \"Africa\")",
+    "db_id": "world_1"
+  },
+  "778": {
+    "query": "SELECT CountryCode FROM countrylanguage EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  \"English\"",
+    "db_id": "world_1"
+  },
+  "779": {
+    "query": "SELECT CountryCode FROM countrylanguage EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  \"English\"",
+    "db_id": "world_1"
+  },
+  "780": {
+    "query": "SELECT DISTINCT CountryCode FROM countrylanguage WHERE LANGUAGE != \"English\"",
+    "db_id": "world_1"
+  },
+  "781": {
+    "query": "SELECT DISTINCT CountryCode FROM countrylanguage WHERE LANGUAGE != \"English\"",
+    "db_id": "world_1"
+  },
+  "782": {
+    "query": "SELECT Code FROM country WHERE GovernmentForm != \"Republic\" EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  \"English\"",
+    "db_id": "world_1"
+  },
+  "783": {
+    "query": "SELECT Code FROM country WHERE GovernmentForm != \"Republic\" EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  \"English\"",
+    "db_id": "world_1"
+  },
+  "784": {
+    "query": "SELECT DISTINCT T2.Name FROM country AS T1 JOIN city AS T2 ON T2.CountryCode  =  T1.Code WHERE T1.Continent  =  'Europe' AND T1.Name NOT IN (SELECT T3.Name FROM country AS T3 JOIN countrylanguage AS T4 ON T3.Code  =  T4.CountryCode WHERE T4.IsOfficial  =  'T' AND T4.Language  =  'English')",
+    "db_id": "world_1"
+  },
+  "785": {
+    "query": "SELECT DISTINCT T2.Name FROM country AS T1 JOIN city AS T2 ON T2.CountryCode  =  T1.Code WHERE T1.Continent  =  'Europe' AND T1.Name NOT IN (SELECT T3.Name FROM country AS T3 JOIN countrylanguage AS T4 ON T3.Code  =  T4.CountryCode WHERE T4.IsOfficial  =  'T' AND T4.Language  =  'English')",
+    "db_id": "world_1"
+  },
+  "786": {
+    "query": "select distinct t3.name from country as t1 join countrylanguage as t2 on t1.code  =  t2.countrycode join city as t3 on t1.code  =  t3.countrycode where t2.isofficial  =  't' and t2.language  =  'chinese' and t1.continent  =  \"asia\"",
+    "db_id": "world_1"
+  },
+  "787": {
+    "query": "SELECT DISTINCT T3.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode JOIN city AS T3 ON T1.Code  =  T3.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'Chinese' AND T1.Continent  =  \"Asia\"",
+    "db_id": "world_1"
+  },
+  "788": {
+    "query": "SELECT Name ,  SurfaceArea ,  IndepYear FROM country ORDER BY Population LIMIT 1",
+    "db_id": "world_1"
+  },
+  "789": {
+    "query": "SELECT Name ,  SurfaceArea ,  IndepYear FROM country ORDER BY Population LIMIT 1",
+    "db_id": "world_1"
+  },
+  "790": {
+    "query": "SELECT Name ,  population ,  HeadOfState FROM country ORDER BY SurfaceArea DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "791": {
+    "query": "SELECT Name ,  population ,  HeadOfState FROM country ORDER BY SurfaceArea DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "792": {
+    "query": "SELECT COUNT(T2.Language) ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name HAVING COUNT(*)  >  2",
+    "db_id": "world_1"
+  },
+  "793": {
+    "query": "SELECT COUNT(T2.Language) ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name HAVING COUNT(*)  >  2",
+    "db_id": "world_1"
+  },
+  "794": {
+    "query": "SELECT count(*) ,  District FROM city WHERE Population  >  (SELECT avg(Population) FROM city) GROUP BY District",
+    "db_id": "world_1"
+  },
+  "795": {
+    "query": "SELECT count(*) ,  District FROM city WHERE Population  >  (SELECT avg(Population) FROM city) GROUP BY District",
+    "db_id": "world_1"
+  },
+  "796": {
+    "query": "SELECT sum(Population) ,  GovernmentForm FROM country GROUP BY GovernmentForm HAVING avg(LifeExpectancy)  >  72",
+    "db_id": "world_1"
+  },
+  "797": {
+    "query": "SELECT sum(Population) ,  GovernmentForm FROM country GROUP BY GovernmentForm HAVING avg(LifeExpectancy)  >  72",
+    "db_id": "world_1"
+  },
+  "798": {
+    "query": "SELECT sum(Population) ,  avg(LifeExpectancy) ,  Continent FROM country GROUP BY Continent HAVING avg(LifeExpectancy)  <  72",
+    "db_id": "world_1"
+  },
+  "799": {
+    "query": "SELECT sum(Population) ,  avg(LifeExpectancy) ,  Continent FROM country GROUP BY Continent HAVING avg(LifeExpectancy)  <  72",
+    "db_id": "world_1"
+  },
+  "800": {
+    "query": "SELECT Name ,  SurfaceArea FROM country ORDER BY SurfaceArea DESC LIMIT 5",
+    "db_id": "world_1"
+  },
+  "801": {
+    "query": "SELECT Name ,  SurfaceArea FROM country ORDER BY SurfaceArea DESC LIMIT 5",
+    "db_id": "world_1"
+  },
+  "802": {
+    "query": "SELECT Name FROM country ORDER BY Population DESC LIMIT 3",
+    "db_id": "world_1"
+  },
+  "803": {
+    "query": "SELECT Name FROM country ORDER BY Population DESC LIMIT 3",
+    "db_id": "world_1"
+  },
+  "804": {
+    "query": "SELECT Name FROM country ORDER BY Population ASC LIMIT 3",
+    "db_id": "world_1"
+  },
+  "805": {
+    "query": "SELECT Name FROM country ORDER BY Population ASC LIMIT 3",
+    "db_id": "world_1"
+  },
+  "806": {
+    "query": "SELECT count(*) FROM country WHERE continent  =  \"Asia\"",
+    "db_id": "world_1"
+  },
+  "807": {
+    "query": "SELECT count(*) FROM country WHERE continent  =  \"Asia\"",
+    "db_id": "world_1"
+  },
+  "808": {
+    "query": "SELECT Name FROM country WHERE continent  =  \"Europe\" AND Population  =  \"80000\"",
+    "db_id": "world_1"
+  },
+  "809": {
+    "query": "SELECT Name FROM country WHERE continent  =  \"Europe\" AND Population  =  \"80000\"",
+    "db_id": "world_1"
+  },
+  "810": {
+    "query": "select sum(population) ,  avg(surfacearea) from country where continent  =  \"north america\" and surfacearea  >  3000",
+    "db_id": "world_1"
+  },
+  "811": {
+    "query": "select sum(population) ,  avg(surfacearea) from country where continent  =  \"north america\" and surfacearea  >  3000",
+    "db_id": "world_1"
+  },
+  "812": {
+    "query": "SELECT name FROM city WHERE Population BETWEEN 160000 AND 900000",
+    "db_id": "world_1"
+  },
+  "813": {
+    "query": "select name from city where population between 160000 and 900000",
+    "db_id": "world_1"
+  },
+  "814": {
+    "query": "SELECT LANGUAGE FROM countrylanguage GROUP BY LANGUAGE ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "815": {
+    "query": "SELECT LANGUAGE FROM countrylanguage GROUP BY LANGUAGE ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "world_1"
+  },
+  "816": {
+    "query": "SELECT LANGUAGE ,  CountryCode ,  max(Percentage) FROM countrylanguage GROUP BY CountryCode",
+    "db_id": "world_1"
+  },
+  "817": {
+    "query": "SELECT LANGUAGE ,  CountryCode ,  max(Percentage) FROM countrylanguage GROUP BY CountryCode",
+    "db_id": "world_1"
+  },
+  "818": {
+    "query": "SELECT count(*) ,   max(Percentage) FROM countrylanguage WHERE LANGUAGE  =  \"Spanish\" GROUP BY CountryCode",
+    "db_id": "world_1"
+  },
+  "819": {
+    "query": "SELECT count(*) ,   max(Percentage) FROM countrylanguage WHERE LANGUAGE  =  \"Spanish\" GROUP BY CountryCode",
+    "db_id": "world_1"
+  },
+  "820": {
+    "query": "SELECT CountryCode ,  max(Percentage) FROM countrylanguage WHERE LANGUAGE  =  \"Spanish\" GROUP BY CountryCode",
+    "db_id": "world_1"
+  },
+  "821": {
+    "query": "SELECT CountryCode ,  max(Percentage) FROM countrylanguage WHERE LANGUAGE  =  \"Spanish\" GROUP BY CountryCode",
+    "db_id": "world_1"
+  },
+  "822": {
+    "query": "SELECT count(*) FROM conductor",
+    "db_id": "orchestra"
+  },
+  "823": {
+    "query": "SELECT count(*) FROM conductor",
+    "db_id": "orchestra"
+  },
+  "824": {
+    "query": "SELECT Name FROM conductor ORDER BY Age ASC",
+    "db_id": "orchestra"
+  },
+  "825": {
+    "query": "SELECT Name FROM conductor ORDER BY Age ASC",
+    "db_id": "orchestra"
+  },
+  "826": {
+    "query": "SELECT Name FROM conductor WHERE Nationality != 'USA'",
+    "db_id": "orchestra"
+  },
+  "827": {
+    "query": "SELECT Name FROM conductor WHERE Nationality != 'USA'",
+    "db_id": "orchestra"
+  },
+  "828": {
+    "query": "SELECT Record_Company FROM orchestra ORDER BY Year_of_Founded DESC",
+    "db_id": "orchestra"
+  },
+  "829": {
+    "query": "SELECT Record_Company FROM orchestra ORDER BY Year_of_Founded DESC",
+    "db_id": "orchestra"
+  },
+  "830": {
+    "query": "SELECT avg(Attendance) FROM SHOW",
+    "db_id": "orchestra"
+  },
+  "831": {
+    "query": "SELECT avg(Attendance) FROM SHOW",
+    "db_id": "orchestra"
+  },
+  "832": {
+    "query": "SELECT max(SHARE) ,  min(SHARE) FROM performance WHERE TYPE != \"Live final\"",
+    "db_id": "orchestra"
+  },
+  "833": {
+    "query": "SELECT max(SHARE) ,  min(SHARE) FROM performance WHERE TYPE != \"Live final\"",
+    "db_id": "orchestra"
+  },
+  "834": {
+    "query": "SELECT count(DISTINCT Nationality) FROM conductor",
+    "db_id": "orchestra"
+  },
+  "835": {
+    "query": "SELECT count(DISTINCT Nationality) FROM conductor",
+    "db_id": "orchestra"
+  },
+  "836": {
+    "query": "SELECT Name FROM conductor ORDER BY Year_of_Work DESC",
+    "db_id": "orchestra"
+  },
+  "837": {
+    "query": "SELECT Name FROM conductor ORDER BY Year_of_Work DESC",
+    "db_id": "orchestra"
+  },
+  "838": {
+    "query": "SELECT Name FROM conductor ORDER BY Year_of_Work DESC LIMIT 1",
+    "db_id": "orchestra"
+  },
+  "839": {
+    "query": "SELECT Name FROM conductor ORDER BY Year_of_Work DESC LIMIT 1",
+    "db_id": "orchestra"
+  },
+  "840": {
+    "query": "SELECT T1.Name ,  T2.Orchestra FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID",
+    "db_id": "orchestra"
+  },
+  "841": {
+    "query": "SELECT T1.Name ,  T2.Orchestra FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID",
+    "db_id": "orchestra"
+  },
+  "842": {
+    "query": "SELECT T1.Name FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID GROUP BY T2.Conductor_ID HAVING COUNT(*)  >  1",
+    "db_id": "orchestra"
+  },
+  "843": {
+    "query": "SELECT T1.Name FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID GROUP BY T2.Conductor_ID HAVING COUNT(*)  >  1",
+    "db_id": "orchestra"
+  },
+  "844": {
+    "query": "SELECT T1.Name FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID GROUP BY T2.Conductor_ID ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "orchestra"
+  },
+  "845": {
+    "query": "SELECT T1.Name FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID GROUP BY T2.Conductor_ID ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "orchestra"
+  },
+  "846": {
+    "query": "SELECT T1.Name FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID WHERE Year_of_Founded  >  2008",
+    "db_id": "orchestra"
+  },
+  "847": {
+    "query": "SELECT T1.Name FROM conductor AS T1 JOIN orchestra AS T2 ON T1.Conductor_ID  =  T2.Conductor_ID WHERE Year_of_Founded  >  2008",
+    "db_id": "orchestra"
+  },
+  "848": {
+    "query": "SELECT Record_Company ,  COUNT(*) FROM orchestra GROUP BY Record_Company",
+    "db_id": "orchestra"
+  },
+  "849": {
+    "query": "SELECT Record_Company ,  COUNT(*) FROM orchestra GROUP BY Record_Company",
+    "db_id": "orchestra"
+  },
+  "850": {
+    "query": "SELECT Major_Record_Format FROM orchestra GROUP BY Major_Record_Format ORDER BY COUNT(*) ASC",
+    "db_id": "orchestra"
+  },
+  "851": {
+    "query": "SELECT Major_Record_Format FROM orchestra GROUP BY Major_Record_Format ORDER BY COUNT(*) ASC",
+    "db_id": "orchestra"
+  },
+  "852": {
+    "query": "SELECT Record_Company FROM orchestra GROUP BY Record_Company ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "orchestra"
+  },
+  "853": {
+    "query": "SELECT Record_Company FROM orchestra GROUP BY Record_Company ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "orchestra"
+  },
+  "854": {
+    "query": "SELECT Orchestra FROM orchestra WHERE Orchestra_ID NOT IN (SELECT Orchestra_ID FROM performance)",
+    "db_id": "orchestra"
+  },
+  "855": {
+    "query": "SELECT Orchestra FROM orchestra WHERE Orchestra_ID NOT IN (SELECT Orchestra_ID FROM performance)",
+    "db_id": "orchestra"
+  },
+  "856": {
+    "query": "SELECT Record_Company FROM orchestra WHERE Year_of_Founded  <  2003 INTERSECT SELECT Record_Company FROM orchestra WHERE Year_of_Founded  >  2003",
+    "db_id": "orchestra"
+  },
+  "857": {
+    "query": "SELECT Record_Company FROM orchestra WHERE Year_of_Founded  <  2003 INTERSECT SELECT Record_Company FROM orchestra WHERE Year_of_Founded  >  2003",
+    "db_id": "orchestra"
+  },
+  "858": {
+    "query": "SELECT COUNT(*) FROM orchestra WHERE Major_Record_Format  =  \"CD\" OR Major_Record_Format  =  \"DVD\"",
+    "db_id": "orchestra"
+  },
+  "859": {
+    "query": "SELECT COUNT(*) FROM orchestra WHERE Major_Record_Format  =  \"CD\" OR Major_Record_Format  =  \"DVD\"",
+    "db_id": "orchestra"
+  },
+  "860": {
+    "query": "SELECT Year_of_Founded FROM orchestra AS T1 JOIN performance AS T2 ON T1.Orchestra_ID  =  T2.Orchestra_ID GROUP BY T2.Orchestra_ID HAVING COUNT(*)  >  1",
+    "db_id": "orchestra"
+  },
+  "861": {
+    "query": "SELECT Year_of_Founded FROM orchestra AS T1 JOIN performance AS T2 ON T1.Orchestra_ID  =  T2.Orchestra_ID GROUP BY T2.Orchestra_ID HAVING COUNT(*)  >  1",
+    "db_id": "orchestra"
+  },
+  "862": {
+    "query": "SELECT count(*) FROM Highschooler",
+    "db_id": "network_1"
+  },
+  "863": {
+    "query": "SELECT count(*) FROM Highschooler",
+    "db_id": "network_1"
+  },
+  "864": {
+    "query": "SELECT name ,  grade FROM Highschooler",
+    "db_id": "network_1"
+  },
+  "865": {
+    "query": "SELECT name ,  grade FROM Highschooler",
+    "db_id": "network_1"
+  },
+  "866": {
+    "query": "SELECT grade FROM Highschooler",
+    "db_id": "network_1"
+  },
+  "867": {
+    "query": "SELECT grade FROM Highschooler",
+    "db_id": "network_1"
+  },
+  "868": {
+    "query": "SELECT grade FROM Highschooler WHERE name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "869": {
+    "query": "SELECT grade FROM Highschooler WHERE name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "870": {
+    "query": "SELECT name FROM Highschooler WHERE grade  =  10",
+    "db_id": "network_1"
+  },
+  "871": {
+    "query": "SELECT name FROM Highschooler WHERE grade  =  10",
+    "db_id": "network_1"
+  },
+  "872": {
+    "query": "SELECT ID FROM Highschooler WHERE name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "873": {
+    "query": "SELECT ID FROM Highschooler WHERE name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "874": {
+    "query": "SELECT count(*) FROM Highschooler WHERE grade  =  9 OR grade  =  10",
+    "db_id": "network_1"
+  },
+  "875": {
+    "query": "SELECT count(*) FROM Highschooler WHERE grade  =  9 OR grade  =  10",
+    "db_id": "network_1"
+  },
+  "876": {
+    "query": "SELECT grade ,  count(*) FROM Highschooler GROUP BY grade",
+    "db_id": "network_1"
+  },
+  "877": {
+    "query": "SELECT grade ,  count(*) FROM Highschooler GROUP BY grade",
+    "db_id": "network_1"
+  },
+  "878": {
+    "query": "SELECT grade FROM Highschooler GROUP BY grade ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "network_1"
+  },
+  "879": {
+    "query": "SELECT grade FROM Highschooler GROUP BY grade ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "network_1"
+  },
+  "880": {
+    "query": "SELECT grade FROM Highschooler GROUP BY grade HAVING count(*)  >=  4",
+    "db_id": "network_1"
+  },
+  "881": {
+    "query": "SELECT grade FROM Highschooler GROUP BY grade HAVING count(*)  >=  4",
+    "db_id": "network_1"
+  },
+  "882": {
+    "query": "SELECT student_id ,  count(*) FROM Friend GROUP BY student_id",
+    "db_id": "network_1"
+  },
+  "883": {
+    "query": "SELECT student_id ,  count(*) FROM Friend GROUP BY student_id",
+    "db_id": "network_1"
+  },
+  "884": {
+    "query": "SELECT T2.name ,  count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id",
+    "db_id": "network_1"
+  },
+  "885": {
+    "query": "SELECT T2.name ,  count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id",
+    "db_id": "network_1"
+  },
+  "886": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "network_1"
+  },
+  "887": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "network_1"
+  },
+  "888": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id HAVING count(*)  >=  3",
+    "db_id": "network_1"
+  },
+  "889": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id HAVING count(*)  >=  3",
+    "db_id": "network_1"
+  },
+  "890": {
+    "query": "SELECT T3.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id JOIN Highschooler AS T3 ON T1.friend_id  =  T3.id WHERE T2.name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "891": {
+    "query": "SELECT T3.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id JOIN Highschooler AS T3 ON T1.friend_id  =  T3.id WHERE T2.name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "892": {
+    "query": "SELECT count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id WHERE T2.name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "893": {
+    "query": "SELECT count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id WHERE T2.name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "894": {
+    "query": "SELECT id FROM Highschooler EXCEPT SELECT student_id FROM Friend",
+    "db_id": "network_1"
+  },
+  "895": {
+    "query": "SELECT id FROM Highschooler EXCEPT SELECT student_id FROM Friend",
+    "db_id": "network_1"
+  },
+  "896": {
+    "query": "SELECT name FROM Highschooler EXCEPT SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id",
+    "db_id": "network_1"
+  },
+  "897": {
+    "query": "SELECT name FROM Highschooler EXCEPT SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id",
+    "db_id": "network_1"
+  },
+  "898": {
+    "query": "SELECT student_id FROM Friend INTERSECT SELECT liked_id FROM Likes",
+    "db_id": "network_1"
+  },
+  "899": {
+    "query": "SELECT student_id FROM Friend INTERSECT SELECT liked_id FROM Likes",
+    "db_id": "network_1"
+  },
+  "900": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id INTERSECT SELECT T2.name FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.liked_id  =  T2.id",
+    "db_id": "network_1"
+  },
+  "901": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id INTERSECT SELECT T2.name FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.liked_id  =  T2.id",
+    "db_id": "network_1"
+  },
+  "902": {
+    "query": "SELECT student_id ,  count(*) FROM Likes GROUP BY student_id",
+    "db_id": "network_1"
+  },
+  "903": {
+    "query": "SELECT student_id ,  count(*) FROM Likes GROUP BY student_id",
+    "db_id": "network_1"
+  },
+  "904": {
+    "query": "SELECT T2.name ,  count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id",
+    "db_id": "network_1"
+  },
+  "905": {
+    "query": "SELECT T2.name ,  count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id",
+    "db_id": "network_1"
+  },
+  "906": {
+    "query": "SELECT T2.name FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "network_1"
+  },
+  "907": {
+    "query": "SELECT T2.name FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "network_1"
+  },
+  "908": {
+    "query": "SELECT T2.name FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id HAVING count(*)  >=  2",
+    "db_id": "network_1"
+  },
+  "909": {
+    "query": "SELECT T2.name FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id GROUP BY T1.student_id HAVING count(*)  >=  2",
+    "db_id": "network_1"
+  },
+  "910": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id WHERE T2.grade  >  5 GROUP BY T1.student_id HAVING count(*)  >=  2",
+    "db_id": "network_1"
+  },
+  "911": {
+    "query": "SELECT T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id WHERE T2.grade  >  5 GROUP BY T1.student_id HAVING count(*)  >=  2",
+    "db_id": "network_1"
+  },
+  "912": {
+    "query": "SELECT count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id WHERE T2.name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "913": {
+    "query": "SELECT count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id WHERE T2.name  =  \"Kyle\"",
+    "db_id": "network_1"
+  },
+  "914": {
+    "query": "SELECT avg(grade) FROM Highschooler WHERE id IN (SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id)",
+    "db_id": "network_1"
+  },
+  "915": {
+    "query": "SELECT avg(grade) FROM Highschooler WHERE id IN (SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id)",
+    "db_id": "network_1"
+  },
+  "916": {
+    "query": "SELECT min(grade) FROM Highschooler WHERE id NOT IN (SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id)",
+    "db_id": "network_1"
+  },
+  "917": {
+    "query": "SELECT min(grade) FROM Highschooler WHERE id NOT IN (SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.student_id  =  T2.id)",
+    "db_id": "network_1"
+  },
+  "918": {
+    "query": "SELECT state FROM Owners INTERSECT SELECT state FROM Professionals",
+    "db_id": "dog_kennels"
+  },
+  "919": {
+    "query": "SELECT state FROM Owners INTERSECT SELECT state FROM Professionals",
+    "db_id": "dog_kennels"
+  },
+  "920": {
+    "query": "SELECT avg(age) FROM Dogs WHERE dog_id IN ( SELECT dog_id FROM Treatments )",
+    "db_id": "dog_kennels"
+  },
+  "921": {
+    "query": "SELECT avg(age) FROM Dogs WHERE dog_id IN ( SELECT dog_id FROM Treatments )",
+    "db_id": "dog_kennels"
+  },
+  "922": {
+    "query": "SELECT professional_id ,  last_name ,  cell_number FROM Professionals WHERE state  =  'Indiana' UNION SELECT T1.professional_id ,  T1.last_name ,  T1.cell_number FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id GROUP BY T1.professional_id HAVING count(*)  >  2",
+    "db_id": "dog_kennels"
+  },
+  "923": {
+    "query": "SELECT professional_id ,  last_name ,  cell_number FROM Professionals WHERE state  =  'Indiana' UNION SELECT T1.professional_id ,  T1.last_name ,  T1.cell_number FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id GROUP BY T1.professional_id HAVING count(*)  >  2",
+    "db_id": "dog_kennels"
+  },
+  "924": {
+    "query": "select name from dogs where dog_id not in ( select dog_id from treatments group by dog_id having sum(cost_of_treatment)  >  1000 )",
+    "db_id": "dog_kennels"
+  },
+  "925": {
+    "query": "select name from dogs where dog_id not in ( select dog_id from treatments group by dog_id having sum(cost_of_treatment)  >  1000 )",
+    "db_id": "dog_kennels"
+  },
+  "926": {
+    "query": "SELECT first_name FROM Professionals UNION SELECT first_name FROM Owners EXCEPT SELECT name FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "927": {
+    "query": "SELECT first_name FROM Professionals UNION SELECT first_name FROM Owners EXCEPT SELECT name FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "928": {
+    "query": "SELECT professional_id ,  role_code ,  email_address FROM Professionals EXCEPT SELECT T1.professional_id ,  T1.role_code ,  T1.email_address FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id",
+    "db_id": "dog_kennels"
+  },
+  "929": {
+    "query": "SELECT professional_id ,  role_code ,  email_address FROM Professionals EXCEPT SELECT T1.professional_id ,  T1.role_code ,  T1.email_address FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id",
+    "db_id": "dog_kennels"
+  },
+  "930": {
+    "query": "SELECT T1.owner_id ,  T2.first_name ,  T2.last_name FROM Dogs AS T1 JOIN Owners AS T2 ON T1.owner_id  =  T2.owner_id GROUP BY T1.owner_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "931": {
+    "query": "SELECT T1.owner_id ,  T2.first_name ,  T2.last_name FROM Dogs AS T1 JOIN Owners AS T2 ON T1.owner_id  =  T2.owner_id GROUP BY T1.owner_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "932": {
+    "query": "SELECT T1.professional_id ,  T1.role_code ,  T1.first_name FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id GROUP BY T1.professional_id HAVING count(*)  >=  2",
+    "db_id": "dog_kennels"
+  },
+  "933": {
+    "query": "SELECT T1.professional_id ,  T1.role_code ,  T1.first_name FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id GROUP BY T1.professional_id HAVING count(*)  >=  2",
+    "db_id": "dog_kennels"
+  },
+  "934": {
+    "query": "SELECT T1.breed_name FROM Breeds AS T1 JOIN Dogs AS T2 ON T1.breed_code  =  T2.breed_code GROUP BY T1.breed_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "935": {
+    "query": "SELECT T1.breed_name FROM Breeds AS T1 JOIN Dogs AS T2 ON T1.breed_code  =  T2.breed_code GROUP BY T1.breed_name ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "936": {
+    "query": "SELECT T1.owner_id ,  T1.last_name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id JOIN Treatments AS T3 ON T2.dog_id  =  T3.dog_id GROUP BY T1.owner_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "937": {
+    "query": "SELECT T1.owner_id ,  T1.last_name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id JOIN Treatments AS T3 ON T2.dog_id  =  T3.dog_id GROUP BY T1.owner_id ORDER BY count(*) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "938": {
+    "query": "SELECT T1.treatment_type_description FROM Treatment_types AS T1 JOIN Treatments AS T2 ON T1.treatment_type_code  =  T2.treatment_type_code GROUP BY T1.treatment_type_code ORDER BY sum(cost_of_treatment) ASC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "939": {
+    "query": "SELECT T1.treatment_type_description FROM Treatment_types AS T1 JOIN Treatments AS T2 ON T1.treatment_type_code  =  T2.treatment_type_code GROUP BY T1.treatment_type_code ORDER BY sum(cost_of_treatment) ASC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "940": {
+    "query": "SELECT T1.owner_id ,  T1.zip_code FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id JOIN Treatments AS T3 ON T2.dog_id  =  T3.dog_id GROUP BY T1.owner_id ORDER BY sum(T3.cost_of_treatment) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "941": {
+    "query": "SELECT T1.owner_id ,  T1.zip_code FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id JOIN Treatments AS T3 ON T2.dog_id  =  T3.dog_id GROUP BY T1.owner_id ORDER BY sum(T3.cost_of_treatment) DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "942": {
+    "query": "SELECT T1.professional_id ,  T1.cell_number FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id GROUP BY T1.professional_id HAVING count(*)  >=  2",
+    "db_id": "dog_kennels"
+  },
+  "943": {
+    "query": "SELECT T1.professional_id ,  T1.cell_number FROM Professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id GROUP BY T1.professional_id HAVING count(*)  >=  2",
+    "db_id": "dog_kennels"
+  },
+  "944": {
+    "query": "SELECT DISTINCT T1.first_name ,  T1.last_name FROM Professionals AS T1 JOIN Treatments AS T2 WHERE cost_of_treatment  <  ( SELECT avg(cost_of_treatment) FROM Treatments )",
+    "db_id": "dog_kennels"
+  },
+  "945": {
+    "query": "SELECT DISTINCT T1.first_name ,  T1.last_name FROM Professionals AS T1 JOIN Treatments AS T2 WHERE cost_of_treatment  <  ( SELECT avg(cost_of_treatment) FROM Treatments )",
+    "db_id": "dog_kennels"
+  },
+  "946": {
+    "query": "SELECT T1.date_of_treatment ,  T2.first_name FROM Treatments AS T1 JOIN Professionals AS T2 ON T1.professional_id  =  T2.professional_id",
+    "db_id": "dog_kennels"
+  },
+  "947": {
+    "query": "SELECT T1.date_of_treatment ,  T2.first_name FROM Treatments AS T1 JOIN Professionals AS T2 ON T1.professional_id  =  T2.professional_id",
+    "db_id": "dog_kennels"
+  },
+  "948": {
+    "query": "SELECT T1.cost_of_treatment ,  T2.treatment_type_description FROM Treatments AS T1 JOIN treatment_types AS T2 ON T1.treatment_type_code  =  T2.treatment_type_code",
+    "db_id": "dog_kennels"
+  },
+  "949": {
+    "query": "SELECT T1.cost_of_treatment ,  T2.treatment_type_description FROM Treatments AS T1 JOIN treatment_types AS T2 ON T1.treatment_type_code  =  T2.treatment_type_code",
+    "db_id": "dog_kennels"
+  },
+  "950": {
+    "query": "SELECT T1.first_name ,  T1.last_name ,  T2.size_code FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id",
+    "db_id": "dog_kennels"
+  },
+  "951": {
+    "query": "SELECT T1.first_name ,  T1.last_name ,  T2.size_code FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id",
+    "db_id": "dog_kennels"
+  },
+  "952": {
+    "query": "SELECT T1.first_name ,  T2.name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id",
+    "db_id": "dog_kennels"
+  },
+  "953": {
+    "query": "SELECT T1.first_name ,  T2.name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id",
+    "db_id": "dog_kennels"
+  },
+  "954": {
+    "query": "SELECT T1.name ,  T2.date_of_treatment FROM Dogs AS T1 JOIN Treatments AS T2 ON T1.dog_id  =  T2.dog_id WHERE T1.breed_code  =  ( SELECT breed_code FROM Dogs GROUP BY breed_code ORDER BY count(*) ASC LIMIT 1 )",
+    "db_id": "dog_kennels"
+  },
+  "955": {
+    "query": "SELECT T1.name ,  T2.date_of_treatment FROM Dogs AS T1 JOIN Treatments AS T2 ON T1.dog_id  =  T2.dog_id WHERE T1.breed_code  =  ( SELECT breed_code FROM Dogs GROUP BY breed_code ORDER BY count(*) ASC LIMIT 1 )",
+    "db_id": "dog_kennels"
+  },
+  "956": {
+    "query": "SELECT T1.first_name ,  T2.name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id WHERE T1.state  =  'Virginia'",
+    "db_id": "dog_kennels"
+  },
+  "957": {
+    "query": "SELECT T1.first_name ,  T2.name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id WHERE T1.state  =  'Virginia'",
+    "db_id": "dog_kennels"
+  },
+  "958": {
+    "query": "SELECT DISTINCT T1.date_arrived ,  T1.date_departed FROM Dogs AS T1 JOIN Treatments AS T2 ON T1.dog_id  =  T2.dog_id",
+    "db_id": "dog_kennels"
+  },
+  "959": {
+    "query": "SELECT DISTINCT T1.date_arrived ,  T1.date_departed FROM Dogs AS T1 JOIN Treatments AS T2 ON T1.dog_id  =  T2.dog_id",
+    "db_id": "dog_kennels"
+  },
+  "960": {
+    "query": "SELECT T1.last_name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id WHERE T2.age  =  ( SELECT max(age) FROM Dogs )",
+    "db_id": "dog_kennels"
+  },
+  "961": {
+    "query": "SELECT T1.last_name FROM Owners AS T1 JOIN Dogs AS T2 ON T1.owner_id  =  T2.owner_id WHERE T2.age  =  ( SELECT max(age) FROM Dogs )",
+    "db_id": "dog_kennels"
+  },
+  "962": {
+    "query": "SELECT email_address FROM Professionals WHERE state  =  'Hawaii' OR state  =  'Wisconsin'",
+    "db_id": "dog_kennels"
+  },
+  "963": {
+    "query": "SELECT email_address FROM Professionals WHERE state  =  'Hawaii' OR state  =  'Wisconsin'",
+    "db_id": "dog_kennels"
+  },
+  "964": {
+    "query": "SELECT date_arrived ,  date_departed FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "965": {
+    "query": "SELECT date_arrived ,  date_departed FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "966": {
+    "query": "SELECT count(DISTINCT dog_id) FROM Treatments",
+    "db_id": "dog_kennels"
+  },
+  "967": {
+    "query": "SELECT count(DISTINCT dog_id) FROM Treatments",
+    "db_id": "dog_kennels"
+  },
+  "968": {
+    "query": "SELECT count(DISTINCT professional_id) FROM Treatments",
+    "db_id": "dog_kennels"
+  },
+  "969": {
+    "query": "SELECT count(DISTINCT professional_id) FROM Treatments",
+    "db_id": "dog_kennels"
+  },
+  "970": {
+    "query": "SELECT role_code ,  street ,  city ,  state FROM professionals WHERE city LIKE '%West%'",
+    "db_id": "dog_kennels"
+  },
+  "971": {
+    "query": "SELECT role_code ,  street ,  city ,  state FROM professionals WHERE city LIKE '%West%'",
+    "db_id": "dog_kennels"
+  },
+  "972": {
+    "query": "SELECT first_name ,  last_name ,  email_address FROM Owners WHERE state LIKE '%North%'",
+    "db_id": "dog_kennels"
+  },
+  "973": {
+    "query": "SELECT first_name ,  last_name ,  email_address FROM Owners WHERE state LIKE '%North%'",
+    "db_id": "dog_kennels"
+  },
+  "974": {
+    "query": "SELECT count(*) FROM Dogs WHERE age  <  ( SELECT avg(age) FROM Dogs )",
+    "db_id": "dog_kennels"
+  },
+  "975": {
+    "query": "SELECT count(*) FROM Dogs WHERE age  <  ( SELECT avg(age) FROM Dogs )",
+    "db_id": "dog_kennels"
+  },
+  "976": {
+    "query": "SELECT cost_of_treatment FROM Treatments ORDER BY date_of_treatment DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "977": {
+    "query": "SELECT cost_of_treatment FROM Treatments ORDER BY date_of_treatment DESC LIMIT 1",
+    "db_id": "dog_kennels"
+  },
+  "978": {
+    "query": "SELECT count(*) FROM Dogs WHERE dog_id NOT IN ( SELECT dog_id FROM Treatments )",
+    "db_id": "dog_kennels"
+  },
+  "979": {
+    "query": "select count(*) from dogs where dog_id not in ( select dog_id from treatments )",
+    "db_id": "dog_kennels"
+  },
+  "980": {
+    "query": "SELECT count(*) FROM Owners WHERE owner_id NOT IN ( SELECT owner_id FROM Dogs )",
+    "db_id": "dog_kennels"
+  },
+  "981": {
+    "query": "SELECT count(*) FROM Owners WHERE owner_id NOT IN ( SELECT owner_id FROM Dogs )",
+    "db_id": "dog_kennels"
+  },
+  "982": {
+    "query": "SELECT count(*) FROM Professionals WHERE professional_id NOT IN ( SELECT professional_id FROM Treatments )",
+    "db_id": "dog_kennels"
+  },
+  "983": {
+    "query": "SELECT count(*) FROM Professionals WHERE professional_id NOT IN ( SELECT professional_id FROM Treatments )",
+    "db_id": "dog_kennels"
+  },
+  "984": {
+    "query": "SELECT name ,  age ,  weight FROM Dogs WHERE abandoned_yn  =  1",
+    "db_id": "dog_kennels"
+  },
+  "985": {
+    "query": "SELECT name ,  age ,  weight FROM Dogs WHERE abandoned_yn  =  1",
+    "db_id": "dog_kennels"
+  },
+  "986": {
+    "query": "SELECT avg(age) FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "987": {
+    "query": "SELECT avg(age) FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "988": {
+    "query": "SELECT max(age) FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "989": {
+    "query": "SELECT max(age) FROM Dogs",
+    "db_id": "dog_kennels"
+  },
+  "990": {
+    "query": "SELECT charge_type ,  charge_amount FROM Charges",
+    "db_id": "dog_kennels"
+  },
+  "991": {
+    "query": "SELECT charge_type ,  charge_amount FROM Charges",
+    "db_id": "dog_kennels"
+  },
+  "992": {
+    "query": "SELECT max(charge_amount) FROM Charges",
+    "db_id": "dog_kennels"
+  },
+  "993": {
+    "query": "SELECT max(charge_amount) FROM Charges",
+    "db_id": "dog_kennels"
+  },
+  "994": {
+    "query": "SELECT email_address ,  cell_number ,  home_phone FROM professionals",
+    "db_id": "dog_kennels"
+  },
+  "995": {
+    "query": "SELECT email_address ,  cell_number ,  home_phone FROM professionals",
+    "db_id": "dog_kennels"
+  },
+  "996": {
+    "query": "SELECT DISTINCT breed_code ,  size_code FROM dogs",
+    "db_id": "dog_kennels"
+  },
+  "997": {
+    "query": "SELECT DISTINCT breed_code ,  size_code FROM dogs",
+    "db_id": "dog_kennels"
+  },
+  "998": {
+    "query": "SELECT DISTINCT T1.first_name ,  T3.treatment_type_description FROM professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id JOIN Treatment_types AS T3 ON T2.treatment_type_code  =  T3.treatment_type_code",
+    "db_id": "dog_kennels"
+  },
+  "999": {
+    "query": "SELECT DISTINCT T1.first_name ,  T3.treatment_type_description FROM professionals AS T1 JOIN Treatments AS T2 ON T1.professional_id  =  T2.professional_id JOIN Treatment_types AS T3 ON T2.treatment_type_code  =  T3.treatment_type_code",
+    "db_id": "dog_kennels"
+  },
+  "1000": {
+    "query": "SELECT count(*) FROM singer",
+    "db_id": "singer"
+  },
+  "1001": {
+    "query": "SELECT count(*) FROM singer",
+    "db_id": "singer"
+  },
+  "1002": {
+    "query": "SELECT Name FROM singer ORDER BY Net_Worth_Millions ASC",
+    "db_id": "singer"
+  },
+  "1003": {
+    "query": "SELECT Name FROM singer ORDER BY Net_Worth_Millions ASC",
+    "db_id": "singer"
+  },
+  "1004": {
+    "query": "SELECT Birth_Year ,  Citizenship FROM singer",
+    "db_id": "singer"
+  },
+  "1005": {
+    "query": "SELECT Birth_Year ,  Citizenship FROM singer",
+    "db_id": "singer"
+  },
+  "1006": {
+    "query": "SELECT Name FROM singer WHERE Citizenship != \"France\"",
+    "db_id": "singer"
+  },
+  "1007": {
+    "query": "SELECT Name FROM singer WHERE Citizenship != \"France\"",
+    "db_id": "singer"
+  },
+  "1008": {
+    "query": "SELECT Name FROM singer WHERE Birth_Year  =  1948 OR Birth_Year  =  1949",
+    "db_id": "singer"
+  },
+  "1009": {
+    "query": "SELECT Name FROM singer WHERE Birth_Year  =  1948 OR Birth_Year  =  1949",
+    "db_id": "singer"
+  },
+  "1010": {
+    "query": "SELECT Name FROM singer ORDER BY Net_Worth_Millions DESC LIMIT 1",
+    "db_id": "singer"
+  },
+  "1011": {
+    "query": "SELECT Name FROM singer ORDER BY Net_Worth_Millions DESC LIMIT 1",
+    "db_id": "singer"
+  },
+  "1012": {
+    "query": "SELECT Citizenship ,  COUNT(*) FROM singer GROUP BY Citizenship",
+    "db_id": "singer"
+  },
+  "1013": {
+    "query": "SELECT Citizenship ,  COUNT(*) FROM singer GROUP BY Citizenship",
+    "db_id": "singer"
+  },
+  "1014": {
+    "query": "SELECT Citizenship FROM singer GROUP BY Citizenship ORDER BY COUNT(*) DESC LIMIT 1",
+    "db_id": "singer"
+  },
+  "1015": {
+    "query": "select citizenship from singer group by citizenship order by count(*) desc limit 1",
+    "db_id": "singer"
+  },
+  "1016": {
+    "query": "SELECT Citizenship ,  max(Net_Worth_Millions) FROM singer GROUP BY Citizenship",
+    "db_id": "singer"
+  },
+  "1017": {
+    "query": "SELECT Citizenship ,  max(Net_Worth_Millions) FROM singer GROUP BY Citizenship",
+    "db_id": "singer"
+  },
+  "1018": {
+    "query": "SELECT T2.Title ,  T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID",
+    "db_id": "singer"
+  },
+  "1019": {
+    "query": "SELECT T2.Title ,  T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID",
+    "db_id": "singer"
+  },
+  "1020": {
+    "query": "SELECT DISTINCT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID WHERE T2.Sales  >  300000",
+    "db_id": "singer"
+  },
+  "1021": {
+    "query": "SELECT DISTINCT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID WHERE T2.Sales  >  300000",
+    "db_id": "singer"
+  },
+  "1022": {
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID GROUP BY T1.Name HAVING COUNT(*)  >  1",
+    "db_id": "singer"
+  },
+  "1023": {
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID GROUP BY T1.Name HAVING COUNT(*)  >  1",
+    "db_id": "singer"
+  },
+  "1024": {
+    "query": "SELECT T1.Name ,  sum(T2.Sales) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID GROUP BY T1.Name",
+    "db_id": "singer"
+  },
+  "1025": {
+    "query": "SELECT T1.Name ,  sum(T2.Sales) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID  =  T2.Singer_ID GROUP BY T1.Name",
+    "db_id": "singer"
+  },
+  "1026": {
+    "query": "SELECT Name FROM singer WHERE Singer_ID NOT IN (SELECT Singer_ID FROM song)",
+    "db_id": "singer"
+  },
+  "1027": {
+    "query": "SELECT Name FROM singer WHERE Singer_ID NOT IN (SELECT Singer_ID FROM song)",
+    "db_id": "singer"
+  },
+  "1028": {
+    "query": "SELECT Citizenship FROM singer WHERE Birth_Year  <  1945 INTERSECT SELECT Citizenship FROM singer WHERE Birth_Year  >  1955",
+    "db_id": "singer"
+  },
+  "1029": {
+    "query": "SELECT Citizenship FROM singer WHERE Birth_Year  <  1945 INTERSECT SELECT Citizenship FROM singer WHERE Birth_Year  >  1955",
+    "db_id": "singer"
+  },
+  "1030": {
+    "query": "SELECT count(*) FROM Other_Available_Features",
+    "db_id": "real_estate_properties"
+  },
+  "1031": {
+    "query": "SELECT T2.feature_type_name FROM Other_Available_Features AS T1 JOIN Ref_Feature_Types AS T2 ON T1.feature_type_code  =  T2.feature_type_code WHERE T1.feature_name  =  \"AirCon\"",
+    "db_id": "real_estate_properties"
+  },
+  "1032": {
+    "query": "SELECT T2.property_type_description FROM Properties AS T1 JOIN Ref_Property_Types AS T2 ON T1.property_type_code  =  T2.property_type_code GROUP BY T1.property_type_code",
+    "db_id": "real_estate_properties"
+  },
+  "1033": {
+    "query": "SELECT property_name FROM Properties WHERE property_type_code  =  \"House\" UNION SELECT property_name FROM Properties WHERE property_type_code  =  \"Apartment\" AND room_count  >  1",
+    "db_id": "real_estate_properties"
+  }
+}

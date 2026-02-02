@@ -2,31 +2,61 @@
 
 ## 任务描述
 
-Discord 聊天检索任务评估模型在非正式对话场景下的检索能力。数据来自 Discord 聊天频道，包含大量网络用语、表情符号和口语化表达。
+Discord 聊天检索任务评估模型在非正式对话场景下的检索能力。数据包含大量网络用语、表情符号和口语化表达。
 
-## 数据集
+## 数据集信息
 
 - **来源**: `breadlicker45/discord-chat`
-- **规模**: ~1,000,000 条消息
-- **语言**: 英语（含大量网络用语）
-- **特点**: 非正式对话、表情符号、缩写
+- **评测集**: 500 条
+- **语言**: 英语
 
-## 任务目标
+## 数据格式
 
-给定用户查询，从 Discord 聊天记录中检索最相关的消息或对话片段。需要处理：
-1. 非正式语言和俚语
-2. 表情符号和特殊字符
-3. 上下文依赖的对话
+### queries.json 字段说明
 
-## 评估指标
+```json
+{
+  "task": "discord",
+  "total": 500,
+  "queries": [
+    {
+      "id": "0",
+      "message": "anyone know a good Python tutorial? been trying to learn but most are boring lol"
+    }
+  ]
+}
+```
 
-| 指标 | 说明 |
-|------|------|
-| **LLM-as-Judge** | 使用大语言模型评估检索结果的相关性 |
-| **Relevance Score** | 相关性评分 (1-5) |
-| **Context Score** | 上下文完整性评分 (1-5) |
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | 消息唯一标识符 |
+| `message` | string | Discord 消息文本 |
 
-## 提交格式
+## 使用流程
+
+### 1. 加载评测数据
+
+```python
+import json
+
+with open("queries.json", "r") as f:
+    data = json.load(f)
+
+# 对每条消息，检索相关的回复或上下文
+predictions = []
+for query in data["queries"]:
+    qid = query["id"]
+    message = query["message"]
+
+    # 检索相关消息
+    retrieved = your_retriever.search(message)
+    predictions.append({
+        "query": message,
+        "retrieved": [{"message_id": r.id, "text": r.text} for r in retrieved]
+    })
+```
+
+### 2. 生成预测结果
 
 ```json
 {
@@ -35,40 +65,41 @@ Discord 聊天检索任务评估模型在非正式对话场景下的检索能力
     {
       "query": "anyone know a good Python tutorial?",
       "retrieved": [
-        {"message_id": "msg_123", "text": "..."},
-        {"message_id": "msg_456", "text": "..."}
+        {"message_id": "msg_123", "text": "check out Corey Schafer on youtube"},
+        {"message_id": "msg_124", "text": "automate the boring stuff is free online"}
       ]
     }
   ]
 }
 ```
 
-## 运行评估
+### 3. 运行评估
 
 ```bash
-python eval.py --submission predictions.json --api-key YOUR_API_KEY
+python eval.py --submission predictions.json --api-key YOUR_OPENAI_KEY
 ```
+
+## 评估指标
+
+使用 LLM-as-Judge 评估：
+
+| 指标 | 说明 |
+|------|------|
+| **Relevance** | 相关性评分 (1-5) |
+| **Context** | 上下文完整性评分 (1-5) |
 
 ## 输出示例
 
 ```json
 {
   "task": "discord",
+  "model_name": "your-model",
   "avg_relevance": 3.6,
   "avg_context": 3.2,
   "high_relevance_ratio": 0.58,
-  "num_queries": 100,
-  "timestamp": "2024-01-30T12:00:00"
+  "num_queries": 500
 }
 ```
-
-## 挑战
-
-Discord 数据的特殊挑战：
-- **非标准语法**: "u" 代替 "you", "rn" 代替 "right now"
-- **表情符号**: :thinking: 🤔 等
-- **上下文依赖**: 回复可能依赖之前的消息
-- **多主题交织**: 同一频道多个话题同时进行
 
 ## 参考资料
 

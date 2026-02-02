@@ -2,22 +2,89 @@
 
 ## 任务描述
 
-AudioCaps 是一个音频描述数据集，用于评估音频与文本之间的检索能力。任务包括：
-1. **音频到文本检索 (A2T)**: 给定音频，检索最相关的文本描述
-2. **文本到音频检索 (T2A)**: 给定文本描述，检索最匹配的音频
+AudioCaps 是一个音频描述数据集，用于评估音频与文本之间的检索能力。
 
-## 数据集
+## 数据集信息
 
 - **来源**: `AudioLLMs/audiocaps_test`
-- **规模**: ~50,000 音频-文本对
+- **评测集**: 500 条
 - **语言**: 英语
-- **音频来源**: YouTube 视频
 
-## 任务目标
+## 数据格式
 
-构建音频-文本嵌入模型，能够：
-1. 将音频和文本编码到同一向量空间
-2. 通过向量相似度进行跨模态检索
+### queries.json 字段说明
+
+```json
+{
+  "task": "audiocaps",
+  "total": 500,
+  "queries": [
+    {
+      "id": "0",
+      "audiocap_id": "audiocap_0",
+      "youtube_id": "vid0_7fmOlUlwoNg",
+      "start_time": 0
+    }
+  ]
+}
+```
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | 查询唯一标识符 |
+| `audiocap_id` | string | AudioCaps 原始 ID |
+| `youtube_id` | string | YouTube 视频 ID |
+| `start_time` | int | 音频起始时间（秒） |
+
+### 加载音频
+
+```python
+from datasets import load_dataset
+
+# 从 HuggingFace 加载
+dataset = load_dataset('AudioLLMs/audiocaps_test', split='test')
+```
+
+## 使用流程
+
+### 1. 加载评测数据
+
+```python
+import json
+
+with open("queries.json", "r") as f:
+    data = json.load(f)
+
+# 构建音频嵌入
+audio_embeddings = {}
+for query in data["queries"]:
+    qid = query["id"]
+    # 加载音频文件
+    audio = load_audio(query["youtube_id"], query["start_time"])
+    audio_embeddings[qid] = your_model.encode_audio(audio)
+```
+
+### 2. 生成预测结果
+
+```json
+{
+  "model_name": "your-model-name",
+  "audio_to_text": {
+    "0": ["0_caption", "1_caption", "2_caption"],
+    "1": ["1_caption", "0_caption", "3_caption"]
+  },
+  "text_to_audio": {
+    "0_caption": ["0", "1", "2"],
+    "1_caption": ["1", "0", "3"]
+  }
+}
+```
+
+### 3. 运行评估
+
+```bash
+python eval.py --submission predictions.json
+```
 
 ## 评估指标
 
@@ -28,41 +95,17 @@ AudioCaps 是一个音频描述数据集，用于评估音频与文本之间的�
 | **R@10** | 正确结果出现在前 10 位的比例 |
 | **mAP** | 平均精度均值 |
 
-## 提交格式
-
-```json
-{
-  "model_name": "your-model-name",
-  "audio_to_text": {
-    "audio_id_1": ["text_id_1", "text_id_3", "text_id_2"],
-    "audio_id_2": ["text_id_5", "text_id_1", "text_id_8"]
-  },
-  "text_to_audio": {
-    "text_id_1": ["audio_id_1", "audio_id_3", "audio_id_2"],
-    "text_id_2": ["audio_id_5", "audio_id_1", "audio_id_4"]
-  }
-}
-```
-
-## 运行评估
-
-```bash
-python eval.py --submission predictions.json
-```
-
 ## 输出示例
 
 ```json
 {
   "task": "audiocaps",
+  "model_name": "your-model",
   "a2t_r@1": 35.2,
   "a2t_r@5": 62.1,
-  "a2t_r@10": 75.4,
   "t2a_r@1": 28.3,
   "t2a_r@5": 55.8,
-  "t2a_r@10": 68.2,
-  "num_samples": 975,
-  "timestamp": "2024-01-30T12:00:00"
+  "num_queries": 500
 }
 ```
 

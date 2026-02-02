@@ -2,21 +2,91 @@
 
 ## 任务描述
 
-COCO 图文检索任务评估模型在图像与文本之间进行双向检索的能力。包含两个子任务：
-1. **图像到文本检索 (I2T)**: 给定图像，检索最相关的文本描述
-2. **文本到图像检索 (T2I)**: 给定文本描述，检索最匹配的图像
+COCO 图文检索任务评估模型在图像与文本之间进行双向检索的能力。
 
-## 数据集
+## 数据集信息
 
-- **来源**: `nlphuji/mscoco_2014_5k_test`
-- **规模**: 5,000 张测试图像，每张图像有 5 个描述
+- **来源**: MS COCO 2014
+- **评测集**: 500 条
 - **语言**: 英语
 
-## 任务目标
+## 数据格式
 
-构建图文嵌入模型，能够：
-1. 将图像和文本编码到同一向量空间
-2. 通过向量相似度进行跨模态检索
+### queries.json 字段说明
+
+```json
+{
+  "task": "coco",
+  "total": 500,
+  "queries": [
+    {
+      "id": "391895",
+      "image_id": 391895
+    }
+  ]
+}
+```
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | 查询唯一标识符 |
+| `image_id` | int | COCO 图像 ID |
+
+### 加载图像
+
+需要从 MS COCO 数据集下载图像：
+```python
+# 下载 COCO 2014 Val images
+# http://images.cocodataset.org/zips/val2014.zip
+```
+
+## 使用流程
+
+### 1. 加载评测数据
+
+```python
+import json
+from PIL import Image
+
+with open("queries.json", "r") as f:
+    data = json.load(f)
+
+# 构建图像和文本的嵌入
+image_embeddings = {}
+for query in data["queries"]:
+    image_id = query["image_id"]
+    image_path = f"val2014/COCO_val2014_{image_id:012d}.jpg"
+    image = Image.open(image_path)
+
+    # 用你的模型编码图像
+    image_embeddings[query["id"]] = your_model.encode_image(image)
+```
+
+### 2. 生成预测结果
+
+```json
+{
+  "model_name": "your-model-name",
+  "image_to_text": {
+    "391895": ["391895_0", "391895_2", "522418_1"],
+    "522418": ["522418_0", "522418_1", "391895_2"]
+  },
+  "text_to_image": {
+    "391895_0": ["391895", "522418", "318219"],
+    "522418_0": ["522418", "391895", "318219"]
+  }
+}
+```
+
+**说明**:
+- `image_to_text`: 图像 ID → 排序后的文本 ID 列表
+- `text_to_image`: 文本 ID → 排序后的图像 ID 列表
+
+### 3. 运行评估
+
+```bash
+python eval.py --submission predictions.json
+```
 
 ## 评估指标
 
@@ -25,50 +95,18 @@ COCO 图文检索任务评估模型在图像与文本之间进行双向检索的
 | **R@1** | 正确结果出现在第 1 位的比例 |
 | **R@5** | 正确结果出现在前 5 位的比例 |
 | **R@10** | 正确结果出现在前 10 位的比例 |
-| **Mean Rank** | 正确结果的平均排名 |
-
-分别报告 I2T 和 T2I 两个方向的指标。
-
-## 提交格式
-
-```json
-{
-  "model_name": "your-model-name",
-  "image_to_text": {
-    "image_id_1": ["text_id_1", "text_id_2", "text_id_3"],
-    "image_id_2": ["text_id_5", "text_id_1", "text_id_8"]
-  },
-  "text_to_image": {
-    "text_id_1": ["image_id_1", "image_id_3", "image_id_2"],
-    "text_id_2": ["image_id_5", "image_id_1", "image_id_4"]
-  }
-}
-```
-
-**说明**:
-- 每个查询返回按相关性排序的结果列表
-- 建议返回 Top-10 或 Top-100 结果
-
-## 运行评估
-
-```bash
-python eval.py --submission predictions.json
-```
 
 ## 输出示例
 
 ```json
 {
   "task": "coco",
+  "model_name": "your-model",
   "i2t_r@1": 65.2,
   "i2t_r@5": 87.1,
-  "i2t_r@10": 93.4,
   "t2i_r@1": 48.3,
   "t2i_r@5": 76.8,
-  "t2i_r@10": 86.2,
-  "num_images": 5000,
-  "num_texts": 25000,
-  "timestamp": "2024-01-30T12:00:00"
+  "num_queries": 500
 }
 ```
 

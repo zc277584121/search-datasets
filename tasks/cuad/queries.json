@@ -1,0 +1,2508 @@
+{
+  "task": "cuad",
+  "description": "CUAD Contract Understanding",
+  "total": 500,
+  "note": "Questions ask to identify specific legal clauses in contract text",
+  "queries": [
+    {
+      "id": "cuad_0",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_1",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_2",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_3",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_4",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_5",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_6",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_7",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_8",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_9",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_10",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_11",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_12",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_13",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_14",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_15",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_16",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_17",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_18",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_19",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_20",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_21",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_22",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_23",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_24",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_25",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_26",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_27",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_28",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_29",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_30",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_31",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_32",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_33",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_34",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_35",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_36",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_37",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_38",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_39",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_40",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_41",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_42",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_43",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_44",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_45",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_46",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_47",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_48",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_49",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_50",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_51",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_52",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_53",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_54",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_55",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_56",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_57",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_58",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_59",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_60",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_61",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_62",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_63",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_64",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_65",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_66",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_67",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_68",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_69",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_70",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_71",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_72",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_73",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_74",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_75",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_76",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_77",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_78",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_79",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_80",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_81",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_82",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_83",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_84",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_85",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_86",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_87",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_88",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_89",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_90",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_91",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_92",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_93",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_94",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_95",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_96",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_97",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_98",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_99",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_100",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_101",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_102",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_103",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_104",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_105",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_106",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_107",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_108",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_109",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_110",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_111",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_112",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_113",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_114",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_115",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_116",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_117",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_118",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_119",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_120",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_121",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_122",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_123",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_124",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_125",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_126",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_127",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_128",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_129",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_130",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_131",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_132",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_133",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_134",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_135",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_136",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_137",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_138",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_139",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_140",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_141",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_142",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_143",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_144",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_145",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_146",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_147",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_148",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_149",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_150",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_151",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_152",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_153",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_154",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_155",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_156",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_157",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_158",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_159",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_160",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_161",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_162",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_163",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_164",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_165",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_166",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_167",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_168",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_169",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_170",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_171",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_172",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_173",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_174",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_175",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_176",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_177",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_178",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_179",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_180",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_181",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_182",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_183",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_184",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_185",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_186",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_187",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_188",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_189",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_190",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_191",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_192",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_193",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_194",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_195",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_196",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_197",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_198",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_199",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_200",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_201",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_202",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_203",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_204",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_205",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_206",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_207",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_208",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_209",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_210",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_211",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_212",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_213",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_214",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_215",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_216",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_217",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_218",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_219",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_220",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_221",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_222",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_223",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_224",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_225",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_226",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_227",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_228",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_229",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_230",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_231",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_232",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_233",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_234",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_235",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_236",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_237",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_238",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_239",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_240",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_241",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_242",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_243",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_244",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_245",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_246",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_247",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_248",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_249",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_250",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_251",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_252",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_253",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_254",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_255",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_256",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_257",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_258",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_259",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_260",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_261",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_262",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_263",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_264",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_265",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_266",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_267",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_268",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_269",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_270",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_271",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_272",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_273",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_274",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_275",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_276",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_277",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_278",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_279",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_280",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_281",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_282",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_283",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_284",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_285",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_286",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_287",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_288",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_289",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_290",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_291",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_292",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_293",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_294",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_295",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_296",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_297",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_298",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_299",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_300",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_301",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_302",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_303",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_304",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_305",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_306",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_307",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_308",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_309",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_310",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_311",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_312",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_313",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_314",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_315",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_316",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_317",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_318",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_319",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_320",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_321",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_322",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_323",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_324",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_325",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_326",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_327",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_328",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_329",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_330",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_331",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_332",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_333",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_334",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_335",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_336",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_337",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_338",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_339",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_340",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_341",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_342",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_343",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_344",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_345",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_346",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_347",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_348",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_349",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_350",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_351",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_352",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_353",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_354",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_355",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_356",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_357",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_358",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_359",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_360",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_361",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_362",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_363",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_364",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_365",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_366",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_367",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_368",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_369",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_370",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_371",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_372",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_373",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_374",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_375",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_376",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_377",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_378",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_379",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_380",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_381",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_382",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_383",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_384",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_385",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_386",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_387",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_388",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_389",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_390",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_391",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_392",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_393",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_394",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_395",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_396",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_397",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_398",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_399",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_400",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_401",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_402",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_403",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_404",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_405",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_406",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_407",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_408",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_409",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_410",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_411",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_412",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_413",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_414",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_415",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_416",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_417",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_418",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_419",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_420",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_421",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_422",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_423",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_424",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_425",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_426",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_427",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_428",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_429",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_430",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_431",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_432",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_433",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_434",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_435",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_436",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_437",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_438",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_439",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_440",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_441",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_442",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_443",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_444",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_445",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_446",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_447",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_448",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_449",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_450",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_451",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_452",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_453",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_454",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_455",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_456",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_457",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_458",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_459",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_460",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_461",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_462",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_463",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_464",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_465",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_466",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_467",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_468",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_469",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_470",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_471",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_472",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_473",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_474",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_475",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_476",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_477",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_478",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_479",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_480",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_481",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_482",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_483",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_484",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    },
+    {
+      "id": "cuad_485",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of California. Either party may terminate upon 90 days written notice."
+    },
+    {
+      "id": "cuad_486",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 1 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_487",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Europe."
+    },
+    {
+      "id": "cuad_488",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $10,000,000."
+    },
+    {
+      "id": "cuad_489",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 1 years."
+    },
+    {
+      "id": "cuad_490",
+      "question": "Identify the Termination for Convenience clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of New York. Either party may terminate upon 60 days written notice."
+    },
+    {
+      "id": "cuad_491",
+      "question": "Identify the Non-Compete clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 3 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_492",
+      "question": "Identify the Exclusivity clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of North America."
+    },
+    {
+      "id": "cuad_493",
+      "question": "Identify the Limitation of Liability clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $5,000,000."
+    },
+    {
+      "id": "cuad_494",
+      "question": "Identify the Governing Law clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 3 years."
+    },
+    {
+      "id": "cuad_495",
+      "question": "Identify the Confidentiality clause in this contract.",
+      "context": "This Agreement shall be governed by the laws of Delaware. Either party may terminate upon 30 days written notice."
+    },
+    {
+      "id": "cuad_496",
+      "question": "Identify the Indemnification clause in this contract.",
+      "context": "The Consultant agrees not to compete with the Company for 2 years following termination of this Agreement."
+    },
+    {
+      "id": "cuad_497",
+      "question": "Identify the Assignment clause in this contract.",
+      "context": "The Company grants exclusive rights to the Distributor for the territory of Asia Pacific."
+    },
+    {
+      "id": "cuad_498",
+      "question": "Identify the Audit Rights clause in this contract.",
+      "context": "Neither party shall be liable for indirect, incidental, or consequential damages exceeding $1,000,000."
+    },
+    {
+      "id": "cuad_499",
+      "question": "Identify the Insurance clause in this contract.",
+      "context": "All confidential information shall be protected for a period of 2 years."
+    }
+  ]
+}

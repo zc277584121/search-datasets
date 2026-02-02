@@ -4,29 +4,66 @@
 
 GitHub Issues 检索任务评估模型在技术问题追踪场景下的检索能力。数据包含真实的 GitHub issue，涵盖 bug 报告、功能请求、讨论等。
 
-## 数据集
+## 数据集信息
 
 - **来源**: `lewtun/github-issues`
-- **规模**: ~500,000 issues
+- **评测集**: 500 条
 - **语言**: 英语
-- **特点**: 技术性内容、代码片段、结构化信息
 
-## 任务目标
+## 数据格式
 
-给定用户查询（问题描述），从 issue 库中检索最相关的 issues。需要处理：
-1. 技术术语和代码
-2. 错误信息和堆栈跟踪
-3. Issue 的结构化元数据（标签、状态等）
+### queries.json 字段说明
 
-## 评估指标
+```json
+{
+  "task": "github_issues",
+  "total": 500,
+  "queries": [
+    {
+      "id": "0",
+      "title": "TypeError when using async functions with decorators",
+      "body": "When I apply a decorator to an async function, I get a TypeError..."
+    }
+  ]
+}
+```
 
-| 指标 | 说明 |
-|------|------|
-| **LLM-as-Judge** | 使用大语言模型评估检索结果的相关性 |
-| **Relevance Score** | 相关性评分 (1-5) |
-| **Usefulness Score** | 对解决问题的有用程度 (1-5) |
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | Issue 唯一标识符 |
+| `title` | string | Issue 标题 |
+| `body` | string | Issue 正文描述 |
 
-## 提交格式
+## 使用流程
+
+### 1. 加载评测数据
+
+```python
+import json
+
+with open("queries.json", "r") as f:
+    data = json.load(f)
+
+predictions = []
+for query in data["queries"]:
+    qid = query["id"]
+    title = query["title"]
+    body = query["body"]
+
+    # 检索相关 issues
+    search_query = f"{title} {body}"
+    retrieved = your_retriever.search(search_query)
+
+    predictions.append({
+        "query": title,
+        "retrieved": [
+            {"issue_id": r.id, "title": r.title, "body": r.body}
+            for r in retrieved
+        ]
+    })
+```
+
+### 2. 生成预测结果
 
 ```json
 {
@@ -35,40 +72,44 @@ GitHub Issues 检索任务评估模型在技术问题追踪场景下的检索能
     {
       "query": "TypeError when using async functions",
       "retrieved": [
-        {"issue_id": "issue_123", "title": "...", "body": "..."},
-        {"issue_id": "issue_456", "title": "...", "body": "..."}
+        {
+          "issue_id": "issue_123",
+          "title": "Async decorator causes TypeError",
+          "body": "Steps to reproduce: 1. Create async function..."
+        }
       ]
     }
   ]
 }
 ```
 
-## 运行评估
+### 3. 运行评估
 
 ```bash
-python eval.py --submission predictions.json --api-key YOUR_API_KEY
+python eval.py --submission predictions.json --api-key YOUR_OPENAI_KEY
 ```
+
+## 评估指标
+
+使用 LLM-as-Judge 评估：
+
+| 指标 | 说明 |
+|------|------|
+| **Relevance** | 相关性评分 (1-5) |
+| **Usefulness** | 对解决问题的有用程度 (1-5) |
 
 ## 输出示例
 
 ```json
 {
   "task": "github_issues",
+  "model_name": "your-model",
   "avg_relevance": 3.9,
   "avg_usefulness": 3.5,
   "high_relevance_ratio": 0.62,
-  "num_queries": 100,
-  "timestamp": "2024-01-30T12:00:00"
+  "num_queries": 500
 }
 ```
-
-## Issue 类型
-
-常见的 issue 类型：
-- **Bug Report**: 错误报告，包含复现步骤
-- **Feature Request**: 功能请求
-- **Question**: 使用问题
-- **Discussion**: 技术讨论
 
 ## 参考资料
 

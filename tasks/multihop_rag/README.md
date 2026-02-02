@@ -2,84 +2,112 @@
 
 ## 任务描述
 
-MultiHop-RAG 是一个多跳检索增强生成数据集，要求模型通过多步检索和推理来回答复杂问题。问题需要整合来自多个文档的信息才能回答。
+MultiHop-RAG 是一个多跳检索增强生成数据集，要求模型通过多步检索和推理来回答复杂问题。
 
-## 数据集
+## 数据集信息
 
 - **来源**: `yixuantt/MultiHopRAG`
-- **规模**: ~2,500 问答对
+- **评测集**: 500 条
 - **语言**: 英语
-- **特点**: 需要 2-4 跳推理
 
-## 任务目标
+## 数据格式
 
-给定问题和文档库：
-1. 检索相关文档（可能需要多轮检索）
-2. 整合多个文档的信息
-3. 进行推理并生成答案
+### queries.json 字段说明
 
-## 评估指标
+```json
+{
+  "task": "multihop_rag",
+  "total": 500,
+  "queries": [
+    {
+      "id": "0",
+      "question": "Who directed the film that won Best Picture at the 95th Academy Awards?",
+      "question_type": "bridge"
+    }
+  ]
+}
+```
 
-| 指标 | 说明 |
-|------|------|
-| **Recall** | 检索到的相关文档比例 |
-| **F1** | 答案与标准答案的词级别 F1 |
-| **EM** | 答案完全匹配的比例 |
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | 问题唯一标识符 |
+| `question` | string | 需要多跳推理的问题 |
+| `question_type` | string | 问题类型（bridge/comparison 等） |
 
-## 提交格式
+## 使用流程
+
+### 1. 加载评测数据
+
+```python
+import json
+
+with open("queries.json", "r") as f:
+    data = json.load(f)
+
+predictions = {}
+for query in data["queries"]:
+    qid = query["id"]
+    question = query["question"]
+
+    # 多跳检索并回答
+    retrieved_docs = your_retriever.search(question)
+    answer = your_model.answer(question, retrieved_docs)
+
+    predictions[qid] = {
+        "answer": answer,
+        "retrieved_docs": [doc.id for doc in retrieved_docs]
+    }
+```
+
+### 2. 生成预测结果
 
 ```json
 {
   "model_name": "your-model-name",
   "predictions": {
-    "question_id_1": {
-      "answer": "The answer text",
-      "retrieved_docs": ["doc_id_1", "doc_id_3", "doc_id_7"]
+    "0": {
+      "answer": "Daniel Kwan and Daniel Scheinert",
+      "retrieved_docs": ["doc_oscar_2023", "doc_eeaao_directors"]
     },
-    "question_id_2": {
-      "answer": "Another answer",
-      "retrieved_docs": ["doc_id_2", "doc_id_5"]
+    "1": {
+      "answer": "Paris",
+      "retrieved_docs": ["doc_france", "doc_capital_cities"]
     }
   }
 }
 ```
 
 **说明**:
-- `answer`: 最终答案文本
+- `answer`: 最终答案
 - `retrieved_docs`: 检索到的文档 ID 列表
 
-## 运行评估
+### 3. 运行评估
 
 ```bash
 python eval.py --submission predictions.json
 ```
+
+## 评估指标
+
+| 指标 | 说明 |
+|------|------|
+| **Exact Match** | 答案完全匹配的比例 |
+| **F1** | 词级别的 F1 分数 |
+| **Retrieval Recall** | 检索到的相关文档比例 |
 
 ## 输出示例
 
 ```json
 {
   "task": "multihop_rag",
+  "model_name": "your-model",
   "exact_match": 35.2,
   "f1": 52.8,
   "retrieval_recall": 68.5,
-  "retrieval_precision": 45.2,
-  "avg_hops": 2.3,
-  "num_samples": 609,
-  "timestamp": "2024-01-30T12:00:00"
+  "num_samples": 500
 }
 ```
-
-## 多跳推理示例
-
-**问题**: Who is the director of the movie that won the Best Picture at the 95th Academy Awards?
-
-**推理过程**:
-1. 检索: 95th Academy Awards Best Picture → "Everything Everywhere All at Once"
-2. 检索: Director of "Everything Everywhere All at Once" → Daniel Kwan, Daniel Scheinert
-
-**答案**: Daniel Kwan and Daniel Scheinert (The Daniels)
 
 ## 参考资料
 
 - [MultiHop-RAG 论文](https://arxiv.org/abs/2401.15391)
-- [数据集页面](https://huggingface.co/datasets/yixuantt/MultiHopRAG)

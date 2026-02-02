@@ -1,0 +1,2002 @@
+{
+  "finqa_0": {
+    "answer": "-73.54",
+    "program": "subtract(509, 1924), divide(#0, 1924), multiply(#1, 100)"
+  },
+  "finqa_1": {
+    "answer": "10255",
+    "program": "add(4112, 3757), add(#0, 2386)"
+  },
+  "finqa_2": {
+    "answer": "4112.67",
+    "program": "add(1779, 9035), add(#0, 1524), divide(#1, 3)"
+  },
+  "finqa_3": {
+    "answer": "1.39",
+    "program": "divide(9774, 7012)"
+  },
+  "finqa_4": {
+    "answer": "178.06",
+    "program": "subtract(1635, 588), divide(#0, 588), multiply(#1, 100)"
+  },
+  "finqa_5": {
+    "answer": "114.24",
+    "program": "subtract(8379, 3911), divide(#0, 3911), multiply(#1, 100)"
+  },
+  "finqa_6": {
+    "answer": "13186",
+    "program": "add(534, 9295), add(#0, 3357)"
+  },
+  "finqa_7": {
+    "answer": "6570.67",
+    "program": "add(9028, 6973), add(#0, 3711), divide(#1, 3)"
+  },
+  "finqa_8": {
+    "answer": "0.76",
+    "program": "divide(7459, 9754)"
+  },
+  "finqa_9": {
+    "answer": "1217.96",
+    "program": "subtract(2715, 206), divide(#0, 206), multiply(#1, 100)"
+  },
+  "finqa_10": {
+    "answer": "-18.01",
+    "program": "subtract(4652, 5674), divide(#0, 5674), multiply(#1, 100)"
+  },
+  "finqa_11": {
+    "answer": "11015",
+    "program": "add(3627, 5614), add(#0, 1774)"
+  },
+  "finqa_12": {
+    "answer": "3209.0",
+    "program": "add(1619, 6324), add(#0, 1684), divide(#1, 3)"
+  },
+  "finqa_13": {
+    "answer": "1.04",
+    "program": "divide(5981, 5735)"
+  },
+  "finqa_14": {
+    "answer": "-81.71",
+    "program": "subtract(811, 4433), divide(#0, 4433), multiply(#1, 100)"
+  },
+  "finqa_15": {
+    "answer": "-75.86",
+    "program": "subtract(2145, 8885), divide(#0, 8885), multiply(#1, 100)"
+  },
+  "finqa_16": {
+    "answer": "15438",
+    "program": "add(1391, 9144), add(#0, 4903)"
+  },
+  "finqa_17": {
+    "answer": "6278.0",
+    "program": "add(6025, 9559), add(#0, 3250), divide(#1, 3)"
+  },
+  "finqa_18": {
+    "answer": "1.46",
+    "program": "divide(1239, 850)"
+  },
+  "finqa_19": {
+    "answer": "-70.94",
+    "program": "subtract(1407, 4841), divide(#0, 4841), multiply(#1, 100)"
+  },
+  "finqa_20": {
+    "answer": "260.72",
+    "program": "subtract(6327, 1754), divide(#0, 1754), multiply(#1, 100)"
+  },
+  "finqa_21": {
+    "answer": "16369",
+    "program": "add(7528, 6077), add(#0, 2764)"
+  },
+  "finqa_22": {
+    "answer": "5205.67",
+    "program": "add(6165, 5920), add(#0, 3532), divide(#1, 3)"
+  },
+  "finqa_23": {
+    "answer": "3.53",
+    "program": "divide(4474, 1269)"
+  },
+  "finqa_24": {
+    "answer": "-53.56",
+    "program": "subtract(4110, 8851), divide(#0, 8851), multiply(#1, 100)"
+  },
+  "finqa_25": {
+    "answer": "-17.69",
+    "program": "subtract(6316, 7673), divide(#0, 7673), multiply(#1, 100)"
+  },
+  "finqa_26": {
+    "answer": "18336",
+    "program": "add(9225, 3698), add(#0, 5413)"
+  },
+  "finqa_27": {
+    "answer": "1831.0",
+    "program": "add(1016, 3852), add(#0, 625), divide(#1, 3)"
+  },
+  "finqa_28": {
+    "answer": "0.79",
+    "program": "divide(5268, 6672)"
+  },
+  "finqa_29": {
+    "answer": "200.34",
+    "program": "subtract(3556, 1184), divide(#0, 1184), multiply(#1, 100)"
+  },
+  "finqa_30": {
+    "answer": "-31.82",
+    "program": "subtract(3583, 5255), divide(#0, 5255), multiply(#1, 100)"
+  },
+  "finqa_31": {
+    "answer": "16639",
+    "program": "add(6582, 7617), add(#0, 2440)"
+  },
+  "finqa_32": {
+    "answer": "3655.33",
+    "program": "add(4439, 2387), add(#0, 4140), divide(#1, 3)"
+  },
+  "finqa_33": {
+    "answer": "1.04",
+    "program": "divide(9297, 8930)"
+  },
+  "finqa_34": {
+    "answer": "-26.43",
+    "program": "subtract(7119, 9677), divide(#0, 9677), multiply(#1, 100)"
+  },
+  "finqa_35": {
+    "answer": "-9.23",
+    "program": "subtract(6030, 6643), divide(#0, 6643), multiply(#1, 100)"
+  },
+  "finqa_36": {
+    "answer": "18999",
+    "program": "add(2366, 8448), add(#0, 8185)"
+  },
+  "finqa_37": {
+    "answer": "1452.0",
+    "program": "add(1589, 871), add(#0, 1896), divide(#1, 3)"
+  },
+  "finqa_38": {
+    "answer": "0.96",
+    "program": "divide(2604, 2721)"
+  },
+  "finqa_39": {
+    "answer": "-88.45",
+    "program": "subtract(1140, 9871), divide(#0, 9871), multiply(#1, 100)"
+  },
+  "finqa_40": {
+    "answer": "55.27",
+    "program": "subtract(9863, 6352), divide(#0, 6352), multiply(#1, 100)"
+  },
+  "finqa_41": {
+    "answer": "22152",
+    "program": "add(8769, 4219), add(#0, 9164)"
+  },
+  "finqa_42": {
+    "answer": "3720.33",
+    "program": "add(288, 1976), add(#0, 8897), divide(#1, 3)"
+  },
+  "finqa_43": {
+    "answer": "0.79",
+    "program": "divide(4471, 5673)"
+  },
+  "finqa_44": {
+    "answer": "47.17",
+    "program": "subtract(7223, 4908), divide(#0, 4908), multiply(#1, 100)"
+  },
+  "finqa_45": {
+    "answer": "-97.97",
+    "program": "subtract(153, 7533), divide(#0, 7533), multiply(#1, 100)"
+  },
+  "finqa_46": {
+    "answer": "19745",
+    "program": "add(8301, 3027), add(#0, 8417)"
+  },
+  "finqa_47": {
+    "answer": "5083.0",
+    "program": "add(1843, 4989), add(#0, 8417), divide(#1, 3)"
+  },
+  "finqa_48": {
+    "answer": "1.29",
+    "program": "divide(3358, 2604)"
+  },
+  "finqa_49": {
+    "answer": "225.46",
+    "program": "subtract(8937, 2746), divide(#0, 2746), multiply(#1, 100)"
+  },
+  "finqa_50": {
+    "answer": "8994.5",
+    "program": "subtract(9913, 109), divide(#0, 109), multiply(#1, 100)"
+  },
+  "finqa_51": {
+    "answer": "10456",
+    "program": "add(8105, 419), add(#0, 1932)"
+  },
+  "finqa_52": {
+    "answer": "5069.33",
+    "program": "add(6047, 5138), add(#0, 4023), divide(#1, 3)"
+  },
+  "finqa_53": {
+    "answer": "0.26",
+    "program": "divide(1049, 4046)"
+  },
+  "finqa_54": {
+    "answer": "8.13",
+    "program": "subtract(1503, 1390), divide(#0, 1390), multiply(#1, 100)"
+  },
+  "finqa_55": {
+    "answer": "615.9",
+    "program": "subtract(8827, 1233), divide(#0, 1233), multiply(#1, 100)"
+  },
+  "finqa_56": {
+    "answer": "19197",
+    "program": "add(2203, 7887), add(#0, 9107)"
+  },
+  "finqa_57": {
+    "answer": "5330.67",
+    "program": "add(2805, 4442), add(#0, 8745), divide(#1, 3)"
+  },
+  "finqa_58": {
+    "answer": "1.97",
+    "program": "divide(7032, 3570)"
+  },
+  "finqa_59": {
+    "answer": "53.37",
+    "program": "subtract(5207, 3395), divide(#0, 3395), multiply(#1, 100)"
+  },
+  "finqa_60": {
+    "answer": "17.03",
+    "program": "subtract(7277, 6218), divide(#0, 6218), multiply(#1, 100)"
+  },
+  "finqa_61": {
+    "answer": "13740",
+    "program": "add(7497, 2082), add(#0, 4161)"
+  },
+  "finqa_62": {
+    "answer": "3523.0",
+    "program": "add(3781, 1149), add(#0, 5639), divide(#1, 3)"
+  },
+  "finqa_63": {
+    "answer": "0.05",
+    "program": "divide(444, 9738)"
+  },
+  "finqa_64": {
+    "answer": "151.71",
+    "program": "subtract(9741, 3870), divide(#0, 3870), multiply(#1, 100)"
+  },
+  "finqa_65": {
+    "answer": "482.03",
+    "program": "subtract(1263, 217), divide(#0, 217), multiply(#1, 100)"
+  },
+  "finqa_66": {
+    "answer": "5668",
+    "program": "add(3850, 1204), add(#0, 614)"
+  },
+  "finqa_67": {
+    "answer": "5098.67",
+    "program": "add(5513, 1260), add(#0, 8523), divide(#1, 3)"
+  },
+  "finqa_68": {
+    "answer": "0.86",
+    "program": "divide(3999, 4662)"
+  },
+  "finqa_69": {
+    "answer": "147.48",
+    "program": "subtract(8934, 3610), divide(#0, 3610), multiply(#1, 100)"
+  },
+  "finqa_70": {
+    "answer": "0.9",
+    "program": "subtract(9540, 9455), divide(#0, 9455), multiply(#1, 100)"
+  },
+  "finqa_71": {
+    "answer": "18699",
+    "program": "add(4081, 7849), add(#0, 6769)"
+  },
+  "finqa_72": {
+    "answer": "2184.0",
+    "program": "add(3219, 1645), add(#0, 1688), divide(#1, 3)"
+  },
+  "finqa_73": {
+    "answer": "1.21",
+    "program": "divide(7162, 5904)"
+  },
+  "finqa_74": {
+    "answer": "13.4",
+    "program": "subtract(7751, 6835), divide(#0, 6835), multiply(#1, 100)"
+  },
+  "finqa_75": {
+    "answer": "-36.16",
+    "program": "subtract(1093, 1712), divide(#0, 1712), multiply(#1, 100)"
+  },
+  "finqa_76": {
+    "answer": "11722",
+    "program": "add(5659, 1890), add(#0, 4173)"
+  },
+  "finqa_77": {
+    "answer": "5113.67",
+    "program": "add(3239, 3216), add(#0, 8886), divide(#1, 3)"
+  },
+  "finqa_78": {
+    "answer": "3.11",
+    "program": "divide(7450, 2396)"
+  },
+  "finqa_79": {
+    "answer": "50.13",
+    "program": "subtract(4663, 3106), divide(#0, 3106), multiply(#1, 100)"
+  },
+  "finqa_80": {
+    "answer": "-68.15",
+    "program": "subtract(1335, 4192), divide(#0, 4192), multiply(#1, 100)"
+  },
+  "finqa_81": {
+    "answer": "11748",
+    "program": "add(9116, 1704), add(#0, 928)"
+  },
+  "finqa_82": {
+    "answer": "3641.67",
+    "program": "add(8956, 341), add(#0, 1628), divide(#1, 3)"
+  },
+  "finqa_83": {
+    "answer": "1.41",
+    "program": "divide(3972, 2824)"
+  },
+  "finqa_84": {
+    "answer": "-0.87",
+    "program": "subtract(7986, 8056), divide(#0, 8056), multiply(#1, 100)"
+  },
+  "finqa_85": {
+    "answer": "-84.11",
+    "program": "subtract(1060, 6670), divide(#0, 6670), multiply(#1, 100)"
+  },
+  "finqa_86": {
+    "answer": "12940",
+    "program": "add(6309, 135), add(#0, 6496)"
+  },
+  "finqa_87": {
+    "answer": "5590.67",
+    "program": "add(4445, 7554), add(#0, 4773), divide(#1, 3)"
+  },
+  "finqa_88": {
+    "answer": "0.76",
+    "program": "divide(7030, 9205)"
+  },
+  "finqa_89": {
+    "answer": "21.81",
+    "program": "subtract(3211, 2636), divide(#0, 2636), multiply(#1, 100)"
+  },
+  "finqa_90": {
+    "answer": "-71.14",
+    "program": "subtract(1058, 3666), divide(#0, 3666), multiply(#1, 100)"
+  },
+  "finqa_91": {
+    "answer": "15319",
+    "program": "add(8983, 1098), add(#0, 5238)"
+  },
+  "finqa_92": {
+    "answer": "3876.0",
+    "program": "add(1036, 921), add(#0, 9671), divide(#1, 3)"
+  },
+  "finqa_93": {
+    "answer": "0.95",
+    "program": "divide(7911, 8338)"
+  },
+  "finqa_94": {
+    "answer": "-61.52",
+    "program": "subtract(1031, 2679), divide(#0, 2679), multiply(#1, 100)"
+  },
+  "finqa_95": {
+    "answer": "122.66",
+    "program": "subtract(3144, 1412), divide(#0, 1412), multiply(#1, 100)"
+  },
+  "finqa_96": {
+    "answer": "15015",
+    "program": "add(9849, 1213), add(#0, 3953)"
+  },
+  "finqa_97": {
+    "answer": "6070.67",
+    "program": "add(6715, 2064), add(#0, 9433), divide(#1, 3)"
+  },
+  "finqa_98": {
+    "answer": "0.43",
+    "program": "divide(4133, 9585)"
+  },
+  "finqa_99": {
+    "answer": "92.14",
+    "program": "subtract(1443, 751), divide(#0, 751), multiply(#1, 100)"
+  },
+  "finqa_100": {
+    "answer": "-3.13",
+    "program": "subtract(9360, 9662), divide(#0, 9662), multiply(#1, 100)"
+  },
+  "finqa_101": {
+    "answer": "13101",
+    "program": "add(5283, 4372), add(#0, 3446)"
+  },
+  "finqa_102": {
+    "answer": "4569.33",
+    "program": "add(5247, 4010), add(#0, 4451), divide(#1, 3)"
+  },
+  "finqa_103": {
+    "answer": "2.93",
+    "program": "divide(6584, 2244)"
+  },
+  "finqa_104": {
+    "answer": "-30.44",
+    "program": "subtract(5280, 7591), divide(#0, 7591), multiply(#1, 100)"
+  },
+  "finqa_105": {
+    "answer": "2919.05",
+    "program": "subtract(7608, 252), divide(#0, 252), multiply(#1, 100)"
+  },
+  "finqa_106": {
+    "answer": "11946",
+    "program": "add(1738, 1300), add(#0, 8908)"
+  },
+  "finqa_107": {
+    "answer": "5475.0",
+    "program": "add(3592, 8388), add(#0, 4445), divide(#1, 3)"
+  },
+  "finqa_108": {
+    "answer": "0.39",
+    "program": "divide(2270, 5818)"
+  },
+  "finqa_109": {
+    "answer": "50.02",
+    "program": "subtract(6154, 4102), divide(#0, 4102), multiply(#1, 100)"
+  },
+  "finqa_110": {
+    "answer": "171.2",
+    "program": "subtract(7279, 2684), divide(#0, 2684), multiply(#1, 100)"
+  },
+  "finqa_111": {
+    "answer": "14050",
+    "program": "add(5056, 8766), add(#0, 228)"
+  },
+  "finqa_112": {
+    "answer": "5329.33",
+    "program": "add(9186, 5005), add(#0, 1797), divide(#1, 3)"
+  },
+  "finqa_113": {
+    "answer": "0.52",
+    "program": "divide(2300, 4433)"
+  },
+  "finqa_114": {
+    "answer": "394.55",
+    "program": "subtract(9164, 1853), divide(#0, 1853), multiply(#1, 100)"
+  },
+  "finqa_115": {
+    "answer": "3.38",
+    "program": "subtract(4716, 4562), divide(#0, 4562), multiply(#1, 100)"
+  },
+  "finqa_116": {
+    "answer": "13577",
+    "program": "add(5717, 3435), add(#0, 4425)"
+  },
+  "finqa_117": {
+    "answer": "6899.33",
+    "program": "add(8380, 8104), add(#0, 4214), divide(#1, 3)"
+  },
+  "finqa_118": {
+    "answer": "0.58",
+    "program": "divide(932, 1612)"
+  },
+  "finqa_119": {
+    "answer": "-82.26",
+    "program": "subtract(822, 4633), divide(#0, 4633), multiply(#1, 100)"
+  },
+  "finqa_120": {
+    "answer": "-59.69",
+    "program": "subtract(2243, 5564), divide(#0, 5564), multiply(#1, 100)"
+  },
+  "finqa_121": {
+    "answer": "19224",
+    "program": "add(2747, 7339), add(#0, 9138)"
+  },
+  "finqa_122": {
+    "answer": "5551.33",
+    "program": "add(7107, 9289), add(#0, 258), divide(#1, 3)"
+  },
+  "finqa_123": {
+    "answer": "1.45",
+    "program": "divide(1932, 1332)"
+  },
+  "finqa_124": {
+    "answer": "-92.37",
+    "program": "subtract(690, 9038), divide(#0, 9038), multiply(#1, 100)"
+  },
+  "finqa_125": {
+    "answer": "-5.09",
+    "program": "subtract(9152, 9643), divide(#0, 9643), multiply(#1, 100)"
+  },
+  "finqa_126": {
+    "answer": "10114",
+    "program": "add(7141, 2188), add(#0, 785)"
+  },
+  "finqa_127": {
+    "answer": "3992.33",
+    "program": "add(5150, 6074), add(#0, 753), divide(#1, 3)"
+  },
+  "finqa_128": {
+    "answer": "1.68",
+    "program": "divide(5962, 3541)"
+  },
+  "finqa_129": {
+    "answer": "230.38",
+    "program": "subtract(5894, 1784), divide(#0, 1784), multiply(#1, 100)"
+  },
+  "finqa_130": {
+    "answer": "-61.05",
+    "program": "subtract(2632, 6758), divide(#0, 6758), multiply(#1, 100)"
+  },
+  "finqa_131": {
+    "answer": "12617",
+    "program": "add(2762, 3000), add(#0, 6855)"
+  },
+  "finqa_132": {
+    "answer": "3028.67",
+    "program": "add(506, 3038), add(#0, 5542), divide(#1, 3)"
+  },
+  "finqa_133": {
+    "answer": "1.64",
+    "program": "divide(6845, 4165)"
+  },
+  "finqa_134": {
+    "answer": "-30.91",
+    "program": "subtract(1871, 2708), divide(#0, 2708), multiply(#1, 100)"
+  },
+  "finqa_135": {
+    "answer": "964.17",
+    "program": "subtract(7811, 734), divide(#0, 734), multiply(#1, 100)"
+  },
+  "finqa_136": {
+    "answer": "16838",
+    "program": "add(3369, 7641), add(#0, 5828)"
+  },
+  "finqa_137": {
+    "answer": "4226.67",
+    "program": "add(5100, 3828), add(#0, 3752), divide(#1, 3)"
+  },
+  "finqa_138": {
+    "answer": "0.15",
+    "program": "divide(487, 3264)"
+  },
+  "finqa_139": {
+    "answer": "-14.86",
+    "program": "subtract(4664, 5478), divide(#0, 5478), multiply(#1, 100)"
+  },
+  "finqa_140": {
+    "answer": "25.25",
+    "program": "subtract(5853, 4673), divide(#0, 4673), multiply(#1, 100)"
+  },
+  "finqa_141": {
+    "answer": "21058",
+    "program": "add(6648, 8885), add(#0, 5525)"
+  },
+  "finqa_142": {
+    "answer": "2306.67",
+    "program": "add(552, 1989), add(#0, 4379), divide(#1, 3)"
+  },
+  "finqa_143": {
+    "answer": "0.31",
+    "program": "divide(3025, 9612)"
+  },
+  "finqa_144": {
+    "answer": "158.4",
+    "program": "subtract(1876, 726), divide(#0, 726), multiply(#1, 100)"
+  },
+  "finqa_145": {
+    "answer": "-20.17",
+    "program": "subtract(5763, 7219), divide(#0, 7219), multiply(#1, 100)"
+  },
+  "finqa_146": {
+    "answer": "17722",
+    "program": "add(7249, 8479), add(#0, 1994)"
+  },
+  "finqa_147": {
+    "answer": "6390.33",
+    "program": "add(6411, 9546), add(#0, 3214), divide(#1, 3)"
+  },
+  "finqa_148": {
+    "answer": "5.17",
+    "program": "divide(4273, 827)"
+  },
+  "finqa_149": {
+    "answer": "6685.83",
+    "program": "subtract(8618, 127), divide(#0, 127), multiply(#1, 100)"
+  },
+  "finqa_150": {
+    "answer": "82.3",
+    "program": "subtract(6067, 3328), divide(#0, 3328), multiply(#1, 100)"
+  },
+  "finqa_151": {
+    "answer": "11998",
+    "program": "add(1246, 5509), add(#0, 5243)"
+  },
+  "finqa_152": {
+    "answer": "5189.67",
+    "program": "add(2141, 5020), add(#0, 8408), divide(#1, 3)"
+  },
+  "finqa_153": {
+    "answer": "0.76",
+    "program": "divide(5167, 6791)"
+  },
+  "finqa_154": {
+    "answer": "-26.12",
+    "program": "subtract(4944, 6692), divide(#0, 6692), multiply(#1, 100)"
+  },
+  "finqa_155": {
+    "answer": "48.42",
+    "program": "subtract(3243, 2185), divide(#0, 2185), multiply(#1, 100)"
+  },
+  "finqa_156": {
+    "answer": "18686",
+    "program": "add(6311, 2951), add(#0, 9424)"
+  },
+  "finqa_157": {
+    "answer": "6953.33",
+    "program": "add(5030, 6753), add(#0, 9077), divide(#1, 3)"
+  },
+  "finqa_158": {
+    "answer": "0.02",
+    "program": "divide(106, 5078)"
+  },
+  "finqa_159": {
+    "answer": "101.61",
+    "program": "subtract(7143, 3543), divide(#0, 3543), multiply(#1, 100)"
+  },
+  "finqa_160": {
+    "answer": "43.48",
+    "program": "subtract(7718, 5379), divide(#0, 5379), multiply(#1, 100)"
+  },
+  "finqa_161": {
+    "answer": "19420",
+    "program": "add(7344, 3601), add(#0, 8475)"
+  },
+  "finqa_162": {
+    "answer": "4073.67",
+    "program": "add(7852, 2880), add(#0, 1489), divide(#1, 3)"
+  },
+  "finqa_163": {
+    "answer": "0.56",
+    "program": "divide(4749, 8545)"
+  },
+  "finqa_164": {
+    "answer": "142.21",
+    "program": "subtract(3948, 1630), divide(#0, 1630), multiply(#1, 100)"
+  },
+  "finqa_165": {
+    "answer": "-11.06",
+    "program": "subtract(3362, 3780), divide(#0, 3780), multiply(#1, 100)"
+  },
+  "finqa_166": {
+    "answer": "5468",
+    "program": "add(500, 857), add(#0, 4111)"
+  },
+  "finqa_167": {
+    "answer": "5579.33",
+    "program": "add(7884, 1293), add(#0, 7561), divide(#1, 3)"
+  },
+  "finqa_168": {
+    "answer": "0.72",
+    "program": "divide(6890, 9531)"
+  },
+  "finqa_169": {
+    "answer": "28.29",
+    "program": "subtract(8199, 6391), divide(#0, 6391), multiply(#1, 100)"
+  },
+  "finqa_170": {
+    "answer": "-38.56",
+    "program": "subtract(2517, 4097), divide(#0, 4097), multiply(#1, 100)"
+  },
+  "finqa_171": {
+    "answer": "12596",
+    "program": "add(1846, 7065), add(#0, 3685)"
+  },
+  "finqa_172": {
+    "answer": "6426.0",
+    "program": "add(2981, 8586), add(#0, 7711), divide(#1, 3)"
+  },
+  "finqa_173": {
+    "answer": "0.1",
+    "program": "divide(922, 9232)"
+  },
+  "finqa_174": {
+    "answer": "262.93",
+    "program": "subtract(7578, 2088), divide(#0, 2088), multiply(#1, 100)"
+  },
+  "finqa_175": {
+    "answer": "14.13",
+    "program": "subtract(8802, 7712), divide(#0, 7712), multiply(#1, 100)"
+  },
+  "finqa_176": {
+    "answer": "22504",
+    "program": "add(9855, 5298), add(#0, 7351)"
+  },
+  "finqa_177": {
+    "answer": "8179.0",
+    "program": "add(8370, 7091), add(#0, 9076), divide(#1, 3)"
+  },
+  "finqa_178": {
+    "answer": "2.74",
+    "program": "divide(7405, 2707)"
+  },
+  "finqa_179": {
+    "answer": "-41.84",
+    "program": "subtract(4346, 7473), divide(#0, 7473), multiply(#1, 100)"
+  },
+  "finqa_180": {
+    "answer": "86.09",
+    "program": "subtract(8640, 4643), divide(#0, 4643), multiply(#1, 100)"
+  },
+  "finqa_181": {
+    "answer": "15924",
+    "program": "add(4019, 4599), add(#0, 7306)"
+  },
+  "finqa_182": {
+    "answer": "3363.67",
+    "program": "add(1369, 4781), add(#0, 3941), divide(#1, 3)"
+  },
+  "finqa_183": {
+    "answer": "0.81",
+    "program": "divide(4551, 5602)"
+  },
+  "finqa_184": {
+    "answer": "-84.13",
+    "program": "subtract(1420, 8949), divide(#0, 8949), multiply(#1, 100)"
+  },
+  "finqa_185": {
+    "answer": "51.23",
+    "program": "subtract(3888, 2571), divide(#0, 2571), multiply(#1, 100)"
+  },
+  "finqa_186": {
+    "answer": "7360",
+    "program": "add(2603, 3605), add(#0, 1152)"
+  },
+  "finqa_187": {
+    "answer": "6398.67",
+    "program": "add(6897, 6778), add(#0, 5521), divide(#1, 3)"
+  },
+  "finqa_188": {
+    "answer": "1.16",
+    "program": "divide(8990, 7733)"
+  },
+  "finqa_189": {
+    "answer": "211.43",
+    "program": "subtract(3488, 1120), divide(#0, 1120), multiply(#1, 100)"
+  },
+  "finqa_190": {
+    "answer": "49.19",
+    "program": "subtract(9669, 6481), divide(#0, 6481), multiply(#1, 100)"
+  },
+  "finqa_191": {
+    "answer": "23778",
+    "program": "add(9532, 6332), add(#0, 7914)"
+  },
+  "finqa_192": {
+    "answer": "3683.67",
+    "program": "add(196, 5863), add(#0, 4992), divide(#1, 3)"
+  },
+  "finqa_193": {
+    "answer": "0.93",
+    "program": "divide(6489, 6965)"
+  },
+  "finqa_194": {
+    "answer": "10.35",
+    "program": "subtract(9983, 9047), divide(#0, 9047), multiply(#1, 100)"
+  },
+  "finqa_195": {
+    "answer": "-54.38",
+    "program": "subtract(3695, 8099), divide(#0, 8099), multiply(#1, 100)"
+  },
+  "finqa_196": {
+    "answer": "15871",
+    "program": "add(7240, 8056), add(#0, 575)"
+  },
+  "finqa_197": {
+    "answer": "6267.33",
+    "program": "add(6471, 5607), add(#0, 6724), divide(#1, 3)"
+  },
+  "finqa_198": {
+    "answer": "0.36",
+    "program": "divide(2804, 7757)"
+  },
+  "finqa_199": {
+    "answer": "-93.89",
+    "program": "subtract(541, 8851), divide(#0, 8851), multiply(#1, 100)"
+  },
+  "finqa_200": {
+    "answer": "-4.6",
+    "program": "subtract(9346, 9797), divide(#0, 9797), multiply(#1, 100)"
+  },
+  "finqa_201": {
+    "answer": "10920",
+    "program": "add(1475, 7122), add(#0, 2323)"
+  },
+  "finqa_202": {
+    "answer": "3888.0",
+    "program": "add(7664, 3077), add(#0, 923), divide(#1, 3)"
+  },
+  "finqa_203": {
+    "answer": "0.69",
+    "program": "divide(4362, 6311)"
+  },
+  "finqa_204": {
+    "answer": "111.63",
+    "program": "subtract(7549, 3567), divide(#0, 3567), multiply(#1, 100)"
+  },
+  "finqa_205": {
+    "answer": "12.12",
+    "program": "subtract(6311, 5629), divide(#0, 5629), multiply(#1, 100)"
+  },
+  "finqa_206": {
+    "answer": "12680",
+    "program": "add(7006, 4233), add(#0, 1441)"
+  },
+  "finqa_207": {
+    "answer": "5719.67",
+    "program": "add(7805, 417), add(#0, 8937), divide(#1, 3)"
+  },
+  "finqa_208": {
+    "answer": "0.16",
+    "program": "divide(953, 5833)"
+  },
+  "finqa_209": {
+    "answer": "-37.99",
+    "program": "subtract(759, 1224), divide(#0, 1224), multiply(#1, 100)"
+  },
+  "finqa_210": {
+    "answer": "-18.91",
+    "program": "subtract(3366, 4151), divide(#0, 4151), multiply(#1, 100)"
+  },
+  "finqa_211": {
+    "answer": "8772",
+    "program": "add(2596, 4008), add(#0, 2168)"
+  },
+  "finqa_212": {
+    "answer": "6390.67",
+    "program": "add(7858, 1974), add(#0, 9340), divide(#1, 3)"
+  },
+  "finqa_213": {
+    "answer": "0.48",
+    "program": "divide(3671, 7719)"
+  },
+  "finqa_214": {
+    "answer": "-53.62",
+    "program": "subtract(2849, 6143), divide(#0, 6143), multiply(#1, 100)"
+  },
+  "finqa_215": {
+    "answer": "86.7",
+    "program": "subtract(5196, 2783), divide(#0, 2783), multiply(#1, 100)"
+  },
+  "finqa_216": {
+    "answer": "15312",
+    "program": "add(9581, 520), add(#0, 5211)"
+  },
+  "finqa_217": {
+    "answer": "7460.0",
+    "program": "add(9533, 6249), add(#0, 6598), divide(#1, 3)"
+  },
+  "finqa_218": {
+    "answer": "2.49",
+    "program": "divide(3349, 1345)"
+  },
+  "finqa_219": {
+    "answer": "-56.62",
+    "program": "subtract(1769, 4078), divide(#0, 4078), multiply(#1, 100)"
+  },
+  "finqa_220": {
+    "answer": "-79.04",
+    "program": "subtract(2083, 9937), divide(#0, 9937), multiply(#1, 100)"
+  },
+  "finqa_221": {
+    "answer": "15388",
+    "program": "add(772, 5788), add(#0, 8828)"
+  },
+  "finqa_222": {
+    "answer": "4839.33",
+    "program": "add(7118, 6171), add(#0, 1229), divide(#1, 3)"
+  },
+  "finqa_223": {
+    "answer": "1.47",
+    "program": "divide(8389, 5690)"
+  },
+  "finqa_224": {
+    "answer": "16.46",
+    "program": "subtract(8131, 6982), divide(#0, 6982), multiply(#1, 100)"
+  },
+  "finqa_225": {
+    "answer": "-16.22",
+    "program": "subtract(6034, 7202), divide(#0, 7202), multiply(#1, 100)"
+  },
+  "finqa_226": {
+    "answer": "12826",
+    "program": "add(2606, 7235), add(#0, 2985)"
+  },
+  "finqa_227": {
+    "answer": "7363.33",
+    "program": "add(8648, 4525), add(#0, 8917), divide(#1, 3)"
+  },
+  "finqa_228": {
+    "answer": "1.04",
+    "program": "divide(8021, 7716)"
+  },
+  "finqa_229": {
+    "answer": "-54.14",
+    "program": "subtract(4497, 9807), divide(#0, 9807), multiply(#1, 100)"
+  },
+  "finqa_230": {
+    "answer": "-63.15",
+    "program": "subtract(1519, 4122), divide(#0, 4122), multiply(#1, 100)"
+  },
+  "finqa_231": {
+    "answer": "19293",
+    "program": "add(7485, 4095), add(#0, 7713)"
+  },
+  "finqa_232": {
+    "answer": "7118.67",
+    "program": "add(9436, 6309), add(#0, 5611), divide(#1, 3)"
+  },
+  "finqa_233": {
+    "answer": "0.07",
+    "program": "divide(570, 8198)"
+  },
+  "finqa_234": {
+    "answer": "162.68",
+    "program": "subtract(8088, 3079), divide(#0, 3079), multiply(#1, 100)"
+  },
+  "finqa_235": {
+    "answer": "-26.74",
+    "program": "subtract(4332, 5913), divide(#0, 5913), multiply(#1, 100)"
+  },
+  "finqa_236": {
+    "answer": "19174",
+    "program": "add(4681, 9867), add(#0, 4626)"
+  },
+  "finqa_237": {
+    "answer": "6012.0",
+    "program": "add(9206, 266), add(#0, 8564), divide(#1, 3)"
+  },
+  "finqa_238": {
+    "answer": "2.15",
+    "program": "divide(3230, 1502)"
+  },
+  "finqa_239": {
+    "answer": "19.92",
+    "program": "subtract(8104, 6758), divide(#0, 6758), multiply(#1, 100)"
+  },
+  "finqa_240": {
+    "answer": "95.69",
+    "program": "subtract(7900, 4037), divide(#0, 4037), multiply(#1, 100)"
+  },
+  "finqa_241": {
+    "answer": "9448",
+    "program": "add(7442, 382), add(#0, 1624)"
+  },
+  "finqa_242": {
+    "answer": "5125.0",
+    "program": "add(4920, 3730), add(#0, 6725), divide(#1, 3)"
+  },
+  "finqa_243": {
+    "answer": "0.8",
+    "program": "divide(4086, 5116)"
+  },
+  "finqa_244": {
+    "answer": "27.77",
+    "program": "subtract(7853, 6146), divide(#0, 6146), multiply(#1, 100)"
+  },
+  "finqa_245": {
+    "answer": "-34.85",
+    "program": "subtract(5732, 8798), divide(#0, 8798), multiply(#1, 100)"
+  },
+  "finqa_246": {
+    "answer": "20500",
+    "program": "add(9117, 5519), add(#0, 5864)"
+  },
+  "finqa_247": {
+    "answer": "5731.67",
+    "program": "add(7534, 4538), add(#0, 5123), divide(#1, 3)"
+  },
+  "finqa_248": {
+    "answer": "1.09",
+    "program": "divide(4218, 3877)"
+  },
+  "finqa_249": {
+    "answer": "61.87",
+    "program": "subtract(5269, 3255), divide(#0, 3255), multiply(#1, 100)"
+  },
+  "finqa_250": {
+    "answer": "-64.71",
+    "program": "subtract(3133, 8879), divide(#0, 8879), multiply(#1, 100)"
+  },
+  "finqa_251": {
+    "answer": "16308",
+    "program": "add(3645, 8033), add(#0, 4630)"
+  },
+  "finqa_252": {
+    "answer": "9443.67",
+    "program": "add(9759, 8695), add(#0, 9877), divide(#1, 3)"
+  },
+  "finqa_253": {
+    "answer": "2.71",
+    "program": "divide(4736, 1747)"
+  },
+  "finqa_254": {
+    "answer": "-22.73",
+    "program": "subtract(3827, 4953), divide(#0, 4953), multiply(#1, 100)"
+  },
+  "finqa_255": {
+    "answer": "66.24",
+    "program": "subtract(5052, 3039), divide(#0, 3039), multiply(#1, 100)"
+  },
+  "finqa_256": {
+    "answer": "15618",
+    "program": "add(8851, 2173), add(#0, 4594)"
+  },
+  "finqa_257": {
+    "answer": "3668.0",
+    "program": "add(845, 993), add(#0, 9166), divide(#1, 3)"
+  },
+  "finqa_258": {
+    "answer": "2.25",
+    "program": "divide(4886, 2168)"
+  },
+  "finqa_259": {
+    "answer": "-83.15",
+    "program": "subtract(300, 1780), divide(#0, 1780), multiply(#1, 100)"
+  },
+  "finqa_260": {
+    "answer": "63.72",
+    "program": "subtract(7790, 4758), divide(#0, 4758), multiply(#1, 100)"
+  },
+  "finqa_261": {
+    "answer": "16118",
+    "program": "add(7316, 5682), add(#0, 3120)"
+  },
+  "finqa_262": {
+    "answer": "4368.0",
+    "program": "add(941, 4236), add(#0, 7927), divide(#1, 3)"
+  },
+  "finqa_263": {
+    "answer": "1.68",
+    "program": "divide(1969, 1170)"
+  },
+  "finqa_264": {
+    "answer": "-83.9",
+    "program": "subtract(1313, 8156), divide(#0, 8156), multiply(#1, 100)"
+  },
+  "finqa_265": {
+    "answer": "164.31",
+    "program": "subtract(2585, 978), divide(#0, 978), multiply(#1, 100)"
+  },
+  "finqa_266": {
+    "answer": "15894",
+    "program": "add(9321, 5078), add(#0, 1495)"
+  },
+  "finqa_267": {
+    "answer": "5149.67",
+    "program": "add(4166, 2040), add(#0, 9243), divide(#1, 3)"
+  },
+  "finqa_268": {
+    "answer": "0.7",
+    "program": "divide(6918, 9866)"
+  },
+  "finqa_269": {
+    "answer": "-26.89",
+    "program": "subtract(6332, 8661), divide(#0, 8661), multiply(#1, 100)"
+  },
+  "finqa_270": {
+    "answer": "-32.39",
+    "program": "subtract(4971, 7353), divide(#0, 7353), multiply(#1, 100)"
+  },
+  "finqa_271": {
+    "answer": "21644",
+    "program": "add(7125, 5103), add(#0, 9416)"
+  },
+  "finqa_272": {
+    "answer": "2105.0",
+    "program": "add(1086, 1725), add(#0, 3504), divide(#1, 3)"
+  },
+  "finqa_273": {
+    "answer": "0.8",
+    "program": "divide(3557, 4435)"
+  },
+  "finqa_274": {
+    "answer": "50.73",
+    "program": "subtract(4029, 2673), divide(#0, 2673), multiply(#1, 100)"
+  },
+  "finqa_275": {
+    "answer": "-85.46",
+    "program": "subtract(1329, 9143), divide(#0, 9143), multiply(#1, 100)"
+  },
+  "finqa_276": {
+    "answer": "14417",
+    "program": "add(143, 6793), add(#0, 7481)"
+  },
+  "finqa_277": {
+    "answer": "7499.67",
+    "program": "add(9829, 7799), add(#0, 4871), divide(#1, 3)"
+  },
+  "finqa_278": {
+    "answer": "0.16",
+    "program": "divide(634, 3892)"
+  },
+  "finqa_279": {
+    "answer": "59.3",
+    "program": "subtract(7538, 4732), divide(#0, 4732), multiply(#1, 100)"
+  },
+  "finqa_280": {
+    "answer": "13.0",
+    "program": "subtract(4434, 3924), divide(#0, 3924), multiply(#1, 100)"
+  },
+  "finqa_281": {
+    "answer": "12386",
+    "program": "add(3341, 7065), add(#0, 1980)"
+  },
+  "finqa_282": {
+    "answer": "5115.33",
+    "program": "add(9022, 3783), add(#0, 2541), divide(#1, 3)"
+  },
+  "finqa_283": {
+    "answer": "1.83",
+    "program": "divide(4452, 2430)"
+  },
+  "finqa_284": {
+    "answer": "161.65",
+    "program": "subtract(2818, 1077), divide(#0, 1077), multiply(#1, 100)"
+  },
+  "finqa_285": {
+    "answer": "-4.31",
+    "program": "subtract(9425, 9849), divide(#0, 9849), multiply(#1, 100)"
+  },
+  "finqa_286": {
+    "answer": "17211",
+    "program": "add(7295, 2137), add(#0, 7779)"
+  },
+  "finqa_287": {
+    "answer": "5445.33",
+    "program": "add(5082, 6694), add(#0, 4560), divide(#1, 3)"
+  },
+  "finqa_288": {
+    "answer": "0.93",
+    "program": "divide(8299, 8947)"
+  },
+  "finqa_289": {
+    "answer": "-80.51",
+    "program": "subtract(1417, 7272), divide(#0, 7272), multiply(#1, 100)"
+  },
+  "finqa_290": {
+    "answer": "853.25",
+    "program": "subtract(7178, 753), divide(#0, 753), multiply(#1, 100)"
+  },
+  "finqa_291": {
+    "answer": "14716",
+    "program": "add(9991, 4202), add(#0, 523)"
+  },
+  "finqa_292": {
+    "answer": "4990.0",
+    "program": "add(1596, 3850), add(#0, 9524), divide(#1, 3)"
+  },
+  "finqa_293": {
+    "answer": "22.14",
+    "program": "divide(9719, 439)"
+  },
+  "finqa_294": {
+    "answer": "-92.04",
+    "program": "subtract(759, 9541), divide(#0, 9541), multiply(#1, 100)"
+  },
+  "finqa_295": {
+    "answer": "10.17",
+    "program": "subtract(8602, 7808), divide(#0, 7808), multiply(#1, 100)"
+  },
+  "finqa_296": {
+    "answer": "17420",
+    "program": "add(4657, 3073), add(#0, 9690)"
+  },
+  "finqa_297": {
+    "answer": "5663.67",
+    "program": "add(7241, 8156), add(#0, 1594), divide(#1, 3)"
+  },
+  "finqa_298": {
+    "answer": "1.34",
+    "program": "divide(7800, 5800)"
+  },
+  "finqa_299": {
+    "answer": "-3.6",
+    "program": "subtract(5360, 5560), divide(#0, 5560), multiply(#1, 100)"
+  },
+  "finqa_300": {
+    "answer": "101.28",
+    "program": "subtract(5503, 2734), divide(#0, 2734), multiply(#1, 100)"
+  },
+  "finqa_301": {
+    "answer": "19700",
+    "program": "add(8217, 4822), add(#0, 6661)"
+  },
+  "finqa_302": {
+    "answer": "5788.0",
+    "program": "add(9112, 701), add(#0, 7551), divide(#1, 3)"
+  },
+  "finqa_303": {
+    "answer": "0.29",
+    "program": "divide(1542, 5253)"
+  },
+  "finqa_304": {
+    "answer": "-62.95",
+    "program": "subtract(1999, 5396), divide(#0, 5396), multiply(#1, 100)"
+  },
+  "finqa_305": {
+    "answer": "-98.62",
+    "program": "subtract(118, 8531), divide(#0, 8531), multiply(#1, 100)"
+  },
+  "finqa_306": {
+    "answer": "15527",
+    "program": "add(7669, 6870), add(#0, 988)"
+  },
+  "finqa_307": {
+    "answer": "5931.33",
+    "program": "add(3173, 8594), add(#0, 6027), divide(#1, 3)"
+  },
+  "finqa_308": {
+    "answer": "1.13",
+    "program": "divide(8267, 7342)"
+  },
+  "finqa_309": {
+    "answer": "30.28",
+    "program": "subtract(4475, 3435), divide(#0, 3435), multiply(#1, 100)"
+  },
+  "finqa_310": {
+    "answer": "114.56",
+    "program": "subtract(4819, 2246), divide(#0, 2246), multiply(#1, 100)"
+  },
+  "finqa_311": {
+    "answer": "10702",
+    "program": "add(8041, 2089), add(#0, 572)"
+  },
+  "finqa_312": {
+    "answer": "3968.33",
+    "program": "add(4020, 2694), add(#0, 5191), divide(#1, 3)"
+  },
+  "finqa_313": {
+    "answer": "28.16",
+    "program": "divide(9124, 324)"
+  },
+  "finqa_314": {
+    "answer": "-76.02",
+    "program": "subtract(1627, 6784), divide(#0, 6784), multiply(#1, 100)"
+  },
+  "finqa_315": {
+    "answer": "291.22",
+    "program": "subtract(7660, 1958), divide(#0, 1958), multiply(#1, 100)"
+  },
+  "finqa_316": {
+    "answer": "15768",
+    "program": "add(2622, 8265), add(#0, 4881)"
+  },
+  "finqa_317": {
+    "answer": "6641.0",
+    "program": "add(8437, 4579), add(#0, 6907), divide(#1, 3)"
+  },
+  "finqa_318": {
+    "answer": "1.02",
+    "program": "divide(8005, 7836)"
+  },
+  "finqa_319": {
+    "answer": "20.41",
+    "program": "subtract(9131, 7583), divide(#0, 7583), multiply(#1, 100)"
+  },
+  "finqa_320": {
+    "answer": "-49.53",
+    "program": "subtract(3222, 6384), divide(#0, 6384), multiply(#1, 100)"
+  },
+  "finqa_321": {
+    "answer": "12006",
+    "program": "add(8427, 2336), add(#0, 1243)"
+  },
+  "finqa_322": {
+    "answer": "5730.67",
+    "program": "add(4626, 6898), add(#0, 5668), divide(#1, 3)"
+  },
+  "finqa_323": {
+    "answer": "1.88",
+    "program": "divide(8418, 4477)"
+  },
+  "finqa_324": {
+    "answer": "5.43",
+    "program": "subtract(4991, 4734), divide(#0, 4734), multiply(#1, 100)"
+  },
+  "finqa_325": {
+    "answer": "-15.4",
+    "program": "subtract(8122, 9601), divide(#0, 9601), multiply(#1, 100)"
+  },
+  "finqa_326": {
+    "answer": "24375",
+    "program": "add(7416, 8924), add(#0, 8035)"
+  },
+  "finqa_327": {
+    "answer": "6814.0",
+    "program": "add(5754, 5546), add(#0, 9142), divide(#1, 3)"
+  },
+  "finqa_328": {
+    "answer": "1.43",
+    "program": "divide(9003, 6280)"
+  },
+  "finqa_329": {
+    "answer": "-40.62",
+    "program": "subtract(3190, 5372), divide(#0, 5372), multiply(#1, 100)"
+  },
+  "finqa_330": {
+    "answer": "-32.68",
+    "program": "subtract(6374, 9468), divide(#0, 9468), multiply(#1, 100)"
+  },
+  "finqa_331": {
+    "answer": "12958",
+    "program": "add(6830, 815), add(#0, 5313)"
+  },
+  "finqa_332": {
+    "answer": "6873.33",
+    "program": "add(7849, 6346), add(#0, 6425), divide(#1, 3)"
+  },
+  "finqa_333": {
+    "answer": "0.32",
+    "program": "divide(2592, 8215)"
+  },
+  "finqa_334": {
+    "answer": "284.18",
+    "program": "subtract(8329, 2168), divide(#0, 2168), multiply(#1, 100)"
+  },
+  "finqa_335": {
+    "answer": "-68.51",
+    "program": "subtract(1744, 5539), divide(#0, 5539), multiply(#1, 100)"
+  },
+  "finqa_336": {
+    "answer": "18036",
+    "program": "add(1733, 8717), add(#0, 7586)"
+  },
+  "finqa_337": {
+    "answer": "3209.67",
+    "program": "add(351, 2461), add(#0, 6817), divide(#1, 3)"
+  },
+  "finqa_338": {
+    "answer": "1.98",
+    "program": "divide(2629, 1325)"
+  },
+  "finqa_339": {
+    "answer": "27.1",
+    "program": "subtract(5646, 4442), divide(#0, 4442), multiply(#1, 100)"
+  },
+  "finqa_340": {
+    "answer": "287.49",
+    "program": "subtract(5483, 1415), divide(#0, 1415), multiply(#1, 100)"
+  },
+  "finqa_341": {
+    "answer": "19708",
+    "program": "add(6326, 5288), add(#0, 8094)"
+  },
+  "finqa_342": {
+    "answer": "3624.33",
+    "program": "add(8964, 688), add(#0, 1221), divide(#1, 3)"
+  },
+  "finqa_343": {
+    "answer": "0.82",
+    "program": "divide(3946, 4808)"
+  },
+  "finqa_344": {
+    "answer": "356.33",
+    "program": "subtract(7210, 1580), divide(#0, 1580), multiply(#1, 100)"
+  },
+  "finqa_345": {
+    "answer": "322.05",
+    "program": "subtract(7369, 1746), divide(#0, 1746), multiply(#1, 100)"
+  },
+  "finqa_346": {
+    "answer": "6433",
+    "program": "add(5006, 574), add(#0, 853)"
+  },
+  "finqa_347": {
+    "answer": "3779.67",
+    "program": "add(5414, 1019), add(#0, 4906), divide(#1, 3)"
+  },
+  "finqa_348": {
+    "answer": "0.96",
+    "program": "divide(5973, 6241)"
+  },
+  "finqa_349": {
+    "answer": "64.99",
+    "program": "subtract(4100, 2485), divide(#0, 2485), multiply(#1, 100)"
+  },
+  "finqa_350": {
+    "answer": "36.8",
+    "program": "subtract(9372, 6851), divide(#0, 6851), multiply(#1, 100)"
+  },
+  "finqa_351": {
+    "answer": "7246",
+    "program": "add(2885, 2968), add(#0, 1393)"
+  },
+  "finqa_352": {
+    "answer": "6221.67",
+    "program": "add(6367, 4045), add(#0, 8253), divide(#1, 3)"
+  },
+  "finqa_353": {
+    "answer": "3.95",
+    "program": "divide(9654, 2444)"
+  },
+  "finqa_354": {
+    "answer": "-44.34",
+    "program": "subtract(4261, 7655), divide(#0, 7655), multiply(#1, 100)"
+  },
+  "finqa_355": {
+    "answer": "-94.09",
+    "program": "subtract(253, 4283), divide(#0, 4283), multiply(#1, 100)"
+  },
+  "finqa_356": {
+    "answer": "16555",
+    "program": "add(4812, 9055), add(#0, 2688)"
+  },
+  "finqa_357": {
+    "answer": "4802.67",
+    "program": "add(1310, 7337), add(#0, 5761), divide(#1, 3)"
+  },
+  "finqa_358": {
+    "answer": "1.94",
+    "program": "divide(9726, 5001)"
+  },
+  "finqa_359": {
+    "answer": "80.7",
+    "program": "subtract(7584, 4197), divide(#0, 4197), multiply(#1, 100)"
+  },
+  "finqa_360": {
+    "answer": "90.37",
+    "program": "subtract(6402, 3363), divide(#0, 3363), multiply(#1, 100)"
+  },
+  "finqa_361": {
+    "answer": "12181",
+    "program": "add(1847, 3986), add(#0, 6348)"
+  },
+  "finqa_362": {
+    "answer": "8322.67",
+    "program": "add(9470, 5981), add(#0, 9517), divide(#1, 3)"
+  },
+  "finqa_363": {
+    "answer": "1.0",
+    "program": "divide(4947, 4937)"
+  },
+  "finqa_364": {
+    "answer": "-30.18",
+    "program": "subtract(4597, 6584), divide(#0, 6584), multiply(#1, 100)"
+  },
+  "finqa_365": {
+    "answer": "-90.36",
+    "program": "subtract(903, 9372), divide(#0, 9372), multiply(#1, 100)"
+  },
+  "finqa_366": {
+    "answer": "14531",
+    "program": "add(4789, 3870), add(#0, 5872)"
+  },
+  "finqa_367": {
+    "answer": "3703.0",
+    "program": "add(3688, 3215), add(#0, 4206), divide(#1, 3)"
+  },
+  "finqa_368": {
+    "answer": "1.38",
+    "program": "divide(2340, 1691)"
+  },
+  "finqa_369": {
+    "answer": "41.87",
+    "program": "subtract(7322, 5161), divide(#0, 5161), multiply(#1, 100)"
+  },
+  "finqa_370": {
+    "answer": "-36.66",
+    "program": "subtract(6077, 9595), divide(#0, 9595), multiply(#1, 100)"
+  },
+  "finqa_371": {
+    "answer": "11963",
+    "program": "add(1576, 4935), add(#0, 5452)"
+  },
+  "finqa_372": {
+    "answer": "4424.33",
+    "program": "add(6907, 2977), add(#0, 3389), divide(#1, 3)"
+  },
+  "finqa_373": {
+    "answer": "0.25",
+    "program": "divide(2265, 8937)"
+  },
+  "finqa_374": {
+    "answer": "-5.41",
+    "program": "subtract(8321, 8797), divide(#0, 8797), multiply(#1, 100)"
+  },
+  "finqa_375": {
+    "answer": "54.2",
+    "program": "subtract(4310, 2795), divide(#0, 2795), multiply(#1, 100)"
+  },
+  "finqa_376": {
+    "answer": "12570",
+    "program": "add(4935, 5649), add(#0, 1986)"
+  },
+  "finqa_377": {
+    "answer": "3837.33",
+    "program": "add(7773, 1333), add(#0, 2406), divide(#1, 3)"
+  },
+  "finqa_378": {
+    "answer": "0.57",
+    "program": "divide(3796, 6611)"
+  },
+  "finqa_379": {
+    "answer": "-74.08",
+    "program": "subtract(1579, 6092), divide(#0, 6092), multiply(#1, 100)"
+  },
+  "finqa_380": {
+    "answer": "1251.22",
+    "program": "subtract(4432, 328), divide(#0, 328), multiply(#1, 100)"
+  },
+  "finqa_381": {
+    "answer": "15813",
+    "program": "add(2124, 7551), add(#0, 6138)"
+  },
+  "finqa_382": {
+    "answer": "6804.67",
+    "program": "add(4395, 9677), add(#0, 6342), divide(#1, 3)"
+  },
+  "finqa_383": {
+    "answer": "3.3",
+    "program": "divide(6186, 1875)"
+  },
+  "finqa_384": {
+    "answer": "-93.48",
+    "program": "subtract(510, 7824), divide(#0, 7824), multiply(#1, 100)"
+  },
+  "finqa_385": {
+    "answer": "-31.93",
+    "program": "subtract(3726, 5474), divide(#0, 5474), multiply(#1, 100)"
+  },
+  "finqa_386": {
+    "answer": "19546",
+    "program": "add(7706, 5051), add(#0, 6789)"
+  },
+  "finqa_387": {
+    "answer": "1747.67",
+    "program": "add(2011, 2390), add(#0, 842), divide(#1, 3)"
+  },
+  "finqa_388": {
+    "answer": "0.14",
+    "program": "divide(709, 5086)"
+  },
+  "finqa_389": {
+    "answer": "-15.48",
+    "program": "subtract(1692, 2002), divide(#0, 2002), multiply(#1, 100)"
+  },
+  "finqa_390": {
+    "answer": "-73.93",
+    "program": "subtract(2322, 8907), divide(#0, 8907), multiply(#1, 100)"
+  },
+  "finqa_391": {
+    "answer": "22660",
+    "program": "add(7532, 6178), add(#0, 8950)"
+  },
+  "finqa_392": {
+    "answer": "6439.67",
+    "program": "add(6966, 9722), add(#0, 2631), divide(#1, 3)"
+  },
+  "finqa_393": {
+    "answer": "4.01",
+    "program": "divide(6897, 1722)"
+  },
+  "finqa_394": {
+    "answer": "-30.99",
+    "program": "subtract(4683, 6786), divide(#0, 6786), multiply(#1, 100)"
+  },
+  "finqa_395": {
+    "answer": "-40.7",
+    "program": "subtract(3659, 6170), divide(#0, 6170), multiply(#1, 100)"
+  },
+  "finqa_396": {
+    "answer": "17395",
+    "program": "add(7385, 3968), add(#0, 6042)"
+  },
+  "finqa_397": {
+    "answer": "5621.67",
+    "program": "add(1727, 6118), add(#0, 9020), divide(#1, 3)"
+  },
+  "finqa_398": {
+    "answer": "5.47",
+    "program": "divide(5976, 1092)"
+  },
+  "finqa_399": {
+    "answer": "-30.54",
+    "program": "subtract(3209, 4620), divide(#0, 4620), multiply(#1, 100)"
+  },
+  "finqa_400": {
+    "answer": "-78.79",
+    "program": "subtract(1601, 7550), divide(#0, 7550), multiply(#1, 100)"
+  },
+  "finqa_401": {
+    "answer": "11260",
+    "program": "add(9883, 449), add(#0, 928)"
+  },
+  "finqa_402": {
+    "answer": "3939.0",
+    "program": "add(5564, 4090), add(#0, 2163), divide(#1, 3)"
+  },
+  "finqa_403": {
+    "answer": "2.7",
+    "program": "divide(9350, 3462)"
+  },
+  "finqa_404": {
+    "answer": "-61.94",
+    "program": "subtract(3494, 9180), divide(#0, 9180), multiply(#1, 100)"
+  },
+  "finqa_405": {
+    "answer": "7.67",
+    "program": "subtract(3917, 3638), divide(#0, 3638), multiply(#1, 100)"
+  },
+  "finqa_406": {
+    "answer": "12527",
+    "program": "add(2517, 9864), add(#0, 146)"
+  },
+  "finqa_407": {
+    "answer": "3113.67",
+    "program": "add(4642, 2470), add(#0, 2229), divide(#1, 3)"
+  },
+  "finqa_408": {
+    "answer": "2.13",
+    "program": "divide(8950, 4206)"
+  },
+  "finqa_409": {
+    "answer": "-72.54",
+    "program": "subtract(522, 1901), divide(#0, 1901), multiply(#1, 100)"
+  },
+  "finqa_410": {
+    "answer": "1640.23",
+    "program": "subtract(5969, 343), divide(#0, 343), multiply(#1, 100)"
+  },
+  "finqa_411": {
+    "answer": "15509",
+    "program": "add(9747, 5404), add(#0, 358)"
+  },
+  "finqa_412": {
+    "answer": "2786.33",
+    "program": "add(2954, 4447), add(#0, 958), divide(#1, 3)"
+  },
+  "finqa_413": {
+    "answer": "0.31",
+    "program": "divide(2176, 6997)"
+  },
+  "finqa_414": {
+    "answer": "-41.85",
+    "program": "subtract(1141, 1962), divide(#0, 1962), multiply(#1, 100)"
+  },
+  "finqa_415": {
+    "answer": "-18.98",
+    "program": "subtract(6031, 7444), divide(#0, 7444), multiply(#1, 100)"
+  },
+  "finqa_416": {
+    "answer": "19217",
+    "program": "add(9826, 1886), add(#0, 7505)"
+  },
+  "finqa_417": {
+    "answer": "4297.67",
+    "program": "add(8354, 3729), add(#0, 810), divide(#1, 3)"
+  },
+  "finqa_418": {
+    "answer": "1.71",
+    "program": "divide(8643, 5041)"
+  },
+  "finqa_419": {
+    "answer": "79.67",
+    "program": "subtract(1096, 610), divide(#0, 610), multiply(#1, 100)"
+  },
+  "finqa_420": {
+    "answer": "6.05",
+    "program": "subtract(7084, 6680), divide(#0, 6680), multiply(#1, 100)"
+  },
+  "finqa_421": {
+    "answer": "16803",
+    "program": "add(8132, 7367), add(#0, 1304)"
+  },
+  "finqa_422": {
+    "answer": "3110.0",
+    "program": "add(1423, 5377), add(#0, 2530), divide(#1, 3)"
+  },
+  "finqa_423": {
+    "answer": "0.54",
+    "program": "divide(1176, 2167)"
+  },
+  "finqa_424": {
+    "answer": "-6.25",
+    "program": "subtract(9084, 9690), divide(#0, 9690), multiply(#1, 100)"
+  },
+  "finqa_425": {
+    "answer": "55.95",
+    "program": "subtract(9887, 6340), divide(#0, 6340), multiply(#1, 100)"
+  },
+  "finqa_426": {
+    "answer": "20846",
+    "program": "add(4931, 7533), add(#0, 8382)"
+  },
+  "finqa_427": {
+    "answer": "3615.33",
+    "program": "add(7148, 1724), add(#0, 1974), divide(#1, 3)"
+  },
+  "finqa_428": {
+    "answer": "2.52",
+    "program": "divide(9133, 3622)"
+  },
+  "finqa_429": {
+    "answer": "-48.75",
+    "program": "subtract(3843, 7498), divide(#0, 7498), multiply(#1, 100)"
+  },
+  "finqa_430": {
+    "answer": "33.2",
+    "program": "subtract(7530, 5653), divide(#0, 5653), multiply(#1, 100)"
+  },
+  "finqa_431": {
+    "answer": "13792",
+    "program": "add(6915, 1657), add(#0, 5220)"
+  },
+  "finqa_432": {
+    "answer": "5529.33",
+    "program": "add(7092, 5220), add(#0, 4276), divide(#1, 3)"
+  },
+  "finqa_433": {
+    "answer": "2.4",
+    "program": "divide(6232, 2600)"
+  },
+  "finqa_434": {
+    "answer": "32.94",
+    "program": "subtract(1594, 1199), divide(#0, 1199), multiply(#1, 100)"
+  },
+  "finqa_435": {
+    "answer": "341.0",
+    "program": "subtract(7175, 1627), divide(#0, 1627), multiply(#1, 100)"
+  },
+  "finqa_436": {
+    "answer": "17651",
+    "program": "add(6205, 2231), add(#0, 9215)"
+  },
+  "finqa_437": {
+    "answer": "6697.0",
+    "program": "add(1082, 9708), add(#0, 9301), divide(#1, 3)"
+  },
+  "finqa_438": {
+    "answer": "1.69",
+    "program": "divide(9302, 5500)"
+  },
+  "finqa_439": {
+    "answer": "-13.72",
+    "program": "subtract(5893, 6830), divide(#0, 6830), multiply(#1, 100)"
+  },
+  "finqa_440": {
+    "answer": "410.83",
+    "program": "subtract(4812, 942), divide(#0, 942), multiply(#1, 100)"
+  },
+  "finqa_441": {
+    "answer": "12877",
+    "program": "add(5219, 5861), add(#0, 1797)"
+  },
+  "finqa_442": {
+    "answer": "7188.67",
+    "program": "add(9568, 8413), add(#0, 3585), divide(#1, 3)"
+  },
+  "finqa_443": {
+    "answer": "0.33",
+    "program": "divide(2635, 8000)"
+  },
+  "finqa_444": {
+    "answer": "211.59",
+    "program": "subtract(5836, 1873), divide(#0, 1873), multiply(#1, 100)"
+  },
+  "finqa_445": {
+    "answer": "-67.62",
+    "program": "subtract(1982, 6122), divide(#0, 6122), multiply(#1, 100)"
+  },
+  "finqa_446": {
+    "answer": "20441",
+    "program": "add(9506, 3805), add(#0, 7130)"
+  },
+  "finqa_447": {
+    "answer": "6347.0",
+    "program": "add(9290, 9221), add(#0, 530), divide(#1, 3)"
+  },
+  "finqa_448": {
+    "answer": "7.81",
+    "program": "divide(4481, 574)"
+  },
+  "finqa_449": {
+    "answer": "12.78",
+    "program": "subtract(5162, 4577), divide(#0, 4577), multiply(#1, 100)"
+  },
+  "finqa_450": {
+    "answer": "-96.58",
+    "program": "subtract(200, 5851), divide(#0, 5851), multiply(#1, 100)"
+  },
+  "finqa_451": {
+    "answer": "18491",
+    "program": "add(2447, 9378), add(#0, 6666)"
+  },
+  "finqa_452": {
+    "answer": "1422.0",
+    "program": "add(1240, 2424), add(#0, 602), divide(#1, 3)"
+  },
+  "finqa_453": {
+    "answer": "0.18",
+    "program": "divide(1603, 8791)"
+  },
+  "finqa_454": {
+    "answer": "11.42",
+    "program": "subtract(6978, 6263), divide(#0, 6263), multiply(#1, 100)"
+  },
+  "finqa_455": {
+    "answer": "-52.89",
+    "program": "subtract(2678, 5685), divide(#0, 5685), multiply(#1, 100)"
+  },
+  "finqa_456": {
+    "answer": "20018",
+    "program": "add(5205, 5414), add(#0, 9399)"
+  },
+  "finqa_457": {
+    "answer": "4106.67",
+    "program": "add(9868, 1491), add(#0, 961), divide(#1, 3)"
+  },
+  "finqa_458": {
+    "answer": "0.99",
+    "program": "divide(2649, 2679)"
+  },
+  "finqa_459": {
+    "answer": "217.41",
+    "program": "subtract(4558, 1436), divide(#0, 1436), multiply(#1, 100)"
+  },
+  "finqa_460": {
+    "answer": "14.33",
+    "program": "subtract(8057, 7047), divide(#0, 7047), multiply(#1, 100)"
+  },
+  "finqa_461": {
+    "answer": "15091",
+    "program": "add(6885, 4575), add(#0, 3631)"
+  },
+  "finqa_462": {
+    "answer": "5404.33",
+    "program": "add(8494, 1964), add(#0, 5755), divide(#1, 3)"
+  },
+  "finqa_463": {
+    "answer": "3.73",
+    "program": "divide(7143, 1916)"
+  },
+  "finqa_464": {
+    "answer": "-17.78",
+    "program": "subtract(8072, 9817), divide(#0, 9817), multiply(#1, 100)"
+  },
+  "finqa_465": {
+    "answer": "-83.62",
+    "program": "subtract(844, 5153), divide(#0, 5153), multiply(#1, 100)"
+  },
+  "finqa_466": {
+    "answer": "17491",
+    "program": "add(6575, 9919), add(#0, 997)"
+  },
+  "finqa_467": {
+    "answer": "2904.0",
+    "program": "add(225, 3449), add(#0, 5038), divide(#1, 3)"
+  },
+  "finqa_468": {
+    "answer": "1.52",
+    "program": "divide(3560, 2348)"
+  },
+  "finqa_469": {
+    "answer": "13.07",
+    "program": "subtract(5475, 4842), divide(#0, 4842), multiply(#1, 100)"
+  },
+  "finqa_470": {
+    "answer": "3550.0",
+    "program": "subtract(8249, 226), divide(#0, 226), multiply(#1, 100)"
+  },
+  "finqa_471": {
+    "answer": "11523",
+    "program": "add(2978, 2216), add(#0, 6329)"
+  },
+  "finqa_472": {
+    "answer": "6997.0",
+    "program": "add(8825, 3870), add(#0, 8296), divide(#1, 3)"
+  },
+  "finqa_473": {
+    "answer": "1.57",
+    "program": "divide(9254, 5902)"
+  },
+  "finqa_474": {
+    "answer": "-87.99",
+    "program": "subtract(793, 6605), divide(#0, 6605), multiply(#1, 100)"
+  },
+  "finqa_475": {
+    "answer": "1775.18",
+    "program": "subtract(7632, 407), divide(#0, 407), multiply(#1, 100)"
+  },
+  "finqa_476": {
+    "answer": "21895",
+    "program": "add(5229, 9533), add(#0, 7133)"
+  },
+  "finqa_477": {
+    "answer": "7721.0",
+    "program": "add(9494, 6726), add(#0, 6943), divide(#1, 3)"
+  },
+  "finqa_478": {
+    "answer": "2.44",
+    "program": "divide(4843, 1987)"
+  },
+  "finqa_479": {
+    "answer": "1129.25",
+    "program": "subtract(5421, 441), divide(#0, 441), multiply(#1, 100)"
+  },
+  "finqa_480": {
+    "answer": "-21.08",
+    "program": "subtract(6028, 7638), divide(#0, 7638), multiply(#1, 100)"
+  },
+  "finqa_481": {
+    "answer": "13175",
+    "program": "add(7255, 1834), add(#0, 4086)"
+  },
+  "finqa_482": {
+    "answer": "7882.0",
+    "program": "add(7238, 9748), add(#0, 6660), divide(#1, 3)"
+  },
+  "finqa_483": {
+    "answer": "6.26",
+    "program": "divide(8684, 1388)"
+  },
+  "finqa_484": {
+    "answer": "9.24",
+    "program": "subtract(5662, 5183), divide(#0, 5183), multiply(#1, 100)"
+  },
+  "finqa_485": {
+    "answer": "-48.63",
+    "program": "subtract(2854, 5556), divide(#0, 5556), multiply(#1, 100)"
+  },
+  "finqa_486": {
+    "answer": "19224",
+    "program": "add(8463, 1968), add(#0, 8793)"
+  },
+  "finqa_487": {
+    "answer": "5851.67",
+    "program": "add(8455, 3276), add(#0, 5824), divide(#1, 3)"
+  },
+  "finqa_488": {
+    "answer": "2.32",
+    "program": "divide(5852, 2519)"
+  },
+  "finqa_489": {
+    "answer": "40.08",
+    "program": "subtract(2499, 1784), divide(#0, 1784), multiply(#1, 100)"
+  },
+  "finqa_490": {
+    "answer": "-11.7",
+    "program": "subtract(2942, 3332), divide(#0, 3332), multiply(#1, 100)"
+  },
+  "finqa_491": {
+    "answer": "6940",
+    "program": "add(2604, 1334), add(#0, 3002)"
+  },
+  "finqa_492": {
+    "answer": "8410.67",
+    "program": "add(8195, 7701), add(#0, 9336), divide(#1, 3)"
+  },
+  "finqa_493": {
+    "answer": "1.29",
+    "program": "divide(9594, 7454)"
+  },
+  "finqa_494": {
+    "answer": "-2.15",
+    "program": "subtract(5279, 5395), divide(#0, 5395), multiply(#1, 100)"
+  },
+  "finqa_495": {
+    "answer": "-83.33",
+    "program": "subtract(1218, 7305), divide(#0, 7305), multiply(#1, 100)"
+  },
+  "finqa_496": {
+    "answer": "17006",
+    "program": "add(7345, 5061), add(#0, 4600)"
+  },
+  "finqa_497": {
+    "answer": "5558.33",
+    "program": "add(9789, 1020), add(#0, 5866), divide(#1, 3)"
+  },
+  "finqa_498": {
+    "answer": "6.4",
+    "program": "divide(8412, 1315)"
+  },
+  "finqa_499": {
+    "answer": "-2.1",
+    "program": "subtract(7504, 7665), divide(#0, 7665), multiply(#1, 100)"
+  }
+}

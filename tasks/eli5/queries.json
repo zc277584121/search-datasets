@@ -1,0 +1,2507 @@
+{
+  "task": "eli5",
+  "description": "ELI5 Long-form Question Answering Retrieval",
+  "total": 500,
+  "queries": [
+    {
+      "id": "ieljv",
+      "question": "how does the weight of the food you eat relate to how much weight you gain? how quickly does your body weight change?",
+      "selftext": "thanks."
+    },
+    {
+      "id": "4en93t",
+      "question": "Do Coronal Mass Ejections have a significant impact on the life of a star?",
+      "selftext": ""
+    },
+    {
+      "id": "5z5u6d",
+      "question": "how do pharmaceutical drugs make it to the streets for sale?",
+      "selftext": "Is there some kind of major shipment like with cocaine or marijuana?  Or is it on a smaller scale, spread out across the country? "
+    },
+    {
+      "id": "4x7tzw",
+      "question": "Where did the lore of trolls, elves, dwarfs etc originate from? Are they from the same source or time period?",
+      "selftext": ""
+    },
+    {
+      "id": "1z5vxz",
+      "question": "When you're running and you get a stitch, what is actually happening? And what causes it?",
+      "selftext": "I know it happens more when you've been drinking lots of water, but what actually causes the pain? And why does it sometimes happen on the right side, and sometimes left? "
+    },
+    {
+      "id": "4eolx8",
+      "question": "Importance of combat experience during world war two.",
+      "selftext": "You often hear of battles where one side has inexperienced or green troops like the D day landings, or involving Eastern front German veterans for example.\n\n In reality did this have much effect on battle outcomes? What actions would experienced soldiers do that green soldiers wouldn't? How much more combat effective were veteran and 'elite' troops?"
+    },
+    {
+      "id": "9z1uqd",
+      "question": "alcohol and painkillers",
+      "selftext": "I've heard mixing alcohol and medicine will knock you out or even be lethal (my friend accidentally did that, he's fine tho). What makes that combination so dangerous?  "
+    },
+    {
+      "id": "8mpo3x",
+      "question": "Did 13th century English knights fight on foot?",
+      "selftext": "I know there was a similar post like this made about 5 years ago, but that post was regarding 14th century and onwards. Because apparently the practise of knights fighting afoot started in 14th century, but I want to know if 13th century English knights fought on foot too. Like in Battle of Lewes, Battle of Evisham, Battle of Falkirk etc. Because in the illustrations/manuscripts of all knight battles (including 14th century and onwards) I always see the knights on horseback. Obviously if they got knocked-off their horse or if their horse was slain they would have to fight afoot, but did 13th century English knights fight afoot commonly/occasionally? Or only when they had to? And if so, how often did they get knocked off their horses?"
+    },
+    {
+      "id": "4ciopy",
+      "question": "why do some things need 4 aaa batteries instead of fewer number of a stronger battery? example: why use 4 aaa when one might be able to use 2aa.",
+      "selftext": "My calculator uses 4 AAA but why not use less of a stronger one or does it not work that way?\n\nEdit: thanks for all the answers!!"
+    },
+    {
+      "id": "21bbh3",
+      "question": "Does light accelerate to the speed of light, or is it instantly the speed of light as soon as it is released from an electron?",
+      "selftext": ""
+    },
+    {
+      "id": "1thdf8",
+      "question": "why do \"more expensive\" lawyers generally win more? isn't law, law regardless?",
+      "selftext": "Like say a big fortune 500 company was suing me with a big buck lawyer, why, if I hire a cheap one, will I stand no chance just because theirs is paid more...seems silly."
+    },
+    {
+      "id": "dfu17u",
+      "question": "In 1975, Australian Prime Minister Gough Whitlam was ‘dismissed’ by the Governor-General. How much evidence is there that both the CIA and the Nixon/Ford administrations played a significant role in the dismissal, along with Rupert Murdoch? If so, why?",
+      "selftext": "[deleted]"
+    },
+    {
+      "id": "38tedr",
+      "question": "- why did we used to have/use mercury thermometers?",
+      "selftext": "This question popped into my to mind after watching a documentary posted to r/documentaries about mercury poisoning and its effects on the workers of a Unilever mercury thermometer factory in india. How did mercury thermometers become widely used? I mean way back when, we all used to have one of these things in our home. Why did these items become a thing? Weren't there proper safety tests conducted prior to its release to the general public? Was it a regulation failure?\n\nEDIT: Thank you for all your comments. I'm now fully aware of the properties mercury has, relating to its use as a temperature measurement tool, yet i'm still not sure about why its health hazards been discovered prior to its release to the public."
+    },
+    {
+      "id": "8pz2sv",
+      "question": "how does the water table work? i just did deep enough and then there's water? why aren't deep caves flooded then?",
+      "selftext": ""
+    },
+    {
+      "id": "5usv8q",
+      "question": "Biography recommendation(s) on the space/arms race during the cold war.",
+      "selftext": "I'm currently on the second semester of (contemporary) European history and will have to present and defend a paper for this course. I plan on doing an analysis of a biography of one of the prominent figure of the space/arms race, ideally a person who's neither American nor Russian by birth.\n\nBut given the vast array of biographies on Von Braun alone (not to mention others of his no less brilliant contemporary) I'm thoroughly lost as to whom to chose and which book to read. And as much as I wish I could read them all, I regrettably have deadlines to contend with.\n\nSo you (yes: YOU!) who has already finished their degree in modern/contemporary European History: what do you recommend. Is Von Braun overdone? Should I go for the Ukrainians or is there not enough translations of it? Should I have chosen a course with better employment perspectives?\n\nThank you any help you can provide!"
+    },
+    {
+      "id": "c22zq8",
+      "question": "how do gas stations make money, or account for the volatility when oil prices are falling? do they \"buy\" the gas when the fuel trucks refill the station or are their profits calculated at a spot price each day based on how much gas they sell?",
+      "selftext": "This is a follow up question to u/A2I_WWJD post about how fuel stations maintain enough fuel for thousands of cars each week"
+    },
+    {
+      "id": "azogum",
+      "question": "In medieval times, was it common for average citizens to go about their daily lives with weapons?",
+      "selftext": "Hollywood depictions of medieval life seem to feature a lot of people casually walking around with swords/other weapons, was this actually common? Would the average Joe make sure to bring his sword if he were just going down to the pub? Would he even own a sword? \n\nThank you for your insight! "
+    },
+    {
+      "id": "p2aa7",
+      "question": "If elephants were entirely extinct in the modern era, and we only had the usual recovered specimens to examine, would we be able to determine their large ears?",
+      "selftext": "I recognize this could very well depend entirely on what the remains are: fossils, an elephant encased in ice, DNA only, etc. The age of the remains would be an important variable as well. So let's narrow it down: we have zero knowledge of elephants, they have never existed in our time, but we have uncovered a more or less complete skeleton in some tundra. It's fairly well preserved, but the bones are scattered and we have to reassemble the animal based on the bone relationships. We manage to reassemble the skeleton, and think we have a complete skull.\n\nWith that data, and our current ability to make animal representations based on the bones (I've seen many Novas where we have artists come in and make a clay representation of an animal with 'accurate' musculature, etc - but that's because we have animal counterparts that we study, to develop the necessary background knowledge to be able to create clay representations). This clay representation is then digitized and we make excellent 3d models.\n\nIf we did this process on the skeleton of elephants - with no knowledge of the or similar species - would we expect the animal to have giant ears?"
+    },
+    {
+      "id": "5q7auj",
+      "question": "why we don't see full black in night/close eyes but see random noise moving around?",
+      "selftext": ""
+    },
+    {
+      "id": "2qzkez",
+      "question": "Has there ever been a peaceful and majority accepted transition from one form of government to another?",
+      "selftext": ""
+    },
+    {
+      "id": "iut19",
+      "question": "Does it save energy to turn down your furnace (or \nAC) during the day?",
+      "selftext": "I posted this to r/physics and amazingly got many different answers.  At one point someone even posted \"why isn't someone giving a definitive answer here?!\"\n\nSo while this question might seem simple, for some reason I cannot find a serious answer, so I am posting here.  \n\nThe common answer is that your 'furnace needs to run harder when you come home' so it is not worth it.  For some reason, people seem to ignore the fact that your furnace or AC ran *less* during the day.  The problem is, was the extra run time in the evening worth the savings during the day?\n\nWouldnt the energy saved to say, drop the temp from 70F to 60F once you left the home be the same amount of energy required to raise the temp back to 70F from 60F?  If so, there is a net energy savings during the time that your furnace cycled less often, to maintain the lower, 60F setting.\n\nThis would mean though, that if you only left for (for example) an hour, and your furnace never even reached 60F, or even just reached 60F as you returned, that there would be no net savings.  For some reason, this doesn't seem right to me.\n\nAny help is appreciated, as I said, in r/physics, I got multiple intelligent sounding answers, and although they all said it was better to turn down your furnace, they all had different reasons why it was so.\n"
+    },
+    {
+      "id": "jj4cz",
+      "question": "price/income elasticity of demand and supply pleasee.",
+      "selftext": "My girlfriend is having a hard time grasping the basic concept of elasticity and I'm not able to explain it in a way that she will understand, please help us reddit!"
+    },
+    {
+      "id": "2v6tkf",
+      "question": "why vga connectors need to be screwed in when hdmi and others don't need to?",
+      "selftext": ""
+    },
+    {
+      "id": "5hhqpg",
+      "question": "why is it that in the ocean so many different species can live in such close proximity to each other but on land it seems like they live separately.",
+      "selftext": ""
+    },
+    {
+      "id": "7oox29",
+      "question": "how do furnaces work?",
+      "selftext": ""
+    },
+    {
+      "id": "21o9qt",
+      "question": "I found a Soviet pin at a thrift store. Any idea what it means? Is it legit?",
+      "selftext": "_URL_0_\n\nI found a bunch of campaign buttons at a thrift store and bought the lot of then without really digging through them. When I got home I found this in the bag. Any idea what it means? Is it legit or just a reproduction? \n\nI apologize if this is the wrong subreddit. I'd be happy to post it elsewhere if need be.\n\nThanks."
+    },
+    {
+      "id": "32d0su",
+      "question": "how dns works? and how it resolves the domains registers few seconds ago?",
+      "selftext": ""
+    },
+    {
+      "id": "4l5sck",
+      "question": "why does rock music and classical music fit together so well?",
+      "selftext": ""
+    },
+    {
+      "id": "2razt6",
+      "question": "How were Christian missionaries from the West perceived in the Mongolian Empire",
+      "selftext": "I have been reading the account of William of Rurbruck who traveled to Karakorum as a missionary in the mid 1200s and held audience with Mongke Khan. However, while reading his account it seems terribly ones-sided, in almost every account he gives of the people he meets (e.g. the 'Saracens\" in court, the Mongolian women) he tends to just give his detail on how he feels he is perceived. Is there any good primary accounts about how the Mongols at this time really perceived the West and missionaries?"
+    },
+    {
+      "id": "1quthm",
+      "question": "Barbershop Quartets: Why \"Barbershop? \" Were There Any Other Types of Popular Singing Groups?",
+      "selftext": ""
+    },
+    {
+      "id": "1ym4yf",
+      "question": "Was Marx racist?",
+      "selftext": "I've heard him being accused of this and read some quotes that sound racist by him and Engels, and I was wondering if there was any validity to this.\n\nedit: spelling"
+    },
+    {
+      "id": "3daj4e",
+      "question": "How did early astronomers know that those slightly brighter dots of light were planets? How did they know the order of the solar system?",
+      "selftext": ""
+    },
+    {
+      "id": "1g57ef",
+      "question": "why do vendors on shopping websites (_url_0_) make their items extremely overpriced for certain items ($20 book for $900)?",
+      "selftext": "I don't know if the title is worded correctly, but here is basically what I'm wondering about: _URL_0_\n\nThe book is $25-30 elsewhere.  Why did this vendor make pricier than ANY book would be worth?\n\nThanks"
+    },
+    {
+      "id": "6alth6",
+      "question": "what is the purpose of those questionnaires on job applications?",
+      "selftext": "The questions seem to have choices that are obviously right and wrong,  or would allow a person to select the one that makes them seem most desirable even if they don't select the most honest answer, so what are they really looking for?"
+    },
+    {
+      "id": "3ma2y3",
+      "question": "What is the difference between the Romans and Byzantium?",
+      "selftext": "Were the Greeks involved?"
+    },
+    {
+      "id": "13yi61",
+      "question": "What animals have an Amygdala?",
+      "selftext": "What animals have an amygdala in their brain? All of them? If so which have a larger one? All I could find online was that vertebrates that developed more have a more advanced one."
+    },
+    {
+      "id": "2l77nu",
+      "question": "Can you fit an infinite amount of objects which have an infinitely small volume in any finite volume?",
+      "selftext": "I'm imagining a book with infinitely thin pages. If it was filled would it contain an infinite amount of pages?"
+    },
+    {
+      "id": "zz5by",
+      "question": "Question about the speed of an object being pulled.",
+      "selftext": "If I were to pull an object from one side, what speed does the information spread through the object to move the whole object? Like if I pulled a string on one end, how does the other end know to move and how long did it take to figure out it should move?"
+    },
+    {
+      "id": "4abphy",
+      "question": "how does target make any money off their redcard debit?",
+      "selftext": "I know they make money on the credit card (interest and swipe fees and such) but how do they do it on the debit card? Is it just a cheaper way of processing payments? Is it simply for loyalty? How do they make money off something that is essentially a direct debit to your account?"
+    },
+    {
+      "id": "e20hsz",
+      "question": "why do people that often use drugs (i’m mainly thinking cocaine here) have very little body fat?",
+      "selftext": ""
+    },
+    {
+      "id": "8sez0g",
+      "question": "why does the bot remove comments that are too short. if i explain something to a 5 year old i ussually do it very succinctly.",
+      "selftext": ""
+    },
+    {
+      "id": "3ja0yf",
+      "question": "why do leaves turn yellow and wither during fall?",
+      "selftext": ""
+    },
+    {
+      "id": "cn5yxt",
+      "question": "what cause cleft lip or palate in human individuals? are these common around the world? in what area people have higher tendency to have cleft lip or palate?",
+      "selftext": ""
+    },
+    {
+      "id": "2p2pe4",
+      "question": "Why don't particle accelerators used magnets that can become superconducting using Liquid Nitrogen?",
+      "selftext": "Edit - can I edit the topic? It's obviously supposed to be \"use\". \n\nI was reading about a new synchrotron being constructed, namely MAX IV. I read that they won't be using superconducting magnets because of the rising price of Helium (one of the few things in this world you can blame the clowns for...) will make it so that it is not profitable to use. So I was wondering, how come alloys that would be superconducting at temperatures achievable with liquid nitrogen are not used in the construction of these things? "
+    },
+    {
+      "id": "192nbq",
+      "question": "What were the scale of the battles in both the world wars? I have a hard time imagining millions, plural, dying. ",
+      "selftext": ""
+    },
+    {
+      "id": "67xfr0",
+      "question": "why aren't we always hungry for the things that our body needs most?",
+      "selftext": "For example, we can distinguish between thirst and hunger because we need to have water. Why does it stop there and we can't go further - why can't we be hungry for calcium, vitamins, etc? Is it because our body can't taste them and thus we can't distinguish them once we eat - or is it because digestion takes more time and we can't perfectly forecast what we will need? Is it because in modern times, food is dramatically altered but we used to be able to do that? Or for other reasons?"
+    },
+    {
+      "id": "vhf8y",
+      "question": "Is there any scientific truth to the idea that you shouldn't sit too close to the TV?",
+      "selftext": "I was told when I was a child that I shouldn't sit too close to the TV, because it will damage my vision and hearing. Is there any truth to this?"
+    },
+    {
+      "id": "2u3tns",
+      "question": "how is china 'blocking' vpns?",
+      "selftext": "And does this mean VPNs are not as safe as we thought?"
+    },
+    {
+      "id": "10rrua",
+      "question": "how come i can flex my leg muscle as hard as i can and feel no pain, but it hurts like hell when i get a cramp in this muscle?",
+      "selftext": ""
+    },
+    {
+      "id": "1shwcn",
+      "question": "why are toilets round?",
+      "selftext": "As opposed to square, triangular, or other shapes? Is it to do with water flow, cleanliness, or something else? "
+    },
+    {
+      "id": "7acv4v",
+      "question": "tax cuts and jobs act proposal",
+      "selftext": "Middle class myself, I've been trying to wrap my head around this the last 10 minutes but just cannot seem to figure it out. "
+    },
+    {
+      "id": "x059y",
+      "question": "Is there any rational explanation for these noises?",
+      "selftext": ""
+    },
+    {
+      "id": "2b1yne",
+      "question": "Did FDR, Churchill or Stalin ever communicate directly with Hitler during WWII? Phone? Telegram?",
+      "selftext": ""
+    },
+    {
+      "id": "d2o6ba",
+      "question": "why are smartphone companies (especially apple) adding like 3 didfrent cameras on thier phone. is this really necesary, and does this increase the price by a lot? because if it does i dont understand why its not better to buy a camera then add three cameras to a phone",
+      "selftext": ""
+    },
+    {
+      "id": "21luex",
+      "question": "cell cycle and mitosis?",
+      "selftext": "I have a test coming up really soon and it'd be nice for a dumbed down explanation :3"
+    },
+    {
+      "id": "2qnjhy",
+      "question": "why people living in deprived african villages that have to walk for hours a day to get water don't just move their homes closer to the water supply.",
+      "selftext": "Without meaning to sound insensitive and ungrateful, I don't see a reason why people living in mud homes in African villages can't move their settlement closer to a water source, and why did they settle so far from a water source anyway?"
+    },
+    {
+      "id": "3zwvlf",
+      "question": "Did Ancient Israelites Write in Egyptian? Was Egyptian (or any form of it) known in Israel during biblical times and was it utilized in writing?",
+      "selftext": ""
+    },
+    {
+      "id": "3hfq33",
+      "question": "AskScience AMA Series: I am pfisico and I build instruments to study the cosmic microwave background radiation. Ask Me Anything!",
+      "selftext": "I build and use instruments to study the cosmic microwave background radiation, a relic of the hot big bang. One of my current projects is a balloon-borne instrument (SPIDER) that recently flew above Antarctica, while another (the South Pole Telescope) sits at... you guessed it, the South Pole. AMA about...cosmology, scientific ballooning, Antarctica, building instruments... or whatever!\n\nI'll be on around 1:30 - 3:30 eastern time (17:30-19:30 UTC)\n"
+    },
+    {
+      "id": "1l7br4",
+      "question": "why don't gas stations undercut each other?",
+      "selftext": "Why is it two gas stations right across the street from each other never try to undercut each other? They just tend to accept each others price point as their own."
+    },
+    {
+      "id": "15joek",
+      "question": "How did American film and TV end up being so moralistic (or if my premise is wrong, why does it seem so)?",
+      "selftext": "It particularly stands out with comedies, where the last few minutes are devoted to sappy, cloying cadences (even in supposedly adult films like *This is 40*). I'm not suggesting that exceptions don't exist, and perhaps my premise is wrong, but those exceptions would seem pretty run-of-the-mill in German, Japanese or British media."
+    },
+    {
+      "id": "24old1",
+      "question": "why are 'news' networks such as hln and cnn allowed to air such biased opinions on such a large scale?",
+      "selftext": "I'm from Europe and quite frankly I'm appalled by how this stuff is allowed to be aired. Surely there is some law being violated here? It must have a major influence on outcomes of current issues? It seems to me like it is just fueling a flame and holding a nation back from educating themselves."
+    },
+    {
+      "id": "8buozx",
+      "question": "To what degree were Pantheons shared in the Late Bronze Age Near East?",
+      "selftext": "In literature, Homer implies that Trojans and Greeks keep similar gods, albeit being different cultures. I also noticed on a map of Neo-Assyrian Ninevah there was a temple to Hermes. I'm afraid my ignorance prevents me from forming a well worded question, but I was hoping someone could discuss how and why a god might \"spread\" beyond its indigenous culture in the late Bronze Age."
+    },
+    {
+      "id": "17tf22",
+      "question": "When did the Byzantines start to use the name Basileus for their Emperor?",
+      "selftext": "Question in title"
+    },
+    {
+      "id": "90ydcj",
+      "question": "Why is it that some muscles «burn» while exercised hard, while in others you experience more of a fatigue-like feeling?",
+      "selftext": "E.g. my abdominal muscles will burn while doing crunches, while my arms will just stop moving while doing chin-ups."
+    },
+    {
+      "id": "ej4vka",
+      "question": "how does water evaporate from seas if the temperature never actually reaches 100 degrees. does it just slowly gain energy from the sun until it has enough to break bonds?",
+      "selftext": ""
+    },
+    {
+      "id": "4159ve",
+      "question": "if the earth \"wobbles\" as it spins and orbits the sun, what prevents it from spinning out of control?",
+      "selftext": ""
+    },
+    {
+      "id": "3drm5m",
+      "question": "What was Byzantine Iconoclasm and what was it's effect on the Orthodox church?",
+      "selftext": ""
+    },
+    {
+      "id": "1zut1s",
+      "question": "Why is it when Metal/Rock is heated it usually glows a bright red? What about the rock getting hotter is making it produce light, Where is the energy coming from?",
+      "selftext": "If you heat a ball of steel it will glow a bright bright red and emit light. I'm just wondering where is that light coming from and how is it being created?"
+    },
+    {
+      "id": "1zt0i6",
+      "question": "why are cities enacting water bottle bans, when people will just buy soda in plastic bottles instead?",
+      "selftext": "I am not quite sure the thinking. I know places like Concord Mass. have banned water bottles, but if someone goes to the store and they can no longer buy water, wouldn't they just buy a sugary drink instead? Have you not then just replaced people drinking water with an unhealthy sugar drink in a plastic bottle? Is there any reason to believe that banning water in bottles does not result in people just buying water in bottles with sugar  and carbonation instead? (If there is a study that proves this, citation would be nice.) "
+    },
+    {
+      "id": "1x2cm7",
+      "question": "why don't planets orbiting stars eventually fall into them?",
+      "selftext": "A common way to demonstrate space and gravity is by using a thin sheet of elastic material stretched out over a frame. When you put a heavy object in the center of the sheet, it weighs down and creates a depression, which is supposed to represent a big mass like a star and its gravity. When you put a lighter object on the same sheet it will fall towards the heavier object. This represents gravitational attraction.\n\nIf you give the lighter object some momentum and throw it next to large mass, it will miss it and start to orbit the mass, following the incline in the material. This is supposed to represent orbiting masses. The objects always eventually stop orbiting and fall into the large object, presumably because of friction and the gravity of the (actual) earth pulling it down.\n\nNow, I can understand how this would work \"better\" in the vacuum of space since there is less (no?) friction. However, wouldn't little changes in the momentum of the planets possibly cause its orbit to change and to spiral closer and quicker to its star? For example, a massive asteroid impact or a field of them. On a grand scale it might not be much, but wouldn't it have some effect and alter it's orbit somewhat? Similarly, other planets' gravitational effects on each other, or moons."
+    },
+    {
+      "id": "4by2um",
+      "question": "In his time was Shakespere's writings difficult to understand?",
+      "selftext": "I ask because we have all had some reading in school. We slowly proceed and break down what is being said sometimes. Would it have been as difficult at the time of writing to understand? I know of course language evolved and words come in and out of favor, but I feel like the common man may have been just as confused as most of us are. Was he writing, maybe, for the higher class? Thanks for the help."
+    },
+    {
+      "id": "5s9o0f",
+      "question": "how come many people have lots of mental disabilities, not only one.",
+      "selftext": "How come many people have lots of mental disabilities together. I often hear about people with dyslexia, with adhd, and maybe ocd. But i find its less common to find someone with just dyslexia or just ocd."
+    },
+    {
+      "id": "bpa64x",
+      "question": "how can airport security scanners detect certain things, rather than just metal? how can it determine the difference between a gun and a watch if they're both made of metal?",
+      "selftext": ""
+    },
+    {
+      "id": "1stizb",
+      "question": "Can stars spit out elements we've yet to discover?",
+      "selftext": "Okay. Well, I am a scifi buff. I play EVE Online. In EVE, we use minerals with scifi origins and and psuedoscience lore to explain their existence. We also use actual elemental stuff like technetium and polonium, to name only a couple.\n\nI understand that all of the elements we know of on the periodic table, the ones we encounter here on Earth, originate from our star as a byproduct of the sun's life cycle. Heavy elements created as a byproduct of our sun's fusion, spat out in solar flares, traveling through the void and eventually collecting and making new stuff. Obviously not all of our celestial material came from just our star, but all of the material came from a star at some point.\n\nWhat I want to know is, is there any scientific precedence, theoretical or known, that could explain the existence of elements that may be unique to a star system?\n\nLike, for instance, an extremely large, very hot, very old star. It's so old it's spitting out elements heavier than any we've ever encounters naturally or in a laboratory. Kryptonite, because why the hell not?\n\nCould these elements exist? Or are the elements we know of here on Earth and in our own galaxy consistent throughout the entire universe? Can modern science explain the existence of unique and strange elements we've yet to discover as a natural occurrence due to star emission?"
+    },
+    {
+      "id": "407l11",
+      "question": "In 387BC, Sparta successfully concluded the Corinthian War. 15 years later on the eve of Leuctra it was loosing the fight against the Second Delian League and for peace. Why?",
+      "selftext": "Sparta won a war against Athens, Corinth, Argos, and Thebes leading the Boeotian League.\n\n15 years later it was losing one against Athens and a new and much reduced Boeotian League that was initially Thebes itself, that they had to call for a peace conference.\n\nWhat changed?"
+    },
+    {
+      "id": "5cyzla",
+      "question": "why are teeth individual, and were they ever one whole solid unit?",
+      "selftext": ""
+    },
+    {
+      "id": "cdt2pm",
+      "question": "Could you have a binary set of moons that orbit a planet together? Not 2 moons in separate orbits, but a pair or moons rotating around each other and orbiting a planet as well.",
+      "selftext": ""
+    },
+    {
+      "id": "317q0z",
+      "question": "How was Ahmad Shah Massoud important in Soviet-Afghan War?",
+      "selftext": "What motivated him differently from others?\n\nAlso, without treading too much into the twenty-year mark, how was he important in the formation of modern Afghanistan?"
+    },
+    {
+      "id": "36bg0e",
+      "question": "What would be the first language of the Irish who arrived in the United States in the 19th century? What impact or relation did it have to their relation to society?",
+      "selftext": ""
+    },
+    {
+      "id": "eyfha5",
+      "question": "what is the purpose of the \"circular net\" in front of microphones of recording studios?",
+      "selftext": ""
+    },
+    {
+      "id": "3c1zc9",
+      "question": "What was North America like before the English settlers",
+      "selftext": "Never learned in school what North America was like before the 1400s or so. Very open-ended question so feel free to give as much or as little info as possible"
+    },
+    {
+      "id": "9bfxw3",
+      "question": "Can you make a nuclear bomb with any element?",
+      "selftext": "Could you use an element like gold, or sodium, instead of uranium?"
+    },
+    {
+      "id": "1p3en9",
+      "question": "How successful was African American participation in politics during the post-emancipation period?",
+      "selftext": "After the Emancipation Proclamation and Civil War, African Americans finally had the opportunity to participate in politics. However, there must have been some sort of backlash from those still in favor of slavery.\n\nHow smooth was black integration into politics/voting?\nWhat was the political party situation? Which party was more favorable to African Americans?\nDid African Americans directly participate in politics? What problems did they encounter that white politicians didn't?\nWas the situation different in the northern and southern states?"
+    },
+    {
+      "id": "1p2y7a",
+      "question": "how are we able to 'tune out' smells and sounds?",
+      "selftext": ""
+    },
+    {
+      "id": "kuely",
+      "question": "why cardio is better than weight lifting at burning fat.",
+      "selftext": "I was always taught in school that as long as you're active and sweating you're burning calories. Why does one way trump the other?"
+    },
+    {
+      "id": "1rysk8",
+      "question": "how can brain trauma allow a person to play an instrument that they had never touched before?",
+      "selftext": "A skill like playing the piano requires a lot of dexterity which comes from muscle memory gained through years of practice. How can a person, such as [the man in this story,](_URL_0_) bypass all that practice and automatically have the ability to play? I accept that trauma can open up the aptitude to *understand* music better, but to me that doesn't seem like the same as having the ability. "
+    },
+    {
+      "id": "4fqz0w",
+      "question": "[Biology] Does the vagina absorb any seminal fluids?",
+      "selftext": "Just asking for what happens after semen is deposited inside the vagina. What happens to sperm that's left in there? What about the other fluids beside spermatozoa? I haven't found anything on Google. Thanks!"
+    },
+    {
+      "id": "52fzsq",
+      "question": "why if co2 is only .038% of atmospheric gases, does it have so much impact on global warming?",
+      "selftext": "This is knowing that nitrogen [constitutes 78% and oxygen 21% of the total gases in the atmosphere](_URL_0_). How can we be so certain that CO2 is to blame?"
+    },
+    {
+      "id": "7x5t1d",
+      "question": "What is the history of the Irish Travellers? What writings are out there that pertain to them? Do we know how they came to live a nomadic lifestyle?",
+      "selftext": ""
+    },
+    {
+      "id": "7348z1",
+      "question": "Why is the C.M.B. visible in every direction?",
+      "selftext": "If it is the case that the big bang was a local event; how is it that the cosmic microwave background is visible from every spacial angle?\n\nIf there was superluminal expansion, surely only one direction should have the remnants.\n\nIf the photons escaped the plasma during expansion, surely there was nothing for them to scatter off of -- back towards us -- and we shouldn't see anything.\n\nIs it topological? Something like a 4-D stereographic projection where the projection point is the big bang such that all 3-D spacial paths trace a meridian back into the past?\n\nHow can we even tell that it's the big bang and not radiation from non-observable universe beyond our small bubble?"
+    },
+    {
+      "id": "acvkte",
+      "question": "What caused the growing whining sound when old propeller planes went into a nose dive?",
+      "selftext": "I’m assuming it has to do with friction somewhere, as the whine gets higher pitched as the plane picks up speed, but I’m not sure where.\n\nEdit: Wow, the replies on here are really fantastic, thank you guys!\n\nTIL: the iconic \"dive-bomber diving\" sound we all know is actually the sound of a [WWII German Ju87 Stuka Dive Bomber](_URL_6_). It was the sound of a siren placed on the plane's gear legs and was meant to instil fear and hopefully make the enemy scatter instead of shooting back.\n\n[Here's some archive footage](_URL_1_) \\- thank you u/BooleanRadley for the link and info\n\nTurns out we associate the sound with any old-school dive-bombers because of Hollywood. This kind of makes me think of how we associate the sound of [Red Tailed Hawks](_URL_5_) screeching and calling with the sound of Bald Eagles ([they actually sound like this](_URL_0_)) thanks to Hollywood.\n\n & #x200B;\n\nThank you u/Ringosis, u/KiwiDaNinja, u/BooleanRadley, u/harlottesometimes and everyone else for the great responses!\n\nEdit 2: Also check out u/harlottesometimes and u/unevensteam's replies for more info!\n\nu/harlottesometimes's [reply](_URL_4_)\n\nu/unevensteam's [reply](_URL_3_)\n\n & #x200B;\n\nEdit 3: The same idea was also used for [bombs](_URL_2_). Thank you u/Oznog99 for the link!"
+    },
+    {
+      "id": "3gjq98",
+      "question": "does your body keep taking in water when you get wounded underwater?",
+      "selftext": "Lets say you got shot or something and then fell into a big (or small) body of water. Would a bunch of water fill up in your body causing you to die or?? Sorry if this seems like a stupid question but I've always wondered how dangerous it would be to be underwater with a wound."
+    },
+    {
+      "id": "1jmgjs",
+      "question": "Are there other theoretical dimensions that are not spatial or temporal?",
+      "selftext": "All the things that I have read about extra dimensions talk about spatial dimensions. Are there other theoretical dimensions that are not spatial or temporal?"
+    },
+    {
+      "id": "69kf9y",
+      "question": "What did Paul Mattick mean when he said that Marx was a Socialist and not an economist?",
+      "selftext": ""
+    },
+    {
+      "id": "2reacv",
+      "question": "why can't most people clear their mind (or thinking about nothing)?",
+      "selftext": "Most people that I know including myself find it impossible to empty our minds, even while alone. Why can't the brain stop wandering?"
+    },
+    {
+      "id": "2lb4ea",
+      "question": "Do particles at different temperatures experience time differently? Can we heat particles to near-relativistic speeds?",
+      "selftext": ""
+    },
+    {
+      "id": "4bh7r0",
+      "question": "why was brussels attacked?",
+      "selftext": "I always thought Brussels was reasonably peaceful why has it been targeted.\n  "
+    },
+    {
+      "id": "302h74",
+      "question": "how do subreddits become default ones like r/sports or r/gaming",
+      "selftext": "who decides which subreddits you see when you don't sign in (the default ones basically) hopefully someone understands what I'm saying :/"
+    },
+    {
+      "id": "8k8jsr",
+      "question": "how was the world able to work together to ban cfcs and protect the ozone layer, but aren't making those same enviornmental gains now?",
+      "selftext": ""
+    },
+    {
+      "id": "55h3s9",
+      "question": "what is so special about go pro type cameras that can't be done with just any video camera.",
+      "selftext": "To give more context. I know that go pro have special fittings that allow them to be mounted in places that normal cameras can't. Any camera can be mounted if there is a custom mounting for it so that can't be the sole reason. I'm asking about the quality of the footage and how that fits into the overall picture about go pros."
+    },
+    {
+      "id": "1v1783",
+      "question": "Would matter-antimatter annihilation be any different than nuclear explosion?",
+      "selftext": "Ratios of released energy are 100:1 of these two reactions, so I assume matter-antimatter annihilation would be much more volatile than nuclear one (assuming same weight of used material), but do these two explosions have same properties, ie. Mushroom cloud followed by EMP and radiation? Is any of these two \"cleaner\"?\n\nDo we have knowledge of how matter-antimatter annihilation process works?"
+    },
+    {
+      "id": "8xd2l3",
+      "question": "Has a nation ever existed that did not occupy physical land?",
+      "selftext": "To give some context: This notion was born when thinking about my own culture. My culture, [Circassian](_URL_1_), is currently living in a diaspora ever since the [Russo-Circassian War](_URL_0_) ended in 1864. Some of the population of Circassians do reside in the Caucasus region where we're from, but it's all split apart and still don't account for even 1/4th of all Circassians worldwide.\n\nAfter some thought, I wondered if there would ever be a way for Circassians to once again be a nation, even if we didn't occupy physical land. This breeds the question: Has a nation ever existed that did not occupy physical land?\n\nEDIT 01:\n\nMy definition of a nation is the definition Google gives you:\n\n*\"a large aggregate of people united by common descent, history, culture, or language**~~, inhabiting a particular country or territory~~**.\"*"
+    },
+    {
+      "id": "328bkt",
+      "question": "what is the difference between an emoji and an emoticon?",
+      "selftext": "I have noticed that people who use apple devices says \"emoji\" while PC users say emoticon. Is emoji preparatory? Are emoticons an open platform? HAHA but seriously I don't understand. "
+    },
+    {
+      "id": "87xntk",
+      "question": "Is pH and electrochemical concentration gradient the same thing?",
+      "selftext": "Hey guys! Undergrad nursing major, just trying to check my understanding. Is electrochemical concentration gradient the same as pH except that electrochemical con. grad. Is for broader terms and pH is strictly Hydrogen ion concentration? Or is there more to it?"
+    },
+    {
+      "id": "j3aa8",
+      "question": "what is existentialism? it seems like a lot of redditors believe in this philosophy.",
+      "selftext": ""
+    },
+    {
+      "id": "2829gh",
+      "question": "Will we ever be able to reach The Core of the Earth?",
+      "selftext": ""
+    },
+    {
+      "id": "1y9f2j",
+      "question": "Why do you always need an article in Romance languages?",
+      "selftext": "I am currently learning German and Spanish, and found that I always need to use articles in Spanish but not in German. \"Ich trinke Kaffee\" is a correct sentence in German, as is \"I drink water\" in English, but \"Bebo agua\" in Spanish is not, only \"Bebo el agua\" is. From my understanding, ancient Latin did not have articles, and they were introduced to the language by Germanic invaders. Is there a historical reason for some languages not always requiring am article, yet modern Romance languages do? "
+    },
+    {
+      "id": "10t3o1",
+      "question": "explain this eyeglasses prescription li5",
+      "selftext": "Hello!\n\nMy doctor gave me a prescription for my eyes today. Here it is\n\n_URL_0_\n\nWhat does every number of this means? \n\nThanks"
+    },
+    {
+      "id": "ec3bea",
+      "question": "how come the human genetic code can fit roughly in ~1.5gb of data yet we turn out such complex organisms? furthermore, the code that separates us from other mammals can fit on o floppy disk.",
+      "selftext": ""
+    },
+    {
+      "id": "6b78w3",
+      "question": "Why are there no photos of a battlefield covered with thousands of bodies?",
+      "selftext": "Surely the sight of, for example, Omaha beach right after the landings or no man's land at The Somme after 60,000 British troops were cut down in a single attack would have been shocking enough that at someone would have wanted to document it.... \n\nJust seems kind of strange to me. \n\n"
+    },
+    {
+      "id": "a9nnn4",
+      "question": "why are car keys use different mechanisms (sliding pins?) then our normal house keys? what are the advantages/disadvantages?",
+      "selftext": ""
+    },
+    {
+      "id": "5alir3",
+      "question": "What do you think happened to the lost colony of Roanoake?",
+      "selftext": "Personally, I think they did go back to Croatoan Island, but wouldn't we have some of their names as people's ancestors in our records? \n\nWhat do you think happened to the colony?"
+    },
+    {
+      "id": "drpogv",
+      "question": "the interstellar medium is hot? 54,000 degrees f? how is this possible?",
+      "selftext": "A recent finding from Voyager 2 per this [National Geographic article ](_URL_0_). Isn’t temperature a function of molecular motion? But isn’t the interstellar medium a near vacuum? I am so confused."
+    },
+    {
+      "id": "22nq3s",
+      "question": "Did the Red Army deliberately hold back during the Warsaw Uprising so that a potential post-war threat (the Home Army) would be removed?",
+      "selftext": ""
+    },
+    {
+      "id": "13xikv",
+      "question": "If someone could conceivably have a fraction with any number as the denominator, does this mean there are infinite numbers between 1 and 2?",
+      "selftext": ""
+    },
+    {
+      "id": "28n85o",
+      "question": "Does dyslexia affect things like sheet music as well? Or is it strictly written language?",
+      "selftext": ""
+    },
+    {
+      "id": "3z18x0",
+      "question": "what is inside alcohol that causes it to be addictive?",
+      "selftext": "I searched it up, and tried googling it. I only got rehab places in my search.\n\nI see people who say they will only have \"one glass\", then turn into full blown alcoholics. I know your mental state can contribute to it, but what is it inside alcohol that causes it to become addictive? For cigarettes there's nicotine.\n\nI guess I should explain better. I'm trying to find out what is the addictive ingredient in alcohol, and what it does do to the brain to have you craving more, and the if you can, the chemical parts of it."
+    },
+    {
+      "id": "9wm3vs",
+      "question": "why do videos sound terrifyingly deeper when slowed down?",
+      "selftext": "[deleted]"
+    },
+    {
+      "id": "3emnnf",
+      "question": "Why didn't Einstein get a Nobel prize for Relativity? Was the paper on the photoelectric effect really more important?",
+      "selftext": ""
+    },
+    {
+      "id": "1686tw",
+      "question": "Can you heat a metal until it turns into a gas? If so, does this ever happen or is it just a theoretical state?",
+      "selftext": ""
+    },
+    {
+      "id": "224137",
+      "question": "why did the chinese never develop an alphabet?",
+      "selftext": "Not saying that the characters aren't effective or anything, just wondering what exactly led them, and other languages I'm sure, to continue using characters, pictograms, etc…instead of developing an alphabet which is much easier to learn! "
+    },
+    {
+      "id": "1fgifs",
+      "question": "have humans created a new species? (via selection)",
+      "selftext": "Dogs for example are distinct from wolfs but are still genetically compatible (i.e. they can mate and the offspring are fertile). Is there an animal, or plant, that humans have selected, for food, wool etc, that are now genetically incompatible from the wild species? If not which animals are the close to becoming a new species?"
+    },
+    {
+      "id": "6cadat",
+      "question": "why do patents and copyrights expire? who/what decides when they do? is it fair to the inventor/creator and is there a way around it?",
+      "selftext": ""
+    },
+    {
+      "id": "4hcini",
+      "question": "Why don't Forests and Jungles take over the Savannas and Praries?",
+      "selftext": "When I now my lawn, I see little tree sprouts popping up all the time. If I didn't know them over, I'd assume my yard would become a \"forest\" in a few years (it's small so forest may be wishful thinking- I digress). What keeps the savanna and praries free from trees? Do the large animals like elephants and waterbuffalo really have such an impact that trees can't grow? How about in North America or Europe/Asia where there aren't large animals?\n"
+    },
+    {
+      "id": "32q80m",
+      "question": "why is christianity in decline in the western world?.",
+      "selftext": ""
+    },
+    {
+      "id": "1y6vjg",
+      "question": "What is the main difference between Cold, Hot and Warm dark matter?",
+      "selftext": ""
+    },
+    {
+      "id": "6ycb8b",
+      "question": "There have been a dozen or so species in genus Homo; why did all but one sub-species disappear?",
+      "selftext": "There may still have been _H. erectus_ in Java when _H. sapiens sapiens_ were building pyramids in Egypt.  Where is everybody?"
+    },
+    {
+      "id": "1hrhct",
+      "question": "why do automakers continue to produce vehicles for many years without making any major updates (e.g. nissan xterra, jeep patriot, ford expedition)?",
+      "selftext": ""
+    },
+    {
+      "id": "1o7i8p",
+      "question": "Has the concept of the \"Unconscious\"(In Psychology) been experimentally verified?",
+      "selftext": ""
+    },
+    {
+      "id": "2puuhk",
+      "question": "why does steam always have to install microsoft c++ redistributable 2005 when i install a game?",
+      "selftext": ""
+    },
+    {
+      "id": "3hnkza",
+      "question": "why is it ok for generic brands to blatantly rip off brand name companies for their own profit?",
+      "selftext": ""
+    },
+    {
+      "id": "11cnbe",
+      "question": "When does a comet stop moving?",
+      "selftext": "Where does it derive its velocity from and how long will it travel through space?\n\nWould gravity from stars and planets it passes through somehow slow it down?\n\nEDIT: I need to re-phrase. 'Would gravity from stars and planets it passes *BY* somehow slow it down?'"
+    },
+    {
+      "id": "vxvz1",
+      "question": "How did these air vortices form beneath a wave?",
+      "selftext": "_URL_1_\n\n_URL_0_\n\nAfter ten years making a living in and out of the water I thought I knew how waves work, but apparently not. Help?"
+    },
+    {
+      "id": "eye9xo",
+      "question": "_url_0_, inc. not paying income tax despite being legally considered a person.",
+      "selftext": ""
+    },
+    {
+      "id": "4g3zw8",
+      "question": "In the US during WWII, how did rationing work on the homefront if people went to a restaurant? Did people have to give the ration coupons/cards to the restaurant in addition to payment?",
+      "selftext": "I , for a long time have always wondered about this. It has never been made clear in any books I've read or documentaries I have seen. "
+    },
+    {
+      "id": "edxjhs",
+      "question": "how does an induction cooker sense a metal is ferrous?",
+      "selftext": "Bonus questions that I have- \nwhat would happen if a magnet was placed on an induction heater?\n\nHow much electricity does an induction cooker use?\n\nWhy are they not more commonplace?"
+    },
+    {
+      "id": "2aut5f",
+      "question": "why are intelligence agencies allowed to break the law in foreign countries by spying on their citizens?",
+      "selftext": "I've always wondered this. I can sue everyone over even trying to read my mails or intercept my phone calls. Why not foreign intelligence agencies if documents provide clear evidence of such behaviour?"
+    },
+    {
+      "id": "4576bx",
+      "question": "how are apple pay, samsung pay, google wallet different?",
+      "selftext": "Aren't they all NFC? If so, why aren't all of them accepted everywhere? Seems like most machines have that capability. Can businesses block one kind but not another? How?"
+    },
+    {
+      "id": "6ov6me",
+      "question": "why is it that medical doctors can deal with a single species(humans),veterinary doctors are(assumed?)able to deal with every other species?",
+      "selftext": ""
+    },
+    {
+      "id": "6mlizm",
+      "question": "how font designers can design for japanese and chinese, languages that both use millions of individual chinese characters?",
+      "selftext": "edit: I guess I had overestimated how many characters these languages use -- as many pointed out, it's only tens of thousands, at the most. Thanks for the great responses, though!"
+    },
+    {
+      "id": "2ko9zx",
+      "question": "How did Michelin, a tire company, become the creators of the definitive guide to fine dining?",
+      "selftext": "and when did getting a \"3 star\" rating become a nearly impossible feat?"
+    },
+    {
+      "id": "1k81kx",
+      "question": "I have a question about the history of Computers.",
+      "selftext": "Ok. In the 1950's computers looked like [this](_URL_1_). This one can hold only 5Mb of memory. It was huge. What were scientists and government reactions to computers that were a lot smaller. Take the [LISA](_URL_0_) for example. What were their reactions to that? Was there shock going from a room consuming power hungry behemoth that could only hold so little, to something that was so much smaller, yet so much more powerful?"
+    },
+    {
+      "id": "3f598l",
+      "question": "why is there such a demand in asia for rhino and elephant tusks? how did it start?",
+      "selftext": ""
+    },
+    {
+      "id": "20n6m7",
+      "question": "what usually causes my internet to crash?",
+      "selftext": "Ok, so I know this is a really broad question, but maybe you guys can help anyways.\n\nAcross several addresses, routers  &  modems, computers, and ISPs I from time to time experience that my internet stops working. \nSometimes a modem reboot is sufficient. Other times I'll try to fix it for hours, and then suddenly the internet starts working again for no apparent reason.\n\nWhat generally causes my internet to stop working like that?"
+    },
+    {
+      "id": "78t3nb",
+      "question": "Why is c (speed of light) the constant and not time or space?",
+      "selftext": "If I orbit earth and fire a beam of light it should travel 300K km/s tangentially off the orbit. But if I take gravity into account then the light should bend to the gravity of the earth just as it does around a black hole. My question is why is it that light is the constant and time/space are the ones that bend. What would the implication be if light ebbed and flowed and time moved at a constant rate?"
+    },
+    {
+      "id": "5kp49l",
+      "question": "if you were a few mph below the sound barrier, then made a sonic boom, then slightly slowed down then sped up again, would it constantly make multiple sonic booms?",
+      "selftext": ""
+    },
+    {
+      "id": "33dglg",
+      "question": "Why did the Nazis and German people keep fighting after the winning was no longer an option?",
+      "selftext": "I'm about to start a research paper on the \"final days of Nazi Germany\" and I'm just looking for some basics sources to gather more information on what besides the atmosphere of propaganda and Nazi fanaticism caused this mentality to occur.\n\nThanks!"
+    },
+    {
+      "id": "25f887",
+      "question": "If I were to accelerate a pebble to 99% the speed of light aimed at the center of the earth....what would happen?",
+      "selftext": "So basically, does an object, even one as tiny as pebble make boom when moving that fast?"
+    },
+    {
+      "id": "1z9pwi",
+      "question": "Has anyone tried translating ancient western books into a more readable form for amateurs?",
+      "selftext": "I love reading about the ancient Greeks and Romans but I can't read direct sources, but want to. I am just a fan of history, not formally educated (in history anyway). I find a have a massive common knowledge problem. It seems every page has multiple references to things (ex. cities, family names, ethnic groups, etc) that I have to look up. It's especially hard when I am suppose to know that that thing has a trait (ex. specific type of priests, political family, nomadic raiders, etc). It makes for difficult reading and I just go back to re-reading my favorite books about the ancient world.  Thanks for any recommendations! "
+    },
+    {
+      "id": "5m1xz9",
+      "question": "what's going on with \"black money\" in india?",
+      "selftext": ""
+    },
+    {
+      "id": "13it1z",
+      "question": "If a varying electric field produces magnetism, can a varying gravitational field produce an analogous field?",
+      "selftext": ""
+    },
+    {
+      "id": "yk0ap",
+      "question": "Cartoonists in WWII",
+      "selftext": "Other than Bill Mauldin, who where some of the more well-know (for the time) cartoonists during World War II.  Also, who were some of the cartoonists for the other powers (both Allies and Axis) that were popular?"
+    },
+    {
+      "id": "1nq4w2",
+      "question": "what did justinian's code do for the byzantine empire?",
+      "selftext": ""
+    },
+    {
+      "id": "612cub",
+      "question": "why does our tongue have a \"life of its own\"",
+      "selftext": "What I mean is, why do I only have limited control of my tongue? I can make it stay still, but it will still move from time to time"
+    },
+    {
+      "id": "t44ok",
+      "question": "the three major political parties in the uk (liberal democrats, labour and conservative).",
+      "selftext": "What do they stand for? \nTheir manifestos?\nAnd any other useful pieces of information are greatly appreciated."
+    },
+    {
+      "id": "6a48e0",
+      "question": "why do burps make a sound?",
+      "selftext": ""
+    },
+    {
+      "id": "xgnfp",
+      "question": "Could you replace bones with a metal, or any substance harder than bone?",
+      "selftext": "Say I want to be a fighter. Would it be possible to replace my knuckles, shin/tibia, elbows, any of the major striking points with a metal to give me an advantage on the opponent? What would the consequences of such a surgery be? "
+    },
+    {
+      "id": "ck7arp",
+      "question": "What are we to make of the story of the Israelites' slavery in Egypt and subsequent Exodus and its reflection on Ancient Israelite society?",
+      "selftext": "Asked this last week, but noticed the theme this week and it seems to fit so trying again!\n\nAnyways, as I understand it, the academic consensus is that the story of Exodus is entirely mythic. There was no Egyptian captivity, or otherwise a time of exile there, and likewise the flight from Egypt is also a creation.\n\nBut certainly there was intended meaning to the story. What do scholars see as the, ahem, genesis of the story of Exodus? What purpose did the crafting and continuation of this narrative serve within Israelite society?\n\nHow does it relate to the actual relationship that existed between Israel and Egypt in the period that it nominally would have happened? I know that this is the first time we even see Israel mentioned, in 1209 BCE, but not much else. I don't want to speculate, but is the myth in any way commentary on the reality of their relationship with a stronger, more powerful neighbor?"
+    },
+    {
+      "id": "1l67iq",
+      "question": "Can all life be explained by chemical reactions/processes?",
+      "selftext": "So is there anything in a life form that cannot be scientifically validated/checked/or I guess and more specifically written as a chemical reaction? I am talking about all levels such as a cell, parts of a cell or an organ... but most likely if there is it would be at the cellular level. \n\nSo the things that happen at the cellular level, is it always some form of: \n\n\nexisting structure (cell, call parts(nucleus, mitochondria, ..), ...\n\nplus \n\nmaybe some energy\n\nplus \n\nmaybe some nutrients\n\n=== >  Sustained life and reproduction\n\n\nThere are also other types of processes, other than chemical reactions, such as osmosis, and maybe some electrical processes (nerves), motor processes...\n\n\nI understand that the cell structure is mighty complex and that it cannot be recreated in a lab? Is it because we still do not completely understand it, or that we do not have tech to reproduce it?\n\nThe inspiration of this question is the following, although I would still like some info on the question above. \n\n\nWhen I was in high school like 15 years ago our teacher told us that some chemical reactions are not reversible, and as an example he/she said that you cannot get eggs from a cake but the reverse is true. \n\nSo my followup questions is: if life is a series of chemical reactions, you can feed the chicken cake and you can get eggs. I understand that this is not a one chemical reaction but a multitude of chemical reactions, but this would be the time consuming way to create eggs from cake. \n\nThanks.\nEDIT: formatting"
+    },
+    {
+      "id": "4lbn9o",
+      "question": "Are trees from different families examples of convergent evolution? Or do many families of plants come from a tree-like ancestor?",
+      "selftext": "I mean... there are trees in the Fabaceae family and trees in the Rosaceae family. Is \"tree-ness\", meaning large size and woody bark, something that can arise from any family of plant, or is it something more specific?"
+    },
+    {
+      "id": "4ee5ft",
+      "question": "Regarding the way the muscles in your eyes behave, is looking at a distant horizon in a photograph the same as looking at distant horizon in real life?",
+      "selftext": ""
+    },
+    {
+      "id": "1ptx90",
+      "question": "how do those spam comments on youtube get so much upvotes on youtube?",
+      "selftext": "e.g: _URL_0_\n\nThese are usually the top comments! Doesn't spam usually get downvoted to oblivion?\n\nedit.(title contains one more \"youtube\" than was intended.)"
+    },
+    {
+      "id": "2kgqmr",
+      "question": "the benefits of nfc payments such as apple pay, google wallet",
+      "selftext": "I'm hearing a lot of people in /r/apple and /r/android upset about some stores disabling NFC payments. I don't see the big deal. Is there a benefit in convenience or security that I'm missing?"
+    },
+    {
+      "id": "vbqs6",
+      "question": "Where and why did humans start using utensils to eat rather than their hands?",
+      "selftext": ""
+    },
+    {
+      "id": "87enp9",
+      "question": "How long did recombination (photon decoupling) actually take?",
+      "selftext": "Ok, so in the beginning, the universe was too hot and energetic for nuclei to hold on to electrons. Therefore photons had a very short mean free path to travel, and the whole universe was opaque. So far, so good. \n\nThen, \"378,000 years after the big bang\", the universe had cooled down sufficiently for neutral atoms to form and became transparent. The one thing that I find gets glossed over in all the texts I've read is how long this process actually took. Was it fairly instantaneous across the entire universe, did it take weeks, months, thousands of years? \n\nWhile the process was ongoing if you were in one of the transparent bits of the universe and looked towards a yet opaque bit, what would it look like? White? Black? Red?  "
+    },
+    {
+      "id": "4c7e4a",
+      "question": "why does pushing our eye gently against a closed eye lid make us \"see\" things?",
+      "selftext": ""
+    },
+    {
+      "id": "fcto7f",
+      "question": "Did medieval Middle-Eastern monarchs have crowns, crown jewels, and coronations? What were the Middle Eastern symbols of royal power, and how were their reigns formalized?",
+      "selftext": ""
+    },
+    {
+      "id": "34xpkg",
+      "question": "why do i have sudden spurts where i have to get up and pee every 15 minutes and the urine is perfectly clear even though i haven't drank any water?",
+      "selftext": ""
+    },
+    {
+      "id": "3hagj5",
+      "question": "What are some examples of historic deals which were done over beer?",
+      "selftext": ""
+    },
+    {
+      "id": "sypfk",
+      "question": "Why is China considered the oldest continuous country when thorough it's history it's been shattered and conquered?",
+      "selftext": "When Italy was invaded by barbarians the western roman empire ceased to be, even though the rulers said they were the new kings of Rome. Yet, when the Mongols invaded china and took over it was still considered Chinese."
+    },
+    {
+      "id": "8qo2nl",
+      "question": "why does the connection strength between a phone and a wifi router fluxuate, even when neither are being touched?",
+      "selftext": ""
+    },
+    {
+      "id": "25na0q",
+      "question": "If you trapped all the smoke and ash created by a bonfire, would the mass equal the mass of wood put into the fire?",
+      "selftext": "I understand that the conservation of mass is not perfect but would the mass of all the ash and collected smoke roughly equal the mass of the wood input into the fire? Or does the heat energy created somehow account for some of the lost mass?"
+    },
+    {
+      "id": "14j1ai",
+      "question": "elasticity of demand",
+      "selftext": "I understand that elasticity is basically a measurement of \"If I lower the price of a good, how much more will I sell of this good\" and \"If I raise the price of a good, how much less will I sell of this good\", but I do not understand how elasticity of demand works. I do not understand how to calculate it, nor do I understand what the numbers mean when someone says that a good has an elasticity of 1.5 or something like that. Please help!"
+    },
+    {
+      "id": "4wssd7",
+      "question": "What was a soldier's life expectancy during the Thirty Years War?",
+      "selftext": "Do we have a ballpark? Are there studies that go into these kinds of statistics?"
+    },
+    {
+      "id": "7pfren",
+      "question": "how do animals freeze to death while moving?",
+      "selftext": ""
+    },
+    {
+      "id": "2806nb",
+      "question": "Did Saxon England have any thing like a parliament?",
+      "selftext": ""
+    },
+    {
+      "id": "20ly8n",
+      "question": "Were there ever any countries that were completely stamped out of existence, only to reemerge at a later time?",
+      "selftext": ""
+    },
+    {
+      "id": "2uv4ys",
+      "question": "Why was Shakespeare not knighted?",
+      "selftext": ""
+    },
+    {
+      "id": "3l2qoo",
+      "question": "What is the volume of an inch of rain?",
+      "selftext": "I often hear rain-fall measured in inches.  How can a 3d volume be measured with 2d linear measurements?  Is there some standard amount of area used to gather the rain and calculate the rain-fall?  If I leave out a 12 inch by 12 inch container and 1 inch of rain falls, how much water will I gather in the container?"
+    },
+    {
+      "id": "9eac1r",
+      "question": "I have seen it said that Latin is a dead language, but it doesn't seem to have fallen out of actual use (between the Christian Church and study of the Classics). Where is the line drawn between a Dead Language and a Living one?",
+      "selftext": ""
+    },
+    {
+      "id": "2akt1z",
+      "question": "why linux is supposedly so much more secure than windows, even though it is open source and does not have a multi million corporation behind it?",
+      "selftext": ""
+    },
+    {
+      "id": "1zmtlx",
+      "question": "Accessible Viking Primary Sources",
+      "selftext": "I browsed through the Viking-related questions, but didn't find anything particularly useful (maybe I just didn't look hard enough). \n\nI'm interested in online and fairly accessible (read: short) primary sources of the Viking invasions, raids, and commerce from Vikings' perspective. Anything that documents their travels (though I'm not especially interested in the New World), their settlements, their combat, and/or their social life. I know we have plenty of their sagas, but I'm having trouble finding a collection of them that is focused enough to be useful for an in-class exercise. Any suggestions?"
+    },
+    {
+      "id": "3qso6t",
+      "question": "If livers regenerate, would it be possible for me to donate half my liver, grow it back, then donate it again? If so, how many times can one repeat this process?",
+      "selftext": "EDIT: Thanks for all the responses guys! I enjoy learning about this stuff."
+    },
+    {
+      "id": "caswuy",
+      "question": "Where did WW2 Londoners go if their houses were destroyed during the Blitzkrieg? What options did they have?",
+      "selftext": ""
+    },
+    {
+      "id": "9gyxjs",
+      "question": "Do other stars have a 11 year sunspot cycle like our sun?",
+      "selftext": "I was thinking about the Kepler and TESS astronomy missions; specifically, that they would have to differentiate between sun spots and transiting exoplanets. This made me wonder if enough data has been collected to research the sunspot cycle in other stars."
+    },
+    {
+      "id": "fybyhy",
+      "question": "What is the lifespan of an antibody?",
+      "selftext": "My questions are:\n\n1. What is the lifespan of an antibody? Do they stay in the body long term?\n\n2. Do plasma cells keep producing antibodies forever or do they stop after the infectious agent is gone?\n\n3. I understand memory cells are left behind to produce a second wave of antibodies to prevent the chance of reinfection. But do they need T Cells for antibody activation or can they produce it on their own?\n\nI understand people can get tested for antibodies and so I want to know if those are antibodies left behind from old plasma cells or from memory cells.\n\n\nThank you in advance!"
+    },
+    {
+      "id": "3brtx8",
+      "question": "When did the Arabs become known as \"Arabs?\"",
+      "selftext": "I've been curious about this recently. I think there's a second question here, too, because I'm betting the Arabs got that name because the place they lived was called Arabia (I presume by the Romans). If so, why did the Romans call that area Arabia?"
+    },
+    {
+      "id": "7o1dl8",
+      "question": "Does blood coagulate in some areas faster than others? Where and why?",
+      "selftext": "Does blood coagulate at the same rate everywhere in the body?"
+    },
+    {
+      "id": "49jpl0",
+      "question": "What was the status of Saint Pierre-Miquelon during the Nazi occupation of France?",
+      "selftext": "Saint Pierre-Miquelon are French islands located just off the coast of Newfoundland's Burin Peninsula.  When the Nazis occupied the country, did their reach (or that of the Vichy collaborator regime) extend there?"
+    },
+    {
+      "id": "1pm1dg",
+      "question": "Why does burnt food like milk stick to the bottom of the pot and why is it almost impossible to remove?",
+      "selftext": "Also what are some easy scientific methods of removal besides \"scraping\"?"
+    },
+    {
+      "id": "1yosis",
+      "question": "who are neo-nazis, what do they believe in?",
+      "selftext": ""
+    },
+    {
+      "id": "4wnnf1",
+      "question": "Why do chefs wear those tall white hats?",
+      "selftext": ""
+    },
+    {
+      "id": "6e7hio",
+      "question": "who develops medicines for animals?",
+      "selftext": "Are they by-products of research for human medicine? Are there companies who specialise in animal research? Is it profitable?"
+    },
+    {
+      "id": "1zx7iq",
+      "question": "How well accepted is the theory that the Minoan civilization was devastated by a massive tsunami and that this event lead to the the myth of Atlantis?",
+      "selftext": "I saw this on an [episode of Secrets of the Dead](_URL_1_) \n\n[Full episode](_URL_0_)"
+    },
+    {
+      "id": "33rmp2",
+      "question": "Are there any lifeforms that have evolved exclusively on land and never began from water?",
+      "selftext": "Or has all life evolved from lakes and oceans?"
+    },
+    {
+      "id": "aqdazl",
+      "question": "Will sea levels ever go down and if so, how?",
+      "selftext": "When sea-ice melts the glaciers and ice caps on land that are being propped-up by the seaice then slide into the sea which is what causes the sea level rises from melting ice caps.\n\nAs the ice caps melt the sea absorbs more sunlight than the shiny white ice caps so the planet heats up quicker and more ice melts etc. etc.\n\nBut does this process ever stop or reverse?\n\nIf humanity were all killed by a virus so there's no possibility of man made climate change, what will cause the sea levels to drop? Is it evaporation and precipitation onto the ice caps? Are there any geological processes that would reduce sea levels? How does plate subduction impact sea levels or other processes at a geological timescale like volcanic hotspots or mountain ranges forming?"
+    },
+    {
+      "id": "f1zzcl",
+      "question": "how/why do migraines make your eyes extremely sensitive to light?",
+      "selftext": ""
+    },
+    {
+      "id": "27tbd7",
+      "question": "why do humans tend to seek for competition, success and out doing others?",
+      "selftext": ""
+    },
+    {
+      "id": "azdt0u",
+      "question": "how do magnets form, and why/ how do they do what they do?",
+      "selftext": "Edit: I had no idea this would blow up so much! Thanks everyone for all the information!"
+    },
+    {
+      "id": "60adcj",
+      "question": "why putting a spin on things makes them travel straighter (e.g. rifling with bullets)",
+      "selftext": ""
+    },
+    {
+      "id": "f9rct9",
+      "question": "what happens to your muscles during and after a massage?",
+      "selftext": ""
+    },
+    {
+      "id": "6t5e7i",
+      "question": "how could humans distinguish different voices pouring out from output device since it's just waves of compressions and decompressions?",
+      "selftext": ""
+    },
+    {
+      "id": "1eo8wx",
+      "question": "Where do land and land/sea mammals living in the arctic/antarctic get drinking water?",
+      "selftext": "Specifically in winter months."
+    },
+    {
+      "id": "9c5zzc",
+      "question": "how does the hand washing function work on washers?",
+      "selftext": "How it does simulate hand washing textiles?\n\nEdit: fixed some misspelled words"
+    },
+    {
+      "id": "fqfmo",
+      "question": "How much data do the different senses process?",
+      "selftext": "I would like to know the bandwidth scale of the different senses. I'd guess sight is by far the most, followed by hearing, then far behind would be smell, then touch, then taste and the other smaller ones. In a video file, the video data is generally 10 times larger than the audio data and it would make sense to be about the same in humans. But I could be wrong and I want more specific and accurate information.\n\nI've spent a good bit of time googling as it should be a common bit of knowledge (I've even seen it referenced on reddit) but my search terms are failing me. All I've found is a misleading infographic and the [penfield homunculus](_URL_0_) which is more touch specifically. Somewhere stated the eye processes 10 million bits per second, but I can't find anything on the other senses. This should be one of the more basic things for a neuroscientist to investigate. You could either work out how much data can be theoretically sent along the various senses based on their physical limitations (max bandwidth), or you could do an emperical test with brain imaging (average bandwidth). \n\nThere's probably some obvious search term I've missed. If so I apologise, but this should be very discussable anyway!"
+    },
+    {
+      "id": "1gpbr5",
+      "question": "Would a Bose-Einstein condensate be capable of quantum tunneling?",
+      "selftext": "A Bose-Einstein condensate is when a collection of bosonic atoms are cooled until they all fall into the same quantum state and begin behaving as a single quantum system, right? Would that system be capable of quantum tunneling like a single particle would?"
+    },
+    {
+      "id": "b4k22r",
+      "question": "what is that yellow foil around space probes and what is its function?",
+      "selftext": "You know what I'm talking about. That yellow material that surrounds a probe and nearly covers the entire craft. Just what is it and what is it used for?"
+    },
+    {
+      "id": "2ic213",
+      "question": "Was there any actual proof of genocide in Srebrenica and Zepa?",
+      "selftext": "Having read some articles on the net about the Bosnian War, it seems to me (or I could have read incorrectly) that some of the evidence in the trials were misused/fabricated? So is there any actual credible evidence of genocide happening?"
+    },
+    {
+      "id": "6apjl9",
+      "question": "why do so many websites (mainly news sites) now have a \"continue reading\" button a few lines down the page? why not just show the whole article to begin with?",
+      "selftext": ""
+    },
+    {
+      "id": "2fxndv",
+      "question": "i this age of small and powerful batteries, why are will still putting large clunky batteries in our vehicles?",
+      "selftext": ""
+    },
+    {
+      "id": "6uus6g",
+      "question": "Do any wild organisms have a symbiotic relationship with another to babysit their young?",
+      "selftext": "Is there some species that plays host to effectively keep vulnerable young animals together and away from predators until the parents vocalize a call and the offspring retreats to them? Like a hollow plant nursery that wants fertilizer or sharing a kill with something that has its own young that can occupy the other's young's time? \n\nEarth is amazing, I refuse to believe no organisms have cashed in on this small stretch in behavior or morphology."
+    },
+    {
+      "id": "7m0zf5",
+      "question": "what is the leading theory / theories regarding creation of our solar system / universe / etc within the scientific community?",
+      "selftext": ""
+    },
+    {
+      "id": "2a86mr",
+      "question": "When the sun eventually expands and consumer Earth, will it expand all at once in the blink of an eye or be a gradual expansion over a long period of time?",
+      "selftext": "\n\nHow embarrassing... Typo in my title. \n\nI don't know how many billion years from now, but at some point in the future the sun expands. \n\nWill this be a slow process where the sun grows larger over a period of.... Some amount of time. \n\nOr will it be more a 'boom' and in the blink of an eye puff up to a larger size? "
+    },
+    {
+      "id": "1i8xid",
+      "question": "what exactly is doxing?",
+      "selftext": ""
+    },
+    {
+      "id": "44ohbm",
+      "question": "i have acid reflux. what is happening inside of my body that makes it feel like i am softly belching molten lava?",
+      "selftext": ""
+    },
+    {
+      "id": "e24fp0",
+      "question": "since inflammation in the body causes numerous fatal diseases(cancer,heart disease, etc.),why can't we just pop a few nsaids like ibuprofen every day and be on our healthy way?",
+      "selftext": ""
+    },
+    {
+      "id": "7xthvq",
+      "question": "How did Multi-track sound recording come to be and subsequently widely used?",
+      "selftext": "I also am interested into how this shaped the set up of the typical recording session. How did this affect the way in which sound engineers would rig up the equipment and if so, what were the knock on effects of this?   \n\nThanks :)"
+    },
+    {
+      "id": "7fglyg",
+      "question": "Were there any significant pagan rebellions/uprisings in Medieval Egpyt?",
+      "selftext": "I know there was a cleansing of them via Muslim forces, but when were they officially gone?"
+    },
+    {
+      "id": "2lqtgd",
+      "question": "Is it possible that scientific constants exist because of the way we define units?",
+      "selftext": "We measure distances in meter, time in seconds, charge in coloumbs and so on. These are arbitrary units of measurements that we have assigned to these physical properties. Is it possible that if we defined them in a different way, our equations would not need constants"
+    },
+    {
+      "id": "1ssojv",
+      "question": "how do airlines know the exact departure and arrival times for flights months out in advance?",
+      "selftext": "I've always wondered how they manage to coordinate thousands and thousands of flights ahead of time while somewhat sticking to the schedule. (Especially before computers were so common)."
+    },
+    {
+      "id": "k4xkg",
+      "question": "AskScience, what are your thoughts on Atlantis?",
+      "selftext": "I know it's generally thought as superstition, but like any story, some of it's got to be grounded in truth, right?"
+    },
+    {
+      "id": "28zyqv",
+      "question": "those black rubber tubes that cross the road and appear to count cars. why are they counting and who puts them there?",
+      "selftext": ""
+    },
+    {
+      "id": "8c6uzl",
+      "question": "How inaccurate is this \"Adam Ruins Everything\" video about the history of Anatomy?",
+      "selftext": "The [video](_URL_0_) in question."
+    },
+    {
+      "id": "2isje7",
+      "question": "what would it take to achieve 100% efficiency in harvesting natural, renewable energy (solar, hydroelectric, wind, etc.)?",
+      "selftext": ""
+    },
+    {
+      "id": "couhz1",
+      "question": "Why did Luther's reformation succeed and spread across Europe while previous movements such as the Lollards, Waldesnians and Hussites stayed persecuted minorities or at the very best localized in one country?",
+      "selftext": "Inspiration for this question: playing eu4, reformation started in England and barely spread out of it, no country is protestant and yet still the reformation branches out in Provence (I'll imagine these are the Waldesnians). I was wondering why such a reformation which started in isolated island England would succeed while Lollardy did not."
+    },
+    {
+      "id": "b5acw2",
+      "question": "Is there an example of a mathematical problem that is easy to understand, easy to believe in it's truth, yet impossible to prove through our current mathematical axioms?",
+      "selftext": "I'm looking for a math problem (any field / branch) that any high school student would be able to conceptualize and that, if told it was true, could see clearly that it is -- yet it has not been able to be proven by our current mathematical knowledge?"
+    },
+    {
+      "id": "opxhd",
+      "question": "How does water affect the resonant frequency of a glass?",
+      "selftext": "For example the glasses in [this](_URL_0_) video. I know the original resonant frequencies of the glasses are dependent on their size, but how does water change that?"
+    },
+    {
+      "id": "1l919g",
+      "question": "Were there \"baby boomer\" generations as a result of large armies returning from battle in ancient times?",
+      "selftext": ""
+    },
+    {
+      "id": "2uvomm",
+      "question": "what does hydrogen peroxide do to earwax chemically that makes it easier to remove?",
+      "selftext": "Why does it bubble? What is in the earwax that is reacting with it?"
+    },
+    {
+      "id": "1nluhl",
+      "question": "why do certain franchising companies limit intentionally limit their geographic distribution? (i.e. why is there no steak n shake or in n out in the northeast?)",
+      "selftext": ""
+    },
+    {
+      "id": "bxtylw",
+      "question": "what causes foods like radishes, horseradish, and ginger to taste spicy?",
+      "selftext": ""
+    },
+    {
+      "id": "62xaa4",
+      "question": "how does building and launching a rocket into space cost over $200million? india does it for a small fraction of that.",
+      "selftext": ""
+    },
+    {
+      "id": "6jcbjc",
+      "question": "Why don't Americans eat very much sheep?",
+      "selftext": "[deleted]"
+    },
+    {
+      "id": "3a5yan",
+      "question": "How long did it take for the relations between England and America to recover after the revolutionary war? And what were some significant milestones in that process?",
+      "selftext": "I was wondering about that after reading about the relationship between Churchill and Roosevelt during the second world war."
+    },
+    {
+      "id": "bt70or",
+      "question": "how do river levels rise in feet so quickly when we only get a couple inches of rain?",
+      "selftext": ""
+    },
+    {
+      "id": "4gs6v5",
+      "question": "Why did the Sallet Helmet become near universally used by armored German Men at Arm and Knights?",
+      "selftext": "Why did the Sallet Helmet become so common in the German states but not as common in other western European regions like France, Italy, or Britain? "
+    },
+    {
+      "id": "m1c3t",
+      "question": "If Mars's atmosphere is almost completely CO2, couldn't Earth's plants survive there?",
+      "selftext": "I find it hard to believe that it couldn't be terra-formed, especially after reading about it's atmospheric composition on Wikipedia."
+    },
+    {
+      "id": "bxys1w",
+      "question": "Why did Republicans become so conservative so suddenly in the 1920s?",
+      "selftext": "Overnight, they switched from the party of LaFollete, Lincoln and Roosevelt to a party that's espousing some early version of supply side economics.\n\nWhat happened?"
+    },
+    {
+      "id": "1z414c",
+      "question": "What is the \"speed limit\" beyond the event horizon of a black hole?",
+      "selftext": "Most people know that nothing can escape a black hole, not even light.  It is also known that the \"speed limit of the universe\" is the speed of light. So my question is, if light crosses the event horizon of a black hole, does it speed up beyond the speed of light on its way to the center?  Also, if the answer could be as simple as possible, please?"
+    },
+    {
+      "id": "pb9wp",
+      "question": "Is it theoretically possible to freeze or preserve a human embryo and then have the child in the future?",
+      "selftext": "I was wondering say if it's theoretically possible to freeze a human embryo so a person can have the child later on? Apologies if this question is stupid as I am not familiar with biology :x"
+    },
+    {
+      "id": "bd2ouf",
+      "question": "Was suicide among \"commoners\" normal during time periods like the renaissance? Or is it something that became more prevalent recently?",
+      "selftext": ""
+    },
+    {
+      "id": "262sgd",
+      "question": "Can light waves experience interference?",
+      "selftext": "If waves like radio waves and sound waves can experience interference, can light waves? I understand that light is both a particle and a wave, but wouldn't some type of interference occur with some other wave \"hitting\" the beam of light?"
+    },
+    {
+      "id": "7gk7dp",
+      "question": "what do the different settings on the microwave actually do?",
+      "selftext": ""
+    },
+    {
+      "id": "54mqym",
+      "question": "purpose of tv commercials and other advertisements having the background speaker's voice sound unnatural and sillier?",
+      "selftext": "[deleted]"
+    },
+    {
+      "id": "2zlxbx",
+      "question": "if the earth's rotation is 23 hours and 56 minutes long per cycle, how come we do not see days where the clock says it is nighttime or vice versa during the year?",
+      "selftext": "I just wanted to say that I have been thinking about it, and boy, am I stumped."
+    },
+    {
+      "id": "4u6bta",
+      "question": "When did the Old Norse arrive in the Scandinavian Peninsula, and can they be said to have displaced the indigenous Sami people in the southern regions?",
+      "selftext": "Can the Norse themselves be characterized as indigenous to Scandinavia?"
+    },
+    {
+      "id": "9i7xe3",
+      "question": "what makes me... me? memories? consciousness? my body? and why?",
+      "selftext": ""
+    },
+    {
+      "id": "55fj36",
+      "question": "Who paid more tax, Roman Citizens or non- citizens?",
+      "selftext": "To make it more specefic, lets put this question in the context of the Antonines. Thanks!"
+    },
+    {
+      "id": "25flgb",
+      "question": "is it true that soviet soldiers yelled ura when beggining a charge?",
+      "selftext": "i recently re-played Call Of Duty: World at War and in several moments in the russian campaign you can hear your comrades yell this."
+    },
+    {
+      "id": "3ptuye",
+      "question": "what is the ndaa and why did obama veto it?",
+      "selftext": "I haven't been keeping up with politics due to classes, and I just heard that Obama vetoed this act. I assume it's a national defense act looking at the \"ND\" but what exactly does the act entail? "
+    },
+    {
+      "id": "trvj5",
+      "question": "Underwater Cave/Air Pocket/Breaching ",
+      "selftext": "What would happen if you had an underwater cave that had a large air pocket in it, which you then drilled down into, putting a hole in the ceiling of the caves air pocket, which opens into a large body of water? \n\nI imagine the air would escape through the newly made hole, but how? If there is a torrent of water pushing down that fills the hole, then how could the air press through it? Or would it? Would the air simply compress to the point where it has the strength to stop the water and push it back, allowing it to pass through the hole until it lost it's pressure again? \n\n\n"
+    },
+    {
+      "id": "2zswr4",
+      "question": "why does the snow only accumulate in these parking spaces??",
+      "selftext": "_URL_0_"
+    },
+    {
+      "id": "1oibf0",
+      "question": "Was there still any undiscovered land left by the time the aviation age came about?",
+      "selftext": "Put another way, did the human race discover any land through means more advanced than seafaring? Maybe there was even an astronaut on the ISS who peered out the window, spotted a land mass and said, \"Hey, that isn't on any map I've seen!\""
+    },
+    {
+      "id": "17evki",
+      "question": "Why would an individual phospholipid switch sides in a phospholipid bilayer?",
+      "selftext": "Apparently there are specific proteins that aid in this process, but why would it ever be necessary? "
+    },
+    {
+      "id": "1klwho",
+      "question": "How prominent were gangs and outlaws in the wild west?",
+      "selftext": "Were they a big issue for everyday life in the west? To expand, were there any well-known or important gangs of outlaws?"
+    },
+    {
+      "id": "1k3ua6",
+      "question": "how are government subsidies for food producers different from an indirect food tax?",
+      "selftext": "Hey reddit economists, historians and food system experts! \n\nI was  researching Fredrick II's reform of indirect food taxes in \nPrussia, and  I got mighty confused. The general consensus among historians seems to be that placing undue tax burden on food in order to manipulate the market and increase tax revenue is less than ideal... However, when I started reading more about the current system in the US, I began to wonder if we actually have something similar in place. \n\nThis is how I gather our system works, in my nascent understanding: \n1. We subsidize large corporate food production entities while placing barriers for entry to these programs for independent/smaller/alternative producers. \n2. These subsidies enable the subsidized food entities to maintain (artificially) lower prices due to the continuous additional income from tax dollars as well as the increased revenue produced by the fact that these (artificially) low prices enable the subsidized producers to take over an increasing market share. \n3. The consumer buys ostensibly \"cheap\" food in order to survive. Meanwhile, the decreased popularity of \"expensive\" food provided by producers receiving less in subsidies forces the cost of the production of the food by these producers higher. This further widens the competitiveness gap between subsidized and less or non subsidized food producers.  Thus, inevitably, subsidies decrease the ability of less or non subsidized producers to compete.  \n4. Ultimately, the consumer pays tax dollars for the privilege of having a decreased choice in affordable food, and a market biased toward government subsidized producers. If the consumer chooses to consume any foodstuff other than that provided by subsidized producers, the consumer is still paying, via tax-funded government subsidies, for the production of food that ultimately increases the price of what they consume... Which all seems pretty sucky.   \n\nMy questions are:\n1. How are food producer subsidies different from an indirect food tax? \n2. If food subsidies are a form of indirect tax, why don't we ever hear about it?\n3. How does the government ensure subsidized producers do not take over an outsized market share in production of a certain foodstuff if the market is in fact skewed towards the subsidized producers?\n4. Does a tax by any other name still smell as sweet? (OK, I am truly sorry about that one.) \n\nTo be fair, when I tried to sort out my confusion, I found this definition of indirect tax from good ole investopedia:\nA tax that increases the price of a good so that consumers are actually paying the tax by paying more for the products. An indirect tax is most often thought of as a tax that is shifted from one taxpayer to another, by way of an increase in the price of the good. Fuel, liquor and cigarette taxes are all considered examples of indirect taxes, as many argue that the tax is actually paid by the end consumer, by way of a higher retail price.\n\nBe kind if I've made a mess of understanding our food system and the difference between a subsidy and indirect tax in this case. Just thought there might be someone else out there who cares and could use a simplified explanation from an expert. Thanks! \n"
+    },
+    {
+      "id": "6uoq2b",
+      "question": "does the body absorb all calories while binge eating?",
+      "selftext": "If I'm on a diet and binge on a 10k calorie feast, will I gain 5kg the next day? How does that work?"
+    },
+    {
+      "id": "35k0fz",
+      "question": "When an object moves, how quickly does the change in direction of its gravitational field spread?",
+      "selftext": "So let's say, for the sake of discussion, that you and a star are the only things in the universe. You're 10 light-years away from the star, but since it's the only other thing in the universe, all of the gravity acting on you is pulling you toward it (and pulling it toward you, although the difference in mass between you and a star makes that pretty negligible). Somehow, the star suddenly moves 5 light-years away from its original location, perpendicular to the direction you are from the star. How long will it take before the direction of the force you're feeling from the gravity of the star is toward the *new* location of the star? Note that I'm not asking how long will it take for the direction of your motion to be directly toward the star, just how long until that's the direction of the gravity acting on you, even though it'll take some time for the new direction of the gravitational force to overcome the direction of your motion.\n\nI suspect that the answer is the speed of light, but I don't quite know why. If so, it's pretty interesting that gravity and light are related like that."
+    },
+    {
+      "id": "197kqu",
+      "question": "Engine design question - why do standard car engines always come with cylinders in banks of 2, and never 3?",
+      "selftext": "Car engines seem to come with their cylinders in either 1 bank (inline) or 2 banks (V, flat, etc). Is there any particular reason that there aren't production engines 3 cylinders in something like a W shape? I could see it working with something like a W9 or W12 to get a high power engine in a shorter but wider package. Or is it perhaps not a problem of the physics of it, but just packaging - since most engine arrangements work in increments of 2, and 9 is the only reasonable number of cylinders you can only do with 3 and not 2 banks, it's just not worth the manufacturing cost to produce a different style engine for one particular arrangement?"
+    },
+    {
+      "id": "2p12gh",
+      "question": "What is the relationship between biological nucleus and chemical nucleus?",
+      "selftext": "In biology, I learned that the nucleus is the controller of cell functions, with a nucleolus at its center. In chemistry, the professors make it sound like the nucleus is a dense region of protons and neutrons, with a shell of electrons orbiting it.\n\nHow do the two images/concepts of the nucleus in these different sciences relate? Together, do they form the ideal nucleus? Or can they only be viewed separately, depending on what science you are in?"
+    },
+    {
+      "id": "2fyr09",
+      "question": "Was Ludwig van Beethoven black?",
+      "selftext": "A friend of mine posted this, and this perplexed me. I have an Associate's of Arts in Music Performance and Education (before I switched majors) and have studied more Beethoven than I care for; while it doesn't exactly matter to the field, I've never heard anything like this.\n\nSo, was Ludwig van Beethoven black?\n\n[Article](_URL_0_)."
+    },
+    {
+      "id": "3hkwlg",
+      "question": "why do opera singers put so much vibrato on everything? is it the only way to get the volume they need?",
+      "selftext": "Or just convention?"
+    },
+    {
+      "id": "a3g39q",
+      "question": "why do the inside of your ears get sweaty and itchy if you have earbuds in after a while?",
+      "selftext": ""
+    },
+    {
+      "id": "1ayx9l",
+      "question": "How devastating would a kinetic weapon (projectile dropped from orbit) actually be? ",
+      "selftext": ""
+    },
+    {
+      "id": "bb3f9u",
+      "question": "What are the basis, if any, for the theory that puts Trojan Horse mythos has an origin story created by the Romans to put themselves as the survivors of a treachorous scheme to win a war?",
+      "selftext": ""
+    },
+    {
+      "id": "37syyb",
+      "question": "when looking at laptops, is the mah the capacity of the battery? is it multiplied by how many cells there are?",
+      "selftext": ""
+    },
+    {
+      "id": "6meomb",
+      "question": "why didn't the germans just attacked the trapped soldiers in dunkirk in wwii? they obviously could have exploited the situation more.",
+      "selftext": ""
+    },
+    {
+      "id": "3o6kfi",
+      "question": "how does the world keep track of all of its digital money?",
+      "selftext": "Is it possible to hack bank servers to erase debt or destroy money? What sort of security keeps it all safe?"
+    },
+    {
+      "id": "1bihe5",
+      "question": "How old might the oldest conceivable DNA sample on Earth be?",
+      "selftext": "[68 million year old T-Rex soft tissue preserved, but no DNA.](_URL_0_)\n\n[8 million year old bacteria frozen in Antarctic ice is still viable](_URL_1_)\n\nThe dinosaur soft tissue wasn't frozen though, so, it had me wondering if one could get viable bacteria out of 68-million year old antarctic ice, or more tantalizingly, a 68 million year old dinosaur mummy with sequence-able DNA still inside its cells.  \n\nI don't know anything about the thermodynamic limits on DNA degradation at these temperatures, but I bet one of you does."
+    },
+    {
+      "id": "32ph98",
+      "question": "why do \"800 service\" call me every day but nobody is ever on the line?",
+      "selftext": ""
+    },
+    {
+      "id": "2io0ai",
+      "question": "why do most websites' search features suck so much?",
+      "selftext": "It seems like almost ALL websites' search features are just terrible, and as today's advice mallard suggests, it's better to just search \"_URL_0_ keyword keyword\" on Google. Why are the search functions so bad, especially considering that they are often run through Google? "
+    },
+    {
+      "id": "45zunb",
+      "question": "why do even numbers feel safer and more pleasing than odd numbers?",
+      "selftext": ""
+    },
+    {
+      "id": "2l80g1",
+      "question": "why is daylight savings time not centered around the solstices?",
+      "selftext": "Daylight Savings time just ended on the 2nd...The winter solstice, the longest day of the year, is December 21st. That is 7 weeks in between. DST begins on March 8th, which is 11 weeks from the solstice. So that means that there are 4 more weeks between the winter solstice and when DST begins, which is very skewed. Wouldn't it make more sense to have the DST begin and end an equal amount of time from the shortest and longest days of the year (the two solstices) so that there is more consistency in the length of the day?"
+    },
+    {
+      "id": "21itdy",
+      "question": "Puzzle doors are common feature of ancient temples in fiction. Has there been ANY ancient puzzle door found?",
+      "selftext": ""
+    },
+    {
+      "id": "1u7y20",
+      "question": "where do funds come from for fireworks in sydney or elsewhere?",
+      "selftext": ""
+    },
+    {
+      "id": "7fji4t",
+      "question": "what is the difference between a psychopath, a narcissist, a sociopath, and a sadist?",
+      "selftext": ""
+    },
+    {
+      "id": "am4bvs",
+      "question": "if we can produce phone screens that are 6\" in diameter with a full hd resolution, whats stopping us from making 16k tvs?",
+      "selftext": "Thinking about it, it's probably cost and graphical capabilities of hardware, but are there other factors?"
+    },
+    {
+      "id": "1go68r",
+      "question": "Can I get sick from a single bacteria cell? Or does it require a critical mass?",
+      "selftext": "I was cooking/baking the other day and was licking the spoon on the brownie mix when I remembered I put raw eggs in the mix which could be dangerous to eat before I baked it due to possible salmonella. I reasoned that a little taste wouldn't hurt me but I didn't lick it completely clean. This got me thinking about how many bacteria/virus cells it actually takes for a body to get sick. \n\nIf I ingest a single cell of some disease, could my body fight it off? Would I be more likely to get sick if I came into contact with many cells of the same disease? \n\nThanks"
+    },
+    {
+      "id": "2fp3sw",
+      "question": "why do fat/obese/overweight people generally have a lot of strength even if they do not work out?",
+      "selftext": ""
+    },
+    {
+      "id": "1v0lpe",
+      "question": "Why did the Neanderthals (200,000 BCE - 30,000 BCE) start burying their dead?",
+      "selftext": "This question came up in my history class. Some simple answers were brought up, but I think there is more to it."
+    },
+    {
+      "id": "dlm8u5",
+      "question": "How were the pre Norman British kingdoms structured?",
+      "selftext": "Hello! I have been curious about pre Norman kingdoms of Britain recently. Partially inspired by The Last Kingdom. In the show they portray the Witan, composed of the lords of the kingdom, advising the king in all manner of ways, from advising to even helping decide the next king.\n\nI'm wondering how accurate is this? Do we know what the actual function of the Witan was? Who was in the Witan? What powers did they have? What was the king's role? Could you consider the structure feudalism? Did lords swear fealty to the king like in a more French feudalism? \n\nOverall I'm just trying to get a picture for what the government and ruling was like in pre Norman British kingdoms. Thanks!"
+    },
+    {
+      "id": "1275vq",
+      "question": "Why are snowflakes 6 sided if the hydrogen bonds in in groups of 5? ",
+      "selftext": "So we all understand that water is made up of 2 hydrogen atoms, and one oxygen atom, making H2O. If the hydrogen bonds in groups of 5 molecules, then why are snowflakes 6 sided? Shouldn't the water molecules continue to bond to form a 5 sided snowflake, rather than a 6 sided one?\n\nI'm sure it has something to do with crystalline structure properties... Just wanted to get your input on the matter. \n\n"
+    },
+    {
+      "id": "1brczo",
+      "question": "[Chemistry] Are there reactions that aren't endothermic or exothermic?",
+      "selftext": "So in today's chemistry class we talked about self ionization of water, an endothermic reaction. \n\nIn this reaction, an Hydrogen atom goes from one water molecule to another. During this, an H-O bond is broken and another H-O is formed.\nSince the energy lost when the bond is broken equals to the energy gained when the following bond is formed, then the variation of energy at the end of the reaction is 0. (Or is it?)\n\n\nSo:\n\n1.Are there reactions that are neither endothermic or exothermic?\n\n2.Why is self-ionization of water an endothermic reaction if the energy variation is 0?"
+    },
+    {
+      "id": "2vu483",
+      "question": "according to the cdc, the transmission rate for hiv and other stds are statistically low. why exactly is this?",
+      "selftext": ""
+    },
+    {
+      "id": "bftfgp",
+      "question": "What should one look out for when selecting historical works to read, especially ones on controversial matters?",
+      "selftext": "Hello, as of late I have broadened my reading from my own fields into history a bit, and while I am enjoying it I am faced with a new challenge; When you read various books on controversial figures such as, say, Lenin, its hard not to feel that the biographer's opinions are always going to get in the way of the ideal goal of objectivity, sometimes more so, sometimes less so. What should I look for when choosing books? The authors academic credentials? Because it seems as if a lot of historical works are written by journalists and the like who don't necessarily have those. Is that always a de-merit? \n\nOr, basically: How does one effectively go about judging the accuracy of a historical work? (Preferrably *before* reading them)\n\nSorry if this question is outside the boundaries of the subreddit's rules."
+    },
+    {
+      "id": "6dj4vk",
+      "question": "why hasn't anyone else been to the moon? it seems like something that super rich people would do for fun, like james cameron going to the mariana trench.",
+      "selftext": "[title]\n\nedit: I appreciate all the responses, and while you all explained like I'm five, you weren't rude and that's appreciated\n\nThe general consensus is that it would be a stellar (lol) waste of time and money, only to do something we've done before."
+    },
+    {
+      "id": "1tt1di",
+      "question": "Did monotheism in East African religion develop independently of influence from Christian Ethiopia or Muslim traders/settlers on the coast? How far back were East African tribal religions monotheistic?",
+      "selftext": "I should clarify that when I say \"East Africa\", I'm talking of Kenya, Uganda, Tanzania, Rwanda, and Burundi specifically. My experience is in Kenya, where most (if not all?) traditional belief systems have one god."
+    },
+    {
+      "id": "got6o",
+      "question": "What's the evolutionary advantage of a circadian rhythm that doesn't match the Earth's rotation?",
+      "selftext": "Wouldn't it make the most sense for man's internal clock to match the Earth's?"
+    },
+    {
+      "id": "379nod",
+      "question": "why can hospitals refuse to give lifesaving treatments?",
+      "selftext": "I ask after reading these articles, one of which is dated, but two are from 2015.  \n2015 No. 1:_URL_2_  \n2015 No.2:_URL_1_  \nOther Article:_URL_0_"
+    },
+    {
+      "id": "1lbsg8",
+      "question": "how do we know how much charge is left in a battery?",
+      "selftext": ""
+    },
+    {
+      "id": "aznj3r",
+      "question": "How are primers made for PCR chosen?",
+      "selftext": "After DNA has been extracted, how does one know what sequence of nucleotides is complementary to the DNA? PCR is used to increase the amount of a specific part of the DNA so that the DNA can be sequenced, right? How do we know the sequence of that DNA well enough before PCR in order to make a primer for that segment of DNA?"
+    },
+    {
+      "id": "63g7nw",
+      "question": "why are there specific rules about going faster in the left lane when everyone there is inevitably speeding?",
+      "selftext": ""
+    },
+    {
+      "id": "3enl4z",
+      "question": "If table salt separates into Sodium and Chlorine ions when dissolved in water, then how does salt water taste like salt?",
+      "selftext": ""
+    },
+    {
+      "id": "6d9gbp",
+      "question": "Were ancient Greek statues really coloured like this?",
+      "selftext": "_URL_0_"
+    },
+    {
+      "id": "43i1l3",
+      "question": "why didn't all tribesmen have beards?",
+      "selftext": "I watched 'The Revenant' last night. The native American tribesmen were clean faced. This got me thinking about whether all tribesmen had beards. Did they? Is it just misrepresented? This probably sounds like such a stupid question, but I'm.very curious. "
+    },
+    {
+      "id": "t3r8r",
+      "question": "Could giant humans survive?",
+      "selftext": ""
+    },
+    {
+      "id": "7idfdk",
+      "question": "can kings and queens be removed from power due to deteriorative illnesses of the brain and such?",
+      "selftext": ""
+    },
+    {
+      "id": "5s8i03",
+      "question": "how will autonomous cars handle not being able to see the road, ie snow",
+      "selftext": ""
+    },
+    {
+      "id": "1wu30e",
+      "question": "how american football divisions and pre games work (not the rules of the sport)",
+      "selftext": "I've been a very casual follower of the sport for a few years (go Chargers) so I understand all the rules but the division and the pre game system confuse me. Could someone explain those aspects of the game to me?"
+    },
+    {
+      "id": "3cy5id",
+      "question": "how a product can have a money back satisfaction guarantee.",
+      "selftext": "I see it all the time, specifically that Greek yogurt. Is it really saying if I buy some and hate it, they'll give me money back?"
+    },
+    {
+      "id": "vcn3d",
+      "question": "Do animals that don't sweat require additional water when it is hot?",
+      "selftext": ""
+    },
+    {
+      "id": "1m93bl",
+      "question": "Does pollen carry or assist the spread of illness?",
+      "selftext": "I'd imagine that the extra coughing/sneezing due to pollen would assist the transmission of illness. I'd also like to know if pollen itself is physically capable of passing microbes from the environment into the lungs of humans."
+    },
+    {
+      "id": "gmmkg",
+      "question": "During a woman's period, why is blood used as the medium to flush the system out rather than using a different fluid?",
+      "selftext": "It seems strange that the system would use the most precious fluid in the body to flush out the system during a menstruation cycle. Wouldn't the production of a mucus be better?"
+    },
+    {
+      "id": "8opgc7",
+      "question": "Why did Charles Cornwallis not face Washington directly after surrendering at Yorktown? Was this an attempt to slight Washington, and, if so, was it seen as dishonorable or childish?",
+      "selftext": "Subsequently, did Washington send his second in command as a slight to Cornwallis?"
+    },
+    {
+      "id": "2787uz",
+      "question": "nude art",
+      "selftext": "I obviously get the appeal and the purpose of porn but how am I supposed to react and judge nude art? How can a picture of a nude woman not be erotic?"
+    },
+    {
+      "id": "2k5ybz",
+      "question": "I heard that recently that all reading used to be done out loud and silent reading was a sign of idiocy or genius. Is there any truth to this?",
+      "selftext": "And perhaps this could explain why its much easier to understand older texts(19th century and earlier, when a single sentence could take up half a page) when they are read out loud? In other words, maybe they were designed to be read out loud?"
+    },
+    {
+      "id": "8mjhse",
+      "question": "if we can have physician assisted suicides, why are there sometimes major malfunctions when administering the 'death penalty'?",
+      "selftext": ""
+    },
+    {
+      "id": "9ook1h",
+      "question": "what should i know about saudi arabia given recent events? what would it mean if the world held them responsible for khashoggi’s death?",
+      "selftext": ""
+    },
+    {
+      "id": "40hefi",
+      "question": "How did the four Sunni Islamic school of thoughts settle to the current geography? Could this change in the future?",
+      "selftext": "[The map of the Muslim world shows the geography of four Sunni Islamic jurisprudence (fiqh)](_URL_0_)\n\nEach of the schools is predominant in the following regions;\n\n* Hanafi : Turkey, Syria, Jordan, Lebanon, Palestine, Iraq, Egypt, Central Asia, Chechenya, Tatarstan, Balkan peninsula, Afghanistan, South Asia, Uyghur\n* Hanbali : Saudi Arabia, UAE, Qatar\n* Maliki : North Africa, Saharan region, West Africa, Kuwait, Northeastern Saudi Arabia, West part of UAE\n* Shafi'i : Southeast Asia, East Africa, Kurdistan, Southern Iraq, Eastern Egypt, Yemen, Coastal area of India, Maldives"
+    },
+    {
+      "id": "bx5th9",
+      "question": "why can’t you remember a whole phone number alone but when you ask someone else to remember a few numbers you automatically remember?",
+      "selftext": ""
+    },
+    {
+      "id": "2khnt8",
+      "question": "Are there any reliable sources regarding the nature and extent of slavery in West Africa before the beginning of the Atlantic slave trade?",
+      "selftext": "The Atlantic slave trade is well documented, but I'm trying to find more information regarding the nature of slavery BEFORE the Europeans began participating in it extensively.  It seems like there are a lot of conflicting viewpoints from various historians regarding the extent to which contact with Europeans was driving the slave trade, or if the European slave trade market served as an outlet for trade that was already going on.\n\nAs a follow up to that, to what extent were West Africans willing participants in the slave trade with European partners?  Or was it more of a case of domination of the Europeans that led to the burgeoning slave trade, rather than a mutually beneficial economic relationship?"
+    },
+    {
+      "id": "1297ym",
+      "question": "How long after sperm enters the egg does it take to create the DNA for the baby?",
+      "selftext": "I was wondering, when does life start? I know this question has been tried to be answered by many.  I was trying to break it down to another question. \nHow long after the sperm enters the vagina and then enters the egg does it take to create the first cell that has all the DNA of the baby?\n\nIs there anyway to test this?  \nand \nIs this a reasonable indication of a start of life. (I know this might be a loaded question.  I just want to know if I'm actually completely off in my thinking)"
+    },
+    {
+      "id": "6kgbn6",
+      "question": "How did apple pie become an icon of American culture, even inspiring the phrase 'as American as apple pie', when it's a popular pastry in several European countries. Especially when it's also an icon of Dutch culture, even appearing in a Dutch cookbook in 1514.",
+      "selftext": "EDIT: I'm sorry for forgetting the question mark.."
+    },
+    {
+      "id": "30l07d",
+      "question": "why doesn't the u.s. have standardized education across the board? wouldn't that make everything easier?",
+      "selftext": "This seems like a very obvious thing that we should be doing. Japan does it. I'm sure all the top educated countries do it. Why don't we? \n*This is my first ELI5 and I did search for standardized education. "
+    },
+    {
+      "id": "3vxndc",
+      "question": "Were flappers considered masculine by 1920's standards?",
+      "selftext": "I'm doing a project for our schools's GSA club and part of it deals with gender expression. I wanted to use an example of how expression is influenced by culture by using flappers as an example of early \"tomboys\" due to their engagement with traditionalaly masculine things at the time (driving, smoking drinking, etc.) Also the flapper ideal of boxy figures short haircuts were an affront to traditional victorian ideals and gender roles at the time.\n\nBut the thing is I'm not really sure this is the case as sexual and gender orientation as we know it is new and I'm unsure this was even the case. I asked because if I was wrong I didn't want to be dishonest."
+    },
+    {
+      "id": "81shcb",
+      "question": "how do tree farmers keep up with the global demand for paper?",
+      "selftext": "If you think about all the paper products consumed on a daily basis, e.g. printer paper, lined paper, paper cups, cartons, newspapers, tissue, etc., how is it we have enough trees to keep up with the demand for all of these products? Especially since trees take decades to grow."
+    },
+    {
+      "id": "55817j",
+      "question": "how were audio cassettes and vhs tapes mass produced? did the audio/sound have to be recorded in real time?",
+      "selftext": ""
+    },
+    {
+      "id": "26frj2",
+      "question": "Where there any proposals to create an African nation in America?",
+      "selftext": "I was thinking about how America isn't really one nation but more two, and how this has affected the social fabric and cultural ideas over the 150 years since slavery.\n\nAnd I got me thinking - if whites were so adamant about not wanting to give blacks equal status, yet were still against slavery and proposal such as returning them to Africa, then were there any attempts to create a nation from African-Americans, as it were? Similar to attempts to place Natives on localized reservations, but instead for the now-free African minority? "
+    },
+    {
+      "id": "11pavt",
+      "question": "How do Maxwell's equations prove that electromagnetic waves are light?",
+      "selftext": ""
+    },
+    {
+      "id": "2zd77m",
+      "question": "why aren't there stricter physical requirements for police officers? they have to be prepared to chase down and/or apprehend criminals daily, but few seem like they're in good shape.",
+      "selftext": ""
+    },
+    {
+      "id": "3c3bd2",
+      "question": "If the Moon had the same terrain as the earth, would it still light up the night?",
+      "selftext": "Is the Moon's surface make up, or the lack of atmosphere, the reason it reflects sunlight so well?"
+    },
+    {
+      "id": "2129hs",
+      "question": "why do minor cuts and grazes only look a bit red but then the next morning they're big painful scabs",
+      "selftext": ""
+    },
+    {
+      "id": "ck9cjc",
+      "question": "is the seasoning or the noodles unhealthy in instant ramen?",
+      "selftext": ""
+    },
+    {
+      "id": "1xcel1",
+      "question": "What's the oldest instance we know of of business owners advertising -- as in posters, billboards, etc. not on their own place of business?",
+      "selftext": "Business owners also meaning tradesmen, artisans, etc."
+    },
+    {
+      "id": "6uls1n",
+      "question": "eye damage from looking at the sun.",
+      "selftext": "So with the eclipse coming through North America, everyone is saying how you shouldn't look directly at the sun (even for brief moments) because it will damage your eyes.  Why does driving towards the sunset or sunrise not damage your eyes in the same way?  There's even a set of traffic lights on my way home from work that if I time it right, the sun is shining right next to it.  It's so close that if I move my head a few inches I can make the sun partially disappear behind the signal."
+    },
+    {
+      "id": "82ne2h",
+      "question": "How are space telescopes shielded against cosmic rays?",
+      "selftext": "Space telescopes usually record photons as counts by converting their energy into an electric signal. But seeing as how cosmic rays may register as counts as well, I'm assuming they somehow need to be kept out of the equation. But how is this usually achieved?"
+    },
+    {
+      "id": "2q61l0",
+      "question": "why is there such a stigma against smoking tobacco in the us?",
+      "selftext": "I'm not denying that smoking is very bad for you in a number of ways, I am just wondering why there is such a stark contrast between attitudes to smoking in the US compared to other parts of the world such as (most of) Europe.\n\nThanks!\n\nEDIT: Cheers for the insight and a whole bunch of interesting responses."
+    },
+    {
+      "id": "pkvnl",
+      "question": "Is riding a bike muscle memory?",
+      "selftext": ""
+    },
+    {
+      "id": "5km95b",
+      "question": "how is mass extinction humans fault?",
+      "selftext": "I don't yet know much about global warming or mass extinction, but I'm trying to learn. I fully understand how human activity in the modern age is contributing to warming, habitat loss, etc. In the following article though, the author states that in the year 1500 animals were already well in the midst if a mass extinction. Considering most people at that time and prior loved in mud huts, didn't have cars, no plastics etc, why would the mass extinction at that time be due to human activity? \n\n_URL_0_"
+    },
+    {
+      "id": "18j0hu",
+      "question": "how do non-conspiracy theorists explain the points that 911-theorists point out?",
+      "selftext": "Like the collapse of building 7?"
+    },
+    {
+      "id": "1snkgp",
+      "question": "why some metals glow brightly when hot (i.e., steel or iron) when others just look like liquid metal (i.e., aluminum or mercury)?",
+      "selftext": ""
+    },
+    {
+      "id": "14mrmi",
+      "question": "Are the Bosnian pyramids man-made or nature-made?",
+      "selftext": "Seems like there are mixture of \"expert\" opinions online regarding the Bosnian pyramids.  Some experts have dismissed it as a natural phenomena and some experts think otherwise.\n\nDoes anyone know if there is a real verdict out there?"
+    },
+    {
+      "id": "2qwyus",
+      "question": "whats the difference between 44khz and 48khz when the human ear can only hear up to 20khz ?",
+      "selftext": "The Human ear can only hear frequencies between 10-20000 Hertz. So what the matter with frequencies like 44, 48, 96 and even 192 kHz"
+    },
+    {
+      "id": "biqjh8",
+      "question": "why old bread gets crunchy and old chips get chewy?",
+      "selftext": ""
+    },
+    {
+      "id": "4bk3en",
+      "question": "what is the keynesian multiplier, and how does it help disprove supply-side economics?",
+      "selftext": ""
+    },
+    {
+      "id": "v9e6s",
+      "question": "At what level does the circulatory system of each indivdual start to differ?",
+      "selftext": "I know everyone has an aorta and vena cava, but individual veins on the back of people's hands look different. And I an would think that capillaries are completely different for every person. Or is my entire premise wrong?"
+    },
+    {
+      "id": "6d6pdu",
+      "question": "why is it illegal to download movies/music/games/etc, but people can sell used copies? either way the company isn't getting a cut after the first time.",
+      "selftext": ""
+    },
+    {
+      "id": "308cdo",
+      "question": "Clarification of the disputed status of the Nagorno-Karabakh region",
+      "selftext": "At the end of the Nagorno-Karabakh war, why was the region under Armenian control not formally annexed by Armenia (especially given Armenian forces retain control over the region until today)? I only have minimal understanding of the conflict but was under the impression that by the end of the war, the Armenian forces had gained an upper hand. If that is the case however, why was Armenia not in a position to dictate more favourable terms for itself?"
+    },
+    {
+      "id": "2j67ui",
+      "question": "Which national economies, if any, were not affected by the Great Depression of the 1930's? Did anyone actually grow during this period while the majority of developed nations were mired in recession/depression?",
+      "selftext": "I'm curious to know if any significant nation (not say, a micro-nation in Polynesia) was able to get through the 1930's unscathed or even in better shape while the rest of the major economies like US, Canada, Europe suffered in either deep recessions or outright depression?\n\nI would appreciate any hard data, GDP/GNP, unemployment, etc., if you know of it.\n\nThank you."
+    },
+    {
+      "id": "7g09ns",
+      "question": "During the Middle Ages, why was the suffix “-eth” used, and what purpose did it serve?",
+      "selftext": "I heard a commercial on the radio the other day while driving and the voice over guy used the suffix on a random word and it sounded like nails on a chalkboard. I didn’t know the practical use of it so I was wondering if anyone knows. Thanks!"
+    },
+    {
+      "id": "bhz9i4",
+      "question": "If light is produced by the release of photons when electrons return to stable energy levels, why do blackbody objects emit light over a continuous and wide spectrum?",
+      "selftext": "Doing some light reading on the Internet and was reading up on black body objects and why objects glow when they heat. I was told that photons are released through the excitement of electrons, and then you have things with emission spectrums and so on. This implies that the spectrum should only have very specific wavelengths of light. However, I have looked at spectrum graphs of objects such as incandescent lightbulbs and found that they emit light over a continuous spectrum of various intensities that extend over a significant range of wavelengths. \n\nWhy is this so? Why are the emission spectrum wavelengths not emitted? What is it in the function of blackbody objects that make them emit light across a constant stream of wavelengths?"
+    },
+    {
+      "id": "cuohw6",
+      "question": "why do spacecraft and satellite components need to be assembled in a sterile environment?",
+      "selftext": ""
+    },
+    {
+      "id": "rpwwf",
+      "question": "What is the maximum number of cigarettes one can smoke without adverse health effects?",
+      "selftext": ""
+    },
+    {
+      "id": "258ak7",
+      "question": "What would the outcome of the Crittenden compromise be if it went into effect?",
+      "selftext": ""
+    },
+    {
+      "id": "5rl9r5",
+      "question": "how do items like peelers, graters, scissors etc. stay sharp but knives constantly need to be sharpened?",
+      "selftext": ""
+    },
+    {
+      "id": "bvynfv",
+      "question": "Are there galaxies that form spherically around a black hole?",
+      "selftext": ""
+    },
+    {
+      "id": "9abzgl",
+      "question": "Why did the Nazis create the concentration camps if their goal was extemination? What were their goals with forced labor practical or for torture?",
+      "selftext": "I don't mean to be at all disrespectful in this question. I'm simply trying to understand the aim and process that the Nazis had.\n\nI am reading Man's Search for Meaning and I was wondering: Why did the Nazi create the camps if the goal was extermination of the Jewish people. Wouldn't it have acheived their evil goal quicker to just make gas chambers / mass graves etc. Why give them clothes, beds, food etc (even if it was incredbily little and bad quality)? What was the benefit of creating the camps for the Nazis?\n\nAlso i was wondering what kind of work the Jews did. Was it practical or more like move that rock there and then move it back. Was the work created to simply try and make them suffer or was there work to be done and the Nazis so opportunity with the Jews in the camps to get free slave labor?\n\nThank you. Hopefully this doesn't get removed. 3rd time trying..  "
+    },
+    {
+      "id": "4ouo4m",
+      "question": "why does every group of files have to be downloaded as zip/rar instead of a simple folder?",
+      "selftext": "[deleted]"
+    },
+    {
+      "id": "1jcq29",
+      "question": "what are the major differences and similarities between the old testament, new testament and quran (and any other closely related texts i may be leaving out)?",
+      "selftext": "I'm no scholar in this area but I'm guessing these texts stemmed from a common source, and I'm wondering where they are seen to contradict each other and agree with each other. Bullet point me!"
+    },
+    {
+      "id": "esnpet",
+      "question": "Is it true that the Soviet Union gave food aid to Americans during the Great Depression and Dust Bowl?",
+      "selftext": ""
+    },
+    {
+      "id": "ob1m6",
+      "question": "What exactly is tooth plaque and is there a chemical or enzyme you could swill around your mouth to get rid of it in one go? ",
+      "selftext": ""
+    },
+    {
+      "id": "r54cc",
+      "question": "the process and significance of \"making partner\" in a law firm",
+      "selftext": "How does one become a partner? What changes? What are the advantages/disadvantages, if there are any?"
+    },
+    {
+      "id": "aoeahi",
+      "question": "In what ways did Marx and Engels *not* agree?",
+      "selftext": ""
+    },
+    {
+      "id": "d7tpdr",
+      "question": "Why did the american colonies unite as a country while the spanish colonies did not?",
+      "selftext": "I have always wondered how come the american colonies united as one large state after driving the British out of their territory while the spanish colonies in South America never integrated themselves in a similar manner into a large state even though they had just finished winning a well coordinated, long and bloody transcontinental war campaign against the Spanish Empire in which they won their independence. Not to mention the incredible official cultural homogeneity of the Empire (which ran from the northern US to the south of Chile) in which they all spoke spanish as lingua franca, they had the same currency, same state religion, same laws and similar mores. \n\nOne would logically think, as in the case of the 13 colonies, that the newly freed spanish colonies would also unite to form one country but obviously this did not happened. Why though?\n\nWas it the greed of the regional elite creole classes? The extraordinary size and fragmented geographical nature of the Empire?\n\nOr was the well established and mechanical imperial structure of power and governance in which Spanish America was divided into four Viceroyalties and not colonies (and inherited by the newly freed spanish americans ) with the same rights as any other province of continental Spain, the very same reason why the nodes of political power remained separate even after Independence? \n\nWorld history would have been much different if instead of about 20 separate similar states, they had become one large continental power. Why did they not unite?"
+    },
+    {
+      "id": "mpxcz",
+      "question": "what was europe trying to do by instigating the euro?",
+      "selftext": "It seems like such a bad idea (hindsight = 20/20). Why did everyone buy into it? Was it just so they could be brotherly or did they think it would make them stronger?"
+    },
+    {
+      "id": "7006ru",
+      "question": "What was the first empirical evidence of the existence of black holes?",
+      "selftext": ""
+    },
+    {
+      "id": "6ulkdm",
+      "question": "How long ago did the modern chicken lose its ability to fly?",
+      "selftext": ""
+    },
+    {
+      "id": "26df6l",
+      "question": "Is there a correlation between the number of calories you take in and how \"full\" you feel?",
+      "selftext": ""
+    },
+    {
+      "id": "9ewbpd",
+      "question": "Why are smaller animals more resistant to ionising radiation?",
+      "selftext": ""
+    },
+    {
+      "id": "7v6ds5",
+      "question": "Roman victory parades, with a slave in the cart whispering «Remember, thou art mortal”?",
+      "selftext": "Saw this quote today, with no reference. \nSounds overly interesting, anyone inow if it had some truth?\n\n———————— \n\nWhen a Roman consul returned home after a particularly spectacular military campaign abroad, a “Triumph” was held – which was a parade through the streets Rome celebrating his accomplishments. But there was an additional component that (as it was told to me then), a slave would be put in the chariot beside the consul, who’s sole job throughout the Triumph was to whisper into the victorious leader’s ear “Remember, thou art mortal”."
+    },
+    {
+      "id": "nxbxh",
+      "question": "why some websites accept https connections and others don't",
+      "selftext": ""
+    },
+    {
+      "id": "6dh48q",
+      "question": "what are the limitations of genetic engineering in adults?",
+      "selftext": "I know the buzzwords \"gene therapy\", \"germline engineering\" and \"CRISPR\" but can't figure out whether it will ever be possible, even in theory, to give an adult human a genetic treatment that makes them stronger or smarter or healthier."
+    },
+    {
+      "id": "1gyhh0",
+      "question": "Have stories from Greek mythology been directly connected to or metaphorically connected to actual happenings?",
+      "selftext": ""
+    },
+    {
+      "id": "48553m",
+      "question": "how do racing pit stops work in terms of position in the race?",
+      "selftext": ""
+    },
+    {
+      "id": "6y6kf9",
+      "question": "why did so many nurses get rid of their nurse cap?",
+      "selftext": ""
+    },
+    {
+      "id": "f2pepw",
+      "question": "why do artificially made things cost less than natural things?",
+      "selftext": "I have always had this question since I was young yet I never got an actual sensible answer.\n\nIf things take more materials and time and effort to be made, why do they cost less than things that are right infront of us? \n\nLike if I bought some apple juice, why when it has more artificial ingredients that need factories to be made costs less than natural apple juice where you just get some apple and make it into juice? \n\nThanks for your time"
+    },
+    {
+      "id": "ekwx4r",
+      "question": "Was there any condemnation in the 1500s towards Luther's piece on the Jewish community?",
+      "selftext": "I actually posted this about a year ago and forgot about it, and unfortunately it didn't get answered then.  But with all the recent anti-Semitism on the rise I want to ask this again:\n\nIn 1543, just a couple years before Luther's death, he published a regrettable piece, *On the Jews and their Lies*. Did any scholars of the day condemn that piece, or was Luther's words the prevailing opinion of the day?\n\nThanks for any insight."
+    },
+    {
+      "id": "6t1uwl",
+      "question": "can someone explain reddit flairs to me?",
+      "selftext": ""
+    },
+    {
+      "id": "29f45q",
+      "question": "What was the Value of a Knight and other warriors?",
+      "selftext": "Assuming a Knight had a War Horse with armor for it, Full Plate Armor Covering the most it can, with Chainmail covering the not plated portians, A Sword and Shield, and a mace incase of Knight vs Knight combat. How much would that be in Medieval Cost; and if it can be equated to todays prices, how much in todays USD? Also, what would the prices equal for say, a Viking with a Hauberk an Iron helmet, a Seax, a shield, a 7-10 foot spear, and a Yew Bow (and or Sling). And if they were wealthy enough, a sword.                                                                        \nThe Time scale of this is: Knight, 1300-1400 AD; Viking 800-1000AD."
+    },
+    {
+      "id": "7fwtp0",
+      "question": "How did Jim Crow laws effect Mexican Americans in the American Southwest?",
+      "selftext": ""
+    },
+    {
+      "id": "ea2ib1",
+      "question": "if a coin is minted the material might cost less or more then the monetary value on it how are the governments assigning values to it?",
+      "selftext": ""
+    },
+    {
+      "id": "7q1xuy",
+      "question": "when computers crash why do you sometimes still hear the sound playing? this happens especially during in game crashes.",
+      "selftext": ""
+    },
+    {
+      "id": "61odoo",
+      "question": "how do microphones/speakers not echo the sound of a crowd",
+      "selftext": "At a concert, how do microphones keep from echoing the screaming of the crowd. In a confined space, wouldn't the loudness of the crowd create a continuous echo throughout the stadium?"
+    },
+    {
+      "id": "2dxkr2",
+      "question": "How long does it take to test someone for ebola?",
+      "selftext": ""
+    },
+    {
+      "id": "1wego8",
+      "question": "why is the eastern canada-us border the way it is?",
+      "selftext": "I know the Western one was set at the 49th parallel, and the Ontario border runs logically through rivers and lakes, but why does the Quebec one arbitrarily run straight across New York? Why didn't the Americans just push to the St. Lawrence river, or not take New Brunswick?"
+    },
+    {
+      "id": "e4ah1r",
+      "question": "why do certain sounds cause extreme discomfort when heard, despite not necessarily being too high/low pitched?",
+      "selftext": ""
+    },
+    {
+      "id": "2fdytj",
+      "question": "why do i yawn when i have motion sickness?",
+      "selftext": ""
+    },
+    {
+      "id": "2auct1",
+      "question": "when i choose the \"skip\" option on certain files in a torrent, why do some of them sometimes still download, often even 100% of the file?",
+      "selftext": "It's annoying when I don't want one or more particular files and it feels like theres no point in clicking skip."
+    },
+    {
+      "id": "17a8yi",
+      "question": "How \"green\" was the fertile crescent back in biblical times?  Was it a land of lush green farmland like the US Midwest, or was it in fact not too different from modern day Iraq, which is a bit scrubby, but not exactly all desert.",
+      "selftext": "I remember reading the Epic of Gilgamesh, and hearing it talk about deep forests, and how that didn't square with my view of modern day Iraq until I talked to some of my buddies who served there, who said \"no no, there are forests there\" making me wonder if modern Iraq wasn't as desert as I thought it was.\n\nBut it also made me wonder how lush ancient mesopotamia was, and how devastating desertification actually has been.\n\nI mean, Ctesiphon is now surrounded by desert, but at one point it had to support a metropolis.  \n"
+    },
+    {
+      "id": "2mhwy8",
+      "question": "how can a [computer] screen keep track of each and every pixel? how can it be this specific?",
+      "selftext": "EDIT: And yes I know what a GPU is; but I don't understand how it's [physically] possible to keep track of each pixel. Surely its a: if( X  &  &  Y ) { activate(); }. But I don't understand how this is done with things as small as pixels."
+    },
+    {
+      "id": "22xzfg",
+      "question": "how can this book cost $7000?",
+      "selftext": "\nIs it just because it's hardcover? [ Link ](_URL_0_)"
+    },
+    {
+      "id": "3vhr6n",
+      "question": "why does the handicapped stall seem to be universally preferred by people using the restroom?",
+      "selftext": ""
+    },
+    {
+      "id": "1fleun",
+      "question": "How seriously did Ancient Romans take the deification of their former emperors?",
+      "selftext": ""
+    },
+    {
+      "id": "49l48x",
+      "question": "why do anti-virus and malware programs move the virus and malware files to quarantine instead of deleting them?",
+      "selftext": ""
+    },
+    {
+      "id": "jt9c9",
+      "question": "how / why water goes \"bad\" when you leave it out but is fine in bottles?",
+      "selftext": "Why is it that water begins to taste bad when you have left it out, in a glass for instance, when one may think that since it is water it can't necessarily \"go bad\" yet it tastes distinctly different."
+    },
+    {
+      "id": "188vhk",
+      "question": "Did hunter-gatherers really have an easier life that (early) agriculturalist? Is civilization counterproductive to the average person happiness?",
+      "selftext": "By easier I mean they had to work less, had better diet, a more healtier life style a more egalitarian society, etc..."
+    },
+    {
+      "id": "2f0q2a",
+      "question": "Can an adhesive stick to oxygen or other air molecules?",
+      "selftext": ""
+    },
+    {
+      "id": "1fird3",
+      "question": "What ends up harming you from coming into contact with an electrical current?",
+      "selftext": "Is it the voltage (V) or the current (I)?\n\nDoes it depend on the location of your body that gets shocked?"
+    },
+    {
+      "id": "2z6goe",
+      "question": "do birds stop migrating? i mean, do i have birds in my city that consider this home base, or is every bird i see just pit stopping on their way to somewhere else?",
+      "selftext": ""
+    },
+    {
+      "id": "fskfdx",
+      "question": "why do your eyes 'jump' from point a to b? why can't we move them in a continuous motion between two points?",
+      "selftext": ""
+    },
+    {
+      "id": "cpjstk",
+      "question": "how fast would \"atmospheric\" air be sucked out of a space craft?",
+      "selftext": "I watch a fair amount of scifi and while watching The Expanse today (finally...) there was a breach on a small craft in space. I wondered, if space is a vacuum, how long would it take to suck out all the \"atmospheric\" (or I suppose I can say breatheable) air from a space craft? How much time to fix a breach would someone actually have depending on size of the hole vs size of the craft?"
+    },
+    {
+      "id": "m1tha",
+      "question": "If we started a mars colony, and only transported very sterilized food, water and equipment, could we create a society without disease or sickness?",
+      "selftext": "Disease or sickness brought on by bacteria and viruses anyway. This wouldn't exactly stop genetic problems, for example. \n\nAlso, I'm sure we'd need some types of bacteria, or at least some process to break down waste material, so if we did introduce only specific strains of bacteria for those purposes, would there be any risk of those becoming harmful?"
+    },
+    {
+      "id": "3g237t",
+      "question": "if almost all of the things we do are now digital resulting in paper usage dropping majorly, why is deforestation suddenly a massive issue?",
+      "selftext": "Wouldn't we cut down a tiny percentage of trees we once did when offices/schools etc were using paper for 100% of tasks?"
+    },
+    {
+      "id": "2mq356",
+      "question": "Infinitely small probability?",
+      "selftext": "The amount if numbers is infinite in theory, so if you generated a random number from all of these numbers, shouldn't the probability of every number be infinitely small?\n\nSorry if it's a stupid question, just wondering..."
+    },
+    {
+      "id": "496kdz",
+      "question": "My friend says, that during medieval times 90% of an army would consist of drafted peasants with no prior fighting experience and sub par equipment (like sharpened pieces of wood as an improvised spear) is this true?",
+      "selftext": ""
+    },
+    {
+      "id": "84hu7a",
+      "question": "how xl ink cartridges are the same size but have twice as much ink?",
+      "selftext": ""
+    },
+    {
+      "id": "5jytqh",
+      "question": "why do women live on avg longer than men?",
+      "selftext": ""
+    },
+    {
+      "id": "209whh",
+      "question": "Where was the beginning of what we regard today as Government?",
+      "selftext": "I have done some research on the topic and found that the first Civilization seems to be regarded as Sumer from Mesopotamia, even though there are several other theories. So we this where the first government took place?  If so could you please tell me a bit about the type of government that was there (or wherever government originated) or direct me to somewhere that could provide me with this information? \n\nThanks! "
+    },
+    {
+      "id": "1qm7or",
+      "question": "What caused Mars to be as arid as it is now?",
+      "selftext": "I've just seen this [video](_URL_0_) that shows how possibly Mars was 4 billion years ago, and it made me wonder what could have happened that caused Mars to be so arid now. I've read somewhere that Mars atmosphere desintegrated. If that is true, why did it happen and could that happen to Earth?"
+    },
+    {
+      "id": "2ph6qr",
+      "question": "why doesn't chicken, beef, or any other processed meat go through rigor mortis when being prepared at a factory or even in the days afterwards?",
+      "selftext": "Is there some kind of chemical applied or process introduced that keeps this from happening?"
+    },
+    {
+      "id": "3e6u9q",
+      "question": "What populations other than African Americans have risen from an utterly prejudiced social and legal status without migration?",
+      "selftext": "I am a non-American from an English speaking country. I have spent most of my life consuming the history of the USA through the eyes of Hollywood. America is regularly maligned for real and perceived injustices, I am curious what a wider historical context will do to this view.\n\nOne of the most striking formative narratives I have been exposed to is that of American slavery and black suffrage.\n\nI can only think of a handful of other oppressed populations (Irish occupation for example) that have managed to stay within a nations confines and fight for (and mostly attain) the same level of equality as afforded to the oppressing population.\n\nImmediately groups such as Women, LGBT, Protestants (under Catholic hegemony), European peasants, and children spring to mind but these are not specifically what I was hoping to learn more about."
+    },
+    {
+      "id": "5y8pg7",
+      "question": "how will people survive the radiation on mars, if it's core isn't working?",
+      "selftext": ""
+    },
+    {
+      "id": "1dmesi",
+      "question": "If a photon's energy is only proportional to frequency, what does increasing the amplitude of electric field oscillation do?",
+      "selftext": ""
+    },
+    {
+      "id": "9imq91",
+      "question": "how do we adopt new fears and irrational phobias?",
+      "selftext": "For example, as a child I was obsessed with sharks and the deep ocean, i read books and studied them with all the free time I had, even jaws was my favourite film and i would watch it daily. Now, just the thought of sharks or the open ocean is enough to give me nightmares and break me into a sweat.\n\nI can't really say anything happend around either that could make me have such a drastic change of emotion towards them. Can somebody help me understand why this has happened?"
+    },
+    {
+      "id": "33junj",
+      "question": "how does an snes game get converted into a rom and played on a pc?",
+      "selftext": ""
+    },
+    {
+      "id": "65bqij",
+      "question": "how are news agencies allowed to outright spread lies or misinformation to the public? why is there no system of moderation to license news reporters similar to how engineers/doctors are licensed to design buildings or treat patients?",
+      "selftext": ""
+    },
+    {
+      "id": "n5wzr",
+      "question": "why do duracell and energizer batteries last so much longer than the off brand batteries?",
+      "selftext": "and why do they cost like 3x the price?"
+    },
+    {
+      "id": "241eky",
+      "question": "To what extent was Stalin responsible for the Korean war?",
+      "selftext": ""
+    },
+    {
+      "id": "1720fw",
+      "question": "why do bad singers think they sound better than they actually do?",
+      "selftext": ""
+    },
+    {
+      "id": "7vrk7p",
+      "question": "why is it easier to peddle uphill standing up?",
+      "selftext": "^ "
+    },
+    {
+      "id": "6pao9h",
+      "question": "how are asynchronous calls used?",
+      "selftext": ""
+    },
+    {
+      "id": "a01ft7",
+      "question": "how are gift cards validated and activated at checkout? are their serial numbers stored in a database and then marked as activated? how are they activated when their numbers haven’t been scratched off?",
+      "selftext": "Referring to the cashier activation of gift cards like Steam or League of Legends cards at checkout to prevent theft"
+    },
+    {
+      "id": "4aduqi",
+      "question": "Is it true that Native American were referred to as Indians because Columbus seriously thought he was in India when he landed?",
+      "selftext": "Or is this a popular misconception?"
+    },
+    {
+      "id": "42tshr",
+      "question": "what causes a rolled up piece of paper to act like a spring and what other materials want to naturally return to a flat sheet when rolled",
+      "selftext": "I am familiar enough with materials having memory and smart materials that can be programmed to take a shape with external forces like heat or electricity, but what cause paper, or  fishing line, to remember it's shape and want to return to it when there is nothing keeping it rolled? Are there other elastic materials similar to these that would want to snap back to a flat sheet?"
+    },
+    {
+      "id": "3xr46g",
+      "question": "the fda just lifted the ban on gay men donating blood as long as they don't have sex for a year. why was the ban just lifted and why did it take so long to lift the ban?",
+      "selftext": ""
+    },
+    {
+      "id": "1uq5a9",
+      "question": "Why did Germanic kingdoms in modern France, Spain and Italy end up adopting the languages of the substrate populations while in England the opposite occurred?",
+      "selftext": "Roman Spain, France and Italy all were conquered by Germanic tribes (Visigoths, Franks and Lombards respectively) who created kingdoms there in late antiquity. These kingdoms all ended up speaking the language of the general population and abandoning the Germanic languages of the ruling class.\n\nA similar invasion occurred in post-roman Britain but in this case the kingdoms kept their Germanic languages and it was the native Romano-Celtic languages that were abandoned.\n\nIs there any explanation for this difference?"
+    },
+    {
+      "id": "7cqzxv",
+      "question": "Can someone explain the galaxy rotation graph?",
+      "selftext": "If you look at the Wikipedia page on galaxy rotation there is a graph that plots velocity against radius from the galaxy center. I get that the stars speed up of remain the same speed as they get further from the center which implies the existence of dark matter. \n\nWhat I don't get is that the theoretical graph of velocities should be v = sqrt(GM)/sqrt(r) bu Newton's laws. I don't understand why there is a maximum and then it recedes to 0 at the beginning of the graph (if the speed is supposed to approach infinity by Newton's prediction)."
+    },
+    {
+      "id": "2jhb6p",
+      "question": "how is a chicken made from liquid?",
+      "selftext": "That's what my brother asked me just now. I'm assuming he means how it forms from inside the egg going from egg yoke to a chicken fetus into a live chick.\n\nEdit 1: Read him the first two replies and he had a follow up question, \"but how though?\""
+    },
+    {
+      "id": "1h9pjc",
+      "question": "What would happen if we started pumping huge amounts of water into the middle of the Sahara Desert?",
+      "selftext": "Lets say we set up a huge tube to pump in water right into the middle of the Saraha Desert. What affects would that have on the climate there? Would it all vaporize and dissipate, or would it create clouds? Would that cause the area to cool at all? Would it all revert back to normal if we stopped pumping the water, or would it be self sustaining (as in, would the cooler temperature make it easier for rainclouds to form or something)? Would it make a difference if we pumped in sea water or fresh water?"
+    },
+    {
+      "id": "h5ucm",
+      "question": "Ball bearings.  Yes - ball bearings!!",
+      "selftext": "When I was a kid back in the 60's, ball bearings were often mentioned in product advertising.  I guess they were the latest and greatest thing of their day.\n\nWhat was so new and innovative about them?  Are they still in use today? Have there been any interesting developments in this admittedly boring branch of technology?"
+    },
+    {
+      "id": "2cpdws",
+      "question": "how did letters like g and j, or c and k, come about? why do they share a common sound?",
+      "selftext": ""
+    },
+    {
+      "id": "4pvvxt",
+      "question": "Did the United States know of Russia's presence in the Americas before the Lewis and Clark expedition?",
+      "selftext": "I was looking at an older thread here on this subreddit and apparently a commenter said that the expedition encountered Russian explorers at some point but I couldn't find a source on this. Also did the US ever feel threatened by possible Russian expansion? Did the Russians actually wish to expand southeast of Alaska? And lastly what was their attitude towards the newly formed US?"
+    },
+    {
+      "id": "1nq2ti",
+      "question": "Are there any diseases/conditions that affect the relative amount/distribution of spongy bone vs. compact bone in humans?",
+      "selftext": "So I'm a high school anatomy/physiology teacher. We're going over the skeletal system right now and yesterday we were talking about the differences in form and function between spongy and compact bone. After one section of the activity a student asked if there were any diseases that made a human skeleton be built completely out of compact bone and what effect that would have.\n\nWhile I doubt there are any diseases that construct skeletons completely out of compact bone, I thought it was a good question and that there might be some diseases that affect the relative amount or distribution of these types of bone. Are there any such diseases, and if so, how does it affect bone development and what are their effects on the livelihood of people with that disease/condition? \n\nI looked online for a while and was unable to find anything like what I was looking for. Thanks!"
+    },
+    {
+      "id": "d2napm",
+      "question": "why do many high-education-required jobs pay less than low-education-required counterparts?",
+      "selftext": "I’d be lead to believe that many/most jobs that require Bachelor degrees or higher would pay more than jobs that require Associates degrees or lower, however it seems there’s many cases where the opposite is true."
+    },
+    {
+      "id": "5xlu37",
+      "question": "Did tattoos exist in medieval Europe?",
+      "selftext": "[deleted]"
+    },
+    {
+      "id": "2cdr08",
+      "question": "why do cars stop/stall when they are spun around?",
+      "selftext": "Every time a car is pitted by the police or hits a bad patch of ice and spins it seems to stall or no longer be able to move to a certain degree. One notable instance is go karts they always seem to stall. What is causing this?"
+    },
+    {
+      "id": "2f5q5j",
+      "question": "why are all the celeb naked pictures allowed on reddit but there was such a drama surrounding zoe quinn?",
+      "selftext": "what am i not getting about privacy and other rules?"
+    },
+    {
+      "id": "4j7wzz",
+      "question": "why are many painkilling pills coated with something? doesn't it delay the effect?",
+      "selftext": ""
+    },
+    {
+      "id": "4wijin",
+      "question": "how do scientists build a nanobot?",
+      "selftext": ""
+    },
+    {
+      "id": "l8m1i",
+      "question": "What is the geologist/hydrologist opinion on Fraking to extract shale gas?",
+      "selftext": "I hear a lot of mixed opinions but wonder what is the true scientific answer to this question"
+    },
+    {
+      "id": "4ip5d7",
+      "question": "Did Roman gladiators really promote products from the arena?",
+      "selftext": "There was a mention in a post about the movie Gladiator that said they left such promotions out for fear of it appearing anachronistic, but the link said only that."
+    },
+    {
+      "id": "23ienu",
+      "question": "what's the deal with muslims in the u.k.?",
+      "selftext": ""
+    },
+    {
+      "id": "75fdqo",
+      "question": "why is the minimum age for ‘adult’ medicines usually 12? not 18 or 21?",
+      "selftext": "There are some medicines which are meant for adults right? They usually say “this medicine is supposed to be for 12 years and older” or something like that. Why 12 but not 13? 15? 18? 21? I get with alcohol being 18-21 due to alcohol doing some serious damage to a kids body, but again, why 12 to medicines meant for adults?"
+    },
+    {
+      "id": "abs56i",
+      "question": "How does electrical input become digital information?",
+      "selftext": "I'm not a computer scientist but I sort of vaguely get the idea of (excuse my amateur terminology) binary electrical input being transmitted through certain hardware to become information on a screen. But somewhere along the way, physical \"dits and das\" turn into digitally stored information so that a certain combination creates a certain appearance on screen that has certain functions given certain commands. It's hard for me to explain but I just don't understand where in the process the electrical input becomes a complex digital arrangement of data. "
+    },
+    {
+      "id": "1wl79d",
+      "question": "why have athletes improved as a group over time?",
+      "selftext": "For instance, the gold medalist of the Olympic 100m race has run consistently faster since the first Olympics. Why? "
+    },
+    {
+      "id": "68d1lj",
+      "question": "why is the dead sea not overflooding?",
+      "selftext": "Just wondering if the dead sea only has tributaries, why doesnt it overflood"
+    },
+    {
+      "id": "eaiw57",
+      "question": "if you punched someone hard enough to knock them out whilst they were sleeping, would they wake up and pass out or stay asleep through your punch?",
+      "selftext": ""
+    },
+    {
+      "id": "6m7t59",
+      "question": "Can smoke detectors detect things other than smoke?",
+      "selftext": "Are modern smoke detectors (2000s and onwards) able to detect other gases? Would it be able to detect tear gas?"
+    },
+    {
+      "id": "fvherf",
+      "question": "Can jet engines function underwater?",
+      "selftext": "Lets say a plane is submerged. Would the engines propell the plane foward if turned on depite being underwater? Or do jet engines not work in those conditions?"
+    },
+    {
+      "id": "awm2sp",
+      "question": "Where did Roman legionaries keep their money when away from home for years?",
+      "selftext": "It seems trivial at first but as they were a professional army that may not have a true home for the duration of the service, what did they do with their pay, and any loot. Was there any proto- banking? Did they get credit from the paymaster, or did most of them just blow it weekly?"
+    },
+    {
+      "id": "ch7kfp",
+      "question": "How did Ataturk afford his reforms?",
+      "selftext": "I was listening to a podcast about him and learning about his reforms made me wonder how he funded such sweeping reforms. If the Ottoman Empire was in such dissaray after WW1, how were they able to afford the war with Greece and then such massive projects which were more social rather than economic in nature. Was there any particular part of the Ottoman Economy that was very profitable?"
+    },
+    {
+      "id": "marwv",
+      "question": "Thanksgiving is upon us.  How can meat temp continue to rise after being removed from the heat source (aka carry over heat)?",
+      "selftext": "I have heard multiple times that the internal temperature of meat will continue to rise after it has been taken off the heat (Ex: [Alton Brown](_URL_0_))\n\nThe heat has to come from somewhere????"
+    },
+    {
+      "id": "oob88",
+      "question": "What exactly is an analog computer and how do they work?",
+      "selftext": "I have been reading up on this trying to understand it but I still don't get how something like [this](_URL_0_) would work."
+    },
+    {
+      "id": "3i540k",
+      "question": "The extent of the roman empires trading influence.",
+      "selftext": "How far would a roman coin travel?\n\nWhere would the goods brought into the empire come from?\n\nWhere would goods be sent out to?\n\nWhat sort of goods could survive travelling such distances, and how would they be conveyed over such vast distances?"
+    },
+    {
+      "id": "1xklzz",
+      "question": "in what way am i being fucked by my isp if my internet connection is considerably faster through a vpn connection?",
+      "selftext": "I read a random comment reply in an unrelated thread and decided to try VPN for myself. I downloaded Hotpot Shield Elite and am routing connections through the US. I loaded an imgur album with hundreds of gifs and all of them loaded almost instantly, whereas normally it would load one by one, each one taking well over 10 seconds. \n\nI always through going through a proxy would slow me down. Whats going on exactly?"
+    },
+    {
+      "id": "1t4qcr",
+      "question": "Why do some people still believe that the South won the Civil War?",
+      "selftext": "I know that you can look at statistics and actual facts and clearly see that the war was won by the North, just why do some people believe that it was a decisive victory by the South? Is there some sort of reason as to why they believe this or is it just simply ignorance? Thanks!"
+    },
+    {
+      "id": "tvxzg",
+      "question": "What causes 'suicidal thoughts'?",
+      "selftext": "I'm a little bit curious after reading about the side effects of drugs such as Accutane, where a Redditor described being tempted to drive into a tree because of taking Accutane?\n\nWhat happens physiologically in our body that causes those thoughts? At a stretch, I understand depression, because it's...simply a disinterest in life.  But actively wanting to perform an act to kill yourself...? I don't get how a drug an incite you to have those thoughts.  As in, is there a 'suicide' trigger in your brain?\n\nA thousand apologies for the non-medical, unclear language I'm using."
+    },
+    {
+      "id": "zmx7e",
+      "question": "How much of the observable universe is visible to the naked eye under optimal conditions?",
+      "selftext": "Accounting for rotation, wobble, and orbit of the earth, if I were to stay in a fixed position, just staring at the night sky for...say...a year, how much of the system, galaxy, universe, et al. would I be able to witness/chart?"
+    },
+    {
+      "id": "60pl5d",
+      "question": "How is magnetized plasma created and what kind of gasses produce them?",
+      "selftext": "Curious about magnetized plasma. How is it created in a laboratory? Is there special equipment needed to create/store it? What gasses will produce them? The more info the better."
+    },
+    {
+      "id": "1qe8sr",
+      "question": "how jihadism/muslim extremism convinces so many individuals to abandon their lives for its cause?",
+      "selftext": ""
+    },
+    {
+      "id": "20qvyi",
+      "question": "why is cilantro so offensive to some people?",
+      "selftext": "Why do I, and so many others, find cilantro so offensive? Many haters claim it tastes like soap. I get that some people just don't like certain foods, but what is special about cilantro that makes it absolutely repulsive to some?\n\nI try it again and again hoping that someday I'll get used to it, but no dice. One small sprig and the dish is wrecked."
+    },
+    {
+      "id": "33cvgh",
+      "question": "How long was the average commute for Americans before the automobile?",
+      "selftext": "18th or 19th century, American cities. Also how did the mode of commute differ with regard to status. Now the poor seem to live in the cities and the well-off live in the suburbs, was that the case back then? "
+    },
+    {
+      "id": "4yq0dg",
+      "question": "How did the Highland people of Scotland end up speaking a Celtic language (Scottish Gaelic), while the Lowland people of Scotland ended up speaking a Germanic language (Scots)?",
+      "selftext": "Also, on a different yet related question, what was the language of high nobility and the King's court (before the union of England and Scotland, of course)?"
+    },
+    {
+      "id": "59ai21",
+      "question": "how we have pictures of mars like the one in the description, but we don't have pictures of the us flag on the moon?",
+      "selftext": "Picture on Reddit: _URL_0_\n\nHow are we able to take such great pictures of something so far away, but don't have amazing pictures of the flag on the moon?"
+    },
+    {
+      "id": "298q5u",
+      "question": "Evolution of Battle Tactics: How did battles change from the Napoleonic Wars to World War II?",
+      "selftext": "Sometimes I get into these history moods and get lost in world history for days.  I've been reading a lot on the US Civil War and World War I recently.  I find it really interesting to see how similar battle tactics were in both wars.  The US Civil War was a sort of stepping stone into more modern warfare, and World War I was was the full on transition out of Napoleonic Tactics.\n\nI'm wondering how exactly battles changed over this span of about 150 years.  I understand World War I started off using 19th century style of battle (wheeling and maneuvering lines of troops, cavalry, etc), but quickly adapted due to more advanced weapon technology and fell into trench warfare.\n\nI guess what I'm asking is to compare / contrast a typical battlefield and battle strategy between the Napoleon Wars, US Civil War, World War I, and World War II.  The differences between World War I and World War II seem huge to me, especially since the wars were only 20 years apart, so I'm trying to understand this better.\n\nThanks!"
+    },
+    {
+      "id": "2bx1il",
+      "question": "how do filmmakers get footage of the inside of a bug without killing it?",
+      "selftext": "Case in point:\n_URL_0_"
+    },
+    {
+      "id": "1gqake",
+      "question": "Why is some of the water in this lake black and some light blue?",
+      "selftext": "I was looking around on Google Maps and saw [this lake](_URL_0_) in Canada.  Why is some of the water black and some blue?  All throughout the northern part of Canada I saw this.  [This](_URL_1_) is also an interesting example.   "
+    },
+    {
+      "id": "5lny13",
+      "question": "california's new gun laws.",
+      "selftext": ""
+    },
+    {
+      "id": "25ohmv",
+      "question": "Was there truly a dark side to Winston Churchill like this article suggests?",
+      "selftext": "_URL_0_\n\nHave these quotes ever been refuted or proven true?"
+    },
+    {
+      "id": "4c5bir",
+      "question": "movies breaking even",
+      "selftext": ""
+    },
+    {
+      "id": "116xyg",
+      "question": "Say our planet revolved around a red giant. Would our perceived colors on a day to day basis be different than those we see when we circle the sun?",
+      "selftext": "This seems like kind of a dumb question to me, but I don't know the answer, and I'm curious. "
+    },
+    {
+      "id": "3n4a48",
+      "question": "if nasa isn't allowed to go near water, why are they gearing up to explore europa's ocean?",
+      "selftext": ""
+    },
+    {
+      "id": "26hhx6",
+      "question": "pre 1492 what was the most northerly native American group to have a writing system?",
+      "selftext": ""
+    },
+    {
+      "id": "1tm9u9",
+      "question": "Is there a cutoff to the brightness levels humans can perceive?",
+      "selftext": "In the same way we can't hear above and below certain sound frequencies, are there brightness levels that we cannot differentiate above and below? I'm not talking about color here, but rather brightness. I believe the unit of measure I'm talking about is luminosity. Also does this vary between living things?"
+    },
+    {
+      "id": "1du0z5",
+      "question": "Where did bank robbers in the 30's get their Tommy Guns and BARs from?",
+      "selftext": "Where did these criminals get military grade weapons from? "
+    },
+    {
+      "id": "320pm6",
+      "question": "What are the main historical records/accounts of Jewish enslavement and release/exodus from Egypt?",
+      "selftext": "Are there historical records/accounts of the 10 plagues, and (evidence-based) theories on their causes?"
+    },
+    {
+      "id": "73jc50",
+      "question": "what is a real id? is it different than a driver's license?",
+      "selftext": ""
+    },
+    {
+      "id": "2ywedq",
+      "question": "Were presidents Garfield and McKinley \"sainted\" after their assassinations in the same way as Lincoln and Kennedy?",
+      "selftext": "There is much talk about how Kennedy would have been regarded if he had lived, and how Reconstruction might have been different under Lincoln, but I rarely hear much about Garfield or McKinley. \n\nSo, did their reputations change much in the aftermath of their deaths, or were Lincoln and Kennedy exceptions?"
+    },
+    {
+      "id": "525p3e",
+      "question": "What is the significance in electric and magnetic components of EM radiation being right angles to one another?",
+      "selftext": "Hi everyone, how you doing?"
+    },
+    {
+      "id": "2ndvhc",
+      "question": "what is 0% milk?",
+      "selftext": ""
+    },
+    {
+      "id": "1hg1g8",
+      "question": "Basques in North American prior to Columbus?",
+      "selftext": "In on of his books ([\"Cod\"](_URL_0_) I think), Mark Kurlansky either heavily implies or states outright that Basque fishermen already knew about the New World (and were fishing there) prior to Columbus.\n\nSearching the AskHistorians popular questions, I found [this reference](_URL_1_) but nothing else.\n\nIs there any evidence that the Basques knew about the New World, pre-Columbus? Even if there's no evidence, is it reasonable that such a thing could have occurred? To put it another way, would it have been possible for, let's say, a group of experienced fishermen from a relatively insular ethnic group to decide to do some exploring with part of their fleet, chance upon a great discovery, and then reasonably keep it a secret for at least a few decades?"
+    },
+    {
+      "id": "820qe5",
+      "question": "how does a cars speedometer know not to increase when a cars tires are spinning?",
+      "selftext": "I'm not very car smart, and this question popped in my head today. Somebody help me out with this one. And too add to this, how would my car know I'm slowing down even when ABS is kicking in?\n\nThanks in advance all!"
+    },
+    {
+      "id": "g1603c",
+      "question": "Where do the photons go after the light is turned off in the room?",
+      "selftext": ""
+    },
+    {
+      "id": "ee3uwk",
+      "question": "how do telescope long exposures work, considering earth rotation and movement?",
+      "selftext": "I really like Subreddits like r/space and they often post very long exposed photos of distant galaxies. Sometimes longer than 24 hours. But how can I do such a long exposure when the Earth is obviously moving? Isn't the change from night to daylight a problem here as well?"
+    },
+    {
+      "id": "42b9jh",
+      "question": "Has Arabic evolved and changed over the years in much the same way that English has over the centuries?",
+      "selftext": "Has imported words from the surrounding languages (Persian, Hebrew, Aramaic, Turkish, and so on) and has certain meanings or spellings changed over time? Are there specific phases of Arabic linguistic history such as Old English, Middle English, and Modern English?"
+    },
+    {
+      "id": "24dg5q",
+      "question": "redshift and measuring how long ago something happened in the universe.",
+      "selftext": "I do realize the universe is constantly expanding and it's extremely hard to know exactly what we have out there. I understand we are able to see how planets and stars move using light waves etc. But could someone explain to me how are people able to estimate how long ago something happened just by looking at the light? We might see it moving, changing colours etc. but how come we are able to estimate the time. What is the process of doing it. I've tried to google it but I haven't exactly found what I wanted.\n\nTL;DR how did we measure the universe was made 13 billion years ago?"
+    },
+    {
+      "id": "7f2h35",
+      "question": "could you make water if you had enough hydrogen and oxygen?",
+      "selftext": ""
+    },
+    {
+      "id": "1l9zck",
+      "question": "Would it be possible to spin a molecule fast enough to breaks its bonds?",
+      "selftext": ""
+    },
+    {
+      "id": "7wbmnb",
+      "question": "how exactly would an infinite source of energy help us?",
+      "selftext": ""
+    },
+    {
+      "id": "3i5n1u",
+      "question": "why do the people who impact/benefit society the most (teachers, non-doctor healthcare providers, relief aid organizations, etc.) get paid so little in comparison to those who benefit society relatively less (pro athletes, artists, etc.)?",
+      "selftext": "NO HATE PLEASE.\nI'm not saying that athletes and the like DON'T benefit society at all; I'm just wondering why people who actively help the community get paid maybe less than 100k a year while celebrities get paid millions."
+    },
+    {
+      "id": "2m5ezm",
+      "question": "How different was the treatment and persecution of witches in areas controlled by the Spanish Inquisition in comparison to the rest of Europe?",
+      "selftext": ""
+    },
+    {
+      "id": "sw0w7",
+      "question": "This may be a stupid question, are stars the only source of sun in the known universe? ",
+      "selftext": "Hypothetically, if all the stars exploded, would light eventually become extinct from the universe? I realize that the the light expended from the suns and explosions would go on for lightyears, but eventually the light particles would...fade? \n\nDo light particles ever fade? Or do they 'cool down'?\n\nShit, I just realized I don't know anything about particle physics."
+    },
+    {
+      "id": "1xoasf",
+      "question": "Why was Venice able to win the Morean War (Sixth Ottoman–Venetian War from 1684-1699) when they had lost the 5 previous wars before it? What changed to allow the Republic of Venice to stand up to the giant Ottoman Empire?",
+      "selftext": ""
+    },
+    {
+      "id": "7fm01r",
+      "question": "when you get a cut, how does the body know how to heal it back to the same way it was before and not just grow out of shape.",
+      "selftext": ""
+    },
+    {
+      "id": "3fudmq",
+      "question": "when drinking water, what is the mechanism that decides if the water will go to the bladder or be absorbed?",
+      "selftext": ""
+    },
+    {
+      "id": "qrph6",
+      "question": "What happens when a noise gets louder?",
+      "selftext": "I'm aware of concepts like amplitude and frequency, but I don't imagine alteration of those qualities of the sound waves is what makes us hear something as louder or quieter. Is it simply that there are more sound waves at once?"
+    },
+    {
+      "id": "5y15ts",
+      "question": "why does nintendo create \"artificial demand\"",
+      "selftext": "This was brought up when amibos came out, but it seems relevant again with the switch. Why do they create fake shortages?  I thought it only profited scalpers? Is Nintendo purposefully doing it, if so why, what does it gain them, and why do they still do it if everybody knows?"
+    },
+    {
+      "id": "3uadr2",
+      "question": "what is wire fraud in the us?",
+      "selftext": ""
+    },
+    {
+      "id": "2q8foz",
+      "question": "what happened to hydrogen powered cars as an alternative to fossil fuels? ie: honda fxc clarity?",
+      "selftext": "I know honda had some of their hydrogen cars in the US for testing, but what happened to the whole idea? Was it too difficult to create/ transport, or did \"big oil\" step in?\n\nFossil fuels are a \"finite\" resource.....would hydrogen really not be worth it to pursue? "
+    },
+    {
+      "id": "4xlv9x",
+      "question": "why are distance runners so skinny?",
+      "selftext": ""
+    },
+    {
+      "id": "987v7h",
+      "question": "can someone explain to me what is right, far right, left, far left, middle right, middle left and such in politics?",
+      "selftext": ""
+    },
+    {
+      "id": "6cdat4",
+      "question": "what stops flies from moving to the back of the bus when it accelerates?",
+      "selftext": ""
+    },
+    {
+      "id": "375ujs",
+      "question": "the science behind the charlie charlie pencil game",
+      "selftext": "What is it that makes the pencils move? I don't believe in ghosts I just want to know how this works.\n\n_URL_0_"
+    },
+    {
+      "id": "1l2072",
+      "question": "why do negative prescription glasses require a prescription from a docter and cost hundreds of dollars where positive lens glasses can be bought for $3 with no prescription.",
+      "selftext": ""
+    },
+    {
+      "id": "2b88dw",
+      "question": "How accurate is Caligula: 1400 Days of Terror and/or how much of the Caligula legend is bs?",
+      "selftext": "[Here's a link to the documentary in question.](_URL_0_ ) We're watching it on the teevee right now and some of the stories sound pretty dubious. Also, they referred to a vomitorium as involving actual vomiting, so I have doubts, but it's a part of history I don't really know much about.  "
+    },
+    {
+      "id": "2dczey",
+      "question": "Why is there an absolute reference for rotation?",
+      "selftext": "In normal rectilinear motion it is impossible to state ones speed without it being relative to another object.  However with rotation this is not the case, as it is very easy to direct measurement, with respect to no other object.  Why is this?  If a observer  was in geostationary orbit around this object, it would also appear that the object was non-rotating.\n\nIs is that the object is rotating with respect to space-time itself?  If it were possible to have a smoothly rotating space-time section and an object was rotating around a common axis is this identical to an object not rotating?  "
+    },
+    {
+      "id": "5j53j4",
+      "question": "Can anyone explain why calculators disagree with my paper and pen, here?",
+      "selftext": "[deleted]"
+    },
+    {
+      "id": "10qfsn",
+      "question": "Eyes Ears Mouth Nose  &  Fingers. What sense could humans(or any creature) develop to add to these 5 senses to add a completely nea sense?",
+      "selftext": ""
+    },
+    {
+      "id": "1l23lw",
+      "question": "why aren't people convicted of a crime even if they confess?",
+      "selftext": "I mean when there is solid evidence against them but the courts have to throw it out, even with a confession and an explanation why do they still not get convicted? "
+    },
+    {
+      "id": "3o7i60",
+      "question": "what are the people in syria fleeing from?",
+      "selftext": ""
+    }
+  ]
+}
