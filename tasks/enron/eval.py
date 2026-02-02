@@ -38,7 +38,7 @@ def evaluate_retrieval_with_llm(
     query: str,
     emails: str,
     api_key: str,
-    model: str = "gpt-4"
+    model: str = "gpt-4o-mini"
 ) -> Dict:
     """Evaluate a single retrieval using LLM."""
     try:
@@ -68,7 +68,7 @@ def evaluate_retrieval_with_llm(
 def evaluate_retrieval(
     predictions: List[Dict],
     api_key: Optional[str] = None,
-    model: str = "gpt-4",
+    model: str = "gpt-4o-mini",
     max_samples: int = 100
 ) -> Dict:
     """Evaluate retrieval predictions."""
@@ -220,7 +220,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-4",
+        default="gpt-4o-mini",
         help="LLM model to use for evaluation"
     )
     parser.add_argument(
