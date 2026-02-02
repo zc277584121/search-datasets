@@ -11,7 +11,7 @@ datasets/
 ├── chinese/        # 中文数据集
 │   └── cmrc2018/   # CMRC 2018
 ├── multimodal/     # 多模态数据集
-│   ├── chartqa/    # ChartQA
+│   ├── chartqa/    # ChartQA   
 │   └── coco_karpathy/  # COCO Karpathy
 ├── audio/          # 音频数据集
 │   └── audiocaps/  # AudioCaps

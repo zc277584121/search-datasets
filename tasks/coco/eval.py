@@ -36,7 +36,54 @@ def compute_rank(retrieved: List[str], relevant: Set[str]) -> int:
 
 
 def load_ground_truth(dataset_path: Path = None) -> Dict:
-    """Load ground truth from dataset."""
+    """Load ground truth from local file or HuggingFace dataset."""
+    # Try loading from local ground_truth.json first
+    default_path = Path(__file__).parent / "ground_truth.json"
+    if default_path.exists():
+        with open(default_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        i2t_ground_truth = {}
+        t2i_ground_truth = {}
+
+        for image_id, item in data.items():
+            captions = item.get("captions", [])
+            num_captions = len(captions) if captions else 5
+            caption_ids = [f"{image_id}_{i}" for i in range(num_captions)]
+
+            i2t_ground_truth[image_id] = set(caption_ids)
+
+            for cap_id in caption_ids:
+                t2i_ground_truth[cap_id] = {image_id}
+
+        return {
+            "i2t": i2t_ground_truth,
+            "t2i": t2i_ground_truth
+        }
+
+    if dataset_path and dataset_path.exists():
+        with open(dataset_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        i2t_ground_truth = {}
+        t2i_ground_truth = {}
+
+        for image_id, item in data.items():
+            captions = item.get("captions", [])
+            num_captions = len(captions) if captions else 5
+            caption_ids = [f"{image_id}_{i}" for i in range(num_captions)]
+
+            i2t_ground_truth[image_id] = set(caption_ids)
+
+            for cap_id in caption_ids:
+                t2i_ground_truth[cap_id] = {image_id}
+
+        return {
+            "i2t": i2t_ground_truth,
+            "t2i": t2i_ground_truth
+        }
+
+    # Fallback: load from HuggingFace
     try:
         from datasets import load_dataset
         dataset = load_dataset("nlphuji/mscoco_2014_5k_test", split="test")

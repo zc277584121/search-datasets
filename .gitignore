@@ -42,6 +42,7 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .coverage
+demo_predictions.json
 
 # Environment
 .env

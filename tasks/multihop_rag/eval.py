@@ -77,7 +77,41 @@ def compute_retrieval_metrics(
 
 
 def load_ground_truth(dataset_path: Path = None) -> Dict:
-    """Load ground truth from dataset."""
+    """Load ground truth from local file or HuggingFace dataset."""
+    # Try loading from local ground_truth.json first
+    default_path = Path(__file__).parent / "ground_truth.json"
+    if default_path.exists():
+        with open(default_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        # Convert to expected format
+        ground_truth = {}
+        for qid, item in data.items():
+            supporting_facts = item.get("supporting_facts", item.get("evidence_list", []))
+            if isinstance(supporting_facts, list):
+                supporting_facts = set(str(i) for i in range(len(supporting_facts)))
+            ground_truth[qid] = {
+                "answer": item.get("answer", ""),
+                "supporting_facts": supporting_facts if isinstance(supporting_facts, set) else set(),
+                "num_hops": item.get("num_hops", 2)
+            }
+        return ground_truth
+
+    if dataset_path and dataset_path.exists():
+        with open(dataset_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        ground_truth = {}
+        for qid, item in data.items():
+            supporting_facts = item.get("supporting_facts", item.get("evidence_list", []))
+            if isinstance(supporting_facts, list):
+                supporting_facts = set(str(i) for i in range(len(supporting_facts)))
+            ground_truth[qid] = {
+                "answer": item.get("answer", ""),
+                "supporting_facts": supporting_facts if isinstance(supporting_facts, set) else set(),
+                "num_hops": item.get("num_hops", 2)
+            }
+        return ground_truth
+
+    # Fallback: load from HuggingFace
     try:
         from datasets import load_dataset
         dataset = load_dataset("yixuantt/MultiHopRAG", split="test")

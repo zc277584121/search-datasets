@@ -64,8 +64,13 @@ def evaluate_with_llm(
         )
 
         result_text = response.choices[0].message.content
+        # Remove markdown code blocks if present
+        if "```json" in result_text:
+            result_text = result_text.split("```json")[1].split("```")[0]
+        elif "```" in result_text:
+            result_text = result_text.split("```")[1].split("```")[0]
         # Parse JSON response
-        result = json.loads(result_text)
+        result = json.loads(result_text.strip())
         return {
             "relevance": result.get("relevance", 3),
             "coverage": result.get("coverage", 3),

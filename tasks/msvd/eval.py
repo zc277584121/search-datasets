@@ -37,7 +37,58 @@ def compute_rank(retrieved: List[str], relevant: Set[str]) -> int:
 
 
 def load_ground_truth(dataset_path: Path = None) -> Dict:
-    """Load ground truth from dataset."""
+    """Load ground truth from local file or HuggingFace dataset."""
+    # Try loading from local ground_truth.json first
+    default_path = Path(__file__).parent / "ground_truth.json"
+    if default_path.exists():
+        with open(default_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        v2t_ground_truth = {}
+        t2v_ground_truth = {}
+
+        for qid, item in data.items():
+            video_id = item.get("video_id", qid)
+            captions = item.get("caption", [])
+            if isinstance(captions, str):
+                captions = [captions]
+
+            text_ids = [f"{video_id}_{i}" for i in range(len(captions))]
+            v2t_ground_truth[video_id] = set(text_ids)
+
+            for text_id in text_ids:
+                t2v_ground_truth[text_id] = {video_id}
+
+        return {
+            "v2t": v2t_ground_truth,
+            "t2v": t2v_ground_truth
+        }
+
+    if dataset_path and dataset_path.exists():
+        with open(dataset_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        v2t_ground_truth = {}
+        t2v_ground_truth = {}
+
+        for qid, item in data.items():
+            video_id = item.get("video_id", qid)
+            captions = item.get("caption", [])
+            if isinstance(captions, str):
+                captions = [captions]
+
+            text_ids = [f"{video_id}_{i}" for i in range(len(captions))]
+            v2t_ground_truth[video_id] = set(text_ids)
+
+            for text_id in text_ids:
+                t2v_ground_truth[text_id] = {video_id}
+
+        return {
+            "v2t": v2t_ground_truth,
+            "t2v": t2v_ground_truth
+        }
+
+    # Fallback: load from HuggingFace
     try:
         from datasets import load_dataset
         dataset = load_dataset("friedrichor/MSVD", split="test")

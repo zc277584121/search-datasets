@@ -53,7 +53,18 @@ def compare_results(pred_results: List[Tuple], gold_results: List[Tuple]) -> boo
 
 
 def load_ground_truth(dataset_path: Path = None) -> Dict:
-    """Load ground truth from dataset."""
+    """Load ground truth from local file or HuggingFace dataset."""
+    # Try loading from local ground_truth.json first
+    default_path = Path(__file__).parent / "ground_truth.json"
+    if default_path.exists():
+        with open(default_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    if dataset_path and dataset_path.exists():
+        with open(dataset_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    # Fallback: load from HuggingFace
     try:
         from datasets import load_dataset
         dataset = load_dataset("xlangai/spider", split="validation")

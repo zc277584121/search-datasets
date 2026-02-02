@@ -59,7 +59,35 @@ def compute_recall_at_k(retrieved: List[str], relevant: Set[str], k: int) -> flo
 
 
 def load_ground_truth(dataset_path: Path = None) -> Dict:
-    """Load ground truth from dataset."""
+    """Load ground truth from local file or HuggingFace dataset."""
+    # Try loading from local ground_truth.json first
+    default_path = Path(__file__).parent / "ground_truth.json"
+    if default_path.exists():
+        with open(default_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        # Convert to expected format (set of relevant docs)
+        ground_truth = {}
+        for qid, item in data.items():
+            relevant_docs = item.get("relevant_docs", [])
+            if isinstance(relevant_docs, list):
+                ground_truth[qid] = set(relevant_docs)
+            else:
+                ground_truth[qid] = set()
+        return ground_truth
+
+    if dataset_path and dataset_path.exists():
+        with open(dataset_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        ground_truth = {}
+        for qid, item in data.items():
+            relevant_docs = item.get("relevant_docs", [])
+            if isinstance(relevant_docs, list):
+                ground_truth[qid] = set(relevant_docs)
+            else:
+                ground_truth[qid] = set()
+        return ground_truth
+
+    # Fallback: load from HuggingFace
     try:
         from datasets import load_dataset
         dataset = load_dataset("Pavithree/eli5", split="test_eli5")

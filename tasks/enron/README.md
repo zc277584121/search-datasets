@@ -1,14 +1,15 @@
-# Enron 邮件搜索
+# Enron 邮件垃圾分类
 
 ## 任务描述
 
-Enron 邮件数据集包含安然公司员工的真实电子邮件，可用于邮件检索和垃圾邮件检测任务。
+Enron 邮件数据集包含安然公司员工的真实电子邮件，任务是判断邮件是否为垃圾邮件。
 
 ## 数据集信息
 
 - **来源**: `SetFit/enron_spam`
 - **评测集**: 500 条
 - **语言**: 英语
+- **标签**: spam（垃圾邮件）/ ham（正常邮件）
 
 ## 数据格式
 
@@ -47,7 +48,7 @@ for query in data["queries"]:
     qid = query["id"]
     email_text = query["text"]
 
-    # 垃圾邮件分类
+    # 用你的模型分类
     label = your_model.classify(email_text)  # "spam" or "ham"
     predictions[qid] = label
 ```
@@ -57,7 +58,6 @@ for query in data["queries"]:
 ```json
 {
   "model_name": "your-model-name",
-  "task_type": "spam_detection",
   "predictions": {
     "0": "ham",
     "1": "spam",
@@ -66,10 +66,13 @@ for query in data["queries"]:
 }
 ```
 
+**说明**:
+- 预测值为 `"spam"` 或 `"ham"`
+
 ### 3. 运行评估
 
 ```bash
-python eval.py --submission predictions.json --task-type spam_detection
+python eval.py --submission predictions.json
 ```
 
 ## 评估指标

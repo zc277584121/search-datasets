@@ -53,7 +53,44 @@ def compute_average_precision(retrieved: List[str], relevant: Set[str]) -> float
 
 
 def load_ground_truth(dataset_path: Path = None) -> Dict:
-    """Load ground truth from dataset."""
+    """Load ground truth from local file or HuggingFace dataset."""
+    # Try loading from local ground_truth.json first
+    default_path = Path(__file__).parent / "ground_truth.json"
+    if default_path.exists():
+        with open(default_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        a2t_ground_truth = {}
+        t2a_ground_truth = {}
+
+        for audio_id, item in data.items():
+            text_id = f"{audio_id}_caption"
+            a2t_ground_truth[audio_id] = {text_id}
+            t2a_ground_truth[text_id] = {audio_id}
+
+        return {
+            "a2t": a2t_ground_truth,
+            "t2a": t2a_ground_truth
+        }
+
+    if dataset_path and dataset_path.exists():
+        with open(dataset_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        a2t_ground_truth = {}
+        t2a_ground_truth = {}
+
+        for audio_id, item in data.items():
+            text_id = f"{audio_id}_caption"
+            a2t_ground_truth[audio_id] = {text_id}
+            t2a_ground_truth[text_id] = {audio_id}
+
+        return {
+            "a2t": a2t_ground_truth,
+            "t2a": t2a_ground_truth
+        }
+
+    # Fallback: load from HuggingFace
     try:
         from datasets import load_dataset
         dataset = load_dataset("AudioLLMs/audiocaps_test", split="test")
