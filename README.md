@@ -1,6 +1,6 @@
 # 任务列表
 
-本目录包含 15 个独立的搜索与检索评估任务。每个任务目录都是完全自包含的，包含独立的评估脚本和提交模板。
+本目录包含 15 个独立的搜索与检索评估任务（每个目录均可点击进入）。每个任务目录都是完全自包含的，包含独立的评估脚本和提交模板。
 
 ## 目录结构
 
@@ -19,47 +19,47 @@ task_name/
 
 | 任务 | 目录 | 数据集 | 评估方式 |
 |------|------|--------|----------|
-| SQuAD 2.0 阅读理解 | `squad2/` | `rajpurkar/squad_v2` | EM/F1 |
-| CMRC 2018 中文阅读理解 | `cmrc2018/` | `hfl/cmrc2018` | EM/F1 |
+| SQuAD 2.0 阅读理解 | [`squad2/`](./squad2/) | `rajpurkar/squad_v2` | EM/F1 |
+| CMRC 2018 中文阅读理解 | [`cmrc2018/`](./cmrc2018/) | `hfl/cmrc2018` | EM/F1 |
+| Quora 重复问题检测 | [`quora_duplicate/`](./quora_duplicate/) | `quora` | MRR/NDCG |
 
 ### 多模态
 
 | 任务 | 目录 | 数据集 | 评估方式 |
 |------|------|--------|----------|
-| ChartQA 图表推理 | `chartqa/` | `HuggingFaceM4/ChartQA` | 宽松准确率 |
-| COCO 图文检索 | `coco/` | `nlphuji/mscoco_2014_5k_test` | R@K |
-| AudioCaps 音频检索 | `audiocaps/` | `AudioLLMs/audiocaps_test` | R@K |
-| MSVD 视频检索 | `msvd/` | `friedrichor/MSVD` | R@K |
+| ChartQA 图表推理 | [`chartqa/`](./chartqa/) | `HuggingFaceM4/ChartQA` | 宽松准确率 |
+| COCO 图文检索 | [`coco/`](./coco/) | `nlphuji/mscoco_2014_5k_test` | R@K |
+| AudioCaps 音频检索 | [`audiocaps/`](./audiocaps/) | `AudioLLMs/audiocaps_test` | R@K |
+| MSVD 视频检索 | [`msvd/`](./msvd/) | `friedrichor/MSVD` | R@K |
 
 ### 领域任务
 
 | 任务 | 目录 | 数据集 | 评估方式 |
 |------|------|--------|----------|
-| FinQA 金融推理 | `finqa/` | `dreamerdeo/finqa` | 执行准确率 |
-| Spider Text-to-SQL | `spider/` | `xlangai/spider` | 执行准确率 |
-| CUAD 合同审查 | `cuad/` | `theatticusproject/cuad-qa` | AUPR/F1 |
+| FinQA 金融推理 | [`finqa/`](./finqa/) | `dreamerdeo/finqa` | 执行准确率 |
+| Spider Text-to-SQL | [`spider/`](./spider/) | `xlangai/spider` | 执行准确率 |
+| CUAD 合同审查 | [`cuad/`](./cuad/) | `theatticusproject/cuad-qa` | AUPR/F1 |
 
 ### RAG 与问答
 
 | 任务 | 目录 | 数据集 | 评估方式 |
 |------|------|--------|----------|
-| MultiHop-RAG | `multihop_rag/` | `yixuantt/MultiHopRAG` | Recall/F1 |
-| ELI5 问答检索 | `eli5/` | `Pavithree/eli5` | MRR/NDCG |
+| MultiHop-RAG | [`multihop_rag/`](./multihop_rag/) | `yixuantt/MultiHopRAG` | Recall/F1 |
+| ELI5 问答检索 | [`eli5/`](./eli5/) | `Pavithree/eli5` | MRR/NDCG |
 
 ### 对话与社交
 
 | 任务 | 目录 | 数据集 | 评估方式 |
 |------|------|--------|----------|
-| WildChat 对话检索 | `wildchat/` | `sam-paech/wildchat_*` | LLM-as-Judge |
-| Discord 聊天检索 | `discord/` | `breadlicker45/discord-chat` | LLM-as-Judge |
-| GitHub Issues 检索 | `github_issues/` | `lewtun/github-issues` | LLM-as-Judge |
-| Enron 邮件搜索 | `enron/` | `SetFit/enron_spam` | F1/LLM-as-Judge |
+| WildChat 对话检索 | [`wildchat/`](./wildchat/) | `sam-paech/wildchat_*` | LLM-as-Judge |
+| Discord 聊天检索 | [`discord/`](./discord/) | `breadlicker45/discord-chat` | LLM-as-Judge |
+| Enron 邮件搜索 | [`enron/`](./enron/) | `SetFit/enron_spam` | F1/LLM-as-Judge |
 
 ## 快速开始
 
 1. 进入任务目录
 ```bash
-cd tasks/squad2
+cd squad2
 ```
 
 2. 阅读任务说明
