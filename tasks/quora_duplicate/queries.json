@@ -1,0 +1,2007 @@
+{
+  "task": "quora_duplicate",
+  "description": "Quora Duplicate Question Retrieval",
+  "total": 500,
+  "queries": [
+    {
+      "id": "0",
+      "question": "How do I add photos to my questions in Quora?"
+    },
+    {
+      "id": "1",
+      "question": "How many of you think Gautam Gambhir is underrated cricketer?"
+    },
+    {
+      "id": "2",
+      "question": "Why do people ask question on Quora that can be easily and definitively answered by Googling?"
+    },
+    {
+      "id": "3",
+      "question": "What is a monarchy?"
+    },
+    {
+      "id": "4",
+      "question": "Is it worth it to pursue a MTech from NIT?"
+    },
+    {
+      "id": "5",
+      "question": "How can I be a doctor?"
+    },
+    {
+      "id": "6",
+      "question": "If earth has been visited and helped by aliens in the past, why don't we find evidence of their advanced technology?"
+    },
+    {
+      "id": "7",
+      "question": "How do I find my life's goal?"
+    },
+    {
+      "id": "8",
+      "question": "What are your favorite mundane daily rituals?"
+    },
+    {
+      "id": "9",
+      "question": "How do I learn SQL?"
+    },
+    {
+      "id": "10",
+      "question": "What is it like to be President of the United States?"
+    },
+    {
+      "id": "11",
+      "question": "Are vacuum fluctuations energy in vacuum? Are these virtual particles? How do we know there's this energy if they didn't exist? Do they really exist?"
+    },
+    {
+      "id": "12",
+      "question": "How can I start getting involved in politics?"
+    },
+    {
+      "id": "13",
+      "question": "What is Kantianism? What are some examples?"
+    },
+    {
+      "id": "14",
+      "question": "Who is the person you respect the most, and why?"
+    },
+    {
+      "id": "15",
+      "question": "What are the some lesser known fact about Indian railways?"
+    },
+    {
+      "id": "16",
+      "question": "What will be the best place in Sydney to buy any fire-resistant Roller Shutter?"
+    },
+    {
+      "id": "17",
+      "question": "How do you post question in Quora? I posted many but rejected."
+    },
+    {
+      "id": "18",
+      "question": "My answer was collapsed and I can't even appeal against it. What should I do?"
+    },
+    {
+      "id": "19",
+      "question": "How common is prostitution in Saudi Arabia?"
+    },
+    {
+      "id": "20",
+      "question": "Where can I get very comprehensive commercial painting services in Brisbane?"
+    },
+    {
+      "id": "21",
+      "question": "Why do people write for Quora?"
+    },
+    {
+      "id": "22",
+      "question": "How do I overcome depression, anxiety and stress?"
+    },
+    {
+      "id": "23",
+      "question": "What are some of your favorite Christmas traditions you've started with your family?"
+    },
+    {
+      "id": "24",
+      "question": "Can India host the Summer Olympics?"
+    },
+    {
+      "id": "25",
+      "question": "Quora: How do you get your answer on top?"
+    },
+    {
+      "id": "26",
+      "question": "Would Steve Jobs be proud of Tim Cook's performance right now?"
+    },
+    {
+      "id": "27",
+      "question": "What are some characteristics of dicot plants?"
+    },
+    {
+      "id": "28",
+      "question": "What are the biggest lies?"
+    },
+    {
+      "id": "29",
+      "question": "What do you think of my Utopia country?"
+    },
+    {
+      "id": "30",
+      "question": "In a California unlawful detainer can a one of two family trustees file as an individual plaintiff? ."
+    },
+    {
+      "id": "31",
+      "question": "How do I learn Python Programming the most effective way?"
+    },
+    {
+      "id": "32",
+      "question": "Does Hillary Clinton have health issues we, as voters, should be concerned about?"
+    },
+    {
+      "id": "33",
+      "question": "What is best online business loan company?"
+    },
+    {
+      "id": "34",
+      "question": "Why do some people call Donald Trump racist?"
+    },
+    {
+      "id": "35",
+      "question": "I'm 27, is it too late for me to go to medical school?"
+    },
+    {
+      "id": "36",
+      "question": "Who was the greatest physicist of all time?"
+    },
+    {
+      "id": "37",
+      "question": "What are the requirements to join the Canadian Army?"
+    },
+    {
+      "id": "38",
+      "question": "How should I put question anonymously on Quora?"
+    },
+    {
+      "id": "39",
+      "question": "What are Raghuram Rajan's views on demonetization of 500 and 1000 notes by the Modi Government?"
+    },
+    {
+      "id": "40",
+      "question": "Can a broken bone heal perfectly?"
+    },
+    {
+      "id": "41",
+      "question": "What is the best way to avoid questions needing improvement on Quora?"
+    },
+    {
+      "id": "42",
+      "question": "What is your review of MS Dhoni: The untold story?"
+    },
+    {
+      "id": "43",
+      "question": "How should you end an abusive relationship?"
+    },
+    {
+      "id": "44",
+      "question": "How do I start up a new cafe?"
+    },
+    {
+      "id": "45",
+      "question": "Does GDP determine the standard of living in countries?"
+    },
+    {
+      "id": "46",
+      "question": "What is a simple open source project to contribute  code to?"
+    },
+    {
+      "id": "47",
+      "question": "What are some of the most common examples of Newton's Second Law?"
+    },
+    {
+      "id": "48",
+      "question": "Why do so many Quora questions have poor spelling and grammar?"
+    },
+    {
+      "id": "49",
+      "question": "Which is the best cheap beach resort in Goa?"
+    },
+    {
+      "id": "50",
+      "question": "What are the issues associated with creating new provinces in Pakistan?"
+    },
+    {
+      "id": "51",
+      "question": "Is it okay to leave an iPhone plugged into the charger even after it is 100% charged?"
+    },
+    {
+      "id": "52",
+      "question": "What are some mind blowing facts about the world?"
+    },
+    {
+      "id": "53",
+      "question": "How can I meet Elon Musk?"
+    },
+    {
+      "id": "54",
+      "question": "How do you set up voicemail on an iPhone?"
+    },
+    {
+      "id": "55",
+      "question": "Can supreme court in India cancel government decision on demonetization?"
+    },
+    {
+      "id": "56",
+      "question": "How do I verify my Facebook account and send the code to my new phone number?"
+    },
+    {
+      "id": "57",
+      "question": "Is incest linked to narcissism?"
+    },
+    {
+      "id": "58",
+      "question": "What are the best soothing songs?"
+    },
+    {
+      "id": "59",
+      "question": "Why are there still people who think that the Earth is flat?"
+    },
+    {
+      "id": "60",
+      "question": "What should happen with Kashmir?"
+    },
+    {
+      "id": "61",
+      "question": "Why do you think Indian government has demolished RS 500 and RS 1000 notes?"
+    },
+    {
+      "id": "62",
+      "question": "What is your average day like and what do you do?"
+    },
+    {
+      "id": "63",
+      "question": "What would the world be like today if the Black Plague had never happened?"
+    },
+    {
+      "id": "64",
+      "question": "If I'm a foreign lawyer, with a foreign law degree, do I have to take a test or any other requirements to practice law in California?"
+    },
+    {
+      "id": "65",
+      "question": "What is the best way to avoid procrastination?"
+    },
+    {
+      "id": "66",
+      "question": "What are acids and bases? What are examples of this?"
+    },
+    {
+      "id": "67",
+      "question": "Which is the most underrated Bollywood movie?"
+    },
+    {
+      "id": "68",
+      "question": "How do I know when I'm having an orgasm?"
+    },
+    {
+      "id": "69",
+      "question": "What should I wear for concert?"
+    },
+    {
+      "id": "70",
+      "question": "How should I prepare for BITSAT 2017?"
+    },
+    {
+      "id": "71",
+      "question": "What does it mean by 'moment' of a random variable?"
+    },
+    {
+      "id": "72",
+      "question": "What are some of the best ways to memorize things faster?"
+    },
+    {
+      "id": "73",
+      "question": "What do you hate about group homes for autistic adults?"
+    },
+    {
+      "id": "74",
+      "question": "What are the best ways to be a better web designer?"
+    },
+    {
+      "id": "75",
+      "question": "What does the Quran say about triple talaq?"
+    },
+    {
+      "id": "76",
+      "question": "How is Bangalore City?"
+    },
+    {
+      "id": "77",
+      "question": "Is KFC Halal?"
+    },
+    {
+      "id": "78",
+      "question": "What is the need of voltage regulation?"
+    },
+    {
+      "id": "79",
+      "question": "Why do so many people ask questions on Quora instead of searching the answers on Wikipedia?"
+    },
+    {
+      "id": "80",
+      "question": "Why isn't the US dollar weakening?"
+    },
+    {
+      "id": "81",
+      "question": "Life Lessons: What can I learn in a minute that will be useful for the rest of my life?"
+    },
+    {
+      "id": "82",
+      "question": "Can marrying an only child be difficult to deal with?"
+    },
+    {
+      "id": "83",
+      "question": "What will be the positive and negative effects of demonization of ₹500/1000 notes on Indian economy?"
+    },
+    {
+      "id": "84",
+      "question": "Why are so many questions posted to Quora that are so easily answered by using Google?"
+    },
+    {
+      "id": "85",
+      "question": "How can I get 95% in icse boards?"
+    },
+    {
+      "id": "86",
+      "question": "How can we measure the height of mountain?"
+    },
+    {
+      "id": "87",
+      "question": "What are monoecious plants and what are examples of them?"
+    },
+    {
+      "id": "88",
+      "question": "How can I get started with web design?"
+    },
+    {
+      "id": "89",
+      "question": "How do I stop feeling guilty for no reason?"
+    },
+    {
+      "id": "90",
+      "question": "What are some good books on Quantum Field Theory for advanced undergraduates?"
+    },
+    {
+      "id": "91",
+      "question": "How can I get rid of insomnia?"
+    },
+    {
+      "id": "92",
+      "question": "Is the world unfair to you?"
+    },
+    {
+      "id": "93",
+      "question": "Who was the most evil person you ever knew personally?"
+    },
+    {
+      "id": "94",
+      "question": "Where can I learn C++?"
+    },
+    {
+      "id": "95",
+      "question": "What is like to date pornstar?"
+    },
+    {
+      "id": "96",
+      "question": "Without naming his opponent, what are 5 reasons to vote for Trump?"
+    },
+    {
+      "id": "97",
+      "question": "Where can I meet British people in Canada?"
+    },
+    {
+      "id": "98",
+      "question": "Does masturbation affect muscle growth when working out?"
+    },
+    {
+      "id": "99",
+      "question": "Who created the fake UN tribunal in Hague in the world?"
+    },
+    {
+      "id": "100",
+      "question": "Why do people fall in love with celebrities?"
+    },
+    {
+      "id": "101",
+      "question": "Why do my hands and feet go numb and cold after I shoot meth?"
+    },
+    {
+      "id": "102",
+      "question": "Why doesn't Quora allow the use of emoticons?"
+    },
+    {
+      "id": "103",
+      "question": "Why study mathematics?"
+    },
+    {
+      "id": "104",
+      "question": "What is the population of black people in the world?"
+    },
+    {
+      "id": "105",
+      "question": "What's a way to last longer during sex? (For guys)?"
+    },
+    {
+      "id": "106",
+      "question": "What are the pros and cons of spiritual awakening?"
+    },
+    {
+      "id": "107",
+      "question": "Why do people ask questions on Quora that can easily be answered by Google?"
+    },
+    {
+      "id": "108",
+      "question": "Technology: What are the best smartphones gadgets?"
+    },
+    {
+      "id": "109",
+      "question": "What are the best algorithm books for beginners?"
+    },
+    {
+      "id": "110",
+      "question": "What is the best PHP development company in India?"
+    },
+    {
+      "id": "111",
+      "question": "How do I increase my reaction time?"
+    },
+    {
+      "id": "112",
+      "question": "Why do people ask questions here in Quora instead of just googling?"
+    },
+    {
+      "id": "113",
+      "question": "Is CAT after b.tech in mechanical engineering useful?"
+    },
+    {
+      "id": "114",
+      "question": "What is your best study tip?"
+    },
+    {
+      "id": "115",
+      "question": "What is the best method to lose 20 pounds in 4 weeks or less?"
+    },
+    {
+      "id": "116",
+      "question": "Which are the best Bollywood movies in 2016?"
+    },
+    {
+      "id": "117",
+      "question": "What is it like to have a boyfriend in Indian army?"
+    },
+    {
+      "id": "118",
+      "question": "Which are the best websites to sell artwork?"
+    },
+    {
+      "id": "119",
+      "question": "How do I know if I have been blocked by someone on Hike?"
+    },
+    {
+      "id": "120",
+      "question": "What is the expected cutoff for KVPY SA 2016 -17?"
+    },
+    {
+      "id": "121",
+      "question": "How did you learn programming when you were a complete beginner?"
+    },
+    {
+      "id": "122",
+      "question": "Ive told my friend that I have been intimate with that I have feelings for him now he wants a two week break over Christmas to think things over?"
+    },
+    {
+      "id": "123",
+      "question": "Why did Zayn Malik leave One Directon?"
+    },
+    {
+      "id": "124",
+      "question": "What is your proudest moment?"
+    },
+    {
+      "id": "125",
+      "question": "I smoked weed for the first time ever a couple days ago, how long until it's out of my system?"
+    },
+    {
+      "id": "126",
+      "question": "What are some interesting things I can do when I am bored and home alone?"
+    },
+    {
+      "id": "127",
+      "question": "What was your first question on Quora?"
+    },
+    {
+      "id": "128",
+      "question": "What is the benefits of reading?"
+    },
+    {
+      "id": "129",
+      "question": "Are electronic cigarettes as healthy as we are made to believe?"
+    },
+    {
+      "id": "130",
+      "question": "How do you know if you cat loves you?"
+    },
+    {
+      "id": "131",
+      "question": "What are some good philosophical questions?"
+    },
+    {
+      "id": "132",
+      "question": "How do I build a home?"
+    },
+    {
+      "id": "133",
+      "question": "Why didn't Philippine ask the UN backed courts to rule, instead of the black-box operated and private Arbitration to rule for the SCS?"
+    },
+    {
+      "id": "134",
+      "question": "Why did Romans conquered Britannia, but didn't conquer Hibernia?"
+    },
+    {
+      "id": "135",
+      "question": "\"What is the difference between infatuation and \"\"real love\"\"?\""
+    },
+    {
+      "id": "136",
+      "question": "What are the best ways to advertise a blog?"
+    },
+    {
+      "id": "137",
+      "question": "What is my purpose in life? Why is there life on Earth?"
+    },
+    {
+      "id": "138",
+      "question": "How can you resolve the problem of accounting software tool by quickbooks technical support number?"
+    },
+    {
+      "id": "139",
+      "question": "Where can I find angel investors for an invention?"
+    },
+    {
+      "id": "140",
+      "question": "What is difference between front end and back end web developer?"
+    },
+    {
+      "id": "141",
+      "question": "Do bad things happen to good people? Or do bad things create good people?"
+    },
+    {
+      "id": "142",
+      "question": "How can I slow down the signs of aging?"
+    },
+    {
+      "id": "143",
+      "question": "What is the total cost of printing and circulating of the new Rs 500 and Rs 2000 notes?"
+    },
+    {
+      "id": "144",
+      "question": "What are the steps to implement the object localisation algorithm in FPGA?"
+    },
+    {
+      "id": "145",
+      "question": "What is the best romantic movie of all time?"
+    },
+    {
+      "id": "146",
+      "question": "I am an undergraduate. All my friends smoke, but I don't. Am I missing something?"
+    },
+    {
+      "id": "147",
+      "question": "If a war erupts between USA and Russia who will eventually win?"
+    },
+    {
+      "id": "148",
+      "question": "How can I work for Blizzard or Riot Games?"
+    },
+    {
+      "id": "149",
+      "question": "Shouldn't Modi Government privatize Railways and other Public Sector industries?"
+    },
+    {
+      "id": "150",
+      "question": "What is the difference between American and Indian education?"
+    },
+    {
+      "id": "151",
+      "question": "What is in the Bermuda triangle?"
+    },
+    {
+      "id": "152",
+      "question": "How does Google maps finds traffice update?"
+    },
+    {
+      "id": "153",
+      "question": "What is the spookiest experience you've ever had?"
+    },
+    {
+      "id": "154",
+      "question": "What are the health effects, if any, of honey and lemon water?"
+    },
+    {
+      "id": "155",
+      "question": "I have a valid student visa for the UK and I want to travel back to the UK to meet my friend there. Can I travel to the UK with my valid student visa (considering the fact that my university degree is over)?"
+    },
+    {
+      "id": "156",
+      "question": "How do I learn how to draw?"
+    },
+    {
+      "id": "157",
+      "question": "Why do people believe the earth is flat when clearly earth is round from space?"
+    },
+    {
+      "id": "158",
+      "question": "Why do some people drive slowly (10+ MPH under the speed limit) in the passing lane?"
+    },
+    {
+      "id": "159",
+      "question": "What is the scariest paranormal experience you've ever had?"
+    },
+    {
+      "id": "160",
+      "question": "What are the advantages of an IOS over an Android?"
+    },
+    {
+      "id": "161",
+      "question": "What are the benefits of lipton green tea? Is it healthy to drink it twice a day?"
+    },
+    {
+      "id": "162",
+      "question": "How long can you live without food?"
+    },
+    {
+      "id": "163",
+      "question": "What is alkali?"
+    },
+    {
+      "id": "164",
+      "question": "What is your favorite drink?"
+    },
+    {
+      "id": "165",
+      "question": "Is the rise of China good for the world?"
+    },
+    {
+      "id": "166",
+      "question": "How do you permantley delete a Yahoo e-mail account?"
+    },
+    {
+      "id": "167",
+      "question": "What is the one thing you regret doing in your life?"
+    },
+    {
+      "id": "168",
+      "question": "What religions would aliens have?"
+    },
+    {
+      "id": "169",
+      "question": "Why did Mulayam Singh Yadav expel Akhilesh Yadav from Samajwadi Party? What do you think about it?"
+    },
+    {
+      "id": "170",
+      "question": "What are the safety precautions on handling shotguns proposed by the NRA in Minnesota?"
+    },
+    {
+      "id": "171",
+      "question": "What should I know before moving to Bangalore?"
+    },
+    {
+      "id": "172",
+      "question": "What is the way to start/create a new religion?"
+    },
+    {
+      "id": "173",
+      "question": "Where is the best washing machine service center in Hyderabad?"
+    },
+    {
+      "id": "174",
+      "question": "Is there any way to recover e-mails that were deleted from a Gmail account?"
+    },
+    {
+      "id": "175",
+      "question": "Why does the cone of light form on the tympanic membrane?"
+    },
+    {
+      "id": "176",
+      "question": "What are the websites a Mechanical Engineer student should visit?"
+    },
+    {
+      "id": "177",
+      "question": "Why is public education failing?"
+    },
+    {
+      "id": "178",
+      "question": "What do you love the most about yourself?"
+    },
+    {
+      "id": "179",
+      "question": "What is the best way to loose weight quickly?"
+    },
+    {
+      "id": "180",
+      "question": "Why don’t some people believe in God?"
+    },
+    {
+      "id": "181",
+      "question": "Does dark matter exist on earth?"
+    },
+    {
+      "id": "182",
+      "question": "\"What does the phrase \"\"check yourself before you wreck yourself\"\" mean?\""
+    },
+    {
+      "id": "183",
+      "question": "Is sign language universal among deaf people, or are there different varieties for different countries?"
+    },
+    {
+      "id": "184",
+      "question": "How do I forget someone whom I once loved and cared for deeply?"
+    },
+    {
+      "id": "185",
+      "question": "What are the good game stalls ideas that which gives much money than others at college fests?"
+    },
+    {
+      "id": "186",
+      "question": "Which is the best Business school in the World?"
+    },
+    {
+      "id": "187",
+      "question": "How do I learn acoustic guitar at home?"
+    },
+    {
+      "id": "188",
+      "question": "Has a president elect ever been forced out?"
+    },
+    {
+      "id": "189",
+      "question": "What are the differences between mitosis and meiosis? What are their similarities?"
+    },
+    {
+      "id": "190",
+      "question": "Is it justified for a country to spend millions on missiles when billions are still struggling in poverty?"
+    },
+    {
+      "id": "191",
+      "question": "What books should I read as an aspiring entrepreneur?"
+    },
+    {
+      "id": "192",
+      "question": "Why does Quora tend to attract more leftists than conservatives?"
+    },
+    {
+      "id": "193",
+      "question": "What are good jobs for people with autism?"
+    },
+    {
+      "id": "194",
+      "question": "How do I find a phone number’s location?"
+    },
+    {
+      "id": "195",
+      "question": "What are some surprising facts about africa?"
+    },
+    {
+      "id": "196",
+      "question": "Are the new Apple Macbook pros really worth their price?"
+    },
+    {
+      "id": "197",
+      "question": "Can I do MBBS after my BE? Is it possible?"
+    },
+    {
+      "id": "198",
+      "question": "How do I become better at controlling emotions?"
+    },
+    {
+      "id": "199",
+      "question": "How do I flirt unknown girls?"
+    },
+    {
+      "id": "200",
+      "question": "Have you ever been in a car accident? If yes, then how do you feel after that?"
+    },
+    {
+      "id": "201",
+      "question": "What is Coursera?"
+    },
+    {
+      "id": "202",
+      "question": "What is the merits and Demerits of GST in India?"
+    },
+    {
+      "id": "203",
+      "question": "Who is the most corrupt Indian politician till date?"
+    },
+    {
+      "id": "204",
+      "question": "What's the worst customer service experience you've ever had?"
+    },
+    {
+      "id": "205",
+      "question": "What is the best gaming laptop I can buy under 60000 in India?"
+    },
+    {
+      "id": "206",
+      "question": "What were the highlights of PM Modi's speech on New Year's Eve 2017 and what are your views about it ?"
+    },
+    {
+      "id": "207",
+      "question": "What are some painless ways to commit suicide?"
+    },
+    {
+      "id": "208",
+      "question": "Can Adobe Photoshop be found on the internet for free?"
+    },
+    {
+      "id": "209",
+      "question": "Why one should use Ubuntu over Windows for web development?"
+    },
+    {
+      "id": "210",
+      "question": "What are the hardest puzzles asked in interview?"
+    },
+    {
+      "id": "211",
+      "question": "Which celebrities are there on Quora?"
+    },
+    {
+      "id": "212",
+      "question": "What do you do to get better at basketball?"
+    },
+    {
+      "id": "213",
+      "question": "What are some tools used to measure weight?"
+    },
+    {
+      "id": "214",
+      "question": "Where did you find happiness?"
+    },
+    {
+      "id": "215",
+      "question": "How can we curb pollution in Delhi NCR?"
+    },
+    {
+      "id": "216",
+      "question": "What are some of the best thing to do after break up?"
+    },
+    {
+      "id": "217",
+      "question": "I am planning to buy iPhone 6 and will update it to iOS 10, will it be a good buy? (as the 6S is pretty expensive)"
+    },
+    {
+      "id": "218",
+      "question": "Why could Hillary Clinton go to jail?"
+    },
+    {
+      "id": "219",
+      "question": "How do you read the balance sheet of a company?"
+    },
+    {
+      "id": "220",
+      "question": "Is it a good idea to buy a certified car (less than 30K miles) from a car rental company?"
+    },
+    {
+      "id": "221",
+      "question": "Is it true that cats are afraid of cucumbers?"
+    },
+    {
+      "id": "222",
+      "question": "Why did Quora remove the 'needs improvement' tags?"
+    },
+    {
+      "id": "223",
+      "question": "Which is the best smart phone around 15k?"
+    },
+    {
+      "id": "224",
+      "question": "What are the best gaming laptops under INR 60000?"
+    },
+    {
+      "id": "225",
+      "question": "How can you determine the resonance structure for N3?"
+    },
+    {
+      "id": "226",
+      "question": "How do I prepare to get a good rank in the GATE exam to get a seat in IIT?"
+    },
+    {
+      "id": "227",
+      "question": "Why TATA sons replaced Cyrus Mistry to Ratan TATA?"
+    },
+    {
+      "id": "228",
+      "question": "How do people in cold countries manage to take showers and keep themselves clean everyday?"
+    },
+    {
+      "id": "229",
+      "question": "Why don't I have an orgasm?"
+    },
+    {
+      "id": "230",
+      "question": "Why do HAL sucks?"
+    },
+    {
+      "id": "231",
+      "question": "Is the Earth flat?"
+    },
+    {
+      "id": "232",
+      "question": "Where can I get high quality service for ant control in Bronte?"
+    },
+    {
+      "id": "233",
+      "question": "How can I get excellent at programming?"
+    },
+    {
+      "id": "234",
+      "question": "Does swimming increase your height in twenties?"
+    },
+    {
+      "id": "235",
+      "question": "Why does a dog chase its tail?"
+    },
+    {
+      "id": "236",
+      "question": "Modi Ji was very positive about the Lokpal before coming to power. Why hasn't he appointed a Lokpal committee yet?"
+    },
+    {
+      "id": "237",
+      "question": "How is life at iit bombay?"
+    },
+    {
+      "id": "238",
+      "question": "\"What is the meaning of the word \"\"arbitrary\"\"?\""
+    },
+    {
+      "id": "239",
+      "question": "What is your score and rank in NEET 2016?"
+    },
+    {
+      "id": "240",
+      "question": "What do you struggle with most in your life?"
+    },
+    {
+      "id": "241",
+      "question": "Why Islam is a threat?"
+    },
+    {
+      "id": "242",
+      "question": "What can I do after BDS in Canada?"
+    },
+    {
+      "id": "243",
+      "question": "What is a logic gate?"
+    },
+    {
+      "id": "244",
+      "question": "How do I become an investment banker in India?"
+    },
+    {
+      "id": "245",
+      "question": "Why does Quora let authors to disable comments for their answer?"
+    },
+    {
+      "id": "246",
+      "question": "What do Mormons believe about heaven and how does this affect them?"
+    },
+    {
+      "id": "247",
+      "question": "What was the craziest dream that you've ever had?"
+    },
+    {
+      "id": "248",
+      "question": "How does a laser guided bomb work?"
+    },
+    {
+      "id": "249",
+      "question": "When you get a benzoyl peroxide burn, how should you treat it?"
+    },
+    {
+      "id": "250",
+      "question": "What are the ugliest tattoos you have ever seen?"
+    },
+    {
+      "id": "251",
+      "question": "What are some real life examples of karma?"
+    },
+    {
+      "id": "252",
+      "question": "Why are most gay men so feminine?"
+    },
+    {
+      "id": "253",
+      "question": "Do human beings get all of their genes for intelligence from their mother?"
+    },
+    {
+      "id": "254",
+      "question": "How can I increase my breast size naturally if I'm a B cup?"
+    },
+    {
+      "id": "255",
+      "question": "How does one get smooth legs?"
+    },
+    {
+      "id": "256",
+      "question": "How should I go about learning Machine Learning?"
+    },
+    {
+      "id": "257",
+      "question": "What are the best photos taken with a smartphone?"
+    },
+    {
+      "id": "258",
+      "question": "How do I cancel Quora?"
+    },
+    {
+      "id": "259",
+      "question": "Why do people find their birthday very special?"
+    },
+    {
+      "id": "260",
+      "question": "What would cause a demand curve to shift?"
+    },
+    {
+      "id": "261",
+      "question": "What are some good Malayalam books to read?"
+    },
+    {
+      "id": "262",
+      "question": "How can you convert an internal-combustion-powered car into an electric-powered car?"
+    },
+    {
+      "id": "263",
+      "question": "How do I promote a new website?"
+    },
+    {
+      "id": "264",
+      "question": "What should be my strategy to earn coins in MiniClip 8 Ball Pool?"
+    },
+    {
+      "id": "265",
+      "question": "How much do I need to earn to live in New York City?"
+    },
+    {
+      "id": "266",
+      "question": "What is the best way to prevent Cancer?"
+    },
+    {
+      "id": "267",
+      "question": "\"Why do people say \"\"Bullies are jealous of you\"\"?\""
+    },
+    {
+      "id": "268",
+      "question": "What are some tips to gain weight as a teenager?"
+    },
+    {
+      "id": "269",
+      "question": "How would you spend the last 24 hours in your life?"
+    },
+    {
+      "id": "270",
+      "question": "How do you manage to deal with stress?"
+    },
+    {
+      "id": "271",
+      "question": "What is it like to rapidly go from being poor/middle class to incredibly rich?"
+    },
+    {
+      "id": "272",
+      "question": "Are the voting booths set up on the reservations?"
+    },
+    {
+      "id": "273",
+      "question": "What are my options after mechanical engineering?"
+    },
+    {
+      "id": "274",
+      "question": "How did you celebrate this Diwali?"
+    },
+    {
+      "id": "275",
+      "question": "How does Kakao Talk's business model work?"
+    },
+    {
+      "id": "276",
+      "question": "What is the diffrence between Google AI and IBM Watson?"
+    },
+    {
+      "id": "277",
+      "question": "Why have I become quiet?"
+    },
+    {
+      "id": "278",
+      "question": "Who is next CM of Gujarat?"
+    },
+    {
+      "id": "279",
+      "question": "Can an infinite amount of dark or vacuum or gravitational energy be created with expansion?"
+    },
+    {
+      "id": "280",
+      "question": "Why transition elements are called transition elements?"
+    },
+    {
+      "id": "281",
+      "question": "My 13 year old daughter either wants an iPhone 6s or 7. She gets good grades and she's responsible. Which one should I get her?"
+    },
+    {
+      "id": "282",
+      "question": "What is quantity survey?"
+    },
+    {
+      "id": "283",
+      "question": "Why did Quora change the fonts?"
+    },
+    {
+      "id": "284",
+      "question": "How I can apply for cds exam 2016?"
+    },
+    {
+      "id": "285",
+      "question": "Is it possible to run Jio 4G in 3G mobile phones? If yes then how?"
+    },
+    {
+      "id": "286",
+      "question": "Do people masturbate after getting married too?"
+    },
+    {
+      "id": "287",
+      "question": "Why is sex important in a good relationship?"
+    },
+    {
+      "id": "288",
+      "question": "What is the best augmented reality SDK?"
+    },
+    {
+      "id": "289",
+      "question": "What is the difference between family and household?"
+    },
+    {
+      "id": "290",
+      "question": "How can I get back deleted Instagram messages?"
+    },
+    {
+      "id": "291",
+      "question": "How I can make money fast?"
+    },
+    {
+      "id": "292",
+      "question": "Why is China so rich?"
+    },
+    {
+      "id": "293",
+      "question": "Difference between correlation and regression?"
+    },
+    {
+      "id": "294",
+      "question": "How do I get rid of belly fat and thigh fat?"
+    },
+    {
+      "id": "295",
+      "question": "How astronauts makes free gravity training?"
+    },
+    {
+      "id": "296",
+      "question": "Who would play you in the movie of your life?"
+    },
+    {
+      "id": "297",
+      "question": "What's the best thing that make you happy?"
+    },
+    {
+      "id": "298",
+      "question": "Which American celebrities are really going to leave America now that Trump has won?"
+    },
+    {
+      "id": "299",
+      "question": "What is my PUK code number and where can I find it?"
+    },
+    {
+      "id": "300",
+      "question": "How can I prepare for SSC CGL at home?"
+    },
+    {
+      "id": "301",
+      "question": "How can I contribute actively to amend the reservation system in India?"
+    },
+    {
+      "id": "302",
+      "question": "How did your parents react when they came to know that you lost your virginity?"
+    },
+    {
+      "id": "303",
+      "question": "How do I upload profile pic in Quora?"
+    },
+    {
+      "id": "304",
+      "question": "Why is there so much moral policing in Indian schools?"
+    },
+    {
+      "id": "305",
+      "question": "Do you believe Donald Trump can make America great again?"
+    },
+    {
+      "id": "306",
+      "question": "What painting or drawing describes your personality and why?"
+    },
+    {
+      "id": "307",
+      "question": "How does Quora plan on growing its user base?"
+    },
+    {
+      "id": "308",
+      "question": "How can I start hacking from scratch?"
+    },
+    {
+      "id": "309",
+      "question": "How is dark chocolate good for one's health?"
+    },
+    {
+      "id": "310",
+      "question": "What is the difference between India and USA?"
+    },
+    {
+      "id": "311",
+      "question": "How does the HP OfficeJet 4620 Airprint compare to the HP LaserJet Enterprise 700 Printer M712dn?"
+    },
+    {
+      "id": "312",
+      "question": "What is a difference between death & sleep?"
+    },
+    {
+      "id": "313",
+      "question": "What is the purpose of life?"
+    },
+    {
+      "id": "314",
+      "question": "What is the story of davao bombing?"
+    },
+    {
+      "id": "315",
+      "question": "What actually is the purpose of life?"
+    },
+    {
+      "id": "316",
+      "question": "What are some benefits of the GST Bill?"
+    },
+    {
+      "id": "317",
+      "question": "How can I improve my English speaking .?"
+    },
+    {
+      "id": "318",
+      "question": "How do I speak English like celebrities?"
+    },
+    {
+      "id": "319",
+      "question": "Is it worth dropping two years for NITs?"
+    },
+    {
+      "id": "320",
+      "question": "Which aircraft was superior - the Douglas DC8 or the Boeing 707?"
+    },
+    {
+      "id": "321",
+      "question": "What is your favorite album ever?"
+    },
+    {
+      "id": "322",
+      "question": "When were tampons invented?"
+    },
+    {
+      "id": "323",
+      "question": "So, how was your day?"
+    },
+    {
+      "id": "324",
+      "question": "How do I earn money with my studies. I am in 11th standard with commerce stream?"
+    },
+    {
+      "id": "325",
+      "question": "When was your first orgasm and how?"
+    },
+    {
+      "id": "326",
+      "question": "Does God play dice?"
+    },
+    {
+      "id": "327",
+      "question": "What is a coco bond?"
+    },
+    {
+      "id": "328",
+      "question": "What does CC of an IC engine indicate?"
+    },
+    {
+      "id": "329",
+      "question": "What are the best books to learn Linux?"
+    },
+    {
+      "id": "330",
+      "question": "Is it possible to have black hole inside a black hole?"
+    },
+    {
+      "id": "331",
+      "question": "Have race relations improved or gotten worse during the past 8 years?"
+    },
+    {
+      "id": "332",
+      "question": "\"Why is \"\"The Outsiders\"\" considered a good book?\""
+    },
+    {
+      "id": "333",
+      "question": "Is it possible to spy on cell phones?"
+    },
+    {
+      "id": "334",
+      "question": "Is Hillary Clinton Pro-War?"
+    },
+    {
+      "id": "335",
+      "question": "What are some businesses that can possibly make me a billionaire in the long term?"
+    },
+    {
+      "id": "336",
+      "question": "Which sex position girls like the most?"
+    },
+    {
+      "id": "337",
+      "question": "What is it really like to be shot?"
+    },
+    {
+      "id": "338",
+      "question": "My Skill market Research Analysis (225112- VETASSESS) is listed in CSOL. I have 4 years of experience in this field. Advisable to apply Australian PR?"
+    },
+    {
+      "id": "339",
+      "question": "What are some of your favorite movies?"
+    },
+    {
+      "id": "340",
+      "question": "What are the benifets of eating spicy food?"
+    },
+    {
+      "id": "341",
+      "question": "Why did Apple remove the headphone jack?"
+    },
+    {
+      "id": "342",
+      "question": "What are the funniest jokes / stories you ever heard?"
+    },
+    {
+      "id": "343",
+      "question": "What are are some ways to lose 25 pounds in 1 month?"
+    },
+    {
+      "id": "344",
+      "question": "What are the benefits of doing squats?"
+    },
+    {
+      "id": "345",
+      "question": "Does Lenovo K3 note supports volte?"
+    },
+    {
+      "id": "346",
+      "question": "How can I learn new words?"
+    },
+    {
+      "id": "347",
+      "question": "What show can I watch that's similar to Friends?"
+    },
+    {
+      "id": "348",
+      "question": "\"What does \"\"Wish You Were Here\"\" by Pink Floyd mean?\""
+    },
+    {
+      "id": "349",
+      "question": "How are we enabled to see the black colour?"
+    },
+    {
+      "id": "350",
+      "question": "What is the best joke you have ever heard?"
+    },
+    {
+      "id": "351",
+      "question": "What are some examples of vertebrates?"
+    },
+    {
+      "id": "352",
+      "question": "How important should sex be in a relationship?"
+    },
+    {
+      "id": "353",
+      "question": "Why are some people more intelligent than others?"
+    },
+    {
+      "id": "354",
+      "question": "If not Mahatma Gandhi, who else deserves to be on the Indian rupee?"
+    },
+    {
+      "id": "355",
+      "question": "When is the Ae Dil Hai Mushkil Trailer releasing?"
+    },
+    {
+      "id": "356",
+      "question": "What do you think of Aliexpress?"
+    },
+    {
+      "id": "357",
+      "question": "Who would win an all out war between Pakistan and India if no other country got involved?"
+    },
+    {
+      "id": "358",
+      "question": "Who is the best actor ever in Indian cinema?"
+    },
+    {
+      "id": "359",
+      "question": "How do I learn how to implement algorithms and data structures in C++?"
+    },
+    {
+      "id": "360",
+      "question": "What are your views on the Netaji Subhash Chandra Bose's mystery death case?"
+    },
+    {
+      "id": "361",
+      "question": "When my girlfriend's sister is mean to me and I defend myself, my GF defends her. When her sister is mean to me and I ignore her, my girlfriend gets angry with me for ignoring her sister. What should I do?"
+    },
+    {
+      "id": "362",
+      "question": "If there are African Americans, Hispanic Americans, Asian Americans, Native Americans, why aren't white people called Euro Americans?"
+    },
+    {
+      "id": "363",
+      "question": "Should I give money to beggars on the street?"
+    },
+    {
+      "id": "364",
+      "question": "How do you get rid of fruit flies when they're everywhere?"
+    },
+    {
+      "id": "365",
+      "question": "Can we use Jio sim in 3G phone?"
+    },
+    {
+      "id": "366",
+      "question": "Can Quora quote the improvements needed in the questions when it is marked as 'Needing Improvement'?"
+    },
+    {
+      "id": "367",
+      "question": "What kind of problems will you face when travelling abroad?"
+    },
+    {
+      "id": "368",
+      "question": "Can IQ level be increased, or does it remain the same from birth?"
+    },
+    {
+      "id": "369",
+      "question": "How can I write a program to delete element from array?"
+    },
+    {
+      "id": "370",
+      "question": "How was your tinder experience?"
+    },
+    {
+      "id": "371",
+      "question": "What are some crazy movies you love watching again and again?"
+    },
+    {
+      "id": "372",
+      "question": "What places should I visit during my visit to Kerala during July?"
+    },
+    {
+      "id": "373",
+      "question": "Why are there so many anonymous questions on Quora?"
+    },
+    {
+      "id": "374",
+      "question": "How can I move to the U.S.?"
+    },
+    {
+      "id": "375",
+      "question": "Which countries have easy job prospects for Indians doing their MBA abroad?"
+    },
+    {
+      "id": "376",
+      "question": "How much water should I drink a day?"
+    },
+    {
+      "id": "377",
+      "question": "What does it mean that the electron has a dual nature (particle and wave properties)?"
+    },
+    {
+      "id": "378",
+      "question": "Where can you see the northern lights?"
+    },
+    {
+      "id": "379",
+      "question": "How can discontinuing 500 and 1000 rupee will help to control black money?"
+    },
+    {
+      "id": "380",
+      "question": "How do I get better at writing or blogging?"
+    },
+    {
+      "id": "381",
+      "question": "How can I hide a WhatsApp contact?"
+    },
+    {
+      "id": "382",
+      "question": "How do I to trace a phone call in real time with good accuracy?"
+    },
+    {
+      "id": "383",
+      "question": "How do I treat my OCD?"
+    },
+    {
+      "id": "384",
+      "question": "Can you trace a lost mobile in India?"
+    },
+    {
+      "id": "385",
+      "question": "In which year of the First World War did Germany declare war on Russia and France?"
+    },
+    {
+      "id": "386",
+      "question": "How do I catch a cheating spouse?"
+    },
+    {
+      "id": "387",
+      "question": "How should I become confident?"
+    },
+    {
+      "id": "388",
+      "question": "What was the significance of the battle of Somme, and how did this battle compare and contrast to the Battle of France?"
+    },
+    {
+      "id": "389",
+      "question": "Why are life hacks so popular?"
+    },
+    {
+      "id": "390",
+      "question": "Instead of Nehru, if Vallabhai Patel was the first PM for India, would have India been called as a developed, super powered country? Isn't it true?"
+    },
+    {
+      "id": "391",
+      "question": "What powers should the Vice President be given?"
+    },
+    {
+      "id": "392",
+      "question": "Open Culture: What are the most liberal countries of the world?"
+    },
+    {
+      "id": "393",
+      "question": "Why does the US education system use grades A, B, C, D and F but not grade E?"
+    },
+    {
+      "id": "394",
+      "question": "\"What are the origins of the Hindi phrase \"\"Majboori Ka Naam Gandhiji\"\"?\""
+    },
+    {
+      "id": "395",
+      "question": "How clean is prime minister Narendra Modi in terms of corruption?"
+    },
+    {
+      "id": "396",
+      "question": "What is the top E-commerce platform and E-commerce app developer in India?"
+    },
+    {
+      "id": "397",
+      "question": "What is a black hole in the center of galaxies? Also, what is singularity?"
+    },
+    {
+      "id": "398",
+      "question": "Why there are people who still believe that earth is flat?"
+    },
+    {
+      "id": "399",
+      "question": "What are some mind blowing gadgets that exist that most people don't know about?"
+    },
+    {
+      "id": "400",
+      "question": "What is a good institute for ITIL certification in Pune?"
+    },
+    {
+      "id": "401",
+      "question": "Oneplus 3 review from Indian user?"
+    },
+    {
+      "id": "402",
+      "question": "How can I tell if this website is a scam?"
+    },
+    {
+      "id": "403",
+      "question": "Why do people use Quora when they could easily find the answer in a quick Google search?"
+    },
+    {
+      "id": "404",
+      "question": "Can someone love two people at a time?"
+    },
+    {
+      "id": "405",
+      "question": "How can I make my nose smaller?"
+    },
+    {
+      "id": "406",
+      "question": "When is the form for CBSE class 12 improvement exam coming out for 2017?"
+    },
+    {
+      "id": "407",
+      "question": "How do I earn from Quora?"
+    },
+    {
+      "id": "408",
+      "question": "Which is the best laptop to buy under 40000?"
+    },
+    {
+      "id": "409",
+      "question": "Who do you think has dominated in the first us Presidential candidate debate 2016?"
+    },
+    {
+      "id": "410",
+      "question": "What do Israelis think about Pakistan?"
+    },
+    {
+      "id": "411",
+      "question": "Do you think life in abroad is better than India?"
+    },
+    {
+      "id": "412",
+      "question": "What do you hate on Quora?"
+    },
+    {
+      "id": "413",
+      "question": "Do the new notes in India need the GPS chip?"
+    },
+    {
+      "id": "414",
+      "question": "What would happen if Barack Obama became the prime minister of India?"
+    },
+    {
+      "id": "415",
+      "question": "How do I reduce belly fat that I had since young?"
+    },
+    {
+      "id": "416",
+      "question": "What is the correct way to recite Gayatri mantra?"
+    },
+    {
+      "id": "417",
+      "question": "Has a long-distance relationship ever lasted successfully?"
+    },
+    {
+      "id": "418",
+      "question": "What is the reason behind India's bad performance in Olympics?"
+    },
+    {
+      "id": "419",
+      "question": "Is it bad for a battery if you leave it charging even when it's full charged?"
+    },
+    {
+      "id": "420",
+      "question": "How do you find the magnitude of the net force?"
+    },
+    {
+      "id": "421",
+      "question": "What is the toughest question asked in an interview but needed presence of mind to answer it.?"
+    },
+    {
+      "id": "422",
+      "question": "Is stack overflow or dice better for finding tech candidates?"
+    },
+    {
+      "id": "423",
+      "question": "How can I get paid to write?"
+    },
+    {
+      "id": "424",
+      "question": "How can we improve the education system for high school and college?"
+    },
+    {
+      "id": "425",
+      "question": "Do you think Donald Trump will make a good U.S. President?"
+    },
+    {
+      "id": "426",
+      "question": "What are some ways to lose 45 pounds in 5 months?"
+    },
+    {
+      "id": "427",
+      "question": "Are the people with a good memory smarter than those who without it?"
+    },
+    {
+      "id": "428",
+      "question": "What are some ways to start a business?"
+    },
+    {
+      "id": "429",
+      "question": "What is the best computer programming language to learn? By keeping present and future market in mind."
+    },
+    {
+      "id": "430",
+      "question": "Is there any site to download free books?"
+    },
+    {
+      "id": "431",
+      "question": "How can I delete an old Instagram account if I don't know the password for it?"
+    },
+    {
+      "id": "432",
+      "question": "What are the best ways to cook bacon in a crock pot?"
+    },
+    {
+      "id": "433",
+      "question": "What are the Major problems in Indian education system?"
+    },
+    {
+      "id": "434",
+      "question": "Which music do you like best?"
+    },
+    {
+      "id": "435",
+      "question": "How can I heal a split lip?"
+    },
+    {
+      "id": "436",
+      "question": "What is the best way to grill frozen chicken?"
+    },
+    {
+      "id": "437",
+      "question": "How do we treat asthma?"
+    },
+    {
+      "id": "438",
+      "question": "How do I become a better thinker, innovator and a problem solver?"
+    },
+    {
+      "id": "439",
+      "question": "What is main difference between synchronous machine and induction motor?"
+    },
+    {
+      "id": "440",
+      "question": "What are your best moments of life?"
+    },
+    {
+      "id": "441",
+      "question": "How do I make myself more productive and happy?"
+    },
+    {
+      "id": "442",
+      "question": "Do cruise missiles really exist, or are they a hoax?"
+    },
+    {
+      "id": "443",
+      "question": "Is Gendry still rowing?"
+    },
+    {
+      "id": "444",
+      "question": "Which subject should I take after 10th? Maths or biology?"
+    },
+    {
+      "id": "445",
+      "question": "What is the most irritating character in Dilwale according to you?"
+    },
+    {
+      "id": "446",
+      "question": "How is old is Earth?"
+    },
+    {
+      "id": "447",
+      "question": "Does change.org work?"
+    },
+    {
+      "id": "448",
+      "question": "How does our brain discern different wavelengths of light and turn them into color?"
+    },
+    {
+      "id": "449",
+      "question": "What are the bitter truths about doing MBA in the US for an Indian?"
+    },
+    {
+      "id": "450",
+      "question": "How can I increase my penis?"
+    },
+    {
+      "id": "451",
+      "question": "How will I contact a genuine hacker?"
+    },
+    {
+      "id": "452",
+      "question": "Will GST change Indian economy?"
+    },
+    {
+      "id": "453",
+      "question": "What rank does psu required for mechanical?"
+    },
+    {
+      "id": "454",
+      "question": "How do I tighten my loose vagina?"
+    },
+    {
+      "id": "455",
+      "question": "Are there any free certified IQ tests available online?"
+    },
+    {
+      "id": "456",
+      "question": "Can a psychic medium give an accurate reading over the phone?"
+    },
+    {
+      "id": "457",
+      "question": "What are the real examples of karma in real world?"
+    },
+    {
+      "id": "458",
+      "question": "How do you deal with a friend that is a pathological liar?"
+    },
+    {
+      "id": "459",
+      "question": "What are some ways to improve English?"
+    },
+    {
+      "id": "460",
+      "question": "How do I prepare for CAT 2016?"
+    },
+    {
+      "id": "461",
+      "question": "Does Tesla Autopilot stop working when my hands aren’t on the steering wheel?"
+    },
+    {
+      "id": "462",
+      "question": "What are some good places to visit in Kerala on tour?"
+    },
+    {
+      "id": "463",
+      "question": "Who do you look up to?"
+    },
+    {
+      "id": "464",
+      "question": "Why is no one answering my questions in Quora?"
+    },
+    {
+      "id": "465",
+      "question": "Why don't girls like nice guys?"
+    },
+    {
+      "id": "466",
+      "question": "What are the criteria for gaining citizenship in the Netherlands? Does an international student need to know Dutch in order to attend a university in the Netherlands?"
+    },
+    {
+      "id": "467",
+      "question": "How is the growth at TCS?"
+    },
+    {
+      "id": "468",
+      "question": "Why do some people write with their right hand and some write with their left hand?"
+    },
+    {
+      "id": "469",
+      "question": "What does the world think of India?"
+    },
+    {
+      "id": "470",
+      "question": "How do I become a millionaire before the age of 30 in the UK?"
+    },
+    {
+      "id": "471",
+      "question": "Which is best opinions sharing app?"
+    },
+    {
+      "id": "472",
+      "question": "Which are the best startups to work for in Pune? How do I apply to them?"
+    },
+    {
+      "id": "473",
+      "question": "What would happen if you eat the same food for the rest of your life?"
+    },
+    {
+      "id": "474",
+      "question": "What is reality?"
+    },
+    {
+      "id": "475",
+      "question": "Why are there so many anonyms on Quora?"
+    },
+    {
+      "id": "476",
+      "question": "What are the saddest moments in Star Wars: The Clone Wars?"
+    },
+    {
+      "id": "477",
+      "question": "How do I hack a wifi?"
+    },
+    {
+      "id": "478",
+      "question": "What will happen when RBI prints more money than their limit?"
+    },
+    {
+      "id": "479",
+      "question": "Why are mobile phones also known as 'cell phones'?"
+    },
+    {
+      "id": "480",
+      "question": "How should I start learning data analytics with python as a beginner?"
+    },
+    {
+      "id": "481",
+      "question": "How can you convince someone that God does exist?"
+    },
+    {
+      "id": "482",
+      "question": "What is Hillary Clinton's strategy against ISIS?"
+    },
+    {
+      "id": "483",
+      "question": "Are the new 500 rs and 2000 rs Indian currency notes really chip-based?"
+    },
+    {
+      "id": "484",
+      "question": "How can I find the right girl for me?"
+    },
+    {
+      "id": "485",
+      "question": "What is the funniest movie you've ever seen?"
+    },
+    {
+      "id": "486",
+      "question": "How are letters chosen in the Greek sorority and fraternity system?"
+    },
+    {
+      "id": "487",
+      "question": "Why do people like iPhones so much?"
+    },
+    {
+      "id": "488",
+      "question": "Why is there conflict between the people of Israel and Palestine?"
+    },
+    {
+      "id": "489",
+      "question": "What is the best book for JEE Mains?"
+    },
+    {
+      "id": "490",
+      "question": "Legally, what happens if Clinton is indicted before the election? Would Trump win by default?"
+    },
+    {
+      "id": "491",
+      "question": "What should I do during exam stress?"
+    },
+    {
+      "id": "492",
+      "question": "What will be the effect of demonetisation on Indian economy?"
+    },
+    {
+      "id": "493",
+      "question": "What are some of the best sites to watch documentaries?"
+    },
+    {
+      "id": "494",
+      "question": "Will the next MacBook Pro still have an optical drive?"
+    },
+    {
+      "id": "495",
+      "question": "Is Eye in the Sky a realistic depiction of how drone warfare works, including all the global coordination?"
+    },
+    {
+      "id": "496",
+      "question": "Will Donald Trump ruin the USA if he's elected president?"
+    },
+    {
+      "id": "497",
+      "question": "What are the signs of a cheating spouse?"
+    },
+    {
+      "id": "498",
+      "question": "How is views on answers in Quora calculated?"
+    },
+    {
+      "id": "499",
+      "question": "How do I become a better liar?"
+    }
+  ]
+}
