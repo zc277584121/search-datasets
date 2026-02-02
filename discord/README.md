@@ -2,13 +2,15 @@
 
 ## 任务描述
 
-Discord 聊天检索任务评估模型在社交聊天场景下的检索能力。数据包含真实的 Discord 服务器对话，涵盖技术讨论、日常交流等。
+Discord 聊天检索任务评估模型检索相似聊天记录的能力。给定一段聊天记录，从语料库中检索出相似的聊天（基于用户名和话题相似度）。
 
 ## 数据集信息
 
-- **来源**: `EleutherAI/discord-code`
-- **评测集**: 500 条
+- **来源**: Discord 聊天数据
+- **评测集**: 500 条 queries
+- **语料库**: 500 条聊天记录（与 queries 相同）
 - **语言**: 英语
+- **有效 queries**: 496 条（通过关键词/用户名匹配找到相关文档）
 
 ## 数据格式
 
@@ -16,22 +18,25 @@ Discord 聊天检索任务评估模型在社交聊天场景下的检索能力。
 
 | 字段 | 类型 | 说明 |
 |------|------|------|
-| `id` | string | 消息唯一标识符 |
-| `message` | string | 聊天消息内容 |
+| `id` | string | 查询唯一标识符 |
+| `message` | string | 聊天记录文本 |
+
+### corpus.json 字段说明
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | string | 文档唯一标识符 |
+| `text` | string | 聊天记录文本 |
 
 ### 预测结果格式
 
 ```json
 {
   "model_name": "your-model-name",
-  "predictions": [
-    {
-      "query": "Search query",
-      "retrieved": [
-        {"text": "Retrieved message", "score": 0.95}
-      ]
-    }
-  ]
+  "predictions": {
+    "0": ["corpus_id_1", "corpus_id_2", "corpus_id_3"],
+    "1": ["corpus_id_5", "corpus_id_8"]
+  }
 }
 ```
 
@@ -45,24 +50,18 @@ Discord 聊天检索任务评估模型在社交聊天场景下的检索能力。
 
 ## 评估指标
 
-使用 LLM-as-Judge (gpt-4o-mini) 评估：
-
 | 指标 | 说明 |
 |------|------|
-| **Relevance** | 相关性评分 (1-5) |
-| **Context** | 上下文质量评分 (1-5) |
+| **MRR** | 平均倒数排名 |
+| **MAP** | 平均精度均值 |
+| **Recall@K** | Top-K 召回率 |
 
 ## 数据来源
 
-`queries.json` 从 HuggingFace `EleutherAI/discord-code` 数据集采样 500 条生成。
+Ground truth 通过关键词和用户名匹配生成。用户名匹配权重更高（权重 3x），因为相同用户参与的对话更可能相关。
 
-原始数据集格式：
-```python
-{
-    "data": "用户名#ID: 消息内容\n用户名#ID: 消息内容\n..."  # 多轮对话
-}
-```
+## 特点
 
-## 参考资料
-
-- [数据集页面](https://huggingface.co/datasets/EleutherAI/discord-code)
+- 聊天记录包含多个用户的消息
+- 消息可能包含表情、链接、非正式语言
+- 用户名格式为 `Username#1234`

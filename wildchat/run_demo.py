@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-WildChat Dialogue Retrieval Demo Script (LLM-as-Judge)
+WildChat Dialogue Retrieval Demo Script
 
 This script demonstrates how to generate predictions for the WildChat task.
-Note: This task uses LLM-as-Judge for evaluation.
 """
 
 import json
@@ -16,37 +15,34 @@ def main():
 
     # Load queries
     with open(task_dir / "queries.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+        queries_data = json.load(f)
 
-    queries = data["queries"]
+    # Load corpus
+    with open(task_dir / "corpus.json", "r", encoding="utf-8") as f:
+        corpus_data = json.load(f)
+
+    queries = queries_data["queries"]
+    corpus = corpus_data["documents"]
+    corpus_ids = [doc["id"] for doc in corpus]
+
     print(f"Loaded {len(queries)} queries")
+    print(f"Loaded {len(corpus)} corpus documents")
 
     # Generate predictions
-    predictions = []
+    predictions = {}
 
     for query in queries:
         qid = query["id"]
-        first_message = query.get("first_user_message", "")
+        user_message = query.get("first_user_message", "")
 
         # TODO: Replace this mock prediction with your actual model
-        # Your model should retrieve relevant dialogue conversations
+        # Your model should retrieve similar dialogues from the corpus
         # Example:
-        #   retrieved = your_retriever.search(first_message, top_k=5)
+        #   retrieved_ids = your_retriever.search(user_message, corpus, top_k=10)
 
-        # Mock prediction: generate random retrieved conversations
-        retrieved = [
-            {
-                "text": f"Mock conversation {i+1}: User asked about {first_message[:30]}...",
-                "score": random.uniform(0.5, 1.0),
-                "conversation_id": f"conv_{random.randint(1000, 9999)}"
-            }
-            for i in range(3)
-        ]
-
-        predictions.append({
-            "query": first_message[:200] if first_message else f"Query {qid}",
-            "retrieved": retrieved
-        })
+        # Mock prediction: return random corpus document IDs
+        retrieved_ids = random.sample(corpus_ids, min(10, len(corpus_ids)))
+        predictions[qid] = retrieved_ids
 
     # Save predictions
     submission = {
@@ -61,15 +57,11 @@ def main():
     print(f"Saved predictions to: {output_path}")
     print(f"Total predictions: {len(predictions)}")
 
-    # Run evaluation (LLM-as-Judge with limited samples)
-    print("\nRunning evaluation (LLM-as-Judge, max 5 samples for demo)...")
+    # Run evaluation
+    print("\nRunning evaluation...")
     import subprocess
     result = subprocess.run(
-        [
-            "python", str(task_dir / "eval.py"),
-            "--submission", str(output_path),
-            "--max-samples", "5"  # Limit samples for demo
-        ],
+        ["python", str(task_dir / "eval.py"), "--submission", str(output_path)],
         capture_output=True,
         text=True
     )

@@ -1,1502 +1,7448 @@
 {
   "0": {
-    "caption": "Audio sample 0 description placeholder"
+    "caption": "A child babbles as a woman speaks",
+    "relevant_ids": [
+      "317",
+      "361",
+      "706",
+      "1841",
+      "4543",
+      "4767",
+      "5177",
+      "5280",
+      "5539",
+      "5907"
+    ]
   },
   "1": {
-    "caption": "Audio sample 1 description placeholder"
+    "caption": "A duck quacks loudly and continuously",
+    "relevant_ids": [
+      "2593",
+      "10029",
+      "19566",
+      "19658",
+      "20262",
+      "20491",
+      "21122",
+      "22842",
+      "443",
+      "1064"
+    ]
   },
   "2": {
-    "caption": "Audio sample 2 description placeholder"
+    "caption": "A young female speaks and a man chuckles and speaks",
+    "relevant_ids": [
+      "21404",
+      "473",
+      "715",
+      "1559",
+      "2178",
+      "2817",
+      "3928",
+      "4043",
+      "4543",
+      "5047"
+    ]
   },
   "3": {
-    "caption": "Audio sample 3 description placeholder"
+    "caption": "A woman speaks and a child cries before a man speaks",
+    "relevant_ids": [
+      "317",
+      "942",
+      "4543",
+      "5034",
+      "5907",
+      "6490",
+      "6684",
+      "7736",
+      "14036",
+      "15002"
+    ]
   },
   "4": {
-    "caption": "Audio sample 4 description placeholder"
+    "caption": "A small child crying with a woman and man speaking",
+    "relevant_ids": [
+      "28695",
+      "34065",
+      "42922",
+      "46574",
+      "432",
+      "727",
+      "3375",
+      "4543",
+      "5593",
+      "6413"
+    ]
   },
   "5": {
-    "caption": "Audio sample 5 description placeholder"
+    "caption": "A child is crying as a camera shuffles around",
+    "relevant_ids": [
+      "432",
+      "706",
+      "1048",
+      "1210",
+      "1343",
+      "1428",
+      "1653",
+      "3019",
+      "3375",
+      "3606"
+    ]
   },
   "6": {
-    "caption": "Audio sample 6 description placeholder"
+    "caption": "A woman speaks and a baby laughs",
+    "relevant_ids": [
+      "4390",
+      "7315",
+      "8439",
+      "10692",
+      "12851",
+      "15451",
+      "17559",
+      "19468",
+      "19811",
+      "26103"
+    ]
   },
   "7": {
-    "caption": "Audio sample 7 description placeholder"
+    "caption": "Insects chirp and men speak",
+    "relevant_ids": [
+      "7077",
+      "18769",
+      "32680",
+      "34863",
+      "39105",
+      "43951",
+      "324",
+      "929",
+      "1214",
+      "1489"
+    ]
   },
   "8": {
-    "caption": "Audio sample 8 description placeholder"
+    "caption": "Continuous sizzling with a woman speaking towards the end",
+    "relevant_ids": [
+      "11501",
+      "145",
+      "1053",
+      "2318",
+      "5248",
+      "5273",
+      "5434",
+      "5921",
+      "11313",
+      "12304"
+    ]
   },
   "9": {
-    "caption": "Audio sample 9 description placeholder"
+    "caption": "A female voice briefly yells as several children start talking and yelling all around",
+    "relevant_ids": [
+      "35668",
+      "2254",
+      "10693",
+      "23945",
+      "48891",
+      "4237",
+      "4642",
+      "6465",
+      "8353",
+      "9782"
+    ]
   },
   "10": {
-    "caption": "Audio sample 10 description placeholder"
+    "caption": "An insect buzzes around continuously",
+    "relevant_ids": [
+      "10468",
+      "15553",
+      "23538",
+      "819",
+      "1805",
+      "6028",
+      "8800",
+      "9090",
+      "9297",
+      "11670"
+    ]
   },
   "11": {
-    "caption": "Audio sample 11 description placeholder"
+    "caption": "Food is frying while a woman speaks",
+    "relevant_ids": [
+      "4370",
+      "10982",
+      "27186",
+      "34844",
+      "37281",
+      "39464",
+      "40307",
+      "40781",
+      "45263",
+      "45580"
+    ]
   },
   "12": {
-    "caption": "Audio sample 12 description placeholder"
+    "caption": "A man speaks over birds singing and people muttering",
+    "relevant_ids": [
+      "18475",
+      "6909",
+      "8624",
+      "10573",
+      "11255",
+      "12911",
+      "15341",
+      "16159",
+      "16398",
+      "20639"
+    ]
   },
   "13": {
-    "caption": "Audio sample 13 description placeholder"
+    "caption": "Two men speak as a buffeting wind blows",
+    "relevant_ids": [
+      "40829",
+      "16895",
+      "19548",
+      "24248",
+      "24514",
+      "27349",
+      "29389",
+      "29667",
+      "34572",
+      "42688"
+    ]
   },
   "14": {
-    "caption": "Audio sample 14 description placeholder"
+    "caption": "A airplane engine runs consistently and speaking occurs on a radio",
+    "relevant_ids": [
+      "6885",
+      "9218",
+      "11300",
+      "14365",
+      "20202",
+      "793",
+      "2984",
+      "4779",
+      "5788",
+      "7429"
+    ]
   },
   "15": {
-    "caption": "Audio sample 15 description placeholder"
+    "caption": "A man speaks nearby, after which machinery moves in the distance and steam hisses",
+    "relevant_ids": [
+      "42831",
+      "198",
+      "5625",
+      "5685",
+      "7311",
+      "8091",
+      "8239",
+      "12107",
+      "13651",
+      "14357"
+    ]
   },
   "16": {
-    "caption": "Audio sample 16 description placeholder"
+    "caption": "Crowd cheers and gasps as a ball is kicked then applaud",
+    "relevant_ids": [
+      "14910",
+      "70",
+      "342",
+      "1746",
+      "1885",
+      "2041",
+      "2843",
+      "2873",
+      "3698",
+      "3905"
+    ]
   },
   "17": {
-    "caption": "Audio sample 17 description placeholder"
+    "caption": "Winds blows roughly as a vehicle races past",
+    "relevant_ids": [
+      "280",
+      "1374",
+      "1412",
+      "1508",
+      "1663",
+      "1754",
+      "2257",
+      "2277",
+      "2814",
+      "3148"
+    ]
   },
   "18": {
-    "caption": "Audio sample 18 description placeholder"
+    "caption": "Over a running engine, an excited child voice yells out",
+    "relevant_ids": [
+      "29662",
+      "3529",
+      "6049",
+      "6424",
+      "9028",
+      "9035",
+      "10011",
+      "11001",
+      "12845",
+      "14315"
+    ]
   },
   "19": {
-    "caption": "Audio sample 19 description placeholder"
+    "caption": "Some birds caw followed by people speaking in the distance",
+    "relevant_ids": [
+      "866",
+      "3275",
+      "5384",
+      "6387",
+      "6909",
+      "7311",
+      "8729",
+      "8890",
+      "9447",
+      "9561"
+    ]
   },
   "20": {
-    "caption": "Audio sample 20 description placeholder"
+    "caption": "Pigeons coo with a baby and woman speaking at the end",
+    "relevant_ids": [
+      "364",
+      "1017",
+      "2243",
+      "3008",
+      "3118",
+      "4397",
+      "4792",
+      "5248",
+      "5593",
+      "5921"
+    ]
   },
   "21": {
-    "caption": "Audio sample 21 description placeholder"
+    "caption": "A woman inhales then sneezes",
+    "relevant_ids": [
+      "183",
+      "361",
+      "3503",
+      "3971",
+      "5227",
+      "5724",
+      "5816",
+      "5823",
+      "5903",
+      "6012"
+    ]
   },
   "22": {
-    "caption": "Audio sample 22 description placeholder"
+    "caption": "Someone is typing on a keyboard",
+    "relevant_ids": [
+      "281",
+      "2018",
+      "3703",
+      "4114",
+      "4725",
+      "9346",
+      "10221",
+      "19456",
+      "21648",
+      "23665"
+    ]
   },
   "23": {
-    "caption": "Audio sample 23 description placeholder"
+    "caption": "A quite rumbling getting louder",
+    "relevant_ids": [
+      "961",
+      "3211",
+      "4667",
+      "5597",
+      "5790",
+      "6172",
+      "7820",
+      "8839",
+      "10299",
+      "10592"
+    ]
   },
   "24": {
-    "caption": "Audio sample 24 description placeholder"
+    "caption": "A diesel truck engine runs steadily",
+    "relevant_ids": [
+      "1594",
+      "7262",
+      "9218",
+      "9315",
+      "11948",
+      "12052",
+      "12703",
+      "15535",
+      "17442",
+      "18182"
+    ]
   },
   "25": {
-    "caption": "Audio sample 25 description placeholder"
+    "caption": "An engine whirls shrilly to life, revving intensely, then slows a bit",
+    "relevant_ids": [
+      "4636",
+      "6683",
+      "20892",
+      "25553",
+      "49661",
+      "14",
+      "27",
+      "63",
+      "156",
+      "196"
+    ]
   },
   "26": {
-    "caption": "Audio sample 26 description placeholder"
+    "caption": "Birds chirp, a woman speaks, and insects buzz",
+    "relevant_ids": [
+      "8729",
+      "18190",
+      "26034",
+      "45878",
+      "4356",
+      "5901",
+      "8639",
+      "9099",
+      "9237",
+      "10522"
+    ]
   },
   "27": {
-    "caption": "Audio sample 27 description placeholder"
+    "caption": "Birds flutter and flap their wings while chirping",
+    "relevant_ids": [
+      "770",
+      "6245",
+      "11663",
+      "12897",
+      "18245",
+      "19526",
+      "20614",
+      "21433",
+      "25590",
+      "26602"
+    ]
   },
   "28": {
-    "caption": "Audio sample 28 description placeholder"
+    "caption": "Water is gurgling in a tank",
+    "relevant_ids": [
+      "80",
+      "97",
+      "117",
+      "142",
+      "289",
+      "306",
+      "485",
+      "585",
+      "637",
+      "686"
+    ]
   },
   "29": {
-    "caption": "Audio sample 29 description placeholder"
+    "caption": "Ducks quack lazily as other birds call out in the distance",
+    "relevant_ids": [
+      "22832",
+      "43759",
+      "46815",
+      "2892",
+      "4075",
+      "5523",
+      "7464",
+      "7709",
+      "8514",
+      "10408"
+    ]
   },
   "30": {
-    "caption": "Audio sample 30 description placeholder"
+    "caption": "A man speaks then makes a device beep",
+    "relevant_ids": [
+      "7609",
+      "4576",
+      "6282",
+      "7019",
+      "11334",
+      "17651",
+      "17873",
+      "19074",
+      "19117",
+      "21999"
+    ]
   },
   "31": {
-    "caption": "Audio sample 31 description placeholder"
+    "caption": "Rustling and clinking of metal followed by a train whistle",
+    "relevant_ids": [
+      "36083",
+      "3264",
+      "3856",
+      "5650",
+      "6697",
+      "6847",
+      "8192",
+      "9679",
+      "10311",
+      "10568"
+    ]
   },
   "32": {
-    "caption": "Audio sample 32 description placeholder"
+    "caption": "An engine works nearby and then accelerates moving away",
+    "relevant_ids": [
+      "7064",
+      "26753",
+      "32698",
+      "44185",
+      "47631",
+      "48843",
+      "1511",
+      "2028",
+      "2501",
+      "2579"
+    ]
   },
   "33": {
-    "caption": "Audio sample 33 description placeholder"
+    "caption": "People speak and tapping takes place",
+    "relevant_ids": [
+      "8479",
+      "17374",
+      "20889",
+      "21089",
+      "23946",
+      "27863",
+      "27904",
+      "45844",
+      "82",
+      "98"
+    ]
   },
   "34": {
-    "caption": "Audio sample 34 description placeholder"
+    "caption": "A man speaks while playing a video game on a keyboard",
+    "relevant_ids": [
+      "258",
+      "328",
+      "3798",
+      "3880",
+      "4109",
+      "5771",
+      "6232",
+      "6973",
+      "9502",
+      "9955"
+    ]
   },
   "35": {
-    "caption": "Audio sample 35 description placeholder"
+    "caption": "A man speaks while a machine runs before a smoke alarm beeps",
+    "relevant_ids": [
+      "7401",
+      "8120",
+      "8418",
+      "8745",
+      "10979",
+      "11237",
+      "11299",
+      "16553",
+      "22286",
+      "23140"
+    ]
   },
   "36": {
-    "caption": "Audio sample 36 description placeholder"
+    "caption": "A man speaks while closing a car door, the car is idling in the background",
+    "relevant_ids": [
+      "9602",
+      "3817",
+      "5829",
+      "6668",
+      "7930",
+      "15672",
+      "21891",
+      "26014",
+      "29482",
+      "34489"
+    ]
   },
   "37": {
-    "caption": "Audio sample 37 description placeholder"
+    "caption": "A girl speaks and blows a very loud air horn",
+    "relevant_ids": [
+      "16418",
+      "17086",
+      "26983",
+      "44145",
+      "702",
+      "1663",
+      "2251",
+      "2742",
+      "3398",
+      "3722"
+    ]
   },
   "38": {
-    "caption": "Audio sample 38 description placeholder"
+    "caption": "Music sounds as men narrate over rainfall",
+    "relevant_ids": [
+      "19364",
+      "26613",
+      "30699",
+      "32406",
+      "40010",
+      "44732",
+      "53",
+      "143",
+      "487",
+      "1089"
+    ]
   },
   "39": {
-    "caption": "Audio sample 39 description placeholder"
+    "caption": "A man speaks calmly as water lightly ripples",
+    "relevant_ids": [
+      "16856",
+      "30247",
+      "244",
+      "543",
+      "744",
+      "1016",
+      "1233",
+      "1711",
+      "2721",
+      "2766"
+    ]
   },
   "40": {
-    "caption": "Audio sample 40 description placeholder"
+    "caption": "A motor rumbles and steam hisses",
+    "relevant_ids": [
+      "854",
+      "7457",
+      "12147",
+      "134",
+      "955",
+      "1354",
+      "2070",
+      "3338",
+      "4121",
+      "4526"
+    ]
   },
   "41": {
-    "caption": "Audio sample 41 description placeholder"
+    "caption": "Distant men speak as a spray can nozzle is depressed",
+    "relevant_ids": [
+      "2649",
+      "24236",
+      "25430",
+      "25487",
+      "27611",
+      "29200",
+      "35180",
+      "36762",
+      "318",
+      "324"
+    ]
   },
   "42": {
-    "caption": "Audio sample 42 description placeholder"
+    "caption": "A bird vocalizes repeatedly",
+    "relevant_ids": [
+      "4371",
+      "4599",
+      "8341",
+      "11683",
+      "12572",
+      "14010",
+      "16596",
+      "16727",
+      "26835",
+      "37974"
+    ]
   },
   "43": {
-    "caption": "Audio sample 43 description placeholder"
+    "caption": "A woman speaks while music plays in the background as she uses cutlery",
+    "relevant_ids": [
+      "8798",
+      "11453",
+      "16343",
+      "22587",
+      "26445",
+      "35465",
+      "48834",
+      "361",
+      "487",
+      "1109"
+    ]
   },
   "44": {
-    "caption": "Audio sample 44 description placeholder"
+    "caption": "Crowd applause while a guy laughs followed by another man speaking",
+    "relevant_ids": [
+      "2157",
+      "4360",
+      "21310",
+      "25666",
+      "27673",
+      "38282",
+      "39683",
+      "39866",
+      "74",
+      "694"
+    ]
   },
   "45": {
-    "caption": "Audio sample 45 description placeholder"
+    "caption": "A preteen girl speaks",
+    "relevant_ids": [
+      "690",
+      "1587",
+      "2328",
+      "3301",
+      "3425",
+      "3848",
+      "4953",
+      "5078",
+      "5497",
+      "6170"
+    ]
   },
   "46": {
-    "caption": "Audio sample 46 description placeholder"
+    "caption": "A piece of wood is being placed down and sawed",
+    "relevant_ids": [
+      "4524",
+      "841",
+      "3648",
+      "3824",
+      "3851",
+      "4615",
+      "5404",
+      "5965",
+      "8168",
+      "10387"
+    ]
   },
   "47": {
-    "caption": "Audio sample 47 description placeholder"
+    "caption": "A grown man speaks and a machine runs as another man speaks",
+    "relevant_ids": [
+      "45008",
+      "4456",
+      "7401",
+      "8120",
+      "8418",
+      "8745",
+      "10979",
+      "11237",
+      "11299",
+      "12638"
+    ]
   },
   "48": {
-    "caption": "Audio sample 48 description placeholder"
+    "caption": "Wind blowing hard followed by a rustle",
+    "relevant_ids": [
+      "318",
+      "5359",
+      "8673",
+      "22158",
+      "29527",
+      "29563",
+      "36007",
+      "36079",
+      "38500",
+      "40752"
+    ]
   },
   "49": {
-    "caption": "Audio sample 49 description placeholder"
+    "caption": "Rain falling with thunder rolling and cracking",
+    "relevant_ids": [
+      "2143",
+      "2628",
+      "3266",
+      "3584",
+      "10666",
+      "15897",
+      "20617",
+      "1262",
+      "2097",
+      "2667"
+    ]
   },
   "50": {
-    "caption": "Audio sample 50 description placeholder"
+    "caption": "A man speaks as a drill runs",
+    "relevant_ids": [
+      "5085",
+      "31560",
+      "43102",
+      "48288",
+      "507",
+      "730",
+      "1233",
+      "2721",
+      "2793",
+      "3822"
+    ]
   },
   "51": {
-    "caption": "Audio sample 51 description placeholder"
+    "caption": "A man narrates as birds chirp and a group of people speak",
+    "relevant_ids": [
+      "1371",
+      "2305",
+      "4552",
+      "6436",
+      "13333",
+      "14555",
+      "15833",
+      "16398",
+      "22858",
+      "23674"
+    ]
   },
   "52": {
-    "caption": "Audio sample 52 description placeholder"
+    "caption": "A helicopter engine runs continuously",
+    "relevant_ids": [
+      "9909",
+      "2207",
+      "2737",
+      "2810",
+      "2883",
+      "4451",
+      "4779",
+      "5066",
+      "5387",
+      "6529"
+    ]
   },
   "53": {
-    "caption": "Audio sample 53 description placeholder"
+    "caption": "Bird squawks are accompanied by a man and woman speaking",
+    "relevant_ids": [
+      "11667",
+      "19237",
+      "8",
+      "443",
+      "503",
+      "716",
+      "727",
+      "859",
+      "1063",
+      "1172"
+    ]
   },
   "54": {
-    "caption": "Audio sample 54 description placeholder"
+    "caption": "A man speaks as food sizzles",
+    "relevant_ids": [
+      "4085",
+      "4769",
+      "14333",
+      "19316",
+      "23595",
+      "24591",
+      "24827",
+      "30384",
+      "30933",
+      "37947"
+    ]
   },
   "55": {
-    "caption": "Audio sample 55 description placeholder"
+    "caption": "A man speaks and moves objects around",
+    "relevant_ids": [
+      "20164",
+      "9905",
+      "25255",
+      "45186",
+      "47035",
+      "248",
+      "995",
+      "6393",
+      "7265",
+      "7303"
+    ]
   },
   "56": {
-    "caption": "Audio sample 56 description placeholder"
+    "caption": "A musical bell chiming continuously",
+    "relevant_ids": [
+      "11921",
+      "14516",
+      "14679",
+      "36708",
+      "49359",
+      "78",
+      "106",
+      "471",
+      "525",
+      "2443"
+    ]
   },
   "57": {
-    "caption": "Audio sample 57 description placeholder"
+    "caption": "A spray bottle sprays multiple times nearby",
+    "relevant_ids": [
+      "34136",
+      "12599",
+      "28402",
+      "35901",
+      "398",
+      "594",
+      "1859",
+      "2586",
+      "2657",
+      "3231"
+    ]
   },
   "58": {
-    "caption": "Audio sample 58 description placeholder"
+    "caption": "An engine idles consistently before sputtering some",
+    "relevant_ids": [
+      "17025",
+      "45835",
+      "49392",
+      "162",
+      "168",
+      "199",
+      "242",
+      "280",
+      "301",
+      "394"
+    ]
   },
   "59": {
-    "caption": "Audio sample 59 description placeholder"
+    "caption": "Water burbles and metal squeaks as the water stops",
+    "relevant_ids": [
+      "22620",
+      "547",
+      "2069",
+      "2524",
+      "2622",
+      "2669",
+      "2732",
+      "3423",
+      "4605",
+      "6210"
+    ]
   },
   "60": {
-    "caption": "Audio sample 60 description placeholder"
+    "caption": "A man speaks while wind blows",
+    "relevant_ids": [
+      "430",
+      "448",
+      "1826",
+      "2796",
+      "4012",
+      "4356",
+      "5846",
+      "7351",
+      "8029",
+      "8120"
+    ]
   },
   "61": {
-    "caption": "Audio sample 61 description placeholder"
+    "caption": "Women speak as a bell dings in multiple tones",
+    "relevant_ids": [
+      "7846",
+      "12813",
+      "14249",
+      "31130",
+      "32689",
+      "33778",
+      "57",
+      "1606",
+      "1719",
+      "1790"
+    ]
   },
   "62": {
-    "caption": "Audio sample 62 description placeholder"
+    "caption": "Men are communicating along with food sizzling",
+    "relevant_ids": [
+      "8988",
+      "21437",
+      "29373",
+      "42999",
+      "6",
+      "132",
+      "145",
+      "341",
+      "897",
+      "1239"
+    ]
   },
   "63": {
-    "caption": "Audio sample 63 description placeholder"
+    "caption": "A person snoring",
+    "relevant_ids": [
+      "216",
+      "604",
+      "728",
+      "950",
+      "1215",
+      "1336",
+      "1495",
+      "1766",
+      "2022",
+      "2169"
+    ]
   },
   "64": {
-    "caption": "Audio sample 64 description placeholder"
+    "caption": "The hoofs of a horse clatter on the ground while a man speaks and then laughs",
+    "relevant_ids": [
+      "164",
+      "672",
+      "918",
+      "1206",
+      "1611",
+      "1719",
+      "1764",
+      "1931",
+      "1945",
+      "3722"
+    ]
   },
   "65": {
-    "caption": "Audio sample 65 description placeholder"
+    "caption": "Water gurgles to a stop",
+    "relevant_ids": [
+      "39017",
+      "311",
+      "586",
+      "758",
+      "2089",
+      "2429",
+      "2470",
+      "2732",
+      "2817",
+      "2863"
+    ]
   },
   "66": {
-    "caption": "Audio sample 66 description placeholder"
+    "caption": "A man speaks as pigeons vocalize and walk around",
+    "relevant_ids": [
+      "957",
+      "19797",
+      "19920",
+      "42013",
+      "44986",
+      "2706",
+      "2948",
+      "5116",
+      "5224",
+      "6170"
+    ]
   },
   "67": {
-    "caption": "Audio sample 67 description placeholder"
+    "caption": "Airplane engine revving up",
+    "relevant_ids": [
+      "35055",
+      "45841",
+      "14",
+      "27",
+      "63",
+      "196",
+      "262",
+      "270",
+      "363",
+      "394"
+    ]
   },
   "68": {
-    "caption": "Audio sample 68 description placeholder"
+    "caption": "Multiple beeps are followed by a squawk and a child speaking",
+    "relevant_ids": [
+      "42337",
+      "223",
+      "1536",
+      "1552",
+      "2232",
+      "2302",
+      "3375",
+      "3560",
+      "3591",
+      "3607"
+    ]
   },
   "69": {
-    "caption": "Audio sample 69 description placeholder"
+    "caption": "Someone whistles nearby",
+    "relevant_ids": [
+      "38",
+      "4353",
+      "10236",
+      "22081",
+      "48247",
+      "907",
+      "966",
+      "1304",
+      "1403",
+      "3138"
+    ]
   },
   "70": {
-    "caption": "Audio sample 70 description placeholder"
+    "caption": "Passengers talk on a moving bus",
+    "relevant_ids": [
+      "202",
+      "1358",
+      "1814",
+      "4105",
+      "5954",
+      "6049",
+      "8807",
+      "11036",
+      "11216",
+      "13394"
+    ]
   },
   "71": {
-    "caption": "Audio sample 71 description placeholder"
+    "caption": "A man speaks the begins typing on a keyboard",
+    "relevant_ids": [
+      "4109",
+      "31976",
+      "36454",
+      "37325",
+      "42088",
+      "42718",
+      "43415",
+      "46590",
+      "49177",
+      "258"
+    ]
   },
   "72": {
-    "caption": "Audio sample 72 description placeholder"
+    "caption": "Some rustling followed by a toilet flush",
+    "relevant_ids": [
+      "3515",
+      "43666",
+      "293",
+      "1486",
+      "3333",
+      "3410",
+      "3592",
+      "4505",
+      "7279",
+      "7761"
+    ]
   },
   "73": {
-    "caption": "Audio sample 73 description placeholder"
+    "caption": "A clock sounds an alarm then ticktocks",
+    "relevant_ids": [
+      "18008",
+      "22528",
+      "25247",
+      "2170",
+      "3669",
+      "3827",
+      "4655",
+      "4673",
+      "6819",
+      "8405"
+    ]
   },
   "74": {
-    "caption": "Audio sample 74 description placeholder"
+    "caption": "Water drips in the background while a kid and baby laugh",
+    "relevant_ids": [
+      "483",
+      "1723",
+      "11482",
+      "12823",
+      "17488",
+      "25184",
+      "25704",
+      "27305",
+      "32909",
+      "33477"
+    ]
   },
   "75": {
-    "caption": "Audio sample 75 description placeholder"
+    "caption": "A man is sawing a hard object then speaks",
+    "relevant_ids": [
+      "2084",
+      "10037",
+      "1063",
+      "2839",
+      "3938",
+      "5595",
+      "6896",
+      "7351",
+      "9852",
+      "11712"
+    ]
   },
   "76": {
-    "caption": "Audio sample 76 description placeholder"
+    "caption": "A dark barks and growls while a man and woman speak",
+    "relevant_ids": [
+      "21115",
+      "29720",
+      "47312",
+      "415",
+      "813",
+      "1719",
+      "1764",
+      "1923",
+      "2474",
+      "3147"
+    ]
   },
   "77": {
-    "caption": "Audio sample 77 description placeholder"
+    "caption": "A child laughs continuously",
+    "relevant_ids": [
+      "261",
+      "429",
+      "1079",
+      "1494",
+      "1507",
+      "2038",
+      "2774",
+      "4826",
+      "5128",
+      "5173"
+    ]
   },
   "78": {
-    "caption": "Audio sample 78 description placeholder"
+    "caption": "A man speaks, followed by loud bursts of gunfire",
+    "relevant_ids": [
+      "831",
+      "1307",
+      "1690",
+      "1931",
+      "2942",
+      "7540",
+      "9656",
+      "9974",
+      "14061",
+      "14084"
+    ]
   },
   "79": {
-    "caption": "Audio sample 79 description placeholder"
+    "caption": "A church bell rings several times",
+    "relevant_ids": [
+      "13019",
+      "7001",
+      "20395",
+      "24553",
+      "25265",
+      "28127",
+      "37114",
+      "40591",
+      "46335",
+      "48923"
+    ]
   },
   "80": {
-    "caption": "Audio sample 80 description placeholder"
+    "caption": "A video game plays music as someone is typing",
+    "relevant_ids": [
+      "23307",
+      "30993",
+      "5305",
+      "6973",
+      "8037",
+      "12731",
+      "13935",
+      "18665",
+      "20040",
+      "22636"
+    ]
   },
   "81": {
-    "caption": "Audio sample 81 description placeholder"
+    "caption": "A woman speaks as frying food sizzles",
+    "relevant_ids": [
+      "422",
+      "797",
+      "4370",
+      "5310",
+      "5367",
+      "6382",
+      "10982",
+      "19023",
+      "19614",
+      "23073"
+    ]
   },
   "82": {
-    "caption": "Audio sample 82 description placeholder"
+    "caption": "A bell ringing distant along with quiet tick-tocking",
+    "relevant_ids": [
+      "19427",
+      "20701",
+      "4839",
+      "19868",
+      "24091",
+      "24427",
+      "26625",
+      "28013",
+      "34265",
+      "34622"
+    ]
   },
   "83": {
-    "caption": "Audio sample 83 description placeholder"
+    "caption": "Ducks quack continuously",
+    "relevant_ids": [
+      "31181",
+      "47028",
+      "190",
+      "1033",
+      "1829",
+      "1859",
+      "1901",
+      "2401",
+      "2892",
+      "3010"
+    ]
   },
   "84": {
-    "caption": "Audio sample 84 description placeholder"
+    "caption": "An owl hoots and insects screech",
+    "relevant_ids": [
+      "14369",
+      "17149",
+      "34702"
+    ]
   },
   "85": {
-    "caption": "Audio sample 85 description placeholder"
+    "caption": "A girl talking, laughing and sneezing noise",
+    "relevant_ids": [
+      "603",
+      "1526",
+      "1691",
+      "2159",
+      "2713",
+      "3519",
+      "5052",
+      "5388",
+      "7362",
+      "7539"
+    ]
   },
   "86": {
-    "caption": "Audio sample 86 description placeholder"
+    "caption": "Banging metal, then crinkling paper, followed by a woman mumbling and a man grunting",
+    "relevant_ids": [
+      "18925",
+      "20793",
+      "21813",
+      "40830",
+      "1031",
+      "4124",
+      "4242",
+      "5013",
+      "7910",
+      "8226"
+    ]
   },
   "87": {
-    "caption": "Audio sample 87 description placeholder"
+    "caption": "A male talking followed by a scraping of two objects against each other",
+    "relevant_ids": [
+      "4742",
+      "26944",
+      "36392",
+      "39329",
+      "10101",
+      "10761",
+      "12791",
+      "19769",
+      "24178",
+      "25777"
+    ]
   },
   "88": {
-    "caption": "Audio sample 88 description placeholder"
+    "caption": "A person is snoring with people laughing.",
+    "relevant_ids": [
+      "2214",
+      "2659",
+      "2811",
+      "2922",
+      "2978",
+      "4065",
+      "4130",
+      "5318",
+      "6157",
+      "6379"
+    ]
   },
   "89": {
-    "caption": "Audio sample 89 description placeholder"
+    "caption": "A man speaks and runs a machine",
+    "relevant_ids": [
+      "7401",
+      "8120",
+      "8418",
+      "8745",
+      "10979",
+      "11237",
+      "11299",
+      "16553",
+      "23140",
+      "24641"
+    ]
   },
   "90": {
-    "caption": "Audio sample 90 description placeholder"
+    "caption": "A saw is cutting through wood loudly",
+    "relevant_ids": [
+      "912",
+      "19017",
+      "20603",
+      "922",
+      "3851",
+      "3876",
+      "4545",
+      "7973",
+      "9374",
+      "12260"
+    ]
   },
   "91": {
-    "caption": "Audio sample 91 description placeholder"
+    "caption": "Dogs bark continuously",
+    "relevant_ids": [
+      "22323",
+      "708",
+      "1631",
+      "1648",
+      "2206",
+      "2466",
+      "3513",
+      "3994",
+      "4889",
+      "5344"
+    ]
   },
   "92": {
-    "caption": "Audio sample 92 description placeholder"
+    "caption": "Water is running through a sink as some water goes down the sink",
+    "relevant_ids": [
+      "29930",
+      "43800",
+      "526",
+      "2125",
+      "14779",
+      "18473",
+      "19486",
+      "22455",
+      "22620",
+      "22805"
+    ]
   },
   "93": {
-    "caption": "Audio sample 93 description placeholder"
+    "caption": "A baby cries out once while a person continues to laugh",
+    "relevant_ids": [
+      "43238",
+      "1110",
+      "1840",
+      "3960",
+      "3963",
+      "4847",
+      "5389",
+      "5890",
+      "6176",
+      "7563"
+    ]
   },
   "94": {
-    "caption": "Audio sample 94 description placeholder"
+    "caption": "Multiple birds chirp, flutter and coo",
+    "relevant_ids": [
+      "44891",
+      "489",
+      "1509",
+      "3351",
+      "6436",
+      "7954",
+      "8277",
+      "12924",
+      "13496",
+      "14739"
+    ]
   },
   "95": {
-    "caption": "Audio sample 95 description placeholder"
+    "caption": "A man speaking followed by a man in the distance then a short burst of air spraying with wind blowing",
+    "relevant_ids": [
+      "7311",
+      "21128",
+      "35833",
+      "41699",
+      "1691",
+      "2639",
+      "3275",
+      "3591",
+      "5617",
+      "7059"
+    ]
   },
   "96": {
-    "caption": "Audio sample 96 description placeholder"
+    "caption": "A man speaks as he dials an old-fashioned phone",
+    "relevant_ids": [
+      "8852",
+      "10168",
+      "14090",
+      "15464",
+      "16254",
+      "16322",
+      "30397",
+      "30579",
+      "32776",
+      "33263"
+    ]
   },
   "97": {
-    "caption": "Audio sample 97 description placeholder"
+    "caption": "Two babies cry",
+    "relevant_ids": [
+      "6911",
+      "7032",
+      "7554",
+      "8518",
+      "10576",
+      "11492",
+      "12303",
+      "14232",
+      "15832",
+      "18758"
+    ]
   },
   "98": {
-    "caption": "Audio sample 98 description placeholder"
+    "caption": "A man and a woman speaking with intermittent beeping",
+    "relevant_ids": [
+      "34156",
+      "8",
+      "628",
+      "727",
+      "859",
+      "916",
+      "1063",
+      "1172",
+      "1200",
+      "1307"
+    ]
   },
   "99": {
-    "caption": "Audio sample 99 description placeholder"
+    "caption": "A baby cries as a woman laughs",
+    "relevant_ids": [
+      "2370",
+      "4397",
+      "7315",
+      "19811",
+      "20592",
+      "25353",
+      "31966",
+      "33242",
+      "38779",
+      "43679"
+    ]
   },
   "100": {
-    "caption": "Audio sample 100 description placeholder"
+    "caption": "A man speaks then a woman yells",
+    "relevant_ids": [
+      "24918",
+      "47272",
+      "48019",
+      "448",
+      "715",
+      "733",
+      "859",
+      "918",
+      "942",
+      "1063"
+    ]
   },
   "101": {
-    "caption": "Audio sample 101 description placeholder"
+    "caption": "People speaking and laughing with a baby crying",
+    "relevant_ids": [
+      "6909",
+      "8811",
+      "14570",
+      "18875",
+      "25724",
+      "28443",
+      "32415",
+      "36090",
+      "36665",
+      "38394"
+    ]
   },
   "102": {
-    "caption": "Audio sample 102 description placeholder"
+    "caption": "A man talking as a motor runs with a series of sanding and rattling",
+    "relevant_ids": [
+      "29382",
+      "1272",
+      "1333",
+      "1951",
+      "2153",
+      "3151",
+      "3471",
+      "3560",
+      "4456",
+      "6385"
+    ]
   },
   "103": {
-    "caption": "Audio sample 103 description placeholder"
+    "caption": "A vehicle engine runs smoothly, then revs aggressively",
+    "relevant_ids": [
+      "9351",
+      "14240",
+      "21348",
+      "30711",
+      "46849",
+      "49723",
+      "793",
+      "1540",
+      "1721",
+      "1749"
+    ]
   },
   "104": {
-    "caption": "Audio sample 104 description placeholder"
+    "caption": "An electronic device bleeps once",
+    "relevant_ids": [
+      "49051",
+      "609",
+      "2038",
+      "3464",
+      "4258",
+      "5617",
+      "5838",
+      "6298",
+      "8088",
+      "9248"
+    ]
   },
   "105": {
-    "caption": "Audio sample 105 description placeholder"
+    "caption": "A heavy rain falls followed by a music being played",
+    "relevant_ids": [
+      "15319",
+      "22792",
+      "26775",
+      "30531",
+      "33316",
+      "38379",
+      "45222",
+      "49399",
+      "860",
+      "1758"
+    ]
   },
   "106": {
-    "caption": "Audio sample 106 description placeholder"
+    "caption": "A motor sputters, animals croak, and a person exclaims",
+    "relevant_ids": [
+      "1955",
+      "2993",
+      "5605",
+      "6565",
+      "9600",
+      "11615",
+      "12027",
+      "12392",
+      "12622",
+      "18916"
+    ]
   },
   "107": {
-    "caption": "Audio sample 107 description placeholder"
+    "caption": "A door slams shut and an object moves on a hard surface",
+    "relevant_ids": [
+      "49589",
+      "20036",
+      "2084",
+      "6320",
+      "10037",
+      "11344",
+      "15438",
+      "27734",
+      "27856",
+      "28217"
+    ]
   },
   "108": {
-    "caption": "Audio sample 108 description placeholder"
+    "caption": "A horn blasts loudly as a train passes",
+    "relevant_ids": [
+      "5376",
+      "15065",
+      "18914",
+      "166",
+      "934",
+      "953",
+      "958",
+      "1513",
+      "1722",
+      "2832"
+    ]
   },
   "109": {
-    "caption": "Audio sample 109 description placeholder"
+    "caption": "A chime of a clock followed by various tones of ticking with come clinking",
+    "relevant_ids": [
+      "37612",
+      "1153",
+      "2960",
+      "3361",
+      "4407",
+      "4701",
+      "9688",
+      "11026",
+      "12065",
+      "12366"
+    ]
   },
   "110": {
-    "caption": "Audio sample 110 description placeholder"
+    "caption": "Children speak as a female ask them questions",
+    "relevant_ids": [
+      "4029",
+      "11122",
+      "28160",
+      "28227",
+      "36655",
+      "40",
+      "473",
+      "585",
+      "1559",
+      "1653"
+    ]
   },
   "111": {
-    "caption": "Audio sample 111 description placeholder"
+    "caption": "A man and woman laugh loudly while another man screeches and speaks",
+    "relevant_ids": [
+      "733",
+      "1307",
+      "1764",
+      "2074",
+      "9535",
+      "10194",
+      "10211",
+      "14675",
+      "15155",
+      "15712"
+    ]
   },
   "112": {
-    "caption": "Audio sample 112 description placeholder"
+    "caption": "A baby fusses and cries as a woman speaks curtly",
+    "relevant_ids": [
+      "46845",
+      "942",
+      "1115",
+      "3433",
+      "4361",
+      "5579",
+      "5705",
+      "6275",
+      "7315",
+      "9081"
+    ]
   },
   "113": {
-    "caption": "Audio sample 113 description placeholder"
+    "caption": "A man sprays as a scraping occurs in the background",
+    "relevant_ids": [
+      "3226",
+      "4147",
+      "4925",
+      "9248",
+      "14621",
+      "16201",
+      "16377",
+      "21624",
+      "25295",
+      "32680"
+    ]
   },
   "114": {
-    "caption": "Audio sample 114 description placeholder"
+    "caption": "A woman speaks and is crumpling paper",
+    "relevant_ids": [
+      "8301",
+      "943",
+      "1142",
+      "1484",
+      "1497",
+      "7918",
+      "9627",
+      "15786",
+      "16324",
+      "18537"
+    ]
   },
   "115": {
-    "caption": "Audio sample 115 description placeholder"
+    "caption": "A man speaks as water overflows making a hiss noise and a woman yells",
+    "relevant_ids": [
+      "24918",
+      "4367",
+      "6490",
+      "7103",
+      "13108",
+      "14938",
+      "16324",
+      "17165",
+      "21213",
+      "25463"
+    ]
   },
   "116": {
-    "caption": "Audio sample 116 description placeholder"
+    "caption": "A kid shouts in the background while another kid announces what is happening",
+    "relevant_ids": [
+      "105",
+      "793",
+      "7313",
+      "29427",
+      "549",
+      "559",
+      "597",
+      "911",
+      "1534",
+      "1898"
+    ]
   },
   "117": {
-    "caption": "Audio sample 117 description placeholder"
+    "caption": "Water flows as women and men speak while children talk in the background",
+    "relevant_ids": [
+      "27579",
+      "5872",
+      "6462",
+      "7620",
+      "7790",
+      "10794",
+      "12611",
+      "13147",
+      "16302",
+      "17488"
+    ]
   },
   "118": {
-    "caption": "Audio sample 118 description placeholder"
+    "caption": "A person whistles tapping a desk before clicking a mouse",
+    "relevant_ids": [
+      "2571",
+      "9571",
+      "20792",
+      "907",
+      "992",
+      "1160",
+      "1403",
+      "1604",
+      "1747",
+      "2339"
+    ]
   },
   "119": {
-    "caption": "Audio sample 119 description placeholder"
+    "caption": "Soft fidgeting is followed by a quiet beep",
+    "relevant_ids": [
+      "12259",
+      "14781",
+      "16462",
+      "17518",
+      "25478",
+      "44508",
+      "227",
+      "245",
+      "330",
+      "803"
+    ]
   },
   "120": {
-    "caption": "Audio sample 120 description placeholder"
+    "caption": "A woman speaks happily and an animal chirps",
+    "relevant_ids": [
+      "4443",
+      "15440",
+      "22047",
+      "27704",
+      "32153",
+      "35293",
+      "40696",
+      "41360",
+      "42568",
+      "48932"
+    ]
   },
   "121": {
-    "caption": "Audio sample 121 description placeholder"
+    "caption": "A man speaks, another man speaks, and a small bell dings",
+    "relevant_ids": [
+      "3238",
+      "4456",
+      "4953",
+      "12813",
+      "37009",
+      "38673",
+      "52",
+      "424",
+      "428",
+      "597"
+    ]
   },
   "122": {
-    "caption": "Audio sample 122 description placeholder"
+    "caption": "A person blows raspberries while a baby laughs",
+    "relevant_ids": [
+      "27002",
+      "8270",
+      "21276",
+      "22121",
+      "29747",
+      "32628",
+      "33870",
+      "48270",
+      "131",
+      "164"
+    ]
   },
   "123": {
-    "caption": "Audio sample 123 description placeholder"
+    "caption": "A distorted vehicle engine accelerating then slowing down followed by a man laughing",
+    "relevant_ids": [
+      "33069",
+      "6177",
+      "6958",
+      "7635",
+      "10298",
+      "11216",
+      "13870",
+      "20417",
+      "37780",
+      "40393"
+    ]
   },
   "124": {
-    "caption": "Audio sample 124 description placeholder"
+    "caption": "Someone crumples plastic and speaks",
+    "relevant_ids": [
+      "15949",
+      "115",
+      "7995",
+      "14079",
+      "15539",
+      "16283",
+      "20271",
+      "20408",
+      "23488",
+      "27613"
+    ]
   },
   "125": {
-    "caption": "Audio sample 125 description placeholder"
+    "caption": "Rapid fire loud booming gunshots",
+    "relevant_ids": [
+      "6709",
+      "12856",
+      "4432",
+      "8233",
+      "8300",
+      "8679",
+      "9212",
+      "11724",
+      "12143",
+      "12835"
+    ]
   },
   "126": {
-    "caption": "Audio sample 126 description placeholder"
+    "caption": "An adult man speaks over light wind",
+    "relevant_ids": [
+      "35237",
+      "14517",
+      "14710",
+      "16848",
+      "26578",
+      "30669",
+      "30887",
+      "32247",
+      "40683",
+      "41207"
+    ]
   },
   "127": {
-    "caption": "Audio sample 127 description placeholder"
+    "caption": "An aircraft engine runs while a man speaks",
+    "relevant_ids": [
+      "33974",
+      "507",
+      "6885",
+      "8179",
+      "10028",
+      "11300",
+      "11368",
+      "13005",
+      "13011",
+      "13246"
+    ]
   },
   "128": {
-    "caption": "Audio sample 128 description placeholder"
+    "caption": "Wind blows and people speak in the background",
+    "relevant_ids": [
+      "33382",
+      "773",
+      "1039",
+      "1188",
+      "2216",
+      "2305",
+      "2630",
+      "3362",
+      "5166",
+      "6036"
+    ]
   },
   "129": {
-    "caption": "Audio sample 129 description placeholder"
+    "caption": "A man speaks and a clock ticktocks",
+    "relevant_ids": [
+      "687",
+      "2127",
+      "2701",
+      "8545",
+      "14084",
+      "19387",
+      "25687",
+      "28663",
+      "31184",
+      "32361"
+    ]
   },
   "130": {
-    "caption": "Audio sample 130 description placeholder"
+    "caption": "Pigeons vocalize and birds chirp",
+    "relevant_ids": [
+      "957",
+      "14600",
+      "489",
+      "1423",
+      "3351",
+      "8382",
+      "11005",
+      "12463",
+      "14928",
+      "15398"
+    ]
   },
   "131": {
-    "caption": "Audio sample 131 description placeholder"
+    "caption": "A clock ticktocks while a man speaks",
+    "relevant_ids": [
+      "687",
+      "2127",
+      "2701",
+      "8545",
+      "14084",
+      "19387",
+      "25687",
+      "28663",
+      "31184",
+      "32361"
+    ]
   },
   "132": {
-    "caption": "Audio sample 132 description placeholder"
+    "caption": "An airplane passes overhead with a woman speaking",
+    "relevant_ids": [
+      "15427",
+      "19529",
+      "21297",
+      "8",
+      "58",
+      "76",
+      "83",
+      "111",
+      "145",
+      "184"
+    ]
   },
   "133": {
-    "caption": "Audio sample 133 description placeholder"
+    "caption": "A camera rustles around as birds chirp and women speak",
+    "relevant_ids": [
+      "1509",
+      "2305",
+      "3290",
+      "3619",
+      "3734",
+      "4552",
+      "6346",
+      "6436",
+      "7816",
+      "7913"
+    ]
   },
   "134": {
-    "caption": "Audio sample 134 description placeholder"
+    "caption": "A man speaks and uses a tool",
+    "relevant_ids": [
+      "5930",
+      "17758",
+      "38522",
+      "48523",
+      "593",
+      "1199",
+      "1324",
+      "1716",
+      "3033",
+      "3133"
+    ]
   },
   "135": {
-    "caption": "Audio sample 135 description placeholder"
+    "caption": "Continuous snoring",
+    "relevant_ids": [
+      "832",
+      "1894",
+      "2857",
+      "4749",
+      "8073",
+      "11206",
+      "14152",
+      "14894",
+      "16816",
+      "17573"
+    ]
   },
   "136": {
-    "caption": "Audio sample 136 description placeholder"
+    "caption": "An emergency vehicle blares its siren as a man speaks",
+    "relevant_ids": [
+      "424",
+      "27698",
+      "2099",
+      "2404",
+      "5157",
+      "5913",
+      "6828",
+      "7345",
+      "8428",
+      "11927"
+    ]
   },
   "137": {
-    "caption": "Audio sample 137 description placeholder"
+    "caption": "A bird chirps as a car drives by",
+    "relevant_ids": [
+      "28409",
+      "220",
+      "508",
+      "521",
+      "621",
+      "761",
+      "1124",
+      "1160",
+      "1434",
+      "1971"
+    ]
   },
   "138": {
-    "caption": "Audio sample 138 description placeholder"
+    "caption": "A man speaks as a water faucet runs",
+    "relevant_ids": [
+      "5189",
+      "28965",
+      "31251",
+      "36198",
+      "37322",
+      "543",
+      "1233",
+      "2721",
+      "3707",
+      "6770"
+    ]
   },
   "139": {
-    "caption": "Audio sample 139 description placeholder"
+    "caption": "A man speaks, followed by a loud whistle",
+    "relevant_ids": [
+      "45791",
+      "1307",
+      "1690",
+      "1931",
+      "7540",
+      "9974",
+      "13011",
+      "14061",
+      "14084",
+      "14874"
+    ]
   },
   "140": {
-    "caption": "Audio sample 140 description placeholder"
+    "caption": "A dog barks while a lamb vocalizes in the background",
+    "relevant_ids": [
+      "1363",
+      "1424",
+      "1827",
+      "2187",
+      "2736",
+      "4145",
+      "4795",
+      "6155",
+      "6255",
+      "6574"
+    ]
   },
   "141": {
-    "caption": "Audio sample 141 description placeholder"
+    "caption": "Several people talk and laugh followed by someone coughing",
+    "relevant_ids": [
+      "16282",
+      "31020",
+      "35473",
+      "44199",
+      "86",
+      "2027",
+      "2405",
+      "3999",
+      "5734",
+      "10211"
+    ]
   },
   "142": {
-    "caption": "Audio sample 142 description placeholder"
+    "caption": "White noise and light wind with an engine running quietly",
+    "relevant_ids": [
+      "7450",
+      "20310",
+      "34051",
+      "37729",
+      "40361",
+      "367",
+      "4003",
+      "4389",
+      "6374",
+      "9047"
+    ]
   },
   "143": {
-    "caption": "Audio sample 143 description placeholder"
+    "caption": "A crowd cheers and applause followed by a buzzer",
+    "relevant_ids": [
+      "3905",
+      "4585",
+      "6121",
+      "8637",
+      "13777",
+      "14316",
+      "15842",
+      "22788",
+      "25249",
+      "28807"
+    ]
   },
   "144": {
-    "caption": "Audio sample 144 description placeholder"
+    "caption": "A man speaks over intermittent keyboard taps",
+    "relevant_ids": [
+      "17239",
+      "258",
+      "328",
+      "424",
+      "650",
+      "734",
+      "1095",
+      "1287",
+      "2817",
+      "4109"
+    ]
   },
   "145": {
-    "caption": "Audio sample 145 description placeholder"
+    "caption": "A toy engine whirring louder and louder",
+    "relevant_ids": [
+      "30047",
+      "1043",
+      "1114",
+      "1671",
+      "2136",
+      "3182",
+      "3292",
+      "3349",
+      "3748",
+      "3780"
+    ]
   },
   "146": {
-    "caption": "Audio sample 146 description placeholder"
+    "caption": "Repetitive bleating of a goat",
+    "relevant_ids": [
+      "940",
+      "1948",
+      "2789",
+      "3639",
+      "3847",
+      "3865",
+      "4834",
+      "7519",
+      "9143",
+      "9356"
+    ]
   },
   "147": {
-    "caption": "Audio sample 147 description placeholder"
+    "caption": "Three men talk while wind blows and some liquid flows",
+    "relevant_ids": [
+      "2035",
+      "3124",
+      "6796",
+      "9027",
+      "10762",
+      "12868",
+      "15073",
+      "16895",
+      "27349",
+      "29472"
+    ]
   },
   "148": {
-    "caption": "Audio sample 148 description placeholder"
+    "caption": "A baby coos and fidgets as a lady speaks and laughs",
+    "relevant_ids": [
+      "164",
+      "4390",
+      "7315",
+      "8439",
+      "9593",
+      "10582",
+      "10692",
+      "11410",
+      "12851",
+      "14488"
+    ]
   },
   "149": {
-    "caption": "Audio sample 149 description placeholder"
+    "caption": "Birds chirp continuously",
+    "relevant_ids": [
+      "2207",
+      "15374",
+      "214",
+      "483",
+      "489",
+      "629",
+      "722",
+      "825",
+      "866",
+      "957"
+    ]
   },
   "150": {
-    "caption": "Audio sample 150 description placeholder"
+    "caption": "A vehicle accelerates and squeals tires while a swish occurs",
+    "relevant_ids": [
+      "20",
+      "627",
+      "3601",
+      "3858",
+      "4812",
+      "5504",
+      "8483",
+      "10546",
+      "10877",
+      "12380"
+    ]
   },
   "151": {
-    "caption": "Audio sample 151 description placeholder"
+    "caption": "A horse neighs and a girl talks",
+    "relevant_ids": [
+      "15100",
+      "18228",
+      "40162",
+      "46901",
+      "49140",
+      "108",
+      "214",
+      "672",
+      "1504",
+      "1715"
+    ]
   },
   "152": {
-    "caption": "Audio sample 152 description placeholder"
+    "caption": "A rumbling clap in the distance followed by a horn and the rumbling grows louder",
+    "relevant_ids": [
+      "33484",
+      "41494",
+      "154",
+      "977",
+      "5520",
+      "5970",
+      "6021",
+      "6387",
+      "7601",
+      "9026"
+    ]
   },
   "153": {
-    "caption": "Audio sample 153 description placeholder"
+    "caption": "Motors run loudly as tires screech around a turn",
+    "relevant_ids": [
+      "2166",
+      "5939",
+      "10693",
+      "29070",
+      "30432",
+      "32381",
+      "248",
+      "1133",
+      "1990",
+      "2333"
+    ]
   },
   "154": {
-    "caption": "Audio sample 154 description placeholder"
+    "caption": "An adult male speaks as a small motor runs",
+    "relevant_ids": [
+      "40104",
+      "42438",
+      "1145",
+      "11107",
+      "11430",
+      "11436",
+      "11485",
+      "13354",
+      "14724",
+      "20656"
+    ]
   },
   "155": {
-    "caption": "Audio sample 155 description placeholder"
+    "caption": "A man speaking with light rustling",
+    "relevant_ids": [
+      "22916",
+      "24995",
+      "33925",
+      "42372",
+      "49674",
+      "532",
+      "806",
+      "1183",
+      "1237",
+      "1952"
+    ]
   },
   "156": {
-    "caption": "Audio sample 156 description placeholder"
+    "caption": "A cuckoo clock ducks and coos while the clock chimes and ticks",
+    "relevant_ids": [
+      "15836",
+      "17737",
+      "22335",
+      "26612",
+      "30209",
+      "35671",
+      "38541",
+      "41630",
+      "45664",
+      "839"
+    ]
   },
   "157": {
-    "caption": "Audio sample 157 description placeholder"
+    "caption": "Humming of idling and revving engine with a man speaking",
+    "relevant_ids": [
+      "30365",
+      "4780",
+      "4838",
+      "9442",
+      "17910",
+      "18601",
+      "38693",
+      "44637",
+      "394",
+      "959"
+    ]
   },
   "158": {
-    "caption": "Audio sample 158 description placeholder"
+    "caption": "A train chugs along as its steam whistle screeches loudly and it moves on the track",
+    "relevant_ids": [
+      "22379",
+      "7149",
+      "42413",
+      "46176",
+      "47116",
+      "816",
+      "1722",
+      "2792",
+      "2819",
+      "4183"
+    ]
   },
   "159": {
-    "caption": "Audio sample 159 description placeholder"
+    "caption": "A horn honks followed by a loud continuous buzzing while men speak",
+    "relevant_ids": [
+      "921",
+      "1934",
+      "3085",
+      "9759",
+      "10978",
+      "13188",
+      "13336",
+      "15168",
+      "29389",
+      "39372"
+    ]
   },
   "160": {
-    "caption": "Audio sample 160 description placeholder"
+    "caption": "An insect buzzes around continuously",
+    "relevant_ids": [
+      "10468",
+      "15553",
+      "23538",
+      "819",
+      "1805",
+      "6028",
+      "8800",
+      "9090",
+      "9297",
+      "11670"
+    ]
   },
   "161": {
-    "caption": "Audio sample 161 description placeholder"
+    "caption": "A woman speaks and is crumpling paper",
+    "relevant_ids": [
+      "8301",
+      "943",
+      "1142",
+      "1484",
+      "1497",
+      "7918",
+      "9627",
+      "15786",
+      "16324",
+      "18537"
+    ]
   },
   "162": {
-    "caption": "Audio sample 162 description placeholder"
+    "caption": "An adult male speaks over continuous rubbing noise",
+    "relevant_ids": [
+      "15328",
+      "20713",
+      "24532",
+      "25120",
+      "29279",
+      "30759",
+      "35905",
+      "39010",
+      "46415",
+      "46844"
+    ]
   },
   "163": {
-    "caption": "Audio sample 163 description placeholder"
+    "caption": "A child speaks with some light rustling and clinking",
+    "relevant_ids": [
+      "1183",
+      "1237",
+      "7081",
+      "8549",
+      "10945",
+      "11987",
+      "12330",
+      "13815",
+      "20686",
+      "26187"
+    ]
   },
   "164": {
-    "caption": "Audio sample 164 description placeholder"
+    "caption": "A man speaks, a motor runs choppily, and another man speaks",
+    "relevant_ids": [
+      "4456",
+      "6385",
+      "12496",
+      "12606",
+      "12638",
+      "13005",
+      "13594",
+      "15039",
+      "19655",
+      "22245"
+    ]
   },
   "165": {
-    "caption": "Audio sample 165 description placeholder"
+    "caption": "A man speaks then begins whistling",
+    "relevant_ids": [
+      "52",
+      "1124",
+      "2758",
+      "7303",
+      "7395",
+      "7408",
+      "8897",
+      "10620",
+      "11777",
+      "17574"
+    ]
   },
   "166": {
-    "caption": "Audio sample 166 description placeholder"
+    "caption": "A speedboat accelerates quickly as wind blows and people speak",
+    "relevant_ids": [
+      "773",
+      "1039",
+      "1188",
+      "2216",
+      "2305",
+      "3362",
+      "5166",
+      "6036",
+      "6080",
+      "7177"
+    ]
   },
   "167": {
-    "caption": "Audio sample 167 description placeholder"
+    "caption": "A man speaks as dishes cling together and water runs",
+    "relevant_ids": [
+      "27920",
+      "1233",
+      "2721",
+      "5189",
+      "6770",
+      "8053",
+      "10707",
+      "11104",
+      "11381",
+      "12638"
+    ]
   },
   "168": {
-    "caption": "Audio sample 168 description placeholder"
+    "caption": "A man speaks haltingly as a baby stirs softly",
+    "relevant_ids": [
+      "39986",
+      "49741",
+      "164",
+      "593",
+      "942",
+      "2957",
+      "3242",
+      "3603",
+      "3747",
+      "5090"
+    ]
   },
   "169": {
-    "caption": "Audio sample 169 description placeholder"
+    "caption": "Ducks quack continuously before a man speaks",
+    "relevant_ids": [
+      "5216",
+      "12814",
+      "15652",
+      "15669",
+      "27453",
+      "45628",
+      "47980",
+      "563",
+      "3282",
+      "4075"
+    ]
   },
   "170": {
-    "caption": "Audio sample 170 description placeholder"
+    "caption": "A helicopter passes overhead",
+    "relevant_ids": [
+      "1541",
+      "16760",
+      "3064",
+      "4906",
+      "5294",
+      "5322",
+      "5708",
+      "7047",
+      "7691",
+      "8028"
+    ]
   },
   "171": {
-    "caption": "Audio sample 171 description placeholder"
+    "caption": "Mechanical humming and vibrating with a loud clink",
+    "relevant_ids": [
+      "3755",
+      "4010",
+      "14647",
+      "16954",
+      "21469",
+      "21867",
+      "23100",
+      "25070",
+      "31190",
+      "31926"
+    ]
   },
   "172": {
-    "caption": "Audio sample 172 description placeholder"
+    "caption": "As a baby talks in the distance, a woman speaks nearby",
+    "relevant_ids": [
+      "29327",
+      "36097",
+      "1841",
+      "3963",
+      "8514",
+      "9535",
+      "9643",
+      "11511",
+      "12107",
+      "13651"
+    ]
   },
   "173": {
-    "caption": "Audio sample 173 description placeholder"
+    "caption": "Birds chirp over an engine sound, and two women speak",
+    "relevant_ids": [
+      "1509",
+      "35495",
+      "38641",
+      "39325",
+      "48354",
+      "2207",
+      "2305",
+      "2391",
+      "3679",
+      "3780"
+    ]
   },
   "174": {
-    "caption": "Audio sample 174 description placeholder"
+    "caption": "An aircraft engine gets louder as it approaches while wind blows",
+    "relevant_ids": [
+      "1043",
+      "2952",
+      "5374",
+      "7429",
+      "10977",
+      "13567",
+      "16692",
+      "17158",
+      "18746",
+      "19959"
+    ]
   },
   "175": {
-    "caption": "Audio sample 175 description placeholder"
+    "caption": "Birds vocalize and walk around",
+    "relevant_ids": [
+      "3200",
+      "374",
+      "629",
+      "957",
+      "1164",
+      "1423",
+      "1805",
+      "2950",
+      "3091",
+      "3231"
+    ]
   },
   "176": {
-    "caption": "Audio sample 176 description placeholder"
+    "caption": "Rain falls on a surface as men speak and music plays",
+    "relevant_ids": [
+      "8935",
+      "40215",
+      "41752",
+      "1758",
+      "2901",
+      "3922",
+      "4938",
+      "9515",
+      "9648",
+      "12531"
+    ]
   },
   "177": {
-    "caption": "Audio sample 177 description placeholder"
+    "caption": "A woman speaks cheerfully as a baby laughs and babbles",
+    "relevant_ids": [
+      "4390",
+      "5280",
+      "7315",
+      "8270",
+      "8439",
+      "10692",
+      "12851",
+      "15451",
+      "17559",
+      "19468"
+    ]
   },
   "178": {
-    "caption": "Audio sample 178 description placeholder"
+    "caption": "Birds chirp in the distance followed by light clopping and a woman speaking",
+    "relevant_ids": [
+      "3993",
+      "8729",
+      "8890",
+      "11609",
+      "14053",
+      "15458",
+      "18406",
+      "22655",
+      "26363",
+      "29124"
+    ]
   },
   "179": {
-    "caption": "Audio sample 179 description placeholder"
+    "caption": "Rain falls onto a hard surface and thunder roars before music plays",
+    "relevant_ids": [
+      "41752",
+      "1758",
+      "2083",
+      "3284",
+      "4405",
+      "4699",
+      "7102",
+      "7359",
+      "8914",
+      "9499"
+    ]
   },
   "180": {
-    "caption": "Audio sample 180 description placeholder"
+    "caption": "Wind blows into a microphone as someone speaks",
+    "relevant_ids": [
+      "2441",
+      "7334",
+      "9815",
+      "13614",
+      "13703",
+      "17158",
+      "18832",
+      "19767",
+      "30887",
+      "38927"
+    ]
   },
   "181": {
-    "caption": "Audio sample 181 description placeholder"
+    "caption": "A man speaks as a car is passing by",
+    "relevant_ids": [
+      "23510",
+      "198",
+      "672",
+      "1382",
+      "2251",
+      "3116",
+      "3817",
+      "4381",
+      "4555",
+      "4598"
+    ]
   },
   "182": {
-    "caption": "Audio sample 182 description placeholder"
+    "caption": "Birds tweet and insects chatter quietly",
+    "relevant_ids": [
+      "1408",
+      "5441",
+      "11083",
+      "75",
+      "118",
+      "240",
+      "374",
+      "383",
+      "425",
+      "478"
+    ]
   },
   "183": {
-    "caption": "Audio sample 183 description placeholder"
+    "caption": "A duck quacks and men speak and laugh",
+    "relevant_ids": [
+      "42183",
+      "2626",
+      "2649",
+      "14336",
+      "15563",
+      "16364",
+      "16755",
+      "20607",
+      "21513",
+      "22224"
+    ]
   },
   "184": {
-    "caption": "Audio sample 184 description placeholder"
+    "caption": "A motor sputters and runs choppily",
+    "relevant_ids": [
+      "22395",
+      "703",
+      "793",
+      "815",
+      "949",
+      "952",
+      "961",
+      "1132",
+      "1658",
+      "1783"
+    ]
   },
   "185": {
-    "caption": "Audio sample 185 description placeholder"
+    "caption": "Water is sprayed across a hard surface",
+    "relevant_ids": [
+      "45277",
+      "2717",
+      "3567",
+      "5261",
+      "6896",
+      "11795",
+      "12136",
+      "12930",
+      "21148",
+      "39915"
+    ]
   },
   "186": {
-    "caption": "Audio sample 186 description placeholder"
+    "caption": "Metal clacking as food and oil sizzles followed by a woman talking",
+    "relevant_ids": [
+      "15715",
+      "18161",
+      "22193",
+      "26369",
+      "33319",
+      "40538",
+      "5310",
+      "8810",
+      "9640",
+      "18774"
+    ]
   },
   "187": {
-    "caption": "Audio sample 187 description placeholder"
+    "caption": "A woman speaks before water begins running onto a hard surface",
+    "relevant_ids": [
+      "41941",
+      "11795",
+      "3567",
+      "6896",
+      "8649",
+      "8779",
+      "11764",
+      "12033",
+      "16194",
+      "21148"
+    ]
   },
   "188": {
-    "caption": "Audio sample 188 description placeholder"
+    "caption": "A siren wails as it passes by",
+    "relevant_ids": [
+      "14897",
+      "17107",
+      "24511",
+      "35314",
+      "721",
+      "2592",
+      "2788",
+      "3924",
+      "4531",
+      "4623"
+    ]
   },
   "189": {
-    "caption": "Audio sample 189 description placeholder"
+    "caption": "Birds chirp and a telephone rings once before a woman answers speaking with a man",
+    "relevant_ids": [
+      "26363",
+      "46587",
+      "1588",
+      "1780",
+      "3934",
+      "5495",
+      "6598",
+      "8729",
+      "11714",
+      "12211"
+    ]
   },
   "190": {
-    "caption": "Audio sample 190 description placeholder"
+    "caption": "A man speaks as birds chirp and a vehicle passes nearby",
+    "relevant_ids": [
+      "9844",
+      "45878",
+      "957",
+      "2039",
+      "2104",
+      "3159",
+      "4356",
+      "5460",
+      "5901",
+      "8091"
+    ]
   },
   "191": {
-    "caption": "Audio sample 191 description placeholder"
+    "caption": "An adult male speaks over pan sizzling and metal banging",
+    "relevant_ids": [
+      "1994",
+      "19042",
+      "40161",
+      "49324",
+      "761",
+      "1559",
+      "2178",
+      "2255",
+      "3226",
+      "4023"
+    ]
   },
   "192": {
-    "caption": "Audio sample 192 description placeholder"
+    "caption": "Men laugh and speak while using a drill",
+    "relevant_ids": [
+      "2649",
+      "16364",
+      "20607",
+      "22224",
+      "24096",
+      "25584",
+      "26041",
+      "26642",
+      "27486",
+      "28240"
+    ]
   },
   "193": {
-    "caption": "Audio sample 193 description placeholder"
+    "caption": "A man speaks while birds chirping and insects crying",
+    "relevant_ids": [
+      "3159",
+      "15568",
+      "48319",
+      "979",
+      "2155",
+      "5444",
+      "6612",
+      "6909",
+      "7807",
+      "7935"
+    ]
   },
   "194": {
-    "caption": "Audio sample 194 description placeholder"
+    "caption": "White noise and ticking followed by a bell chiming",
+    "relevant_ids": [
+      "7126",
+      "22971",
+      "26625",
+      "37199",
+      "399",
+      "1023",
+      "1153",
+      "1474",
+      "1904",
+      "2146"
+    ]
   },
   "195": {
-    "caption": "Audio sample 195 description placeholder"
+    "caption": "Burping occurs repeatedly",
+    "relevant_ids": [
+      "5897",
+      "6675",
+      "16327",
+      "18230",
+      "25135",
+      "29608",
+      "32060",
+      "34829",
+      "39142",
+      "45833"
+    ]
   },
   "196": {
-    "caption": "Audio sample 196 description placeholder"
+    "caption": "A girl speaks narrating a dialog",
+    "relevant_ids": [
+      "690",
+      "1587",
+      "2328",
+      "3301",
+      "3425",
+      "3848",
+      "4953",
+      "5078",
+      "5497",
+      "6170"
+    ]
   },
   "197": {
-    "caption": "Audio sample 197 description placeholder"
+    "caption": "An aircraft engine screams as a man speaks in low tones",
+    "relevant_ids": [
+      "13011",
+      "33974",
+      "35659",
+      "37625",
+      "42742",
+      "8",
+      "304",
+      "424",
+      "430",
+      "507"
+    ]
   },
   "198": {
-    "caption": "Audio sample 198 description placeholder"
+    "caption": "A woman sneezes and then speaks",
+    "relevant_ids": [
+      "361",
+      "12223",
+      "13947",
+      "17559",
+      "21287",
+      "25524",
+      "30811",
+      "34138",
+      "183",
+      "257"
+    ]
   },
   "199": {
-    "caption": "Audio sample 199 description placeholder"
+    "caption": "An aircraft engine runs",
+    "relevant_ids": [
+      "5499",
+      "6885",
+      "11300",
+      "19869",
+      "20382",
+      "21941",
+      "26097",
+      "28482",
+      "33974",
+      "38052"
+    ]
   },
   "200": {
-    "caption": "Audio sample 200 description placeholder"
+    "caption": "Metal clangs while goats baa",
+    "relevant_ids": [
+      "160",
+      "1154",
+      "2979",
+      "3601",
+      "3701",
+      "4685",
+      "6459",
+      "6593",
+      "6598",
+      "8041"
+    ]
   },
   "201": {
-    "caption": "Audio sample 201 description placeholder"
+    "caption": "Music plays and cartoon characters cry before a frog croaks",
+    "relevant_ids": [
+      "14794",
+      "27251",
+      "33835",
+      "35995",
+      "42140",
+      "48260",
+      "48860",
+      "4783",
+      "7878",
+      "9068"
+    ]
   },
   "202": {
-    "caption": "Audio sample 202 description placeholder"
+    "caption": "Birds tweet followed by bees flying",
+    "relevant_ids": [
+      "19278",
+      "26993",
+      "5441",
+      "6689",
+      "14096",
+      "2039",
+      "2970",
+      "3990",
+      "6909",
+      "7076"
+    ]
   },
   "203": {
-    "caption": "Audio sample 203 description placeholder"
+    "caption": "Insects buzz over chirping birds",
+    "relevant_ids": [
+      "15568",
+      "20634",
+      "33157",
+      "43951",
+      "48319",
+      "478",
+      "2249",
+      "3159",
+      "7312",
+      "8729"
+    ]
   },
   "204": {
-    "caption": "Audio sample 204 description placeholder"
+    "caption": "A domestic animal squeals as shuffling occurs",
+    "relevant_ids": [
+      "24331",
+      "32702",
+      "37",
+      "336",
+      "351",
+      "1562",
+      "3925",
+      "4071",
+      "4664",
+      "5897"
+    ]
   },
   "205": {
-    "caption": "Audio sample 205 description placeholder"
+    "caption": "Several ducks quack and cocks crow far away",
+    "relevant_ids": [
+      "12515",
+      "17166",
+      "21756",
+      "9712",
+      "1033",
+      "1829",
+      "2892",
+      "3193",
+      "5216",
+      "5523"
+    ]
   },
   "206": {
-    "caption": "Audio sample 206 description placeholder"
+    "caption": "A telephone rings and a bird vocalizes",
+    "relevant_ids": [
+      "517",
+      "1100",
+      "1758",
+      "2449",
+      "2982",
+      "3435",
+      "3987",
+      "4371",
+      "4377",
+      "4599"
+    ]
   },
   "207": {
-    "caption": "Audio sample 207 description placeholder"
+    "caption": "Water trickles as a small motor whirls",
+    "relevant_ids": [
+      "31865",
+      "17488",
+      "17808",
+      "18938",
+      "20438",
+      "24863",
+      "28400",
+      "28652",
+      "29998",
+      "31736"
+    ]
   },
   "208": {
-    "caption": "Audio sample 208 description placeholder"
+    "caption": "A woman speaks and laughs at a baby laughing",
+    "relevant_ids": [
+      "4390",
+      "7315",
+      "8439",
+      "9593",
+      "10692",
+      "12851",
+      "13420",
+      "15451",
+      "17559",
+      "19379"
+    ]
   },
   "209": {
-    "caption": "Audio sample 209 description placeholder"
+    "caption": "A man speaks as pigeons vocalize and walk around",
+    "relevant_ids": [
+      "957",
+      "19797",
+      "19920",
+      "42013",
+      "44986",
+      "2706",
+      "2948",
+      "5116",
+      "5224",
+      "6170"
+    ]
   },
   "210": {
-    "caption": "Audio sample 210 description placeholder"
+    "caption": "A motorcycle engine revs then hits a bump",
+    "relevant_ids": [
+      "587",
+      "968",
+      "3293",
+      "3491",
+      "8374",
+      "8955",
+      "9914",
+      "10766",
+      "11600",
+      "13003"
+    ]
   },
   "211": {
-    "caption": "Audio sample 211 description placeholder"
+    "caption": "A strong wind blows and a man speaks",
+    "relevant_ids": [
+      "430",
+      "448",
+      "1826",
+      "2796",
+      "4012",
+      "4356",
+      "5846",
+      "7351",
+      "8029",
+      "8120"
+    ]
   },
   "212": {
-    "caption": "Audio sample 212 description placeholder"
+    "caption": "Children speak and play together",
+    "relevant_ids": [
+      "40",
+      "585",
+      "2063",
+      "2805",
+      "3362",
+      "4029",
+      "4534",
+      "5424",
+      "6294",
+      "6811"
+    ]
   },
   "213": {
-    "caption": "Audio sample 213 description placeholder"
+    "caption": "A man speaks then multiple motorcycles pass by",
+    "relevant_ids": [
+      "23306",
+      "567",
+      "630",
+      "984",
+      "1382",
+      "1462",
+      "5292",
+      "7066",
+      "8934",
+      "12055"
+    ]
   },
   "214": {
-    "caption": "Audio sample 214 description placeholder"
+    "caption": "Water running down a sink while a man is talking",
+    "relevant_ids": [
+      "891",
+      "2125",
+      "2518",
+      "2621",
+      "3003",
+      "7226",
+      "7426",
+      "7842",
+      "7936",
+      "9176"
+    ]
   },
   "215": {
-    "caption": "Audio sample 215 description placeholder"
+    "caption": "An engine runs and metal clings",
+    "relevant_ids": [
+      "15685",
+      "14895",
+      "16327",
+      "19287",
+      "21856",
+      "22599",
+      "36836",
+      "40836",
+      "49364",
+      "94"
+    ]
   },
   "216": {
-    "caption": "Audio sample 216 description placeholder"
+    "caption": "The ringing of a clock bell with the consistent ticking of a clock",
+    "relevant_ids": [
+      "2960",
+      "15651",
+      "18274",
+      "30736",
+      "34535",
+      "668",
+      "970",
+      "8953",
+      "9044",
+      "9145"
+    ]
   },
   "217": {
-    "caption": "Audio sample 217 description placeholder"
+    "caption": "A machine engine runs and a man speaks",
+    "relevant_ids": [
+      "507",
+      "7401",
+      "8120",
+      "8179",
+      "8418",
+      "8745",
+      "10028",
+      "10979",
+      "11237",
+      "11299"
+    ]
   },
   "218": {
-    "caption": "Audio sample 218 description placeholder"
+    "caption": "A woman speaks and crumples paper",
+    "relevant_ids": [
+      "15786",
+      "426",
+      "1142",
+      "1405",
+      "1497",
+      "2360",
+      "7918",
+      "8301",
+      "19156",
+      "20338"
+    ]
   },
   "219": {
-    "caption": "Audio sample 219 description placeholder"
+    "caption": "A vehicle accelerates as road noise occurs",
+    "relevant_ids": [
+      "20",
+      "3757",
+      "4924",
+      "5504",
+      "5920",
+      "6243",
+      "8483",
+      "8557",
+      "9025",
+      "12494"
+    ]
   },
   "220": {
-    "caption": "Audio sample 220 description placeholder"
+    "caption": "A woman speaks as water flows, then the water stops, and a man speaks",
+    "relevant_ids": [
+      "12177",
+      "244",
+      "1300",
+      "2766",
+      "4367",
+      "6490",
+      "6896",
+      "7103",
+      "7198",
+      "7941"
+    ]
   },
   "221": {
-    "caption": "Audio sample 221 description placeholder"
+    "caption": "Vehicle engine revving",
+    "relevant_ids": [
+      "270",
+      "777",
+      "834",
+      "838",
+      "959",
+      "1506",
+      "1663",
+      "1996",
+      "2393",
+      "3130"
+    ]
   },
   "222": {
-    "caption": "Audio sample 222 description placeholder"
+    "caption": "A woman speaks whiles air hisses and birds caw in the background",
+    "relevant_ids": [
+      "19241",
+      "25093",
+      "33440",
+      "37314",
+      "38439",
+      "40569",
+      "48297",
+      "48541",
+      "361",
+      "1040"
+    ]
   },
   "223": {
-    "caption": "Audio sample 223 description placeholder"
+    "caption": "Someone sprays liquid onto a hard surface",
+    "relevant_ids": [
+      "6268",
+      "30037",
+      "1397",
+      "25603",
+      "41956",
+      "7581",
+      "13151",
+      "31060",
+      "35099",
+      "38251"
+    ]
   },
   "224": {
-    "caption": "Audio sample 224 description placeholder"
+    "caption": "A saw cuts roughly through something",
+    "relevant_ids": [
+      "922",
+      "9685",
+      "12260",
+      "16055",
+      "19017",
+      "24310",
+      "24692",
+      "25972",
+      "31296",
+      "39916"
+    ]
   },
   "225": {
-    "caption": "Audio sample 225 description placeholder"
+    "caption": "A gunshot occurs while men speak in the background",
+    "relevant_ids": [
+      "2712",
+      "5333",
+      "5872",
+      "6004",
+      "7711",
+      "9248",
+      "9600",
+      "10432",
+      "10680",
+      "12634"
+    ]
   },
   "226": {
-    "caption": "Audio sample 226 description placeholder"
+    "caption": "A machine whirring nearby",
+    "relevant_ids": [
+      "626",
+      "1347",
+      "2006",
+      "2812",
+      "3155",
+      "3959",
+      "4380",
+      "4538",
+      "5541",
+      "7158"
+    ]
   },
   "227": {
-    "caption": "Audio sample 227 description placeholder"
+    "caption": "A boat passing by quickly",
+    "relevant_ids": [
+      "6371",
+      "6405",
+      "6922",
+      "7550",
+      "11009",
+      "13680",
+      "16025",
+      "17629",
+      "21643",
+      "25327"
+    ]
   },
   "228": {
-    "caption": "Audio sample 228 description placeholder"
+    "caption": "Something rattles and a bucket pops while a cow moos",
+    "relevant_ids": [
+      "1027",
+      "1232",
+      "1815",
+      "1886",
+      "2510",
+      "2823",
+      "4031",
+      "9408",
+      "9500",
+      "12050"
+    ]
   },
   "229": {
-    "caption": "Audio sample 229 description placeholder"
+    "caption": "A railroad crossing bell rings as a train horn blows",
+    "relevant_ids": [
+      "29847",
+      "44265",
+      "2334",
+      "6899",
+      "7453",
+      "32939",
+      "34969",
+      "37245",
+      "982",
+      "2627"
+    ]
   },
   "230": {
-    "caption": "Audio sample 230 description placeholder"
+    "caption": "A child cries while a woman talks",
+    "relevant_ids": [
+      "3438",
+      "6073",
+      "8720",
+      "18178",
+      "29327",
+      "30747",
+      "37404",
+      "45979",
+      "317",
+      "1048"
+    ]
   },
   "231": {
-    "caption": "Audio sample 231 description placeholder"
+    "caption": "People talk quietly in the distance, followed by a police car siren wailing",
+    "relevant_ids": [
+      "7071",
+      "10451",
+      "14742",
+      "32556",
+      "35795",
+      "282",
+      "424",
+      "1117",
+      "1504",
+      "1615"
+    ]
   },
   "232": {
-    "caption": "Audio sample 232 description placeholder"
+    "caption": "A person screams glaringly",
+    "relevant_ids": [
+      "496",
+      "1575",
+      "5302",
+      "11702",
+      "11832",
+      "13935",
+      "18524",
+      "20565",
+      "23505",
+      "26526"
+    ]
   },
   "233": {
-    "caption": "Audio sample 233 description placeholder"
+    "caption": "A woman speaks while a baby laughs and speaks",
+    "relevant_ids": [
+      "4390",
+      "7315",
+      "8439",
+      "10692",
+      "12851",
+      "15451",
+      "17559",
+      "19468",
+      "19811",
+      "26103"
+    ]
   },
   "234": {
-    "caption": "Audio sample 234 description placeholder"
+    "caption": "Some tunes played by whistling",
+    "relevant_ids": [
+      "7582",
+      "39499",
+      "44767"
+    ]
   },
   "235": {
-    "caption": "Audio sample 235 description placeholder"
+    "caption": "A motor runs in the distance as a soft wind periodically gusts",
+    "relevant_ids": [
+      "815",
+      "1310",
+      "1951",
+      "5195",
+      "6560",
+      "6877",
+      "7235",
+      "7601",
+      "8120",
+      "9026"
+    ]
   },
   "236": {
-    "caption": "Audio sample 236 description placeholder"
+    "caption": "An adult man talks and a motor starts",
+    "relevant_ids": [
+      "412",
+      "1743",
+      "1951",
+      "8038",
+      "9594",
+      "10190",
+      "10523",
+      "11583",
+      "13461",
+      "15130"
+    ]
   },
   "237": {
-    "caption": "Audio sample 237 description placeholder"
+    "caption": "Piano music plays as water runs and birds chirp",
+    "relevant_ids": [
+      "866",
+      "7576",
+      "9379",
+      "16588",
+      "25171",
+      "25610",
+      "31251",
+      "31698",
+      "36712",
+      "40380"
+    ]
   },
   "238": {
-    "caption": "Audio sample 238 description placeholder"
+    "caption": "Continuous oinking",
+    "relevant_ids": []
   },
   "239": {
-    "caption": "Audio sample 239 description placeholder"
+    "caption": "Paper is crumpling while a woman speaks",
+    "relevant_ids": [
+      "8301",
+      "943",
+      "1142",
+      "1484",
+      "1497",
+      "7918",
+      "9627",
+      "15786",
+      "16324",
+      "18537"
+    ]
   },
   "240": {
-    "caption": "Audio sample 240 description placeholder"
+    "caption": "An engine idles continuously",
+    "relevant_ids": [
+      "2974",
+      "7206",
+      "7762",
+      "9458",
+      "15265",
+      "21074",
+      "21639",
+      "29476",
+      "38119",
+      "41006"
+    ]
   },
   "241": {
-    "caption": "Audio sample 241 description placeholder"
+    "caption": "People converse quietly as an engine runs",
+    "relevant_ids": [
+      "282",
+      "793",
+      "1358",
+      "2212",
+      "11438",
+      "13975",
+      "14019",
+      "14219",
+      "14803",
+      "14807"
+    ]
   },
   "242": {
-    "caption": "Audio sample 242 description placeholder"
+    "caption": "A vehicle engine begins revving after idling",
+    "relevant_ids": [
+      "13741",
+      "17286",
+      "34592",
+      "38920",
+      "40604",
+      "47476",
+      "196",
+      "270",
+      "387",
+      "394"
+    ]
   },
   "243": {
-    "caption": "Audio sample 243 description placeholder"
+    "caption": "An airplane engine roars increasingly louder",
+    "relevant_ids": [
+      "1114",
+      "34013",
+      "41617",
+      "139",
+      "673",
+      "976",
+      "1043",
+      "1065",
+      "1922",
+      "3037"
+    ]
   },
   "244": {
-    "caption": "Audio sample 244 description placeholder"
+    "caption": "Someone types in a keyboard",
+    "relevant_ids": [
+      "116",
+      "552",
+      "1420",
+      "2193",
+      "3572",
+      "4394",
+      "7087",
+      "7286",
+      "9097",
+      "12169"
+    ]
   },
   "245": {
-    "caption": "Audio sample 245 description placeholder"
+    "caption": "A man speaks as the ground is rustling beneath his feet",
+    "relevant_ids": [
+      "46441",
+      "650",
+      "1183",
+      "1199",
+      "1237",
+      "2478",
+      "3033",
+      "3159",
+      "3395",
+      "4856"
+    ]
   },
   "246": {
-    "caption": "Audio sample 246 description placeholder"
+    "caption": "Wind blowing followed by a zoom",
+    "relevant_ids": [
+      "318",
+      "409",
+      "834",
+      "1253",
+      "1275",
+      "1691",
+      "2075",
+      "2181",
+      "2269",
+      "2639"
+    ]
   },
   "247": {
-    "caption": "Audio sample 247 description placeholder"
+    "caption": "Wind blows and engines run then a man speaks",
+    "relevant_ids": [
+      "430",
+      "448",
+      "1826",
+      "2796",
+      "4012",
+      "4356",
+      "5846",
+      "7351",
+      "8029",
+      "8120"
+    ]
   },
   "248": {
-    "caption": "Audio sample 248 description placeholder"
+    "caption": "Water splashing with several people speaking and laughing",
+    "relevant_ids": [
+      "20093",
+      "44473",
+      "25925",
+      "30107",
+      "36775",
+      "1465",
+      "1709",
+      "2386",
+      "2577",
+      "2769"
+    ]
   },
   "249": {
-    "caption": "Audio sample 249 description placeholder"
+    "caption": "An adult female speaks as water runs briefly",
+    "relevant_ids": [
+      "15870",
+      "16194",
+      "17155",
+      "30162",
+      "36063",
+      "311",
+      "1305",
+      "1653",
+      "2012",
+      "2273"
+    ]
   },
   "250": {
-    "caption": "Audio sample 250 description placeholder"
+    "caption": "An adult male speaks",
+    "relevant_ids": [
+      "45",
+      "62",
+      "66",
+      "110",
+      "290",
+      "310",
+      "311",
+      "608",
+      "670",
+      "761"
+    ]
   },
   "251": {
-    "caption": "Audio sample 251 description placeholder"
+    "caption": "A man speaks then uses a drill",
+    "relevant_ids": [
+      "37786",
+      "46450",
+      "730",
+      "3822",
+      "3898",
+      "3958",
+      "4677",
+      "5085",
+      "5930",
+      "6827"
+    ]
   },
   "252": {
-    "caption": "Audio sample 252 description placeholder"
+    "caption": "Rustling with people speaking and a goat bleating",
+    "relevant_ids": [
+      "17336",
+      "18623",
+      "39430",
+      "49688",
+      "392",
+      "1948",
+      "3341",
+      "5384",
+      "6113",
+      "6193"
+    ]
   },
   "253": {
-    "caption": "Audio sample 253 description placeholder"
+    "caption": "A child speaking and then whispering followed by a fart",
+    "relevant_ids": [
+      "223",
+      "1536",
+      "1552",
+      "3375",
+      "3607",
+      "3849",
+      "4094",
+      "4770",
+      "5619",
+      "6707"
+    ]
   },
   "254": {
-    "caption": "Audio sample 254 description placeholder"
+    "caption": "A machine whirls",
+    "relevant_ids": [
+      "14375",
+      "15610",
+      "27066"
+    ]
   },
   "255": {
-    "caption": "Audio sample 255 description placeholder"
+    "caption": "Ducks quack continuously",
+    "relevant_ids": [
+      "31181",
+      "47028",
+      "190",
+      "1033",
+      "1829",
+      "1859",
+      "1901",
+      "2401",
+      "2892",
+      "3010"
+    ]
   },
   "256": {
-    "caption": "Audio sample 256 description placeholder"
+    "caption": "A train moves getting closer while birds tweet",
+    "relevant_ids": [
+      "11682",
+      "13666",
+      "17792",
+      "19273",
+      "22280",
+      "24472",
+      "28944",
+      "31132",
+      "31806",
+      "32503"
+    ]
   },
   "257": {
-    "caption": "Audio sample 257 description placeholder"
+    "caption": "Some people speak",
+    "relevant_ids": [
+      "82",
+      "98",
+      "128",
+      "264",
+      "575",
+      "580",
+      "741",
+      "752",
+      "773",
+      "793"
+    ]
   },
   "258": {
-    "caption": "Audio sample 258 description placeholder"
+    "caption": "Speaking following by laughing and clapping",
+    "relevant_ids": [
+      "95",
+      "5243",
+      "9792",
+      "32137",
+      "39699",
+      "41695",
+      "264",
+      "537",
+      "635",
+      "888"
+    ]
   },
   "259": {
-    "caption": "Audio sample 259 description placeholder"
+    "caption": "Wind blows and rain falls then a man speaks",
+    "relevant_ids": [
+      "17894",
+      "44646",
+      "430",
+      "448",
+      "1432",
+      "1826",
+      "2530",
+      "2620",
+      "2796",
+      "3284"
+    ]
   },
   "260": {
-    "caption": "Audio sample 260 description placeholder"
+    "caption": "Motors rev and run loudly as a person laughs",
+    "relevant_ids": [
+      "7537",
+      "10772",
+      "14191",
+      "23973",
+      "24022",
+      "29607",
+      "32076",
+      "41210",
+      "43807",
+      "131"
+    ]
   },
   "261": {
-    "caption": "Audio sample 261 description placeholder"
+    "caption": "Someone whistles a song",
+    "relevant_ids": [
+      "16128",
+      "18229",
+      "19915",
+      "47321",
+      "38",
+      "1304",
+      "3138",
+      "3216",
+      "3316",
+      "4353"
+    ]
   },
   "262": {
-    "caption": "Audio sample 262 description placeholder"
+    "caption": "Wind blows as rain falls on a hard surface and a man speaks",
+    "relevant_ids": [
+      "2620",
+      "3284",
+      "11668",
+      "17894",
+      "2530",
+      "7351",
+      "13806",
+      "15992",
+      "18837",
+      "21045"
+    ]
   },
   "263": {
-    "caption": "Audio sample 263 description placeholder"
+    "caption": "Water runs slowly through a stream",
+    "relevant_ids": [
+      "11618",
+      "13445",
+      "22620",
+      "27413",
+      "31642",
+      "34196",
+      "39520",
+      "40015",
+      "45544",
+      "39"
+    ]
   },
   "264": {
-    "caption": "Audio sample 264 description placeholder"
+    "caption": "A man speaks and uses a pepper shaker",
+    "relevant_ids": [
+      "4677",
+      "5930",
+      "17758",
+      "36849",
+      "37147",
+      "37786",
+      "38522",
+      "46450",
+      "48523",
+      "23"
+    ]
   },
   "265": {
-    "caption": "Audio sample 265 description placeholder"
+    "caption": "Rain falls onto a hard surface and thunder roars",
+    "relevant_ids": [
+      "2083",
+      "3284",
+      "4405",
+      "4699",
+      "7102",
+      "7359",
+      "8914",
+      "9499",
+      "11477",
+      "11668"
+    ]
   },
   "266": {
-    "caption": "Audio sample 266 description placeholder"
+    "caption": "A motor slows to a stopover traffic noises",
+    "relevant_ids": [
+      "17026",
+      "19560",
+      "25960",
+      "316",
+      "1467",
+      "2277",
+      "2724",
+      "4428",
+      "4526",
+      "5083"
+    ]
   },
   "267": {
-    "caption": "Audio sample 267 description placeholder"
+    "caption": "A woman speaks while crumpling plastic",
+    "relevant_ids": [
+      "5804",
+      "5918",
+      "8009",
+      "8301",
+      "11718",
+      "13389",
+      "15577",
+      "16324",
+      "18968",
+      "23488"
+    ]
   },
   "268": {
-    "caption": "Audio sample 268 description placeholder"
+    "caption": "Food is frying then a woman speaks",
+    "relevant_ids": [
+      "4370",
+      "10982",
+      "27186",
+      "34844",
+      "37281",
+      "39464",
+      "40307",
+      "40781",
+      "45263",
+      "45580"
+    ]
   },
   "269": {
-    "caption": "Audio sample 269 description placeholder"
+    "caption": "Water flows and gurgles to a stop",
+    "relevant_ids": [
+      "2429",
+      "3302",
+      "35239",
+      "39017",
+      "141",
+      "244",
+      "311",
+      "486",
+      "586",
+      "758"
+    ]
   },
   "270": {
-    "caption": "Audio sample 270 description placeholder"
+    "caption": "A woman speaks and then a man speaks",
+    "relevant_ids": [
+      "448",
+      "715",
+      "733",
+      "859",
+      "918",
+      "942",
+      "1063",
+      "1091",
+      "1307",
+      "1572"
+    ]
   },
   "271": {
-    "caption": "Audio sample 271 description placeholder"
+    "caption": "An airplane accelerates briefly",
+    "relevant_ids": [
+      "7887",
+      "8428",
+      "9218",
+      "12929",
+      "17296",
+      "32688",
+      "34484",
+      "43313",
+      "48294"
+    ]
   },
   "272": {
-    "caption": "Audio sample 272 description placeholder"
+    "caption": "People speak as a thumping occurs",
+    "relevant_ids": [
+      "5333",
+      "5414",
+      "5872",
+      "6004",
+      "7884",
+      "9079",
+      "9248",
+      "10432",
+      "10963",
+      "11072"
+    ]
   },
   "273": {
-    "caption": "Audio sample 273 description placeholder"
+    "caption": "Water splashes then a person speaks",
+    "relevant_ids": [
+      "5917",
+      "8031",
+      "23578",
+      "25850",
+      "29159",
+      "34175",
+      "36963",
+      "311",
+      "486",
+      "1723"
+    ]
   },
   "274": {
-    "caption": "Audio sample 274 description placeholder"
+    "caption": "A airplane flies overhead as a woman speaks",
+    "relevant_ids": [
+      "2949",
+      "30885",
+      "1091",
+      "25675",
+      "30169",
+      "257",
+      "279",
+      "317",
+      "322",
+      "361"
+    ]
   },
   "275": {
-    "caption": "Audio sample 275 description placeholder"
+    "caption": "A sputtering motor idles roughly",
+    "relevant_ids": [
+      "26461",
+      "280",
+      "533",
+      "1431",
+      "1743",
+      "2306",
+      "2346",
+      "2361",
+      "3042",
+      "4465"
+    ]
   },
   "276": {
-    "caption": "Audio sample 276 description placeholder"
+    "caption": "A man hammers on a metal sheet then speaks",
+    "relevant_ids": [
+      "178",
+      "1031",
+      "2180",
+      "4677",
+      "5116",
+      "5603",
+      "7265",
+      "10037",
+      "10143",
+      "11749"
+    ]
   },
   "277": {
-    "caption": "Audio sample 277 description placeholder"
+    "caption": "Ticking continues without interruption",
+    "relevant_ids": [
+      "20272",
+      "24445",
+      "49269"
+    ]
   },
   "278": {
-    "caption": "Audio sample 278 description placeholder"
+    "caption": "A man speaks and a quiet engine runs",
+    "relevant_ids": [
+      "507",
+      "8179",
+      "10028",
+      "11368",
+      "13005",
+      "13246",
+      "20798",
+      "22245",
+      "23127",
+      "23850"
+    ]
   },
   "279": {
-    "caption": "Audio sample 279 description placeholder"
+    "caption": "A saw runs and cuts a solid surface",
+    "relevant_ids": [
+      "49729",
+      "341",
+      "922",
+      "3003",
+      "6512",
+      "6991",
+      "11787",
+      "11795",
+      "12990",
+      "13429"
+    ]
   },
   "280": {
-    "caption": "Audio sample 280 description placeholder"
+    "caption": "Objects are clanking against other objects and moaning animals make noises on a farm",
+    "relevant_ids": [
+      "8456",
+      "28588",
+      "10719",
+      "31253",
+      "45930",
+      "1924",
+      "4181",
+      "6040",
+      "6744",
+      "10063"
+    ]
   },
   "281": {
-    "caption": "Audio sample 281 description placeholder"
+    "caption": "Bees are buzzing around noisily while some wood is moved around",
+    "relevant_ids": [
+      "1107",
+      "2467",
+      "12132",
+      "17532",
+      "19086",
+      "19391",
+      "21415",
+      "25792",
+      "32670",
+      "39557"
+    ]
   },
   "282": {
-    "caption": "Audio sample 282 description placeholder"
+    "caption": "A saw moves back and forth then a man speaks",
+    "relevant_ids": [
+      "35884",
+      "45588",
+      "4856",
+      "7365",
+      "14142",
+      "15741",
+      "17676",
+      "17905",
+      "20164",
+      "21506"
+    ]
   },
   "283": {
-    "caption": "Audio sample 283 description placeholder"
+    "caption": "Music plays as a swoosh occurs and a bell rings",
+    "relevant_ids": [
+      "5927",
+      "1758",
+      "2178",
+      "3835",
+      "5838",
+      "7861",
+      "8969",
+      "9600",
+      "11324",
+      "11943"
+    ]
   },
   "284": {
-    "caption": "Audio sample 284 description placeholder"
+    "caption": "Sawing stops, then repeats",
+    "relevant_ids": [
+      "7274"
+    ]
   },
   "285": {
-    "caption": "Audio sample 285 description placeholder"
+    "caption": "A clock ticktocks briefly",
+    "relevant_ids": [
+      "2170",
+      "3669",
+      "4655",
+      "6819",
+      "10624",
+      "10940",
+      "12082",
+      "13582",
+      "14634",
+      "15101"
+    ]
   },
   "286": {
-    "caption": "Audio sample 286 description placeholder"
+    "caption": "Some light rustling with sneezes from a baby and a woman laughing",
+    "relevant_ids": [
+      "40770",
+      "550",
+      "666",
+      "3341",
+      "4329",
+      "4457",
+      "4503",
+      "6389",
+      "6912",
+      "8549"
+    ]
   },
   "287": {
-    "caption": "Audio sample 287 description placeholder"
+    "caption": "Birds chirp quietly and an adult man speaks",
+    "relevant_ids": [
+      "957",
+      "2039",
+      "2104",
+      "3226",
+      "4155",
+      "4356",
+      "5901",
+      "8729",
+      "9649",
+      "9844"
+    ]
   },
   "288": {
-    "caption": "Audio sample 288 description placeholder"
+    "caption": "Several vehicles accelerates and start moving skidding",
+    "relevant_ids": [
+      "1320",
+      "3728",
+      "23336",
+      "25967",
+      "33535",
+      "369",
+      "530",
+      "2004",
+      "2076",
+      "3173"
+    ]
   },
   "289": {
-    "caption": "Audio sample 289 description placeholder"
+    "caption": "A grown woman speaks and a younger girl speaks",
+    "relevant_ids": [
+      "690",
+      "2328",
+      "13108",
+      "25213",
+      "26910",
+      "31200",
+      "32771",
+      "40955",
+      "41998",
+      "43413"
+    ]
   },
   "290": {
-    "caption": "Audio sample 290 description placeholder"
+    "caption": "An electric engine works nearby while people talk far away",
+    "relevant_ids": [
+      "3143",
+      "3335",
+      "3502",
+      "7064",
+      "15056",
+      "26753",
+      "32698",
+      "34441",
+      "40320",
+      "47614"
+    ]
   },
   "291": {
-    "caption": "Audio sample 291 description placeholder"
+    "caption": "A toilet flushes and water drains unevenly",
+    "relevant_ids": [
+      "2904",
+      "2962",
+      "3852",
+      "4008",
+      "4165",
+      "7895",
+      "8457",
+      "10610",
+      "12575",
+      "12746"
+    ]
   },
   "292": {
-    "caption": "Audio sample 292 description placeholder"
+    "caption": "An airplane engine spools and people speak",
+    "relevant_ids": [
+      "575",
+      "673",
+      "793",
+      "1039",
+      "1922",
+      "2630",
+      "3774",
+      "3780",
+      "4032",
+      "4100"
+    ]
   },
   "293": {
-    "caption": "Audio sample 293 description placeholder"
+    "caption": "A man speaks while wind blows",
+    "relevant_ids": [
+      "430",
+      "448",
+      "1826",
+      "2796",
+      "4012",
+      "4356",
+      "5846",
+      "7351",
+      "8029",
+      "8120"
+    ]
   },
   "294": {
-    "caption": "Audio sample 294 description placeholder"
+    "caption": "People speak softly as food sizzles",
+    "relevant_ids": [
+      "29084",
+      "29131",
+      "43261",
+      "1729",
+      "6451",
+      "6478",
+      "7560",
+      "13333",
+      "17344",
+      "18371"
+    ]
   },
   "295": {
-    "caption": "Audio sample 295 description placeholder"
+    "caption": "A goat baaing continuously",
+    "relevant_ids": [
+      "2898",
+      "2979",
+      "3356",
+      "3403",
+      "4834",
+      "5291",
+      "7765",
+      "8017",
+      "9450",
+      "9898"
+    ]
   },
   "296": {
-    "caption": "Audio sample 296 description placeholder"
+    "caption": "Birds and insects make noise during the daytime",
+    "relevant_ids": [
+      "478",
+      "1020",
+      "1408",
+      "1584",
+      "2249",
+      "2633",
+      "3159",
+      "4009",
+      "5372",
+      "5441"
+    ]
   },
   "297": {
-    "caption": "Audio sample 297 description placeholder"
+    "caption": "A toilet flushes and water drains",
+    "relevant_ids": [
+      "2904",
+      "2962",
+      "3852",
+      "4008",
+      "4165",
+      "7895",
+      "8457",
+      "10610",
+      "12575",
+      "12746"
+    ]
   },
   "298": {
-    "caption": "Audio sample 298 description placeholder"
+    "caption": "A horn sounds and babies laugh",
+    "relevant_ids": [
+      "44040",
+      "206",
+      "811",
+      "934",
+      "977",
+      "985",
+      "1030",
+      "1545",
+      "1722",
+      "1989"
+    ]
   },
   "299": {
-    "caption": "Audio sample 299 description placeholder"
+    "caption": "Wind blows as a man speaks and fidgets",
+    "relevant_ids": [
+      "430",
+      "448",
+      "1826",
+      "2796",
+      "4012",
+      "4356",
+      "5846",
+      "7351",
+      "8029",
+      "8120"
+    ]
   },
   "300": {
-    "caption": "Audio sample 300 description placeholder"
+    "caption": "A rough engine revs and sputters",
+    "relevant_ids": [
+      "37499",
+      "53",
+      "230",
+      "242",
+      "407",
+      "587",
+      "684",
+      "724",
+      "968",
+      "1039"
+    ]
   },
   "301": {
-    "caption": "Audio sample 301 description placeholder"
+    "caption": "A young woman speaks over spraying and another person yells",
+    "relevant_ids": [
+      "2578",
+      "18418",
+      "19387",
+      "23148",
+      "23973",
+      "26526",
+      "29064",
+      "43406",
+      "361",
+      "422"
+    ]
   },
   "302": {
-    "caption": "Audio sample 302 description placeholder"
+    "caption": "Water moves and a man speaks as a boat passes by",
+    "relevant_ids": [
+      "44500",
+      "8889",
+      "17676",
+      "19826",
+      "24918",
+      "28845",
+      "29974",
+      "33619",
+      "33999",
+      "40552"
+    ]
   },
   "303": {
-    "caption": "Audio sample 303 description placeholder"
+    "caption": "An engine chugging consistently",
+    "relevant_ids": [
+      "14364",
+      "14984",
+      "15109",
+      "16329",
+      "19239",
+      "25757",
+      "28467",
+      "30551",
+      "33438",
+      "37186"
+    ]
   },
   "304": {
-    "caption": "Audio sample 304 description placeholder"
+    "caption": "Continuous sizzling is accompanied by glassware noise",
+    "relevant_ids": [
+      "1524",
+      "3511",
+      "4765",
+      "8288",
+      "8793",
+      "10081",
+      "10778",
+      "11501",
+      "13176",
+      "13423"
+    ]
   },
   "305": {
-    "caption": "Audio sample 305 description placeholder"
+    "caption": "A clock ticktocks and rings out",
+    "relevant_ids": [
+      "10940",
+      "15567",
+      "1064",
+      "2170",
+      "2445",
+      "2916",
+      "3669",
+      "4655",
+      "4839",
+      "6819"
+    ]
   },
   "306": {
-    "caption": "Audio sample 306 description placeholder"
+    "caption": "A vehicle accelerates and moves away",
+    "relevant_ids": [
+      "27614",
+      "29074",
+      "30328",
+      "822",
+      "3553",
+      "3837",
+      "8598",
+      "9049",
+      "15392",
+      "15626"
+    ]
   },
   "307": {
-    "caption": "Audio sample 307 description placeholder"
+    "caption": "A person is typing on a computer keyboard",
+    "relevant_ids": [
+      "2571",
+      "8297",
+      "9375",
+      "11116",
+      "20541",
+      "20792",
+      "21616",
+      "21917",
+      "41278",
+      "42790"
+    ]
   },
   "308": {
-    "caption": "Audio sample 308 description placeholder"
+    "caption": "Several men talk and someone whistles followed by pigeons cooing and flapping wings",
+    "relevant_ids": [
+      "29769",
+      "46075",
+      "521",
+      "3101",
+      "4460",
+      "7313",
+      "8382",
+      "10542",
+      "16785",
+      "17426"
+    ]
   },
   "309": {
-    "caption": "Audio sample 309 description placeholder"
+    "caption": "Birds chirp and objects are moved around",
+    "relevant_ids": [
+      "3619",
+      "3734",
+      "7633",
+      "16206",
+      "26808",
+      "27407",
+      "39825",
+      "40451",
+      "48709",
+      "214"
+    ]
   },
   "310": {
-    "caption": "Audio sample 310 description placeholder"
+    "caption": "Continuous heavy laughter and clanking with brief speech",
+    "relevant_ids": [
+      "12489",
+      "130",
+      "1410",
+      "1474",
+      "1797",
+      "3746",
+      "4093",
+      "4385",
+      "4547",
+      "6690"
+    ]
   },
   "311": {
-    "caption": "Audio sample 311 description placeholder"
+    "caption": "A person laughs and playfully yells as another man speaks and chains jingle",
+    "relevant_ids": [
+      "12503",
+      "45008",
+      "1255",
+      "1747",
+      "2948",
+      "3745",
+      "4835",
+      "4966",
+      "14462",
+      "15298"
+    ]
   },
   "312": {
-    "caption": "Audio sample 312 description placeholder"
+    "caption": "A man speaks as bees buzz and birds chirp",
+    "relevant_ids": [
+      "5901",
+      "2039",
+      "4356",
+      "8729",
+      "18190",
+      "26034",
+      "45878",
+      "71",
+      "298",
+      "957"
+    ]
   },
   "313": {
-    "caption": "Audio sample 313 description placeholder"
+    "caption": "A man and woman speak outside as the wind blows",
+    "relevant_ids": [
+      "8923",
+      "33601",
+      "38619",
+      "47799",
+      "448",
+      "5397",
+      "8039",
+      "8226",
+      "11667",
+      "12979"
+    ]
   },
   "314": {
-    "caption": "Audio sample 314 description placeholder"
+    "caption": "Water splashes and a motorboat passes as people yell",
+    "relevant_ids": [
+      "3672",
+      "3774",
+      "16712",
+      "19741",
+      "28867",
+      "1188",
+      "1355",
+      "1783",
+      "2305",
+      "3688"
+    ]
   },
   "315": {
-    "caption": "Audio sample 315 description placeholder"
+    "caption": "Air brakes are released followed by a loud air horn",
+    "relevant_ids": [
+      "35211",
+      "921",
+      "1023",
+      "1989",
+      "2128",
+      "3498",
+      "5308",
+      "5886",
+      "6021",
+      "6289"
+    ]
   },
   "316": {
-    "caption": "Audio sample 316 description placeholder"
+    "caption": "Laughing followed by a short groan then more laughing",
+    "relevant_ids": [
+      "4188",
+      "8030",
+      "15151",
+      "16620",
+      "17389",
+      "18795",
+      "19246",
+      "23557",
+      "25345",
+      "28976"
+    ]
   },
   "317": {
-    "caption": "Audio sample 317 description placeholder"
+    "caption": "Intermittent spraying is accompanied by men speaking",
+    "relevant_ids": [
+      "8288",
+      "9243",
+      "17951",
+      "20881",
+      "42846",
+      "49695",
+      "22",
+      "152",
+      "402",
+      "751"
+    ]
   },
   "318": {
-    "caption": "Audio sample 318 description placeholder"
+    "caption": "A baby is crying and someone laughs",
+    "relevant_ids": [
+      "3635",
+      "3726",
+      "4507",
+      "6506",
+      "7245",
+      "8270",
+      "8511",
+      "12262",
+      "14751",
+      "15943"
+    ]
   },
   "319": {
-    "caption": "Audio sample 319 description placeholder"
+    "caption": "An infant cries briefly",
+    "relevant_ids": [
+      "8599",
+      "15978",
+      "484",
+      "4430",
+      "6166",
+      "6939",
+      "7529",
+      "12144",
+      "13207",
+      "13816"
+    ]
   },
   "320": {
-    "caption": "Audio sample 320 description placeholder"
+    "caption": "People give applause in a large hall",
+    "relevant_ids": [
+      "909",
+      "6969",
+      "12848",
+      "34546",
+      "39306",
+      "45634",
+      "931",
+      "981",
+      "1328",
+      "1332"
+    ]
   },
   "321": {
-    "caption": "Audio sample 321 description placeholder"
+    "caption": "Birds chirping and rustling",
+    "relevant_ids": [
+      "179",
+      "310",
+      "1068",
+      "1132",
+      "1311",
+      "2543",
+      "2808",
+      "3081",
+      "3112",
+      "3159"
+    ]
   },
   "322": {
-    "caption": "Audio sample 322 description placeholder"
+    "caption": "An emergency vehicle siren wails as a man speaks",
+    "relevant_ids": [
+      "424",
+      "8428",
+      "27698",
+      "2099",
+      "5913",
+      "6828",
+      "8275",
+      "11927",
+      "14817",
+      "15709"
+    ]
   },
   "323": {
-    "caption": "Audio sample 323 description placeholder"
+    "caption": "A man speaks before a woman tells returning gunfire",
+    "relevant_ids": [
+      "448",
+      "715",
+      "733",
+      "859",
+      "918",
+      "942",
+      "1063",
+      "1091",
+      "1307",
+      "1572"
+    ]
   },
   "324": {
-    "caption": "Audio sample 324 description placeholder"
+    "caption": "Discordant musical underscores an ominous man speaking",
+    "relevant_ids": [
+      "10044",
+      "22112",
+      "26141",
+      "45666",
+      "8",
+      "21",
+      "64",
+      "72",
+      "74",
+      "120"
+    ]
   },
   "325": {
-    "caption": "Audio sample 325 description placeholder"
+    "caption": "A bird whistles loudly while another bird whistles in the distance as some wind blows",
+    "relevant_ids": [
+      "1508",
+      "12795",
+      "14817",
+      "17605",
+      "21765",
+      "28874",
+      "38508",
+      "45548",
+      "48475",
+      "153"
+    ]
   },
   "326": {
-    "caption": "Audio sample 326 description placeholder"
+    "caption": "After a few seconds of silence, a loud bang occurs followed by a softer banging noise",
+    "relevant_ids": [
+      "12672",
+      "22719",
+      "31551",
+      "34998",
+      "603",
+      "663",
+      "788",
+      "1023",
+      "2480",
+      "3085"
+    ]
   },
   "327": {
-    "caption": "Audio sample 327 description placeholder"
+    "caption": "The rumbling of a bus followed by a soft male voice",
+    "relevant_ids": [
+      "36456",
+      "38910",
+      "39947",
+      "881",
+      "913",
+      "965",
+      "1278",
+      "1553",
+      "2002",
+      "2149"
+    ]
   },
   "328": {
-    "caption": "Audio sample 328 description placeholder"
+    "caption": "A cat meowing, a young girl speaking and meowing after the cat.",
+    "relevant_ids": [
+      "1587",
+      "5449",
+      "23184",
+      "44595",
+      "635",
+      "1217",
+      "1483",
+      "2329",
+      "2612",
+      "2973"
+    ]
   },
   "329": {
-    "caption": "Audio sample 329 description placeholder"
+    "caption": "A saw runs continuously cutting wood",
+    "relevant_ids": [
+      "912",
+      "3876",
+      "9374",
+      "13375",
+      "13429",
+      "16439",
+      "20603",
+      "22649",
+      "27239",
+      "38548"
+    ]
   },
   "330": {
-    "caption": "Audio sample 330 description placeholder"
+    "caption": "A man speaks as a vehicle engine idles",
+    "relevant_ids": [
+      "8091",
+      "16378",
+      "31723",
+      "41213",
+      "46884",
+      "304",
+      "424",
+      "2496",
+      "3016",
+      "3861"
+    ]
   },
   "331": {
-    "caption": "Audio sample 331 description placeholder"
+    "caption": "Various birds chirp and squeal, and an animal grunts",
+    "relevant_ids": [
+      "3462",
+      "1562",
+      "3734",
+      "6608",
+      "11280",
+      "15988",
+      "16007",
+      "17190",
+      "25544",
+      "30793"
+    ]
   },
   "332": {
-    "caption": "Audio sample 332 description placeholder"
+    "caption": "A man speaks as rain falls and objects clash together",
+    "relevant_ids": [
+      "3456",
+      "4763",
+      "9515",
+      "11840",
+      "15514",
+      "17894",
+      "21045",
+      "23009",
+      "23993",
+      "28753"
+    ]
   },
   "333": {
-    "caption": "Audio sample 333 description placeholder"
+    "caption": "An engine sputters followed by a car zooming by",
+    "relevant_ids": [
+      "6303",
+      "53",
+      "330",
+      "783",
+      "1491",
+      "1754",
+      "2366",
+      "2506",
+      "3201",
+      "3689"
+    ]
   },
   "334": {
-    "caption": "Audio sample 334 description placeholder"
+    "caption": "A clock ticktocks and birds chirp",
+    "relevant_ids": [
+      "7105",
+      "13417",
+      "214",
+      "483",
+      "489",
+      "629",
+      "722",
+      "866",
+      "957",
+      "1079"
+    ]
   },
   "335": {
-    "caption": "Audio sample 335 description placeholder"
+    "caption": "A man and woman are speaking while grease is popping",
+    "relevant_ids": [
+      "37920",
+      "8",
+      "727",
+      "859",
+      "1063",
+      "1172",
+      "1200",
+      "1307",
+      "1631",
+      "1693"
+    ]
   },
   "336": {
-    "caption": "Audio sample 336 description placeholder"
+    "caption": "A phone rings and a female recorded voice answers and speaks",
+    "relevant_ids": [
+      "16757",
+      "17820",
+      "19897",
+      "19937",
+      "370",
+      "1758",
+      "10168",
+      "13161",
+      "13499",
+      "15256"
+    ]
   },
   "337": {
-    "caption": "Audio sample 337 description placeholder"
+    "caption": "A crowd applauds as a man yells and the crowd chants",
+    "relevant_ids": [
+      "874",
+      "2566",
+      "3698",
+      "4339",
+      "5109",
+      "6647",
+      "6751",
+      "9601",
+      "11817",
+      "13367"
+    ]
   },
   "338": {
-    "caption": "Audio sample 338 description placeholder"
+    "caption": "A child speaks in closed space",
+    "relevant_ids": [
+      "43",
+      "115",
+      "317",
+      "361",
+      "428",
+      "473",
+      "553",
+      "706",
+      "952",
+      "1089"
+    ]
   },
   "339": {
-    "caption": "Audio sample 339 description placeholder"
+    "caption": "Small fidgeting noises are followed by a single beep",
+    "relevant_ids": [
+      "2152",
+      "4449",
+      "7214",
+      "14795",
+      "24721",
+      "26826",
+      "27138",
+      "30359",
+      "40056",
+      "45413"
+    ]
   },
   "340": {
-    "caption": "Audio sample 340 description placeholder"
+    "caption": "A clock rings and ticktocks",
+    "relevant_ids": [
+      "10940",
+      "2170",
+      "2916",
+      "3669",
+      "4655",
+      "4839",
+      "6819",
+      "9680",
+      "9830",
+      "10036"
+    ]
   },
   "341": {
-    "caption": "Audio sample 341 description placeholder"
+    "caption": "A goat screams and people speak in the background",
+    "relevant_ids": [
+      "98",
+      "793",
+      "1280",
+      "2630",
+      "4069",
+      "4552",
+      "5333",
+      "5787",
+      "5872",
+      "6004"
+    ]
   },
   "342": {
-    "caption": "Audio sample 342 description placeholder"
+    "caption": "A soft wind underscores a woman laughing",
+    "relevant_ids": [
+      "252",
+      "4565",
+      "11667",
+      "13219",
+      "24713",
+      "30083",
+      "37832",
+      "41317",
+      "43601",
+      "445"
+    ]
   },
   "343": {
-    "caption": "Audio sample 343 description placeholder"
+    "caption": "Mechanical humming with a coughing man and some spraying",
+    "relevant_ids": [
+      "25123",
+      "3755",
+      "4000",
+      "10044",
+      "12356",
+      "12569",
+      "14541",
+      "17489",
+      "21469",
+      "23791"
+    ]
   },
   "344": {
-    "caption": "Audio sample 344 description placeholder"
+    "caption": "Food fries in a pan as someone talks and cooks",
+    "relevant_ids": [
+      "25807",
+      "810",
+      "1350",
+      "3166",
+      "3540",
+      "4916",
+      "7151",
+      "7497",
+      "10143",
+      "14694"
+    ]
   },
   "345": {
-    "caption": "Audio sample 345 description placeholder"
+    "caption": "Hissing and vibrating followed by a loud click",
+    "relevant_ids": [
+      "9497",
+      "18238",
+      "31190",
+      "45311",
+      "2480",
+      "3137",
+      "4705",
+      "6339",
+      "6454",
+      "7998"
+    ]
   },
   "346": {
-    "caption": "Audio sample 346 description placeholder"
+    "caption": "A diesel truck engine runs continuously",
+    "relevant_ids": [
+      "518",
+      "2207",
+      "2737",
+      "2883",
+      "4779",
+      "5066",
+      "6529",
+      "9218",
+      "9315",
+      "9909"
+    ]
   },
   "347": {
-    "caption": "Audio sample 347 description placeholder"
+    "caption": "White noise and snoring with some rustling in the background",
+    "relevant_ids": [
+      "19358",
+      "24321",
+      "231",
+      "399",
+      "1474",
+      "1904",
+      "2642",
+      "3334",
+      "4827",
+      "5098"
+    ]
   },
   "348": {
-    "caption": "Audio sample 348 description placeholder"
+    "caption": "Birds chirp and pigeons vocalize as a motorcycle passes by nearby",
+    "relevant_ids": [
+      "489",
+      "957",
+      "1423",
+      "11005",
+      "12463",
+      "14600",
+      "16311",
+      "49627",
+      "1870",
+      "2950"
+    ]
   },
   "349": {
-    "caption": "Audio sample 349 description placeholder"
+    "caption": "Children laugh because they are burping",
+    "relevant_ids": [
+      "4500",
+      "40",
+      "602",
+      "733",
+      "4129",
+      "5958",
+      "6274",
+      "6937",
+      "7085",
+      "7952"
+    ]
   },
   "350": {
-    "caption": "Audio sample 350 description placeholder"
+    "caption": "A man speaks while rain falls onto a hard surface",
+    "relevant_ids": [
+      "2083",
+      "3284",
+      "4405",
+      "4699",
+      "7102",
+      "8914",
+      "11477",
+      "11668",
+      "12734",
+      "14118"
+    ]
   },
   "351": {
-    "caption": "Audio sample 351 description placeholder"
+    "caption": "A man speaks while birds tweet",
+    "relevant_ids": [
+      "6909",
+      "16206",
+      "25382",
+      "118",
+      "189",
+      "383",
+      "957",
+      "979",
+      "1879",
+      "2039"
+    ]
   },
   "352": {
-    "caption": "Audio sample 352 description placeholder"
+    "caption": "Water splashes and someone speaks",
+    "relevant_ids": [
+      "6740",
+      "24438",
+      "129",
+      "311",
+      "2365",
+      "2796",
+      "2904",
+      "4115",
+      "5250",
+      "5483"
+    ]
   },
   "353": {
-    "caption": "Audio sample 353 description placeholder"
+    "caption": "Rain falls onto a hard surface and thunder roars",
+    "relevant_ids": [
+      "2083",
+      "3284",
+      "4405",
+      "4699",
+      "7102",
+      "7359",
+      "8914",
+      "9499",
+      "11477",
+      "11668"
+    ]
   },
   "354": {
-    "caption": "Audio sample 354 description placeholder"
+    "caption": "A woman speaks and is crumpling paper",
+    "relevant_ids": [
+      "8301",
+      "943",
+      "1142",
+      "1484",
+      "1497",
+      "7918",
+      "9627",
+      "15786",
+      "16324",
+      "18537"
+    ]
   },
   "355": {
-    "caption": "Audio sample 355 description placeholder"
+    "caption": "A young man speaks as birds chirp quietly",
+    "relevant_ids": [
+      "957",
+      "2039",
+      "2104",
+      "4356",
+      "5901",
+      "6365",
+      "8729",
+      "9844",
+      "13983",
+      "14360"
+    ]
   },
   "356": {
-    "caption": "Audio sample 356 description placeholder"
+    "caption": "Birds chirp as a man narrates while a group of people speak",
+    "relevant_ids": [
+      "1371",
+      "2305",
+      "4552",
+      "6436",
+      "13333",
+      "14555",
+      "15833",
+      "16398",
+      "22858",
+      "23674"
+    ]
   },
   "357": {
-    "caption": "Audio sample 357 description placeholder"
+    "caption": "A woman talks followed by liquid sinking",
+    "relevant_ids": [
+      "6710",
+      "17341",
+      "30581",
+      "34797",
+      "35398",
+      "47091",
+      "86",
+      "132",
+      "1048",
+      "1283"
+    ]
   },
   "358": {
-    "caption": "Audio sample 358 description placeholder"
+    "caption": "People speak as wind blows",
+    "relevant_ids": [
+      "773",
+      "1039",
+      "1188",
+      "2216",
+      "2305",
+      "3362",
+      "5166",
+      "6036",
+      "6080",
+      "7177"
+    ]
   },
   "359": {
-    "caption": "Audio sample 359 description placeholder"
+    "caption": "Frogs croak and music plays",
+    "relevant_ids": [
+      "21366",
+      "38405",
+      "47392",
+      "6337",
+      "11132",
+      "32027",
+      "37762",
+      "48860",
+      "61",
+      "143"
+    ]
   },
   "360": {
-    "caption": "Audio sample 360 description placeholder"
+    "caption": "A person hammers a metal object repeatedly then speaks",
+    "relevant_ids": [
+      "1063",
+      "8532",
+      "10037",
+      "13428",
+      "13915",
+      "19238",
+      "22212",
+      "23227",
+      "23578",
+      "30725"
+    ]
   },
   "361": {
-    "caption": "Audio sample 361 description placeholder"
+    "caption": "Multiple people speak as vehicle horns blow",
+    "relevant_ids": [
+      "23792",
+      "20312",
+      "43872",
+      "46395",
+      "793",
+      "1606",
+      "6044",
+      "6436",
+      "6990",
+      "8137"
+    ]
   },
   "362": {
-    "caption": "Audio sample 362 description placeholder"
+    "caption": "A clock ticktocks and sounds an alarm then a man laughs",
+    "relevant_ids": [
+      "689",
+      "1680",
+      "3827",
+      "10194",
+      "16938",
+      "18008",
+      "21843",
+      "22528",
+      "24552",
+      "25247"
+    ]
   },
   "363": {
-    "caption": "Audio sample 363 description placeholder"
+    "caption": "A toilet flushes and water drains",
+    "relevant_ids": [
+      "2904",
+      "2962",
+      "3852",
+      "4008",
+      "4165",
+      "7895",
+      "8457",
+      "10610",
+      "12575",
+      "12746"
+    ]
   },
   "364": {
-    "caption": "Audio sample 364 description placeholder"
+    "caption": "A girl speaks followed by scraping and then the girl speaking again",
+    "relevant_ids": [
+      "3848",
+      "9440",
+      "17789",
+      "18779",
+      "19371",
+      "20923",
+      "21310",
+      "22798",
+      "25653",
+      "26910"
+    ]
   },
   "365": {
-    "caption": "Audio sample 365 description placeholder"
+    "caption": "A liquid is sprayed onto a hard surface",
+    "relevant_ids": [
+      "6268",
+      "30037",
+      "45277",
+      "1397",
+      "2083",
+      "2717",
+      "3284",
+      "4405",
+      "4699",
+      "7102"
+    ]
   },
   "366": {
-    "caption": "Audio sample 366 description placeholder"
+    "caption": "A motor revs repeatedly",
+    "relevant_ids": [
+      "763",
+      "1743",
+      "1789",
+      "1807",
+      "2750",
+      "3656",
+      "5366",
+      "6255",
+      "6402",
+      "7438"
+    ]
   },
   "367": {
-    "caption": "Audio sample 367 description placeholder"
+    "caption": "A woman speaks and a man speaks",
+    "relevant_ids": [
+      "448",
+      "715",
+      "733",
+      "859",
+      "918",
+      "942",
+      "1063",
+      "1091",
+      "1307",
+      "1572"
+    ]
   },
   "368": {
-    "caption": "Audio sample 368 description placeholder"
+    "caption": "A vehicle engine runs",
+    "relevant_ids": [
+      "793",
+      "1540",
+      "2181",
+      "3912",
+      "3936",
+      "4239",
+      "4526",
+      "4726",
+      "5195",
+      "6877"
+    ]
   },
   "369": {
-    "caption": "Audio sample 369 description placeholder"
+    "caption": "Race cars go around a track as a man commentates",
+    "relevant_ids": [
+      "5465",
+      "8972",
+      "16473",
+      "21750",
+      "28622",
+      "31963",
+      "32552",
+      "33301",
+      "35655",
+      "37026"
+    ]
   },
   "370": {
-    "caption": "Audio sample 370 description placeholder"
+    "caption": "An engine revs followed by people speaking",
+    "relevant_ids": [
+      "9914",
+      "793",
+      "4838",
+      "4888",
+      "6387",
+      "6843",
+      "16712",
+      "20417",
+      "22220",
+      "23139"
+    ]
   },
   "371": {
-    "caption": "Audio sample 371 description placeholder"
+    "caption": "Someone is typing on a computer keyboard",
+    "relevant_ids": [
+      "281",
+      "9346",
+      "41382",
+      "379",
+      "436",
+      "1000",
+      "1223",
+      "1372",
+      "2018",
+      "2456"
+    ]
   },
   "372": {
-    "caption": "Audio sample 372 description placeholder"
+    "caption": "Railroad tracks clickety-clack and a train clanks as it passes",
+    "relevant_ids": [
+      "21067",
+      "9260",
+      "29862",
+      "43204",
+      "43349",
+      "49092",
+      "39",
+      "1194",
+      "1522",
+      "1596"
+    ]
   },
   "373": {
-    "caption": "Audio sample 373 description placeholder"
+    "caption": "Birds chirp and pigeons vocalize as a vehicle passes by",
+    "relevant_ids": [
+      "957",
+      "8365",
+      "14600",
+      "33629",
+      "35143",
+      "45168",
+      "489",
+      "1423",
+      "3351",
+      "3708"
+    ]
   },
   "374": {
-    "caption": "Audio sample 374 description placeholder"
+    "caption": "A vehicle engine idles as a man speaks",
+    "relevant_ids": [
+      "8091",
+      "16378",
+      "31723",
+      "41213",
+      "46884",
+      "304",
+      "424",
+      "2496",
+      "3016",
+      "3861"
+    ]
   },
   "375": {
-    "caption": "Audio sample 375 description placeholder"
+    "caption": "A bird is chirping while air is flowing in a hollowed space",
+    "relevant_ids": [
+      "19442",
+      "47603",
+      "651",
+      "716",
+      "747",
+      "821",
+      "1124",
+      "1282",
+      "1659",
+      "1672"
+    ]
   },
   "376": {
-    "caption": "Audio sample 376 description placeholder"
+    "caption": "A young person sneezes as another person laughs",
+    "relevant_ids": [
+      "34080",
+      "604",
+      "1559",
+      "2578",
+      "3745",
+      "6067",
+      "6824",
+      "9109",
+      "11702",
+      "12503"
+    ]
   },
   "377": {
-    "caption": "Audio sample 377 description placeholder"
+    "caption": "A helicopter engine loudly hums in the air and then softens to a low hum",
+    "relevant_ids": [
+      "35305",
+      "5618",
+      "6452",
+      "6901",
+      "10232",
+      "12159",
+      "15421",
+      "15712",
+      "16223",
+      "17481"
+    ]
   },
   "378": {
-    "caption": "Audio sample 378 description placeholder"
+    "caption": "A toilet flushes quickly",
+    "relevant_ids": [
+      "20055",
+      "35506",
+      "141",
+      "221",
+      "474",
+      "812",
+      "898",
+      "989",
+      "1589",
+      "1791"
+    ]
   },
   "379": {
-    "caption": "Audio sample 379 description placeholder"
+    "caption": "A toilet flushes and water drains",
+    "relevant_ids": [
+      "2904",
+      "2962",
+      "3852",
+      "4008",
+      "4165",
+      "7895",
+      "8457",
+      "10610",
+      "12575",
+      "12746"
+    ]
   },
   "380": {
-    "caption": "Audio sample 380 description placeholder"
+    "caption": "A jet engine roars, almost making a man inaudible",
+    "relevant_ids": [
+      "391",
+      "3942",
+      "4153",
+      "7549",
+      "9270",
+      "17630",
+      "27932",
+      "35034",
+      "35040",
+      "35519"
+    ]
   },
   "381": {
-    "caption": "Audio sample 381 description placeholder"
+    "caption": "A clock ticktocks and a bell rings",
+    "relevant_ids": [
+      "2916",
+      "4839",
+      "6819",
+      "9680",
+      "10940",
+      "13582",
+      "14092",
+      "16942",
+      "17469",
+      "27402"
+    ]
   },
   "382": {
-    "caption": "Audio sample 382 description placeholder"
+    "caption": "A vehicle accelerates then a race car engine revs and accelerates",
+    "relevant_ids": [
+      "10788",
+      "12266",
+      "19015",
+      "34484",
+      "38354",
+      "230",
+      "2506",
+      "3535",
+      "6271",
+      "6383"
+    ]
   },
   "383": {
-    "caption": "Audio sample 383 description placeholder"
+    "caption": "A low rumble and some birds chirping in the distance.",
+    "relevant_ids": [
+      "979",
+      "1135",
+      "1275",
+      "1813",
+      "2053",
+      "2249",
+      "2359",
+      "3321",
+      "4265",
+      "4535"
+    ]
   },
   "384": {
-    "caption": "Audio sample 384 description placeholder"
+    "caption": "Car vehicles honk horns while a crowd talks loudly in the foreground",
+    "relevant_ids": [
+      "20265",
+      "31231",
+      "42982",
+      "381",
+      "3651",
+      "6230",
+      "6927",
+      "8671",
+      "11807",
+      "11861"
+    ]
   },
   "385": {
-    "caption": "Audio sample 385 description placeholder"
+    "caption": "A large bell rings and echoes",
+    "relevant_ids": [
+      "431",
+      "2450",
+      "5321",
+      "7685",
+      "14810",
+      "16942",
+      "17040",
+      "17856",
+      "20058",
+      "28692"
+    ]
   },
   "386": {
-    "caption": "Audio sample 386 description placeholder"
+    "caption": "Wind blowing with high powered and high frequency humming of an engine",
+    "relevant_ids": [
+      "2640",
+      "40793",
+      "862",
+      "2065",
+      "2327",
+      "2963",
+      "3370",
+      "4617",
+      "4911",
+      "5258"
+    ]
   },
   "387": {
-    "caption": "Audio sample 387 description placeholder"
+    "caption": "A guy speaks with a loud clang in the middle",
+    "relevant_ids": [
+      "734",
+      "1089",
+      "1206",
+      "1307",
+      "1690",
+      "1931",
+      "2069",
+      "2725",
+      "3287",
+      "3845"
+    ]
   },
   "388": {
-    "caption": "Audio sample 388 description placeholder"
+    "caption": "A clock ticks and rocks",
+    "relevant_ids": [
+      "14632",
+      "15025",
+      "15308",
+      "17441",
+      "22794",
+      "33962",
+      "34436",
+      "35718",
+      "39491",
+      "42749"
+    ]
   },
   "389": {
-    "caption": "Audio sample 389 description placeholder"
+    "caption": "Multiple vehicles race by and a struggling engine sputters",
+    "relevant_ids": [
+      "11474",
+      "13303",
+      "17228",
+      "44129",
+      "48",
+      "274",
+      "518",
+      "1252",
+      "1329",
+      "1739"
+    ]
   },
   "390": {
-    "caption": "Audio sample 390 description placeholder"
+    "caption": "A motor runs and fades as an adult man speaks",
+    "relevant_ids": [
+      "11107",
+      "12514",
+      "4456",
+      "4526",
+      "6385",
+      "11430",
+      "11436",
+      "11485",
+      "12496",
+      "12606"
+    ]
   },
   "391": {
-    "caption": "Audio sample 391 description placeholder"
+    "caption": "A man speaks over a running engine and blowing wind",
+    "relevant_ids": [
+      "14710",
+      "13703",
+      "14074",
+      "16726",
+      "26432",
+      "28252",
+      "31796",
+      "34946",
+      "35237",
+      "35692"
+    ]
   },
   "392": {
-    "caption": "Audio sample 392 description placeholder"
+    "caption": "A jet engine sounds as a ticktock occurs and beeping takes place",
+    "relevant_ids": [
+      "24701",
+      "12614",
+      "12989",
+      "14287",
+      "16201",
+      "17957",
+      "20005",
+      "37148",
+      "44423",
+      "46007"
+    ]
   },
   "393": {
-    "caption": "Audio sample 393 description placeholder"
+    "caption": "A jet engine spools up quickly",
+    "relevant_ids": [
+      "2073",
+      "7706",
+      "13382",
+      "171",
+      "391",
+      "1114",
+      "1531",
+      "1594",
+      "2484",
+      "2934"
+    ]
   },
   "394": {
-    "caption": "Audio sample 394 description placeholder"
+    "caption": "The rustling of the wind as it continuously blows",
+    "relevant_ids": [
+      "4250",
+      "4556",
+      "7479",
+      "7801",
+      "9686",
+      "10711",
+      "11920",
+      "11923",
+      "12077",
+      "13703"
+    ]
   },
   "395": {
-    "caption": "Audio sample 395 description placeholder"
+    "caption": "A man speaks and a baby cries",
+    "relevant_ids": [
+      "942",
+      "2957",
+      "3242",
+      "3603",
+      "5824",
+      "11315",
+      "13256",
+      "14036",
+      "15341",
+      "15344"
+    ]
   },
   "396": {
-    "caption": "Audio sample 396 description placeholder"
+    "caption": "Birds chirp and a dog breathes heavily",
+    "relevant_ids": [
+      "19401",
+      "722",
+      "3600",
+      "3658",
+      "8728",
+      "8804",
+      "11750",
+      "12211",
+      "17190",
+      "19300"
+    ]
   },
   "397": {
-    "caption": "Audio sample 397 description placeholder"
+    "caption": "A weapon fires multiple times",
+    "relevant_ids": [
+      "1155",
+      "2802",
+      "11683",
+      "11922",
+      "20016",
+      "20597",
+      "23646",
+      "31497",
+      "40610",
+      "186"
+    ]
   },
   "398": {
-    "caption": "Audio sample 398 description placeholder"
+    "caption": "A person is burping without stopping",
+    "relevant_ids": [
+      "1610",
+      "2142",
+      "2532",
+      "3426",
+      "4130",
+      "6675",
+      "7499",
+      "9823",
+      "10152",
+      "10178"
+    ]
   },
   "399": {
-    "caption": "Audio sample 399 description placeholder"
+    "caption": "A baby is crying softly",
+    "relevant_ids": [
+      "4837",
+      "14286",
+      "49286",
+      "444",
+      "550",
+      "666",
+      "754",
+      "1017",
+      "1061",
+      "1259"
+    ]
   },
   "400": {
-    "caption": "Audio sample 400 description placeholder"
+    "caption": "A plastic package crumples and crinkles",
+    "relevant_ids": [
+      "115",
+      "545",
+      "15848",
+      "24887",
+      "27797",
+      "34481",
+      "47220",
+      "2127",
+      "5804",
+      "7995"
+    ]
   },
   "401": {
-    "caption": "Audio sample 401 description placeholder"
+    "caption": "People speak and children laugh",
+    "relevant_ids": [
+      "40",
+      "1249",
+      "1825",
+      "3362",
+      "5867",
+      "6004",
+      "6478",
+      "6944",
+      "7085",
+      "7458"
+    ]
   },
   "402": {
-    "caption": "Audio sample 402 description placeholder"
+    "caption": "Birds chirps while a siren signals in the distance",
+    "relevant_ids": [
+      "19554",
+      "45658",
+      "48205",
+      "48882",
+      "424",
+      "489",
+      "629",
+      "979",
+      "1079",
+      "1135"
+    ]
   },
   "403": {
-    "caption": "Audio sample 403 description placeholder"
+    "caption": "A siren blares",
+    "relevant_ids": [
+      "2404",
+      "2592",
+      "5157",
+      "7345",
+      "7924",
+      "8014",
+      "8616",
+      "16573",
+      "17844",
+      "18414"
+    ]
   },
   "404": {
-    "caption": "Audio sample 404 description placeholder"
+    "caption": "A toilet flushing",
+    "relevant_ids": [
+      "76",
+      "209",
+      "287",
+      "293",
+      "375",
+      "830",
+      "899",
+      "1051",
+      "1061",
+      "1605"
+    ]
   },
   "405": {
-    "caption": "Audio sample 405 description placeholder"
+    "caption": "An engine starts up and drives away",
+    "relevant_ids": [
+      "1434",
+      "10274",
+      "16896",
+      "29332",
+      "32698",
+      "40120",
+      "162",
+      "290",
+      "587",
+      "846"
+    ]
   },
   "406": {
-    "caption": "Audio sample 406 description placeholder"
+    "caption": "A person snoring several times",
+    "relevant_ids": [
+      "907",
+      "1123",
+      "1403",
+      "4476",
+      "5967",
+      "7739",
+      "7780",
+      "8526",
+      "8564",
+      "9228"
+    ]
   },
   "407": {
-    "caption": "Audio sample 407 description placeholder"
+    "caption": "A crowd chants and cheers",
+    "relevant_ids": [
+      "16502",
+      "70",
+      "342",
+      "1746",
+      "1885",
+      "2041",
+      "2843",
+      "2873",
+      "3905",
+      "4136"
+    ]
   },
   "408": {
-    "caption": "Audio sample 408 description placeholder"
+    "caption": "An airplane engine runs",
+    "relevant_ids": [
+      "4779",
+      "5788",
+      "14365",
+      "32550",
+      "94",
+      "435",
+      "507",
+      "673",
+      "793",
+      "929"
+    ]
   },
   "409": {
-    "caption": "Audio sample 409 description placeholder"
+    "caption": "Pots and pans clash together as a child laughs",
+    "relevant_ids": [
+      "12085",
+      "20214",
+      "41367",
+      "44768",
+      "47550",
+      "429",
+      "452",
+      "544",
+      "1079",
+      "1494"
+    ]
   },
   "410": {
-    "caption": "Audio sample 410 description placeholder"
+    "caption": "A gurgling stream is interrupted by a large thump",
+    "relevant_ids": [
+      "725",
+      "1877",
+      "2992",
+      "3107",
+      "3888",
+      "5494",
+      "7261",
+      "12104",
+      "12174",
+      "15374"
+    ]
   },
   "411": {
-    "caption": "Audio sample 411 description placeholder"
+    "caption": "A vehicle passing while a man talks by followed by several motorcycles passing by as another man talks in the background",
+    "relevant_ids": [
+      "5914",
+      "6824",
+      "6828",
+      "9695",
+      "14817",
+      "33543",
+      "34110",
+      "34371",
+      "42752",
+      "43402"
+    ]
   },
   "412": {
-    "caption": "Audio sample 412 description placeholder"
+    "caption": "Insects humming with a dog barking and small goat bleating",
+    "relevant_ids": [
+      "591",
+      "3815",
+      "4566",
+      "4692",
+      "5781",
+      "7162",
+      "8017",
+      "8354",
+      "9969",
+      "11398"
+    ]
   },
   "413": {
-    "caption": "Audio sample 413 description placeholder"
+    "caption": "A bang followed by baaing and silence",
+    "relevant_ids": [
+      "5693",
+      "155",
+      "475",
+      "527",
+      "535",
+      "600",
+      "663",
+      "1075",
+      "1117",
+      "1216"
+    ]
   },
   "414": {
-    "caption": "Audio sample 414 description placeholder"
+    "caption": "A man speaks then multiple motorcycles pass by",
+    "relevant_ids": [
+      "23306",
+      "567",
+      "630",
+      "984",
+      "1382",
+      "1462",
+      "5292",
+      "7066",
+      "8934",
+      "12055"
+    ]
   },
   "415": {
-    "caption": "Audio sample 415 description placeholder"
+    "caption": "A vehicle engine accelerates and wind blows",
+    "relevant_ids": [
+      "30115",
+      "430",
+      "1754",
+      "2814",
+      "5195",
+      "6877",
+      "6958",
+      "8483",
+      "12876",
+      "13703"
+    ]
   },
   "416": {
-    "caption": "Audio sample 416 description placeholder"
+    "caption": "A man speaking continuous with a brief bang",
+    "relevant_ids": [
+      "155",
+      "475",
+      "3375",
+      "4438",
+      "5614",
+      "5945",
+      "8504",
+      "9036",
+      "11967",
+      "12550"
+    ]
   },
   "417": {
-    "caption": "Audio sample 417 description placeholder"
+    "caption": "Dripping water with toilet flush and squeak",
+    "relevant_ids": [
+      "24406",
+      "2419",
+      "6876",
+      "14953",
+      "17690",
+      "18270",
+      "21635",
+      "23267",
+      "29594",
+      "29635"
+    ]
   },
   "418": {
-    "caption": "Audio sample 418 description placeholder"
+    "caption": "A baby cries and babbles as a woman speaks",
+    "relevant_ids": [
+      "942",
+      "1115",
+      "3433",
+      "4361",
+      "5280",
+      "5579",
+      "5705",
+      "6275",
+      "7315",
+      "9081"
+    ]
   },
   "419": {
-    "caption": "Audio sample 419 description placeholder"
+    "caption": "Gunfire rings out as people speak in the background",
+    "relevant_ids": [
+      "82",
+      "98",
+      "793",
+      "1280",
+      "2630",
+      "3435",
+      "4069",
+      "4159",
+      "4552",
+      "5263"
+    ]
   },
   "420": {
-    "caption": "Audio sample 420 description placeholder"
+    "caption": "Loud laugh ting and mumbling with s person laughing faintly and briefly in the distance",
+    "relevant_ids": [
+      "13219",
+      "31594",
+      "2716",
+      "5210",
+      "5359",
+      "5967",
+      "8729",
+      "10040",
+      "10968",
+      "11848"
+    ]
   },
   "421": {
-    "caption": "Audio sample 421 description placeholder"
+    "caption": "A sputtering engine runs",
+    "relevant_ids": [
+      "94",
+      "394",
+      "435",
+      "507",
+      "793",
+      "929",
+      "1345",
+      "1358",
+      "1540",
+      "1554"
+    ]
   },
   "422": {
-    "caption": "Audio sample 422 description placeholder"
+    "caption": "A motor runs steadily as a man speaks, then the motor revs twice",
+    "relevant_ids": [
+      "4456",
+      "6385",
+      "10028",
+      "11189",
+      "12496",
+      "12606",
+      "13005",
+      "13546",
+      "13594",
+      "15039"
+    ]
   },
   "423": {
-    "caption": "Audio sample 423 description placeholder"
+    "caption": "Insects buzz around and a person grunts",
+    "relevant_ids": [
+      "2633",
+      "12286",
+      "19479",
+      "31940",
+      "33460",
+      "36457",
+      "248",
+      "562",
+      "1528",
+      "2560"
+    ]
   },
   "424": {
-    "caption": "Audio sample 424 description placeholder"
+    "caption": "A man speaks as good sizzles",
+    "relevant_ids": [
+      "2168",
+      "4085",
+      "4769",
+      "14333",
+      "19316",
+      "23033",
+      "23595",
+      "24591",
+      "24827",
+      "24994"
+    ]
   },
   "425": {
-    "caption": "Audio sample 425 description placeholder"
+    "caption": "A woman speaks and a child whines",
+    "relevant_ids": [
+      "32306",
+      "40696",
+      "317",
+      "361",
+      "706",
+      "1841",
+      "4118",
+      "4443",
+      "4543",
+      "4761"
+    ]
   },
   "426": {
-    "caption": "Audio sample 426 description placeholder"
+    "caption": "A vehicle engine is revving then accelerates quickly",
+    "relevant_ids": [
+      "10877",
+      "8369",
+      "11866",
+      "19745",
+      "20399",
+      "29379",
+      "33825",
+      "40529",
+      "20",
+      "270"
+    ]
   },
   "427": {
-    "caption": "Audio sample 427 description placeholder"
+    "caption": "Someone blows bubbles in water",
+    "relevant_ids": [
+      "129",
+      "419",
+      "503",
+      "1078",
+      "1188",
+      "1251",
+      "1457",
+      "1847",
+      "2305",
+      "2441"
+    ]
   },
   "428": {
-    "caption": "Audio sample 428 description placeholder"
+    "caption": "Female speech followed by hissing, hollering and more speech",
+    "relevant_ids": [
+      "29087",
+      "9",
+      "895",
+      "1797",
+      "2090",
+      "2250",
+      "2699",
+      "4243",
+      "4499",
+      "4680"
+    ]
   },
   "429": {
-    "caption": "Audio sample 429 description placeholder"
+    "caption": "A vehicle engine runs",
+    "relevant_ids": [
+      "793",
+      "1540",
+      "2181",
+      "3912",
+      "3936",
+      "4239",
+      "4526",
+      "4726",
+      "5195",
+      "6877"
+    ]
   },
   "430": {
-    "caption": "Audio sample 430 description placeholder"
+    "caption": "White noise and screaming",
+    "relevant_ids": [
+      "231",
+      "399",
+      "873",
+      "1023",
+      "1133",
+      "1474",
+      "1904",
+      "2146",
+      "2604",
+      "2642"
+    ]
   },
   "431": {
-    "caption": "Audio sample 431 description placeholder"
+    "caption": "Rustling occurs, ducks quack and water splashes, followed by an adult female and adult male speaking and duck calls being blown",
+    "relevant_ids": [
+      "36010",
+      "38236",
+      "4075",
+      "10432",
+      "37531",
+      "38679",
+      "41049",
+      "43080",
+      "311",
+      "2365"
+    ]
   },
   "432": {
-    "caption": "Audio sample 432 description placeholder"
+    "caption": "A man speaks and wind blows as an aircraft engine becomes louder",
+    "relevant_ids": [
+      "430",
+      "1826",
+      "13703",
+      "17158",
+      "19767",
+      "40019",
+      "42728",
+      "47023",
+      "448",
+      "1043"
+    ]
   },
   "433": {
-    "caption": "Audio sample 433 description placeholder"
+    "caption": "Scraping and female speech with distant music",
+    "relevant_ids": [
+      "1410",
+      "4147",
+      "10086",
+      "24610",
+      "26903",
+      "37828",
+      "494",
+      "499",
+      "806",
+      "962"
+    ]
   },
   "434": {
-    "caption": "Audio sample 434 description placeholder"
+    "caption": "A person whistles a meandering tune",
+    "relevant_ids": [
+      "8129",
+      "18591",
+      "27861",
+      "28116",
+      "43104",
+      "48658",
+      "907",
+      "1160",
+      "1403",
+      "1604"
+    ]
   },
   "435": {
-    "caption": "Audio sample 435 description placeholder"
+    "caption": "Several cars move nearby while people talk",
+    "relevant_ids": [
+      "5841",
+      "13029",
+      "15413",
+      "20163",
+      "20668",
+      "36466",
+      "37970",
+      "40320",
+      "41333",
+      "41923"
+    ]
   },
   "436": {
-    "caption": "Audio sample 436 description placeholder"
+    "caption": "Rain falls steadily over traffic noise",
+    "relevant_ids": [
+      "2741",
+      "6737",
+      "6990",
+      "11623",
+      "14838",
+      "17038",
+      "25147",
+      "26388",
+      "28070",
+      "30812"
+    ]
   },
   "437": {
-    "caption": "Audio sample 437 description placeholder"
+    "caption": "Multiple ducks quack then a man speaks",
+    "relevant_ids": [
+      "5216",
+      "12814",
+      "15652",
+      "15669",
+      "27453",
+      "45628",
+      "47980",
+      "563",
+      "567",
+      "630"
+    ]
   },
   "438": {
-    "caption": "Audio sample 438 description placeholder"
+    "caption": "Whippering and grunting from a group of young pups",
+    "relevant_ids": [
+      "4313",
+      "6004",
+      "13335",
+      "14628",
+      "16524",
+      "17702",
+      "19712",
+      "21812",
+      "22324",
+      "25773"
+    ]
   },
   "439": {
-    "caption": "Audio sample 439 description placeholder"
+    "caption": "A man burps for an extended amount of time",
+    "relevant_ids": [
+      "49195",
+      "567",
+      "942",
+      "1356",
+      "2063",
+      "2972",
+      "3486",
+      "5719",
+      "5952",
+      "7632"
+    ]
   },
   "440": {
-    "caption": "Audio sample 440 description placeholder"
+    "caption": "A loud engine rattling, and a man speaking, followed by some clunking sounds",
+    "relevant_ids": [
+      "6890",
+      "8965",
+      "14620",
+      "15979",
+      "25827",
+      "35476",
+      "37465",
+      "44270",
+      "74",
+      "644"
+    ]
   },
   "441": {
-    "caption": "Audio sample 441 description placeholder"
+    "caption": "A goat bleats and children laugh and speak",
+    "relevant_ids": [
+      "32664",
+      "40",
+      "2135",
+      "6294",
+      "6937",
+      "7085",
+      "8908",
+      "9363",
+      "13908",
+      "21657"
+    ]
   },
   "442": {
-    "caption": "Audio sample 442 description placeholder"
+    "caption": "Clattering and people hooting is followed by distant conversation and a buzzer",
+    "relevant_ids": [
+      "392",
+      "12163",
+      "32196",
+      "35248",
+      "43691",
+      "47005",
+      "49322",
+      "82",
+      "86",
+      "154"
+    ]
   },
   "443": {
-    "caption": "Audio sample 443 description placeholder"
+    "caption": "A dog yaps as a person chuckles",
+    "relevant_ids": [
+      "911",
+      "1363",
+      "1747",
+      "2468",
+      "2736",
+      "2844",
+      "3713",
+      "3897",
+      "4795",
+      "5318"
+    ]
   },
   "444": {
-    "caption": "Audio sample 444 description placeholder"
+    "caption": "A small engine spools up slowly then decelerates briefly",
+    "relevant_ids": [
+      "45761",
+      "171",
+      "16267",
+      "27479",
+      "37020",
+      "156",
+      "211",
+      "294",
+      "587",
+      "883"
+    ]
   },
   "445": {
-    "caption": "Audio sample 445 description placeholder"
+    "caption": "A motorcycle engine works nearby",
+    "relevant_ids": [
+      "4828",
+      "37331",
+      "1349",
+      "1511",
+      "2028",
+      "2501",
+      "2778",
+      "2953",
+      "3288",
+      "3578"
+    ]
   },
   "446": {
-    "caption": "Audio sample 446 description placeholder"
+    "caption": "The loud engine of an aircraft revving up and the wind pumping loudly, a male voice speaks as well",
+    "relevant_ids": [
+      "10292",
+      "16766",
+      "45215",
+      "6146",
+      "8497",
+      "8600",
+      "13772",
+      "16295",
+      "17158",
+      "18771"
+    ]
   },
   "447": {
-    "caption": "Audio sample 447 description placeholder"
+    "caption": "Several large church bells ring repeatedly",
+    "relevant_ids": [
+      "3652",
+      "9433",
+      "12958",
+      "24750",
+      "30074",
+      "43354",
+      "45601",
+      "46950",
+      "210",
+      "398"
+    ]
   },
   "448": {
-    "caption": "Audio sample 448 description placeholder"
+    "caption": "A small motor races and whirls",
+    "relevant_ids": [
+      "47405",
+      "161",
+      "413",
+      "614",
+      "667",
+      "1145",
+      "1600",
+      "2141",
+      "2943",
+      "2989"
+    ]
   },
   "449": {
-    "caption": "Audio sample 449 description placeholder"
+    "caption": "Sputtering and clanking of an idling powerful engine",
+    "relevant_ids": [
+      "394",
+      "8166",
+      "11447",
+      "11568",
+      "12685",
+      "14265",
+      "17491",
+      "17910",
+      "18352",
+      "19466"
+    ]
   },
   "450": {
-    "caption": "Audio sample 450 description placeholder"
+    "caption": "Some rustling followed by a flushing toilet",
+    "relevant_ids": [
+      "293",
+      "7279",
+      "7761",
+      "8952",
+      "11559",
+      "18148",
+      "28659",
+      "30561",
+      "32811",
+      "34163"
+    ]
   },
   "451": {
-    "caption": "Audio sample 451 description placeholder"
+    "caption": "A goat crying and people speaking",
+    "relevant_ids": [
+      "6193",
+      "6909",
+      "7517",
+      "8811",
+      "9561",
+      "10604",
+      "18875",
+      "24367",
+      "28443",
+      "28614"
+    ]
   },
   "452": {
-    "caption": "Audio sample 452 description placeholder"
+    "caption": "A car squeals tires and accelerates",
+    "relevant_ids": [
+      "627",
+      "12929",
+      "230",
+      "7887",
+      "11576",
+      "12266",
+      "22002",
+      "22566",
+      "24226",
+      "26324"
+    ]
   },
   "453": {
-    "caption": "Audio sample 453 description placeholder"
+    "caption": "A woman speaks followed by clicks and scraping",
+    "relevant_ids": [
+      "16205",
+      "16901",
+      "30966",
+      "31061",
+      "257",
+      "279",
+      "361",
+      "1307",
+      "1572",
+      "1647"
+    ]
   },
   "454": {
-    "caption": "Audio sample 454 description placeholder"
+    "caption": "Adventurous music plays as a woman speaks and then multiple gunshots follow",
+    "relevant_ids": [
+      "1109",
+      "8798",
+      "9099",
+      "11453",
+      "16343",
+      "16438",
+      "20984",
+      "22501",
+      "22587",
+      "26445"
+    ]
   },
   "455": {
-    "caption": "Audio sample 455 description placeholder"
+    "caption": "A woman speaks as plastic crinkles",
+    "relevant_ids": [
+      "5804",
+      "8009",
+      "11718",
+      "115",
+      "1142",
+      "1497",
+      "2127",
+      "5918",
+      "9883",
+      "10983"
+    ]
   },
   "456": {
-    "caption": "Audio sample 456 description placeholder"
+    "caption": "A child speaking and whispering followed by a fart",
+    "relevant_ids": [
+      "223",
+      "1536",
+      "1552",
+      "3375",
+      "3607",
+      "3849",
+      "4094",
+      "4770",
+      "5619",
+      "6707"
+    ]
   },
   "457": {
-    "caption": "Audio sample 457 description placeholder"
+    "caption": "A person speaks as a motorboat drives and the wake splashes in the background",
+    "relevant_ids": [
+      "14621",
+      "31912",
+      "765",
+      "1723",
+      "1725",
+      "2663",
+      "2747",
+      "2948",
+      "4115",
+      "4795"
+    ]
   },
   "458": {
-    "caption": "Audio sample 458 description placeholder"
+    "caption": "An animal growls and yips",
+    "relevant_ids": [
+      "2941",
+      "2956",
+      "3925",
+      "11280",
+      "17190",
+      "17567",
+      "21629",
+      "33615",
+      "35386",
+      "48732"
+    ]
   },
   "459": {
-    "caption": "Audio sample 459 description placeholder"
+    "caption": "Rain falling and thunder roaring",
+    "relevant_ids": [
+      "11841",
+      "15150",
+      "18495",
+      "20617",
+      "22060",
+      "30573",
+      "34530",
+      "40394",
+      "47798",
+      "1262"
+    ]
   },
   "460": {
-    "caption": "Audio sample 460 description placeholder"
+    "caption": "A telephone rings and a door squeaks",
+    "relevant_ids": [
+      "517",
+      "1100",
+      "1758",
+      "2449",
+      "2982",
+      "3435",
+      "3931",
+      "3987",
+      "4377",
+      "4839"
+    ]
   },
   "461": {
-    "caption": "Audio sample 461 description placeholder"
+    "caption": "A telephone rings before a woman picks up speaking with a man",
+    "relevant_ids": [
+      "5495",
+      "3934",
+      "12793",
+      "24519",
+      "8",
+      "238",
+      "389",
+      "727",
+      "859",
+      "1063"
+    ]
   },
   "462": {
-    "caption": "Audio sample 462 description placeholder"
+    "caption": "A vehicle accelerates squealing tires",
+    "relevant_ids": [
+      "3858",
+      "10877",
+      "17315",
+      "17347",
+      "34963",
+      "959",
+      "4239",
+      "4812",
+      "5340",
+      "5626"
+    ]
   },
   "463": {
-    "caption": "Audio sample 463 description placeholder"
+    "caption": "Engines run and fade into the distance",
+    "relevant_ids": [
+      "16010",
+      "33920",
+      "268",
+      "416",
+      "664",
+      "2357",
+      "2784",
+      "5520",
+      "5736",
+      "6036"
+    ]
   },
   "464": {
-    "caption": "Audio sample 464 description placeholder"
+    "caption": "Wind blows lightly and metal scraps slightly",
+    "relevant_ids": [
+      "8603",
+      "13703",
+      "693",
+      "1251",
+      "1354",
+      "1805",
+      "2667",
+      "2951",
+      "2952",
+      "4250"
+    ]
   },
   "465": {
-    "caption": "Audio sample 465 description placeholder"
+    "caption": "A drill runs briefly then stops before running again",
+    "relevant_ids": [
+      "4593",
+      "15915",
+      "16064",
+      "7894",
+      "8619",
+      "16348",
+      "20295",
+      "24691",
+      "26637",
+      "29308"
+    ]
   },
   "466": {
-    "caption": "Audio sample 466 description placeholder"
+    "caption": "A toilet flushes and water drains",
+    "relevant_ids": [
+      "2904",
+      "2962",
+      "3852",
+      "4008",
+      "4165",
+      "7895",
+      "8457",
+      "10610",
+      "12575",
+      "12746"
+    ]
   },
   "467": {
-    "caption": "Audio sample 467 description placeholder"
+    "caption": "A person is snoring while sleeping",
+    "relevant_ids": [
+      "2214",
+      "5524",
+      "15119",
+      "27705",
+      "33540",
+      "40079",
+      "44134",
+      "216",
+      "604",
+      "728"
+    ]
   },
   "468": {
-    "caption": "Audio sample 468 description placeholder"
+    "caption": "A vehicle is running and crackling and popping as people laugh",
+    "relevant_ids": [
+      "2872",
+      "793",
+      "2277",
+      "4428",
+      "5225",
+      "7619",
+      "8224",
+      "8502",
+      "8648",
+      "9725"
+    ]
   },
   "469": {
-    "caption": "Audio sample 469 description placeholder"
+    "caption": "A man talks as several small engines run",
+    "relevant_ids": [
+      "207",
+      "383",
+      "548",
+      "631",
+      "808",
+      "2972",
+      "4456",
+      "4485",
+      "4953",
+      "5875"
+    ]
   },
   "470": {
-    "caption": "Audio sample 470 description placeholder"
+    "caption": "A person is whistling a tune",
+    "relevant_ids": [
+      "2312",
+      "7938",
+      "12056",
+      "15969",
+      "19581",
+      "20772",
+      "20935",
+      "23310",
+      "29020",
+      "36816"
+    ]
   },
   "471": {
-    "caption": "Audio sample 471 description placeholder"
+    "caption": "A jet engine spools up and takes off",
+    "relevant_ids": [
+      "1739",
+      "2073",
+      "4788",
+      "5535",
+      "7706",
+      "12871",
+      "12989",
+      "13382",
+      "16735",
+      "19945"
+    ]
   },
   "472": {
-    "caption": "Audio sample 472 description placeholder"
+    "caption": "Someone snores nearby",
+    "relevant_ids": [
+      "966",
+      "5335",
+      "6642",
+      "8338",
+      "10166",
+      "10498",
+      "12426",
+      "12773",
+      "13023",
+      "13096"
+    ]
   },
   "473": {
-    "caption": "Audio sample 473 description placeholder"
+    "caption": "Paper folding and crinkling",
+    "relevant_ids": [
+      "10613",
+      "30394",
+      "34739",
+      "589",
+      "850",
+      "964",
+      "1227",
+      "1452",
+      "2332",
+      "2780"
+    ]
   },
   "474": {
-    "caption": "Audio sample 474 description placeholder"
+    "caption": "Men speak as an engine revs to life",
+    "relevant_ids": [
+      "53",
+      "929",
+      "1039",
+      "1554",
+      "3776",
+      "4368",
+      "5639",
+      "7711",
+      "8606",
+      "8879"
+    ]
   },
   "475": {
-    "caption": "Audio sample 475 description placeholder"
+    "caption": "An emergency siren wails as it passes",
+    "relevant_ids": [
+      "17107",
+      "7271",
+      "8275",
+      "8428",
+      "9890",
+      "14897",
+      "18532",
+      "18971",
+      "20256",
+      "20406"
+    ]
   },
   "476": {
-    "caption": "Audio sample 476 description placeholder"
+    "caption": "A dark growling, barking and whimpering",
+    "relevant_ids": [
+      "41604",
+      "135",
+      "456",
+      "1171",
+      "1748",
+      "1774",
+      "1876",
+      "1998",
+      "2434",
+      "3018"
+    ]
   },
   "477": {
-    "caption": "Audio sample 477 description placeholder"
+    "caption": "A man speaks while running water onto a hard surface",
+    "relevant_ids": [
+      "6896",
+      "11795",
+      "41941",
+      "2084",
+      "2125",
+      "2192",
+      "2839",
+      "2944",
+      "3567",
+      "3659"
+    ]
   },
   "478": {
-    "caption": "Audio sample 478 description placeholder"
+    "caption": "Gunfire booms loudly and repeatedly",
+    "relevant_ids": [
+      "210",
+      "8737",
+      "16126",
+      "19658",
+      "40752",
+      "46095"
+    ]
   },
   "479": {
-    "caption": "Audio sample 479 description placeholder"
+    "caption": "A man speaks over low engine sounds",
+    "relevant_ids": [
+      "26432",
+      "47018",
+      "424",
+      "8422",
+      "9270",
+      "14885",
+      "15709",
+      "19118",
+      "23011",
+      "23019"
+    ]
   },
   "480": {
-    "caption": "Audio sample 480 description placeholder"
+    "caption": "A woman speaks followed by another woman whimpering and speaking",
+    "relevant_ids": [
+      "1307",
+      "2074",
+      "5877",
+      "7288",
+      "14675",
+      "36908",
+      "43406",
+      "890",
+      "1534",
+      "1838"
+    ]
   },
   "481": {
-    "caption": "Audio sample 481 description placeholder"
+    "caption": "Motors sputter over an indistinct conversation",
+    "relevant_ids": [
+      "8900",
+      "12860",
+      "17150",
+      "27507",
+      "37444",
+      "42305",
+      "44976",
+      "45889",
+      "47457"
+    ]
   },
   "482": {
-    "caption": "Audio sample 482 description placeholder"
+    "caption": "A vehicle accelerates before slowing down and squealing tires",
+    "relevant_ids": [
+      "3858",
+      "10877",
+      "17315",
+      "17347",
+      "34963",
+      "42228",
+      "959",
+      "4239",
+      "4322",
+      "4812"
+    ]
   },
   "483": {
-    "caption": "Audio sample 483 description placeholder"
+    "caption": "A woman speaks and giggles as a baby cries",
+    "relevant_ids": [
+      "942",
+      "1115",
+      "3433",
+      "4361",
+      "5579",
+      "5705",
+      "6275",
+      "7315",
+      "9081",
+      "9480"
+    ]
   },
   "484": {
-    "caption": "Audio sample 484 description placeholder"
+    "caption": "Rain falls onto a hard surface as thunder roars and wind blows",
+    "relevant_ids": [
+      "3284",
+      "11668",
+      "15992",
+      "2530",
+      "2620",
+      "13806",
+      "27974",
+      "2083",
+      "4405",
+      "4699"
+    ]
   },
   "485": {
-    "caption": "Audio sample 485 description placeholder"
+    "caption": "A woman talks via radio transmission with a strong interference",
+    "relevant_ids": [
+      "0",
+      "31",
+      "50",
+      "86",
+      "132",
+      "443",
+      "618",
+      "719",
+      "808",
+      "1048"
+    ]
   },
   "486": {
-    "caption": "Audio sample 486 description placeholder"
+    "caption": "Music plays and a woman speaks on a radio before gunshots are fired",
+    "relevant_ids": [
+      "1109",
+      "8798",
+      "9099",
+      "11453",
+      "11623",
+      "16343",
+      "16438",
+      "20984",
+      "22501",
+      "22587"
+    ]
   },
   "487": {
-    "caption": "Audio sample 487 description placeholder"
+    "caption": "A person breathes hard and then sneezes followed by speaking",
+    "relevant_ids": [
+      "10473",
+      "30398",
+      "47549",
+      "1026",
+      "2205",
+      "2575",
+      "3129",
+      "3507",
+      "3607",
+      "3693"
+    ]
   },
   "488": {
-    "caption": "Audio sample 488 description placeholder"
+    "caption": "A rotating machine works nearby",
+    "relevant_ids": [
+      "626",
+      "1347",
+      "11862",
+      "13249",
+      "20753",
+      "30408",
+      "33013",
+      "37808",
+      "307",
+      "327"
+    ]
   },
   "489": {
-    "caption": "Audio sample 489 description placeholder"
+    "caption": "Birds vocalize and a turning sound occurs",
+    "relevant_ids": [
+      "7167",
+      "44084",
+      "49058",
+      "310",
+      "374",
+      "638",
+      "957",
+      "1423",
+      "1562",
+      "1789"
+    ]
   },
   "490": {
-    "caption": "Audio sample 490 description placeholder"
+    "caption": "Food is frying and a woman speaks",
+    "relevant_ids": [
+      "4370",
+      "10982",
+      "27186",
+      "34844",
+      "37281",
+      "39464",
+      "40307",
+      "40781",
+      "45263",
+      "45580"
+    ]
   },
   "491": {
-    "caption": "Audio sample 491 description placeholder"
+    "caption": "A goat bleats loudly afterward a man speaks",
+    "relevant_ids": [
+      "2721",
+      "16891",
+      "18049",
+      "18348",
+      "21129",
+      "22762",
+      "25570",
+      "26495",
+      "36410",
+      "890"
+    ]
   },
   "492": {
-    "caption": "Audio sample 492 description placeholder"
+    "caption": "An adult woman and an adult man speak",
+    "relevant_ids": [
+      "38865",
+      "415",
+      "813",
+      "1719",
+      "1764",
+      "1923",
+      "3147",
+      "4818",
+      "4916",
+      "5034"
+    ]
   },
   "493": {
-    "caption": "Audio sample 493 description placeholder"
+    "caption": "A man speaks uses a drill",
+    "relevant_ids": [
+      "37786",
+      "46450",
+      "730",
+      "3822",
+      "3898",
+      "3958",
+      "4677",
+      "5085",
+      "5930",
+      "6827"
+    ]
   },
   "494": {
-    "caption": "Audio sample 494 description placeholder"
+    "caption": "A man speaks while a rooster crows and people talk in the background",
+    "relevant_ids": [
+      "3616",
+      "12124",
+      "29470",
+      "1650",
+      "4400",
+      "4856",
+      "7103",
+      "8115",
+      "9450",
+      "10008"
+    ]
   },
   "495": {
-    "caption": "Audio sample 495 description placeholder"
+    "caption": "A clock chimes, ticks, then chimes again",
+    "relevant_ids": [
+      "14084",
+      "17737",
+      "22335",
+      "26612",
+      "30209",
+      "41630",
+      "45664",
+      "839",
+      "1835",
+      "1940"
+    ]
   },
   "496": {
-    "caption": "Audio sample 496 description placeholder"
+    "caption": "Leaves rustling followed by a small bell chiming as birds chirp in the background",
+    "relevant_ids": [
+      "4009",
+      "7913",
+      "15905",
+      "16709",
+      "33649",
+      "629",
+      "1632",
+      "1862",
+      "2039",
+      "2207"
+    ]
   },
   "497": {
-    "caption": "Audio sample 497 description placeholder"
+    "caption": "A fire engine sounds a siren and blows a horn",
+    "relevant_ids": [
+      "49823",
+      "39859",
+      "40256",
+      "4614",
+      "16568",
+      "20751",
+      "21923",
+      "23333",
+      "24816",
+      "34075"
+    ]
   },
   "498": {
-    "caption": "Audio sample 498 description placeholder"
+    "caption": "A light wind blows as a man speaks with a sound of waves.",
+    "relevant_ids": [
+      "4356",
+      "10669",
+      "11109",
+      "16483",
+      "21089",
+      "33005",
+      "39069",
+      "41208",
+      "48816",
+      "430"
+    ]
   },
   "499": {
-    "caption": "Audio sample 499 description placeholder"
+    "caption": "A car accelerating and roaring as it speeds by followed by a man laughing",
+    "relevant_ids": [
+      "5631",
+      "8851",
+      "19842",
+      "36744",
+      "47419",
+      "47670",
+      "549",
+      "635",
+      "997",
+      "1062"
+    ]
   }
 }

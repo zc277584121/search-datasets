@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AudioCaps Audio-Text Retrieval Demo Script
+AudioCaps Caption Retrieval Demo Script
 
 This script demonstrates how to generate predictions for the AudioCaps task.
 """
@@ -15,39 +15,39 @@ def main():
 
     # Load queries
     with open(task_dir / "queries.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+        queries_data = json.load(f)
 
-    queries = data["queries"]
+    # Load corpus
+    with open(task_dir / "corpus.json", "r", encoding="utf-8") as f:
+        corpus_data = json.load(f)
+
+    queries = queries_data["queries"]
+    corpus = corpus_data["documents"]
+    corpus_ids = [doc["id"] for doc in corpus]
+
     print(f"Loaded {len(queries)} queries")
+    print(f"Loaded {len(corpus)} corpus documents")
 
     # Generate predictions
-    audio_to_text = {}
-    text_to_audio = {}
+    predictions = {}
 
     for query in queries:
         qid = query["id"]
-        audiocap_id = query.get("audiocap_id", "")
+        caption = query.get("caption", "")
 
         # TODO: Replace this mock prediction with your actual model
-        # Your model should:
-        # 1. For audio-to-text: given audio, retrieve matching captions
-        # 2. For text-to-audio: given caption, retrieve matching audio
+        # Your model should retrieve similar captions from the corpus
         # Example:
-        #   audio = load_audio(audiocap_id)
-        #   captions = your_model.audio_to_text(audio, top_k=10)
+        #   retrieved_ids = your_retriever.search(caption, corpus, top_k=10)
 
-        # Mock prediction: generate random rankings (as list of IDs)
-        num_candidates = 100
-        ranking = [f"{random.randint(0, num_candidates-1)}_caption" for _ in range(10)]
-
-        audio_to_text[qid] = ranking
-        text_to_audio[f"{qid}_caption"] = [str(random.randint(0, num_candidates-1)) for _ in range(10)]
+        # Mock prediction: return random corpus document IDs
+        retrieved_ids = random.sample(corpus_ids, min(10, len(corpus_ids)))
+        predictions[qid] = retrieved_ids
 
     # Save predictions
     submission = {
         "model_name": "random-baseline",
-        "audio_to_text": audio_to_text,
-        "text_to_audio": text_to_audio
+        "predictions": predictions
     }
 
     output_path = task_dir / "demo_predictions.json"
@@ -55,8 +55,7 @@ def main():
         json.dump(submission, f, indent=2, ensure_ascii=False)
 
     print(f"Saved predictions to: {output_path}")
-    print(f"Total audio_to_text predictions: {len(audio_to_text)}")
-    print(f"Total text_to_audio predictions: {len(text_to_audio)}")
+    print(f"Total predictions: {len(predictions)}")
 
     # Run evaluation
     print("\nRunning evaluation...")
