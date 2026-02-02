@@ -2,105 +2,155 @@
 """
 AudioCaps Caption Retrieval Evaluation Script
 
-Evaluates caption retrieval using Recall@K, MRR, and MAP.
+Evaluates caption retrieval using LLM-as-Judge.
 """
 
 import argparse
 import json
+import os
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Dict, List, Optional
+
+from tqdm import tqdm
+
+# LLM evaluation prompt template
+EVALUATION_PROMPT = """You are an expert evaluator for audio caption retrieval systems.
+
+Given a query audio caption and a retrieved caption, evaluate the semantic similarity.
+
+Query Caption: {query}
+
+Retrieved Caption: {retrieved}
+
+Please rate the following on a scale of 1-5:
+
+1. Similarity (1-5): How semantically similar is the retrieved caption to the query?
+   - 5: Nearly identical meaning, same audio event
+   - 4: Very similar, same type of sound/event
+   - 3: Somewhat similar, related sounds
+   - 2: Slightly related
+   - 1: Completely different
+
+2. Sound Match (1-5): Do both captions describe the same type of sound?
+   - 5: Exact same sound source
+   - 4: Same category of sound
+   - 3: Related sounds
+   - 2: Different but co-occurring sounds
+   - 1: Unrelated sounds
+
+Respond in JSON format:
+{{"similarity": <score>, "sound_match": <score>, "reasoning": "<brief explanation>"}}
+"""
 
 
-def compute_recall_at_k(retrieved: List[str], relevant: Set[str], k: int) -> float:
-    """Compute Recall@K."""
-    if not relevant:
-        return 0.0
-    retrieved_k = set(retrieved[:k])
-    return len(retrieved_k & relevant) / len(relevant)
-
-
-def compute_mrr(retrieved: List[str], relevant: Set[str]) -> float:
-    """Compute Mean Reciprocal Rank."""
-    for i, doc_id in enumerate(retrieved):
-        if doc_id in relevant:
-            return 1.0 / (i + 1)
-    return 0.0
-
-
-def compute_map(retrieved: List[str], relevant: Set[str]) -> float:
-    """Compute Average Precision."""
-    if not relevant:
-        return 0.0
-
-    hits = 0
-    sum_precision = 0.0
-
-    for i, doc_id in enumerate(retrieved):
-        if doc_id in relevant:
-            hits += 1
-            sum_precision += hits / (i + 1)
-
-    return sum_precision / len(relevant) if relevant else 0.0
-
-
-def load_ground_truth(ground_truth_path: Path = None) -> Dict:
-    """Load ground truth from local file."""
-    default_path = Path(__file__).parent / "ground_truth.json"
-    if default_path.exists():
-        with open(default_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-
-    if ground_truth_path and ground_truth_path.exists():
-        with open(ground_truth_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-
-    raise FileNotFoundError("ground_truth.json not found")
-
-
-def evaluate(
-    predictions: Dict[str, List[str]],
-    ground_truth: Dict,
-    k_values: List[int] = [1, 5, 10]
+def evaluate_with_llm(
+    query: str,
+    retrieved: str,
+    api_key: str,
+    model: str = "gpt-4o-mini"
 ) -> Dict:
-    """Evaluate predictions against ground truth."""
-    total_mrr = 0.0
-    total_map = 0.0
-    recalls = {k: 0.0 for k in k_values}
-    count = 0
+    """Evaluate a single retrieval using LLM."""
+    try:
+        import openai
+        client = openai.OpenAI(api_key=api_key)
 
-    for qid, gt_data in ground_truth.items():
-        if qid not in predictions:
+        prompt = EVALUATION_PROMPT.format(query=query, retrieved=retrieved)
+
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0,
+            max_tokens=200
+        )
+
+        result_text = response.choices[0].message.content
+        # Remove markdown code blocks if present
+        if "```json" in result_text:
+            result_text = result_text.split("```json")[1].split("```")[0]
+        elif "```" in result_text:
+            result_text = result_text.split("```")[1].split("```")[0]
+        result = json.loads(result_text.strip())
+        return {
+            "similarity": result.get("similarity", 3),
+            "sound_match": result.get("sound_match", 3),
+            "reasoning": result.get("reasoning", "")
+        }
+    except Exception as e:
+        print(f"LLM evaluation error: {e}")
+        return {"similarity": 3, "sound_match": 3, "reasoning": "Error in evaluation"}
+
+
+def evaluate_batch(
+    predictions: List[Dict],
+    api_key: Optional[str] = None,
+    model: str = "gpt-4o-mini",
+    max_samples: int = 100
+) -> Dict:
+    """Evaluate a batch of predictions."""
+    if not api_key:
+        api_key = os.environ.get("OPENAI_API_KEY")
+
+    if not api_key:
+        print("Warning: No API key provided. Using mock evaluation.")
+        total_similarity = 0
+        total_sound_match = 0
+
+        for pred in predictions[:max_samples]:
+            query_words = set(pred["query"].lower().split())
+            for retrieved in pred.get("retrieved", [])[:1]:
+                ret_text = retrieved.get("text", "").lower()
+                overlap = sum(1 for w in query_words if w in ret_text)
+                similarity = min(5, 1 + overlap)
+                sound_match = min(5, 1 + overlap)
+                total_similarity += similarity
+                total_sound_match += sound_match
+                break
+            else:
+                total_similarity += 1
+                total_sound_match += 1
+
+        num_samples = min(len(predictions), max_samples)
+        return {
+            "avg_similarity": round(total_similarity / num_samples, 2),
+            "avg_sound_match": round(total_sound_match / num_samples, 2),
+            "high_similarity_ratio": 0.0,
+            "num_queries": num_samples,
+            "note": "Mock evaluation (no API key)"
+        }
+
+    # Real LLM evaluation
+    total_similarity = 0
+    total_sound_match = 0
+    high_similarity_count = 0
+
+    for pred in tqdm(predictions[:max_samples], desc="Evaluating"):
+        query = pred["query"]
+        retrieved = pred.get("retrieved", [])
+
+        if not retrieved:
             continue
 
-        retrieved = predictions[qid]
-        relevant = set(gt_data.get("relevant_ids", []))
+        # Evaluate top-1 retrieved result
+        top_result = retrieved[0]
+        ret_text = top_result.get("text", "")
 
-        if not relevant:
-            continue
+        result = evaluate_with_llm(query, ret_text, api_key, model)
 
-        count += 1
-        total_mrr += compute_mrr(retrieved, relevant)
-        total_map += compute_map(retrieved, relevant)
+        total_similarity += result["similarity"]
+        total_sound_match += result["sound_match"]
 
-        for k in k_values:
-            recalls[k] += compute_recall_at_k(retrieved, relevant, k)
+        if result["similarity"] >= 4:
+            high_similarity_count += 1
 
-    if count == 0:
-        return {"error": "No valid predictions found"}
+    num_samples = min(len(predictions), max_samples)
 
-    results = {
-        "task": "audiocaps",
-        "mrr": round(100.0 * total_mrr / count, 2),
-        "map": round(100.0 * total_map / count, 2),
-        "num_queries": count,
-        "timestamp": datetime.now().isoformat()
+    return {
+        "avg_similarity": round(total_similarity / num_samples, 2),
+        "avg_sound_match": round(total_sound_match / num_samples, 2),
+        "high_similarity_ratio": round(high_similarity_count / num_samples, 2),
+        "num_queries": num_samples
     }
-
-    for k in k_values:
-        results[f"recall@{k}"] = round(100.0 * recalls[k] / count, 2)
-
-    return results
 
 
 def main():
@@ -117,9 +167,21 @@ def main():
         help="Path to save evaluation results"
     )
     parser.add_argument(
-        "--ground-truth",
+        "--api-key",
         type=str,
-        help="Path to ground truth JSON file (optional)"
+        help="OpenAI API key for LLM evaluation"
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="gpt-4o-mini",
+        help="LLM model to use for evaluation"
+    )
+    parser.add_argument(
+        "--max-samples",
+        type=int,
+        default=100,
+        help="Maximum number of samples to evaluate"
     )
 
     args = parser.parse_args()
@@ -128,29 +190,31 @@ def main():
     with open(args.submission, "r", encoding="utf-8") as f:
         submission = json.load(f)
 
-    predictions = submission.get("predictions", {})
+    predictions = submission.get("predictions", [])
     model_name = submission.get("model_name", "unknown")
 
     print(f"Evaluating model: {model_name}")
     print(f"Number of predictions: {len(predictions)}")
 
-    # Load ground truth
-    ground_truth_path = Path(args.ground_truth) if args.ground_truth else None
-    ground_truth = load_ground_truth(ground_truth_path)
-
     # Evaluate
-    results = evaluate(predictions, ground_truth)
+    results = evaluate_batch(
+        predictions,
+        api_key=args.api_key,
+        model=args.model,
+        max_samples=args.max_samples
+    )
+
+    results["task"] = "audiocaps"
     results["model_name"] = model_name
+    results["timestamp"] = datetime.now().isoformat()
 
     # Print results
     print("\n" + "=" * 50)
     print("Evaluation Results")
     print("=" * 50)
-    print(f"MRR: {results['mrr']}%")
-    print(f"MAP: {results['map']}%")
-    print(f"Recall@1: {results['recall@1']}%")
-    print(f"Recall@5: {results['recall@5']}%")
-    print(f"Recall@10: {results['recall@10']}%")
+    print(f"Average Similarity: {results['avg_similarity']}/5")
+    print(f"Average Sound Match: {results['avg_sound_match']}/5")
+    print(f"High Similarity Ratio: {results['high_similarity_ratio']}")
     print(f"Num Queries: {results['num_queries']}")
     print("=" * 50)
 

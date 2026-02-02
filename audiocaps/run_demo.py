@@ -23,13 +23,13 @@ def main():
 
     queries = queries_data["queries"]
     corpus = corpus_data["documents"]
-    corpus_ids = [doc["id"] for doc in corpus]
+    corpus_map = {doc["id"]: doc for doc in corpus}
 
     print(f"Loaded {len(queries)} queries")
     print(f"Loaded {len(corpus)} corpus documents")
 
     # Generate predictions
-    predictions = {}
+    predictions = []
 
     for query in queries:
         qid = query["id"]
@@ -40,9 +40,15 @@ def main():
         # Example:
         #   retrieved_ids = your_retriever.search(caption, corpus, top_k=10)
 
-        # Mock prediction: return random corpus document IDs
-        retrieved_ids = random.sample(corpus_ids, min(10, len(corpus_ids)))
-        predictions[qid] = retrieved_ids
+        # Mock prediction: return random corpus documents
+        sampled_ids = random.sample([doc["id"] for doc in corpus], min(10, len(corpus)))
+        retrieved = [{"id": doc_id, "text": corpus_map[doc_id]["caption"]} for doc_id in sampled_ids]
+
+        predictions.append({
+            "query_id": qid,
+            "query": caption,
+            "retrieved": retrieved
+        })
 
     # Save predictions
     submission = {

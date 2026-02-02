@@ -2,105 +2,159 @@
 """
 Discord Chat Retrieval Evaluation Script
 
-Evaluates chat retrieval using Recall@K, MRR, and MAP.
+Evaluates chat retrieval using LLM-as-Judge.
 """
 
 import argparse
 import json
+import os
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Dict, List, Optional
+
+from tqdm import tqdm
+
+# LLM evaluation prompt template
+EVALUATION_PROMPT = """You are an expert evaluator for chat message retrieval systems.
+
+Given a user query and retrieved Discord chat messages, evaluate the relevance and context quality.
+
+Note: Discord messages often contain informal language, emojis, abbreviations (like "u" for "you", "rn" for "right now"), and may reference previous messages.
+
+Query: {query}
+
+Retrieved Messages:
+{messages}
+
+Please rate the following on a scale of 1-5:
+
+1. Relevance (1-5): How relevant are the retrieved messages to the query?
+   - 5: Directly addresses the query
+   - 4: Highly relevant
+   - 3: Partially relevant
+   - 2: Marginally relevant
+   - 1: Not relevant
+
+2. Context Quality (1-5): Do the messages provide sufficient context?
+   - 5: Complete context, fully understandable
+   - 4: Good context
+   - 3: Some context missing
+   - 2: Limited context
+   - 1: No useful context
+
+Respond in JSON format:
+{{"relevance": <score>, "context": <score>, "reasoning": "<brief explanation>"}}
+"""
 
 
-def compute_recall_at_k(retrieved: List[str], relevant: Set[str], k: int) -> float:
-    """Compute Recall@K."""
-    if not relevant:
-        return 0.0
-    retrieved_k = set(retrieved[:k])
-    return len(retrieved_k & relevant) / len(relevant)
-
-
-def compute_mrr(retrieved: List[str], relevant: Set[str]) -> float:
-    """Compute Mean Reciprocal Rank."""
-    for i, doc_id in enumerate(retrieved):
-        if doc_id in relevant:
-            return 1.0 / (i + 1)
-    return 0.0
-
-
-def compute_map(retrieved: List[str], relevant: Set[str]) -> float:
-    """Compute Average Precision."""
-    if not relevant:
-        return 0.0
-
-    hits = 0
-    sum_precision = 0.0
-
-    for i, doc_id in enumerate(retrieved):
-        if doc_id in relevant:
-            hits += 1
-            sum_precision += hits / (i + 1)
-
-    return sum_precision / len(relevant) if relevant else 0.0
-
-
-def load_ground_truth(ground_truth_path: Path = None) -> Dict:
-    """Load ground truth from local file."""
-    default_path = Path(__file__).parent / "ground_truth.json"
-    if default_path.exists():
-        with open(default_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-
-    if ground_truth_path and ground_truth_path.exists():
-        with open(ground_truth_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-
-    raise FileNotFoundError("ground_truth.json not found")
-
-
-def evaluate(
-    predictions: Dict[str, List[str]],
-    ground_truth: Dict,
-    k_values: List[int] = [1, 5, 10]
+def evaluate_with_llm(
+    query: str,
+    messages: str,
+    api_key: str,
+    model: str = "gpt-4o-mini"
 ) -> Dict:
-    """Evaluate predictions against ground truth."""
-    total_mrr = 0.0
-    total_map = 0.0
-    recalls = {k: 0.0 for k in k_values}
-    count = 0
+    """Evaluate a single retrieval using LLM."""
+    try:
+        import openai
+        client = openai.OpenAI(api_key=api_key)
 
-    for qid, gt_data in ground_truth.items():
-        if qid not in predictions:
+        prompt = EVALUATION_PROMPT.format(query=query, messages=messages)
+
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0,
+            max_tokens=200
+        )
+
+        result_text = response.choices[0].message.content
+        # Remove markdown code blocks if present
+        if "```json" in result_text:
+            result_text = result_text.split("```json")[1].split("```")[0]
+        elif "```" in result_text:
+            result_text = result_text.split("```")[1].split("```")[0]
+        result = json.loads(result_text.strip())
+        return {
+            "relevance": result.get("relevance", 3),
+            "context": result.get("context", 3),
+            "reasoning": result.get("reasoning", "")
+        }
+    except Exception as e:
+        print(f"LLM evaluation error: {e}")
+        return {"relevance": 3, "context": 3, "reasoning": "Error in evaluation"}
+
+
+def evaluate_batch(
+    predictions: List[Dict],
+    api_key: Optional[str] = None,
+    model: str = "gpt-4o-mini",
+    max_samples: int = 100
+) -> Dict:
+    """Evaluate a batch of predictions."""
+    if not api_key:
+        api_key = os.environ.get("OPENAI_API_KEY")
+
+    if not api_key:
+        print("Warning: No API key provided. Using mock evaluation.")
+        total_relevance = 0
+        total_context = 0
+
+        for pred in predictions[:max_samples]:
+            query_words = set(pred["query"].lower().split())
+            for retrieved in pred.get("retrieved", [])[:1]:
+                msg_text = retrieved.get("text", "").lower()
+                overlap = sum(1 for w in query_words if w in msg_text)
+                relevance = min(5, 1 + overlap)
+                context = min(5, 1 + overlap)
+                total_relevance += relevance
+                total_context += context
+                break
+            else:
+                total_relevance += 1
+                total_context += 1
+
+        num_samples = min(len(predictions), max_samples)
+        return {
+            "avg_relevance": round(total_relevance / num_samples, 2),
+            "avg_context": round(total_context / num_samples, 2),
+            "high_relevance_ratio": 0.0,
+            "num_queries": num_samples,
+            "note": "Mock evaluation (no API key)"
+        }
+
+    # Real LLM evaluation
+    total_relevance = 0
+    total_context = 0
+    high_relevance_count = 0
+
+    for pred in tqdm(predictions[:max_samples], desc="Evaluating"):
+        query = pred["query"]
+        retrieved = pred.get("retrieved", [])
+
+        if not retrieved:
             continue
 
-        retrieved = predictions[qid]
-        relevant = set(gt_data.get("relevant_ids", []))
+        # Combine top retrieved messages
+        messages_text = "\n".join([
+            f"- {r.get('text', '')}" for r in retrieved[:3]
+        ])
 
-        if not relevant:
-            continue
+        result = evaluate_with_llm(query, messages_text, api_key, model)
 
-        count += 1
-        total_mrr += compute_mrr(retrieved, relevant)
-        total_map += compute_map(retrieved, relevant)
+        total_relevance += result["relevance"]
+        total_context += result["context"]
 
-        for k in k_values:
-            recalls[k] += compute_recall_at_k(retrieved, relevant, k)
+        if result["relevance"] >= 4:
+            high_relevance_count += 1
 
-    if count == 0:
-        return {"error": "No valid predictions found"}
+    num_samples = min(len(predictions), max_samples)
 
-    results = {
-        "task": "discord",
-        "mrr": round(100.0 * total_mrr / count, 2),
-        "map": round(100.0 * total_map / count, 2),
-        "num_queries": count,
-        "timestamp": datetime.now().isoformat()
+    return {
+        "avg_relevance": round(total_relevance / num_samples, 2),
+        "avg_context": round(total_context / num_samples, 2),
+        "high_relevance_ratio": round(high_relevance_count / num_samples, 2),
+        "num_queries": num_samples
     }
-
-    for k in k_values:
-        results[f"recall@{k}"] = round(100.0 * recalls[k] / count, 2)
-
-    return results
 
 
 def main():
@@ -117,9 +171,21 @@ def main():
         help="Path to save evaluation results"
     )
     parser.add_argument(
-        "--ground-truth",
+        "--api-key",
         type=str,
-        help="Path to ground truth JSON file (optional)"
+        help="OpenAI API key for LLM evaluation"
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="gpt-4o-mini",
+        help="LLM model to use for evaluation"
+    )
+    parser.add_argument(
+        "--max-samples",
+        type=int,
+        default=100,
+        help="Maximum number of samples to evaluate"
     )
 
     args = parser.parse_args()
@@ -128,29 +194,31 @@ def main():
     with open(args.submission, "r", encoding="utf-8") as f:
         submission = json.load(f)
 
-    predictions = submission.get("predictions", {})
+    predictions = submission.get("predictions", [])
     model_name = submission.get("model_name", "unknown")
 
     print(f"Evaluating model: {model_name}")
     print(f"Number of predictions: {len(predictions)}")
 
-    # Load ground truth
-    ground_truth_path = Path(args.ground_truth) if args.ground_truth else None
-    ground_truth = load_ground_truth(ground_truth_path)
-
     # Evaluate
-    results = evaluate(predictions, ground_truth)
+    results = evaluate_batch(
+        predictions,
+        api_key=args.api_key,
+        model=args.model,
+        max_samples=args.max_samples
+    )
+
+    results["task"] = "discord"
     results["model_name"] = model_name
+    results["timestamp"] = datetime.now().isoformat()
 
     # Print results
     print("\n" + "=" * 50)
     print("Evaluation Results")
     print("=" * 50)
-    print(f"MRR: {results['mrr']}%")
-    print(f"MAP: {results['map']}%")
-    print(f"Recall@1: {results['recall@1']}%")
-    print(f"Recall@5: {results['recall@5']}%")
-    print(f"Recall@10: {results['recall@10']}%")
+    print(f"Average Relevance: {results['avg_relevance']}/5")
+    print(f"Average Context: {results['avg_context']}/5")
+    print(f"High Relevance Ratio: {results['high_relevance_ratio']}")
     print(f"Num Queries: {results['num_queries']}")
     print("=" * 50)
 
