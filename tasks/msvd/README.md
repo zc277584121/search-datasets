@@ -44,6 +44,19 @@ MSVD 评估模型在视频-文本双向检索任务上的能力。
 | **R@1/5/10** | 召回率 |
 | **Median Rank** | 中位排名 |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `friedrichor/MSVD` 数据集的 test split 采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "video_id": "视频ID_起始秒_结束秒",
+    "video": <视频数据>,
+    "caption": ["描述1", "描述2", ...]  # 多个描述
+}
+```
+
 ## 参考资料
 
 - [MSVD Dataset](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)

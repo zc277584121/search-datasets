@@ -47,6 +47,22 @@ ELI5 (Explain Like I'm 5) 评估模型为复杂问题检索相关支撑文档的
 | **NDCG@K** | 归一化折损累积增益 |
 | **Recall@K** | 召回率 |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `Pavithree/eli5` 数据集的 test split 采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "q_id": "问题ID",
+    "title": "问题标题",
+    "selftext": "问题补充说明",
+    "answers": {"text": ["回答1", "回答2"]},
+    "title_urls": [...],  # 相关链接
+    "selftext_urls": [...]
+}
+```
+
 ## 参考资料
 
 - [ELI5 Dataset](https://facebookresearch.github.io/ELI5/)

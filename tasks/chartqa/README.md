@@ -47,6 +47,20 @@ ChartQA 评估模型对图表的视觉理解和推理能力，包含人工标注
 | **Relaxed Accuracy** | 宽松准确率（数值允许5%误差） |
 | **Strict Accuracy** | 严格准确率 |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `HuggingFaceM4/ChartQA` 数据集的 test split 采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "question": "关于图表的问题",
+    "answer": "答案",
+    "image": <PIL.Image>,  # 图表图片
+    "type": "human/augmented"  # 人工/自动生成
+}
+```
+
 ## 参考资料
 
 - [ChartQA Paper](https://arxiv.org/abs/2203.10244)

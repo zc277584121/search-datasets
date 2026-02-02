@@ -44,6 +44,19 @@ MS COCO 图文检索任务评估模型在图像-文本双向检索上的能力�
 | **R@1/5/10** | 召回率 |
 | **Mean Rank** | 平均排名 |
 
+## 数据来源
+
+`queries.json` 基于 MS COCO 2014 数据集格式生成 500 条图文检索样本。
+
+原始数据集格式：
+```python
+{
+    "image_id": 图片ID,
+    "image": <PIL.Image>,  # 图片
+    "captions": ["描述1", "描述2", ...]  # 每张图5个描述
+}
+```
+
 ## 参考资料
 
 - [MS COCO](https://cocodataset.org/)

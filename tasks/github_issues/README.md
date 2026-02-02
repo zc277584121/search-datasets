@@ -53,6 +53,21 @@ GitHub Issues 检索任务评估模型在技术问题追踪场景下的检索能
 | **Relevance** | 相关性评分 (1-5) |
 | **Usefulness** | 对解决问题的有用程度 (1-5) |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `lewtun/github-issues` 数据集采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "url": "issue URL",
+    "title": "Issue 标题",
+    "body": "Issue 正文",
+    "labels": ["bug", "enhancement"],
+    "comments": [...]
+}
+```
+
 ## 参考资料
 
 - [数据集页面](https://huggingface.co/datasets/lewtun/github-issues)

@@ -46,6 +46,20 @@ Spider 是跨域 Text-to-SQL 数据集，评估模型将自然语言问题转换
 | **Exact Match** | SQL 精确匹配率 |
 | **Execution Accuracy** | 执行结果匹配率（需要数据库） |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `xlangai/spider` 数据集的 validation split 全量 1034 条生成。
+
+原始数据集格式：
+```python
+{
+    "db_id": "数据库名",
+    "question": "自然语言问题",
+    "query": "SELECT ... FROM ...",  # 标准SQL答案
+    "difficulty": "easy/medium/hard/extra"
+}
+```
+
 ## 参考资料
 
 - [Spider Dataset](https://yale-lily.github.io/spider)

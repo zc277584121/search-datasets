@@ -54,6 +54,23 @@ WildChat 对话检索任务评估模型在多轮对话场景下的检索能力�
 | **Relevance** | 相关性评分 (1-5) |
 | **Coverage** | 意图覆盖程度 (1-5) |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `allenai/WildChat-1M` 数据集采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "conversation_id": "对话ID",
+    "conversation": [
+        {"role": "user", "content": "用户消息"},
+        {"role": "assistant", "content": "助手回复"}
+    ],
+    "language": "English",
+    "model": "gpt-4"
+}
+```
+
 ## 参考资料
 
 - [数据集页面](https://huggingface.co/datasets/allenai/WildChat-1M)

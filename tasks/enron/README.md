@@ -49,6 +49,19 @@ Enron 邮件数据集包含安然公司员工的真实电子邮件，任务是�
 | **Recall** | 召回率 |
 | **Accuracy** | 准确率 |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `SetFit/enron_spam` 数据集的 test split 采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "text": "邮件完整内容...",
+    "label": 1,  # 1=spam, 0=ham
+    "label_text": "spam"
+}
+```
+
 ## 参考资料
 
 - [Enron Email Dataset](https://www.cs.cmu.edu/~enron/)

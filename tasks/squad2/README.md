@@ -46,6 +46,23 @@ SQuAD 2.0 是斯坦福问答数据集的升级版，包含可回答和不可回�
 | **Exact Match** | 精确匹配率 |
 | **F1** | F1 分数 |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `rajpurkar/squad_v2` 数据集的 validation split 采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "id": "问题ID",
+    "context": "上下文段落",
+    "question": "问题",
+    "answers": {
+        "text": ["答案1", "答案2"],  # 可能为空（不可回答）
+        "answer_start": [起始位置]
+    }
+}
+```
+
 ## 参考资料
 
 - [SQuAD 2.0](https://rajpurkar.github.io/SQuAD-explorer/)

@@ -52,6 +52,17 @@ Discord 聊天检索任务评估模型在社交聊天场景下的检索能力。
 | **Relevance** | 相关性评分 (1-5) |
 | **Context** | 上下文质量评分 (1-5) |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `EleutherAI/discord-code` 数据集采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "data": "用户名#ID: 消息内容\n用户名#ID: 消息内容\n..."  # 多轮对话
+}
+```
+
 ## 参考资料
 
 - [数据集页面](https://huggingface.co/datasets/EleutherAI/discord-code)

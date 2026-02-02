@@ -45,6 +45,20 @@ AudioCaps 评估模型在音频-文本双向检索任务上的能力。
 | **R@1/5/10** | 召回率 |
 | **mAP** | 平均精度 |
 
+## 数据来源
+
+`queries.json` 基于 HuggingFace `AudioLLMs/audiocaps_test` 数据集格式生成 500 条样本。
+
+原始数据集格式：
+```python
+{
+    "id": "音频ID",
+    "youtube_id": "YouTube视频ID",
+    "start_time": 起始秒数,
+    "caption": "音频描述文本"
+}
+```
+
 ## 参考资料
 
 - [AudioCaps](https://audiocaps.github.io/)

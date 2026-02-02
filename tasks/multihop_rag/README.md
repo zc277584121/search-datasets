@@ -47,6 +47,23 @@ MultiHop-RAG 评估模型进行多跳推理和检索的能力，需要整合多�
 | **F1** | F1 分数 |
 | **Retrieval Recall** | 检索召回率 |
 
+## 数据来源
+
+`queries.json` 从 HuggingFace `yixuantt/MultiHopRAG` 数据集采样 500 条生成。
+
+原始数据集格式：
+```python
+{
+    "id": "问题ID",
+    "question": "多跳问题",
+    "answer": "答案",
+    "question_type": "comparison_query/temporal_query/...",
+    "evidence_list": [  # 支撑证据
+        {"source": "来源", "fact": "事实", "title": "标题"}
+    ]
+}
+```
+
 ## 参考资料
 
 - [MultiHop-RAG](https://github.com/yixuantt/MultiHop-RAG)
