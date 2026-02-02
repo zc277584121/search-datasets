@@ -125,7 +125,13 @@ def evaluate_batch(
     total_usefulness = 0
     high_relevance_count = 0
 
-    for i, pred in enumerate(predictions[:max_samples]):
+    try:
+        from tqdm import tqdm
+        iterator = tqdm(predictions[:max_samples], desc="Evaluating")
+    except ImportError:
+        iterator = predictions[:max_samples]
+
+    for pred in iterator:
         query = pred["query"]
         retrieved = pred.get("retrieved", [])
 
@@ -146,9 +152,6 @@ def evaluate_batch(
 
         if result["relevance"] >= 4:
             high_relevance_count += 1
-
-        if (i + 1) % 10 == 0:
-            print(f"Evaluated {i + 1}/{min(len(predictions), max_samples)} samples")
 
     num_samples = min(len(predictions), max_samples)
 

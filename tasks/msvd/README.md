@@ -1,8 +1,8 @@
-# MSVD 视频检索
+# MSVD 视频文本检索
 
 ## 任务描述
 
-MSVD (Microsoft Research Video Description) 是一个视频描述数据集，用于评估视频与文本之间的检索能力。
+MSVD 评估模型在视频-文本双向检索任务上的能力。
 
 ## 数据集信息
 
@@ -14,97 +14,36 @@ MSVD (Microsoft Research Video Description) 是一个视频描述数据集，用
 
 ### queries.json 字段说明
 
-```json
-{
-  "task": "msvd",
-  "total": 500,
-  "queries": [
-    {
-      "id": "0",
-      "video_id": "vid1"
-    }
-  ]
-}
-```
-
 | 字段 | 类型 | 说明 |
 |------|------|------|
-| `id` | string | 查询唯一标识符 |
-| `video_id` | string | MSVD 视频 ID |
+| `id` | string | 样本唯一标识符 |
+| `video_id` | string | 视频 ID |
 
-### 加载视频
-
-```python
-from datasets import load_dataset
-
-dataset = load_dataset('friedrichor/MSVD', split='test')
-```
-
-## 使用流程
-
-### 1. 加载评测数据
-
-```python
-import json
-
-with open("queries.json", "r") as f:
-    data = json.load(f)
-
-video_embeddings = {}
-for query in data["queries"]:
-    qid = query["id"]
-    video_id = query["video_id"]
-
-    # 加载视频并编码
-    video = load_video(video_id)
-    video_embeddings[qid] = your_model.encode_video(video)
-```
-
-### 2. 生成预测结果
+### 预测结果格式
 
 ```json
 {
   "model_name": "your-model-name",
-  "video_to_text": {
-    "0": ["0_0", "0_1", "1_0"],
-    "1": ["1_0", "1_1", "0_0"]
-  },
-  "text_to_video": {
-    "0_0": ["0", "1", "2"],
-    "1_0": ["1", "0", "3"]
-  }
+  "video_to_text": {"video_id": ["caption_id_1", "caption_id_2"]},
+  "text_to_video": {"caption_id": ["video_id_1", "video_id_2"]}
 }
 ```
 
-### 3. 运行评估
+## 快速开始
 
-```bash
-python eval.py --submission predictions.json
-```
+1. 打开 `run_demo.py`，找到 `# TODO` 注释，替换为你的模型代码
+2. 运行：
+   ```bash
+   python run_demo.py
+   ```
 
 ## 评估指标
 
 | 指标 | 说明 |
 |------|------|
-| **R@1** | 正确结果出现在第 1 位的比例 |
-| **R@5** | 正确结果出现在前 5 位的比例 |
-| **R@10** | 正确结果出现在前 10 位的比例 |
-| **MdR** | 中位排名 (Median Rank) |
-
-## 输出示例
-
-```json
-{
-  "task": "msvd",
-  "model_name": "your-model",
-  "v2t_r@1": 45.2,
-  "v2t_r@5": 72.1,
-  "t2v_r@1": 32.3,
-  "t2v_r@5": 61.8,
-  "num_queries": 500
-}
-```
+| **R@1/5/10** | 召回率 |
+| **Median Rank** | 中位排名 |
 
 ## 参考资料
 
-- [MSVD 数据集](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)
+- [MSVD Dataset](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)

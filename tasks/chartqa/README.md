@@ -1,8 +1,8 @@
-# ChartQA 图表推理
+# ChartQA 图表问答
 
 ## 任务描述
 
-ChartQA 是一个图表视觉问答数据集，要求模型理解图表中的视觉信息并回答相关问题。任务涵盖数据读取、比较和推理等多种能力。
+ChartQA 评估模型对图表的视觉理解和推理能力，包含人工标注和自动生成的问题。
 
 ## 数据集信息
 
@@ -14,102 +14,39 @@ ChartQA 是一个图表视觉问答数据集，要求模型理解图表中的视
 
 ### queries.json 字段说明
 
-```json
-{
-  "task": "chartqa",
-  "total": 500,
-  "queries": [
-    {
-      "id": "0",
-      "question": "What is the value for 2019?",
-      "image_index": 0
-    }
-  ]
-}
-```
-
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | `id` | string | 问题唯一标识符 |
 | `question` | string | 关于图表的问题 |
-| `image_index` | int | 对应图像在数据集中的索引 |
+| `image_index` | int | 图表图片索引 |
 
-### 加载图像
-
-```python
-from datasets import load_dataset
-
-# 加载数据集获取图像
-dataset = load_dataset('HuggingFaceM4/ChartQA', split='test')
-
-# 根据 image_index 获取图像
-image = dataset[image_index]['image']
-```
-
-## 使用流程
-
-### 1. 加载评测数据
-
-```python
-import json
-from datasets import load_dataset
-
-# 加载问题
-with open("queries.json", "r") as f:
-    data = json.load(f)
-
-# 加载图像数据集
-dataset = load_dataset('HuggingFaceM4/ChartQA', split='test')
-
-predictions = {}
-for query in data["queries"]:
-    qid = query["id"]
-    question = query["question"]
-    image = dataset[query["image_index"]]['image']
-
-    # 用你的多模态模型预测
-    answer = your_model.predict(image, question)
-    predictions[qid] = answer
-```
-
-### 2. 生成预测结果
+### 预测结果格式
 
 ```json
 {
   "model_name": "your-model-name",
   "predictions": {
-    "0": "42.5",
-    "1": "Revenue",
-    "2": "2019"
+    "0": "42",
+    "1": "25%"
   }
 }
 ```
 
-### 3. 运行评估
+## 快速开始
 
-```bash
-python eval.py --submission predictions.json
-```
+1. 打开 `run_demo.py`，找到 `# TODO` 注释，替换为你的模型代码
+2. 运行：
+   ```bash
+   python run_demo.py
+   ```
 
 ## 评估指标
 
 | 指标 | 说明 |
 |------|------|
-| **宽松准确率** | 对数值答案允许 5% 误差范围 |
-| **严格准确率** | 完全匹配 |
-
-## 输出示例
-
-```json
-{
-  "task": "chartqa",
-  "model_name": "your-model",
-  "relaxed_accuracy": 58.3,
-  "strict_accuracy": 52.1,
-  "num_samples": 500
-}
-```
+| **Relaxed Accuracy** | 宽松准确率（数值允许5%误差） |
+| **Strict Accuracy** | 严格准确率 |
 
 ## 参考资料
 
-- [ChartQA 论文](https://arxiv.org/abs/2203.10244)
+- [ChartQA Paper](https://arxiv.org/abs/2203.10244)

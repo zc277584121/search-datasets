@@ -2,114 +2,58 @@
 
 ## 任务描述
 
-WildChat 是一个真实的人机对话数据集，收集自 ChatGPT 的实际使用记录。任务要求根据用户查询检索最相关的对话片段。
+WildChat 对话检索任务评估模型在多轮对话场景下的检索能力。数据来自真实的人机对话，涵盖各种话题和语言风格。
 
 ## 数据集信息
 
-- **来源**: `allenai/WildChat`
+- **来源**: `allenai/WildChat-1M`
 - **评测集**: 500 条
-- **语言**: 多语言（以英语为主）
+- **语言**: 多语言
 
 ## 数据格式
 
 ### queries.json 字段说明
 
-```json
-{
-  "task": "wildchat",
-  "total": 500,
-  "queries": [
-    {
-      "id": "0",
-      "conversation_id": "conv_abc123",
-      "first_user_message": "How do I implement binary search in Python?",
-      "language": "en"
-    }
-  ]
-}
-```
-
 | 字段 | 类型 | 说明 |
 |------|------|------|
-| `id` | string | 查询唯一标识符 |
+| `id` | string | 对话唯一标识符 |
 | `conversation_id` | string | 原始对话 ID |
-| `first_user_message` | string | 用户的第一条消息 |
+| `first_user_message` | string | 用户首条消息 |
 | `language` | string | 对话语言 |
 
-## 使用流程
-
-### 1. 加载评测数据
-
-```python
-import json
-
-with open("queries.json", "r") as f:
-    data = json.load(f)
-
-predictions = []
-for query in data["queries"]:
-    qid = query["id"]
-    user_message = query["first_user_message"]
-
-    # 检索相关对话
-    retrieved = your_retriever.search(user_message)
-
-    predictions.append({
-        "query": user_message,
-        "retrieved": [
-            {"conversation_id": r.conv_id, "text": r.text}
-            for r in retrieved
-        ]
-    })
-```
-
-### 2. 生成预测结果
+### 预测结果格式
 
 ```json
 {
   "model_name": "your-model-name",
   "predictions": [
     {
-      "query": "How do I implement binary search?",
+      "query": "User query",
       "retrieved": [
-        {
-          "conversation_id": "conv_123",
-          "text": "User: How to write binary search?\nAssistant: Here's a simple implementation..."
-        }
+        {"text": "Retrieved conversation", "score": 0.95}
       ]
     }
   ]
 }
 ```
 
-### 3. 运行评估
+## 快速开始
 
-```bash
-python eval.py --submission predictions.json --api-key YOUR_OPENAI_KEY
-```
+1. 打开 `run_demo.py`，找到 `# TODO` 注释，替换为你的模型代码
+2. 运行：
+   ```bash
+   python run_demo.py
+   ```
 
 ## 评估指标
 
-使用 LLM-as-Judge 评估：
+使用 LLM-as-Judge (gpt-4o-mini) 评估：
 
 | 指标 | 说明 |
 |------|------|
 | **Relevance** | 相关性评分 (1-5) |
-| **Coverage** | 查询意图覆盖度 (1-5) |
-
-## 输出示例
-
-```json
-{
-  "task": "wildchat",
-  "model_name": "your-model",
-  "avg_relevance": 3.8,
-  "avg_coverage": 3.5,
-  "high_relevance_ratio": 0.65,
-  "num_queries": 500
-}
-```
+| **Coverage** | 意图覆盖程度 (1-5) |
 
 ## 参考资料
 
-- [WildChat 论文](https://arxiv.org/abs/2405.01470)
+- [数据集页面](https://huggingface.co/datasets/allenai/WildChat-1M)
