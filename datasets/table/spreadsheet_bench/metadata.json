@@ -1,7 +1,0 @@
-{
-  "name": "SpreadsheetBench",
-  "hf_path": "KAKA22/SpreadsheetBench",
-  "status": "partial",
-  "note": "Complex TAR format - use HF viewer or download manually",
-  "manual_download": "https://huggingface.co/datasets/KAKA22/SpreadsheetBench"
-}
